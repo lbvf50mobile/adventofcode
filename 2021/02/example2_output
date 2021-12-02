@@ -1,0 +1,8 @@
+Second 2
+ result = 900
+forward 5 adds 5 to your horizontal position, a total of 5. aim=0 depth=0
+down 5 adds 5 to your depth, resulting in a value of 0. aim=5 depth=0
+forward 8 adds 8 to your horizontal position, a total of 13. aim=5 depth=40
+up 3 decreases your depth by 3, resulting in a value of 40. aim=2 depth=40
+down 8 adds 8 to your depth, resulting in a value of 40. aim=10 depth=40
+forward 2 adds 2 to your horizontal position, a total of 15. aim=10 depth=60

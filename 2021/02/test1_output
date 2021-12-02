@@ -1,0 +1,1002 @@
+First 1
+ result = 2215080
+forward 6 adds 6 to your horizontal position, a total of 6.
+down 8 adds 8 to your depth, resulting in a value of 8.
+down 5 adds 5 to your depth, resulting in a value of 13.
+down 9 adds 9 to your depth, resulting in a value of 22.
+forward 2 adds 2 to your horizontal position, a total of 8.
+down 5 adds 5 to your depth, resulting in a value of 27.
+down 5 adds 5 to your depth, resulting in a value of 32.
+forward 1 adds 1 to your horizontal position, a total of 9.
+forward 7 adds 7 to your horizontal position, a total of 16.
+down 8 adds 8 to your depth, resulting in a value of 40.
+up 2 decreases your depth by 2, resulting in a value of 38.
+down 4 adds 4 to your depth, resulting in a value of 42.
+up 8 decreases your depth by 8, resulting in a value of 34.
+down 8 adds 8 to your depth, resulting in a value of 42.
+forward 3 adds 3 to your horizontal position, a total of 19.
+forward 4 adds 4 to your horizontal position, a total of 23.
+down 1 adds 1 to your depth, resulting in a value of 43.
+forward 5 adds 5 to your horizontal position, a total of 28.
+up 7 decreases your depth by 7, resulting in a value of 36.
+down 7 adds 7 to your depth, resulting in a value of 43.
+down 8 adds 8 to your depth, resulting in a value of 51.
+forward 2 adds 2 to your horizontal position, a total of 30.
+up 3 decreases your depth by 3, resulting in a value of 48.
+forward 1 adds 1 to your horizontal position, a total of 31.
+forward 6 adds 6 to your horizontal position, a total of 37.
+forward 9 adds 9 to your horizontal position, a total of 46.
+forward 7 adds 7 to your horizontal position, a total of 53.
+forward 8 adds 8 to your horizontal position, a total of 61.
+forward 2 adds 2 to your horizontal position, a total of 63.
+forward 3 adds 3 to your horizontal position, a total of 66.
+up 2 decreases your depth by 2, resulting in a value of 46.
+up 8 decreases your depth by 8, resulting in a value of 38.
+down 1 adds 1 to your depth, resulting in a value of 39.
+forward 7 adds 7 to your horizontal position, a total of 73.
+down 7 adds 7 to your depth, resulting in a value of 46.
+down 2 adds 2 to your depth, resulting in a value of 48.
+forward 6 adds 6 to your horizontal position, a total of 79.
+down 1 adds 1 to your depth, resulting in a value of 49.
+forward 5 adds 5 to your horizontal position, a total of 84.
+down 3 adds 3 to your depth, resulting in a value of 52.
+forward 6 adds 6 to your horizontal position, a total of 90.
+down 7 adds 7 to your depth, resulting in a value of 59.
+up 1 decreases your depth by 1, resulting in a value of 58.
+up 3 decreases your depth by 3, resulting in a value of 55.
+forward 7 adds 7 to your horizontal position, a total of 97.
+forward 6 adds 6 to your horizontal position, a total of 103.
+forward 8 adds 8 to your horizontal position, a total of 111.
+down 4 adds 4 to your depth, resulting in a value of 59.
+down 2 adds 2 to your depth, resulting in a value of 61.
+up 5 decreases your depth by 5, resulting in a value of 56.
+down 2 adds 2 to your depth, resulting in a value of 58.
+forward 2 adds 2 to your horizontal position, a total of 113.
+up 5 decreases your depth by 5, resulting in a value of 53.
+forward 6 adds 6 to your horizontal position, a total of 119.
+down 3 adds 3 to your depth, resulting in a value of 56.
+down 1 adds 1 to your depth, resulting in a value of 57.
+down 5 adds 5 to your depth, resulting in a value of 62.
+forward 6 adds 6 to your horizontal position, a total of 125.
+up 6 decreases your depth by 6, resulting in a value of 56.
+down 7 adds 7 to your depth, resulting in a value of 63.
+down 8 adds 8 to your depth, resulting in a value of 71.
+down 2 adds 2 to your depth, resulting in a value of 73.
+forward 3 adds 3 to your horizontal position, a total of 128.
+down 5 adds 5 to your depth, resulting in a value of 78.
+down 4 adds 4 to your depth, resulting in a value of 82.
+forward 7 adds 7 to your horizontal position, a total of 135.
+forward 9 adds 9 to your horizontal position, a total of 144.
+up 9 decreases your depth by 9, resulting in a value of 73.
+up 8 decreases your depth by 8, resulting in a value of 65.
+up 4 decreases your depth by 4, resulting in a value of 61.
+forward 8 adds 8 to your horizontal position, a total of 152.
+forward 5 adds 5 to your horizontal position, a total of 157.
+down 4 adds 4 to your depth, resulting in a value of 65.
+up 2 decreases your depth by 2, resulting in a value of 63.
+forward 9 adds 9 to your horizontal position, a total of 166.
+up 5 decreases your depth by 5, resulting in a value of 58.
+down 5 adds 5 to your depth, resulting in a value of 63.
+up 9 decreases your depth by 9, resulting in a value of 54.
+forward 2 adds 2 to your horizontal position, a total of 168.
+forward 3 adds 3 to your horizontal position, a total of 171.
+down 6 adds 6 to your depth, resulting in a value of 60.
+down 8 adds 8 to your depth, resulting in a value of 68.
+forward 8 adds 8 to your horizontal position, a total of 179.
+up 5 decreases your depth by 5, resulting in a value of 63.
+down 5 adds 5 to your depth, resulting in a value of 68.
+forward 7 adds 7 to your horizontal position, a total of 186.
+forward 6 adds 6 to your horizontal position, a total of 192.
+forward 8 adds 8 to your horizontal position, a total of 200.
+up 3 decreases your depth by 3, resulting in a value of 65.
+forward 3 adds 3 to your horizontal position, a total of 203.
+forward 1 adds 1 to your horizontal position, a total of 204.
+up 8 decreases your depth by 8, resulting in a value of 57.
+down 8 adds 8 to your depth, resulting in a value of 65.
+down 2 adds 2 to your depth, resulting in a value of 67.
+down 4 adds 4 to your depth, resulting in a value of 71.
+up 7 decreases your depth by 7, resulting in a value of 64.
+up 2 decreases your depth by 2, resulting in a value of 62.
+up 9 decreases your depth by 9, resulting in a value of 53.
+up 4 decreases your depth by 4, resulting in a value of 49.
+forward 6 adds 6 to your horizontal position, a total of 210.
+down 8 adds 8 to your depth, resulting in a value of 57.
+down 1 adds 1 to your depth, resulting in a value of 58.
+forward 6 adds 6 to your horizontal position, a total of 216.
+forward 6 adds 6 to your horizontal position, a total of 222.
+down 4 adds 4 to your depth, resulting in a value of 62.
+down 2 adds 2 to your depth, resulting in a value of 64.
+up 7 decreases your depth by 7, resulting in a value of 57.
+down 9 adds 9 to your depth, resulting in a value of 66.
+down 9 adds 9 to your depth, resulting in a value of 75.
+up 2 decreases your depth by 2, resulting in a value of 73.
+up 7 decreases your depth by 7, resulting in a value of 66.
+down 4 adds 4 to your depth, resulting in a value of 70.
+down 2 adds 2 to your depth, resulting in a value of 72.
+forward 1 adds 1 to your horizontal position, a total of 223.
+down 1 adds 1 to your depth, resulting in a value of 73.
+up 5 decreases your depth by 5, resulting in a value of 68.
+up 5 decreases your depth by 5, resulting in a value of 63.
+forward 9 adds 9 to your horizontal position, a total of 232.
+up 3 decreases your depth by 3, resulting in a value of 60.
+down 7 adds 7 to your depth, resulting in a value of 67.
+forward 7 adds 7 to your horizontal position, a total of 239.
+down 4 adds 4 to your depth, resulting in a value of 71.
+down 8 adds 8 to your depth, resulting in a value of 79.
+up 1 decreases your depth by 1, resulting in a value of 78.
+down 4 adds 4 to your depth, resulting in a value of 82.
+down 7 adds 7 to your depth, resulting in a value of 89.
+forward 5 adds 5 to your horizontal position, a total of 244.
+up 9 decreases your depth by 9, resulting in a value of 80.
+forward 5 adds 5 to your horizontal position, a total of 249.
+forward 1 adds 1 to your horizontal position, a total of 250.
+forward 8 adds 8 to your horizontal position, a total of 258.
+forward 6 adds 6 to your horizontal position, a total of 264.
+forward 5 adds 5 to your horizontal position, a total of 269.
+forward 1 adds 1 to your horizontal position, a total of 270.
+down 4 adds 4 to your depth, resulting in a value of 84.
+down 6 adds 6 to your depth, resulting in a value of 90.
+forward 5 adds 5 to your horizontal position, a total of 275.
+forward 2 adds 2 to your horizontal position, a total of 277.
+forward 3 adds 3 to your horizontal position, a total of 280.
+down 1 adds 1 to your depth, resulting in a value of 91.
+up 2 decreases your depth by 2, resulting in a value of 89.
+up 9 decreases your depth by 9, resulting in a value of 80.
+forward 4 adds 4 to your horizontal position, a total of 284.
+up 8 decreases your depth by 8, resulting in a value of 72.
+down 7 adds 7 to your depth, resulting in a value of 79.
+down 8 adds 8 to your depth, resulting in a value of 87.
+up 7 decreases your depth by 7, resulting in a value of 80.
+down 2 adds 2 to your depth, resulting in a value of 82.
+forward 7 adds 7 to your horizontal position, a total of 291.
+up 1 decreases your depth by 1, resulting in a value of 81.
+forward 5 adds 5 to your horizontal position, a total of 296.
+forward 1 adds 1 to your horizontal position, a total of 297.
+forward 8 adds 8 to your horizontal position, a total of 305.
+forward 1 adds 1 to your horizontal position, a total of 306.
+up 8 decreases your depth by 8, resulting in a value of 73.
+down 6 adds 6 to your depth, resulting in a value of 79.
+down 7 adds 7 to your depth, resulting in a value of 86.
+forward 2 adds 2 to your horizontal position, a total of 308.
+down 8 adds 8 to your depth, resulting in a value of 94.
+down 8 adds 8 to your depth, resulting in a value of 102.
+forward 8 adds 8 to your horizontal position, a total of 316.
+up 8 decreases your depth by 8, resulting in a value of 94.
+down 6 adds 6 to your depth, resulting in a value of 100.
+down 7 adds 7 to your depth, resulting in a value of 107.
+down 4 adds 4 to your depth, resulting in a value of 111.
+down 7 adds 7 to your depth, resulting in a value of 118.
+forward 6 adds 6 to your horizontal position, a total of 322.
+up 3 decreases your depth by 3, resulting in a value of 115.
+forward 3 adds 3 to your horizontal position, a total of 325.
+down 2 adds 2 to your depth, resulting in a value of 117.
+down 8 adds 8 to your depth, resulting in a value of 125.
+down 3 adds 3 to your depth, resulting in a value of 128.
+down 9 adds 9 to your depth, resulting in a value of 137.
+forward 9 adds 9 to your horizontal position, a total of 334.
+forward 7 adds 7 to your horizontal position, a total of 341.
+down 6 adds 6 to your depth, resulting in a value of 143.
+down 4 adds 4 to your depth, resulting in a value of 147.
+forward 6 adds 6 to your horizontal position, a total of 347.
+down 2 adds 2 to your depth, resulting in a value of 149.
+down 7 adds 7 to your depth, resulting in a value of 156.
+up 7 decreases your depth by 7, resulting in a value of 149.
+up 8 decreases your depth by 8, resulting in a value of 141.
+forward 2 adds 2 to your horizontal position, a total of 349.
+forward 8 adds 8 to your horizontal position, a total of 357.
+down 3 adds 3 to your depth, resulting in a value of 144.
+up 2 decreases your depth by 2, resulting in a value of 142.
+forward 9 adds 9 to your horizontal position, a total of 366.
+down 2 adds 2 to your depth, resulting in a value of 144.
+up 3 decreases your depth by 3, resulting in a value of 141.
+down 1 adds 1 to your depth, resulting in a value of 142.
+down 1 adds 1 to your depth, resulting in a value of 143.
+down 4 adds 4 to your depth, resulting in a value of 147.
+down 8 adds 8 to your depth, resulting in a value of 155.
+up 2 decreases your depth by 2, resulting in a value of 153.
+up 8 decreases your depth by 8, resulting in a value of 145.
+forward 2 adds 2 to your horizontal position, a total of 368.
+forward 1 adds 1 to your horizontal position, a total of 369.
+up 1 decreases your depth by 1, resulting in a value of 144.
+forward 7 adds 7 to your horizontal position, a total of 376.
+down 8 adds 8 to your depth, resulting in a value of 152.
+down 1 adds 1 to your depth, resulting in a value of 153.
+down 7 adds 7 to your depth, resulting in a value of 160.
+up 3 decreases your depth by 3, resulting in a value of 157.
+down 3 adds 3 to your depth, resulting in a value of 160.
+forward 8 adds 8 to your horizontal position, a total of 384.
+forward 2 adds 2 to your horizontal position, a total of 386.
+forward 7 adds 7 to your horizontal position, a total of 393.
+down 2 adds 2 to your depth, resulting in a value of 162.
+up 9 decreases your depth by 9, resulting in a value of 153.
+up 3 decreases your depth by 3, resulting in a value of 150.
+up 5 decreases your depth by 5, resulting in a value of 145.
+down 4 adds 4 to your depth, resulting in a value of 149.
+up 3 decreases your depth by 3, resulting in a value of 146.
+forward 4 adds 4 to your horizontal position, a total of 397.
+up 5 decreases your depth by 5, resulting in a value of 141.
+down 9 adds 9 to your depth, resulting in a value of 150.
+down 9 adds 9 to your depth, resulting in a value of 159.
+forward 2 adds 2 to your horizontal position, a total of 399.
+forward 2 adds 2 to your horizontal position, a total of 401.
+down 2 adds 2 to your depth, resulting in a value of 161.
+down 8 adds 8 to your depth, resulting in a value of 169.
+down 3 adds 3 to your depth, resulting in a value of 172.
+down 5 adds 5 to your depth, resulting in a value of 177.
+forward 6 adds 6 to your horizontal position, a total of 407.
+down 6 adds 6 to your depth, resulting in a value of 183.
+up 5 decreases your depth by 5, resulting in a value of 178.
+down 2 adds 2 to your depth, resulting in a value of 180.
+down 4 adds 4 to your depth, resulting in a value of 184.
+down 9 adds 9 to your depth, resulting in a value of 193.
+down 3 adds 3 to your depth, resulting in a value of 196.
+forward 7 adds 7 to your horizontal position, a total of 414.
+down 1 adds 1 to your depth, resulting in a value of 197.
+forward 1 adds 1 to your horizontal position, a total of 415.
+down 4 adds 4 to your depth, resulting in a value of 201.
+up 1 decreases your depth by 1, resulting in a value of 200.
+down 9 adds 9 to your depth, resulting in a value of 209.
+forward 5 adds 5 to your horizontal position, a total of 420.
+up 2 decreases your depth by 2, resulting in a value of 207.
+down 3 adds 3 to your depth, resulting in a value of 210.
+forward 8 adds 8 to your horizontal position, a total of 428.
+forward 9 adds 9 to your horizontal position, a total of 437.
+up 9 decreases your depth by 9, resulting in a value of 201.
+down 2 adds 2 to your depth, resulting in a value of 203.
+forward 8 adds 8 to your horizontal position, a total of 445.
+down 4 adds 4 to your depth, resulting in a value of 207.
+down 5 adds 5 to your depth, resulting in a value of 212.
+forward 6 adds 6 to your horizontal position, a total of 451.
+forward 5 adds 5 to your horizontal position, a total of 456.
+forward 4 adds 4 to your horizontal position, a total of 460.
+down 6 adds 6 to your depth, resulting in a value of 218.
+down 9 adds 9 to your depth, resulting in a value of 227.
+down 2 adds 2 to your depth, resulting in a value of 229.
+forward 9 adds 9 to your horizontal position, a total of 469.
+down 4 adds 4 to your depth, resulting in a value of 233.
+up 8 decreases your depth by 8, resulting in a value of 225.
+up 9 decreases your depth by 9, resulting in a value of 216.
+up 2 decreases your depth by 2, resulting in a value of 214.
+up 5 decreases your depth by 5, resulting in a value of 209.
+up 5 decreases your depth by 5, resulting in a value of 204.
+forward 9 adds 9 to your horizontal position, a total of 478.
+up 1 decreases your depth by 1, resulting in a value of 203.
+forward 6 adds 6 to your horizontal position, a total of 484.
+forward 7 adds 7 to your horizontal position, a total of 491.
+forward 8 adds 8 to your horizontal position, a total of 499.
+forward 9 adds 9 to your horizontal position, a total of 508.
+up 2 decreases your depth by 2, resulting in a value of 201.
+forward 3 adds 3 to your horizontal position, a total of 511.
+forward 4 adds 4 to your horizontal position, a total of 515.
+forward 6 adds 6 to your horizontal position, a total of 521.
+forward 9 adds 9 to your horizontal position, a total of 530.
+up 5 decreases your depth by 5, resulting in a value of 196.
+up 5 decreases your depth by 5, resulting in a value of 191.
+down 3 adds 3 to your depth, resulting in a value of 194.
+forward 1 adds 1 to your horizontal position, a total of 531.
+forward 3 adds 3 to your horizontal position, a total of 534.
+forward 2 adds 2 to your horizontal position, a total of 536.
+forward 3 adds 3 to your horizontal position, a total of 539.
+forward 6 adds 6 to your horizontal position, a total of 545.
+forward 7 adds 7 to your horizontal position, a total of 552.
+down 4 adds 4 to your depth, resulting in a value of 198.
+down 2 adds 2 to your depth, resulting in a value of 200.
+down 1 adds 1 to your depth, resulting in a value of 201.
+forward 2 adds 2 to your horizontal position, a total of 554.
+down 5 adds 5 to your depth, resulting in a value of 206.
+forward 3 adds 3 to your horizontal position, a total of 557.
+forward 6 adds 6 to your horizontal position, a total of 563.
+down 8 adds 8 to your depth, resulting in a value of 214.
+down 9 adds 9 to your depth, resulting in a value of 223.
+forward 4 adds 4 to your horizontal position, a total of 567.
+forward 6 adds 6 to your horizontal position, a total of 573.
+down 6 adds 6 to your depth, resulting in a value of 229.
+down 6 adds 6 to your depth, resulting in a value of 235.
+forward 3 adds 3 to your horizontal position, a total of 576.
+down 6 adds 6 to your depth, resulting in a value of 241.
+down 8 adds 8 to your depth, resulting in a value of 249.
+down 1 adds 1 to your depth, resulting in a value of 250.
+forward 7 adds 7 to your horizontal position, a total of 583.
+forward 9 adds 9 to your horizontal position, a total of 592.
+down 2 adds 2 to your depth, resulting in a value of 252.
+down 5 adds 5 to your depth, resulting in a value of 257.
+forward 1 adds 1 to your horizontal position, a total of 593.
+forward 3 adds 3 to your horizontal position, a total of 596.
+down 2 adds 2 to your depth, resulting in a value of 259.
+forward 1 adds 1 to your horizontal position, a total of 597.
+down 8 adds 8 to your depth, resulting in a value of 267.
+down 1 adds 1 to your depth, resulting in a value of 268.
+forward 4 adds 4 to your horizontal position, a total of 601.
+down 8 adds 8 to your depth, resulting in a value of 276.
+forward 5 adds 5 to your horizontal position, a total of 606.
+forward 1 adds 1 to your horizontal position, a total of 607.
+down 7 adds 7 to your depth, resulting in a value of 283.
+down 7 adds 7 to your depth, resulting in a value of 290.
+forward 3 adds 3 to your horizontal position, a total of 610.
+forward 1 adds 1 to your horizontal position, a total of 611.
+forward 6 adds 6 to your horizontal position, a total of 617.
+forward 7 adds 7 to your horizontal position, a total of 624.
+forward 5 adds 5 to your horizontal position, a total of 629.
+up 1 decreases your depth by 1, resulting in a value of 289.
+forward 2 adds 2 to your horizontal position, a total of 631.
+down 9 adds 9 to your depth, resulting in a value of 298.
+forward 3 adds 3 to your horizontal position, a total of 634.
+up 1 decreases your depth by 1, resulting in a value of 297.
+forward 2 adds 2 to your horizontal position, a total of 636.
+down 1 adds 1 to your depth, resulting in a value of 298.
+down 6 adds 6 to your depth, resulting in a value of 304.
+down 3 adds 3 to your depth, resulting in a value of 307.
+forward 7 adds 7 to your horizontal position, a total of 643.
+down 5 adds 5 to your depth, resulting in a value of 312.
+down 4 adds 4 to your depth, resulting in a value of 316.
+down 1 adds 1 to your depth, resulting in a value of 317.
+forward 9 adds 9 to your horizontal position, a total of 652.
+forward 9 adds 9 to your horizontal position, a total of 661.
+down 5 adds 5 to your depth, resulting in a value of 322.
+forward 7 adds 7 to your horizontal position, a total of 668.
+forward 3 adds 3 to your horizontal position, a total of 671.
+forward 5 adds 5 to your horizontal position, a total of 676.
+down 1 adds 1 to your depth, resulting in a value of 323.
+forward 6 adds 6 to your horizontal position, a total of 682.
+down 8 adds 8 to your depth, resulting in a value of 331.
+up 2 decreases your depth by 2, resulting in a value of 329.
+forward 6 adds 6 to your horizontal position, a total of 688.
+down 3 adds 3 to your depth, resulting in a value of 332.
+forward 2 adds 2 to your horizontal position, a total of 690.
+forward 9 adds 9 to your horizontal position, a total of 699.
+forward 4 adds 4 to your horizontal position, a total of 703.
+down 1 adds 1 to your depth, resulting in a value of 333.
+down 3 adds 3 to your depth, resulting in a value of 336.
+forward 9 adds 9 to your horizontal position, a total of 712.
+forward 3 adds 3 to your horizontal position, a total of 715.
+forward 8 adds 8 to your horizontal position, a total of 723.
+forward 9 adds 9 to your horizontal position, a total of 732.
+up 3 decreases your depth by 3, resulting in a value of 333.
+up 1 decreases your depth by 1, resulting in a value of 332.
+forward 1 adds 1 to your horizontal position, a total of 733.
+forward 2 adds 2 to your horizontal position, a total of 735.
+down 8 adds 8 to your depth, resulting in a value of 340.
+down 9 adds 9 to your depth, resulting in a value of 349.
+down 2 adds 2 to your depth, resulting in a value of 351.
+down 1 adds 1 to your depth, resulting in a value of 352.
+down 3 adds 3 to your depth, resulting in a value of 355.
+down 2 adds 2 to your depth, resulting in a value of 357.
+forward 9 adds 9 to your horizontal position, a total of 744.
+forward 7 adds 7 to your horizontal position, a total of 751.
+down 5 adds 5 to your depth, resulting in a value of 362.
+forward 1 adds 1 to your horizontal position, a total of 752.
+forward 6 adds 6 to your horizontal position, a total of 758.
+forward 3 adds 3 to your horizontal position, a total of 761.
+forward 9 adds 9 to your horizontal position, a total of 770.
+down 2 adds 2 to your depth, resulting in a value of 364.
+forward 8 adds 8 to your horizontal position, a total of 778.
+down 5 adds 5 to your depth, resulting in a value of 369.
+down 1 adds 1 to your depth, resulting in a value of 370.
+forward 5 adds 5 to your horizontal position, a total of 783.
+forward 3 adds 3 to your horizontal position, a total of 786.
+down 6 adds 6 to your depth, resulting in a value of 376.
+forward 6 adds 6 to your horizontal position, a total of 792.
+down 8 adds 8 to your depth, resulting in a value of 384.
+forward 2 adds 2 to your horizontal position, a total of 794.
+up 5 decreases your depth by 5, resulting in a value of 379.
+forward 1 adds 1 to your horizontal position, a total of 795.
+down 2 adds 2 to your depth, resulting in a value of 381.
+down 6 adds 6 to your depth, resulting in a value of 387.
+forward 9 adds 9 to your horizontal position, a total of 804.
+forward 7 adds 7 to your horizontal position, a total of 811.
+down 1 adds 1 to your depth, resulting in a value of 388.
+down 3 adds 3 to your depth, resulting in a value of 391.
+down 6 adds 6 to your depth, resulting in a value of 397.
+up 3 decreases your depth by 3, resulting in a value of 394.
+down 4 adds 4 to your depth, resulting in a value of 398.
+forward 8 adds 8 to your horizontal position, a total of 819.
+forward 1 adds 1 to your horizontal position, a total of 820.
+forward 7 adds 7 to your horizontal position, a total of 827.
+down 2 adds 2 to your depth, resulting in a value of 400.
+down 5 adds 5 to your depth, resulting in a value of 405.
+down 9 adds 9 to your depth, resulting in a value of 414.
+forward 6 adds 6 to your horizontal position, a total of 833.
+down 5 adds 5 to your depth, resulting in a value of 419.
+forward 5 adds 5 to your horizontal position, a total of 838.
+up 1 decreases your depth by 1, resulting in a value of 418.
+down 5 adds 5 to your depth, resulting in a value of 423.
+forward 8 adds 8 to your horizontal position, a total of 846.
+up 9 decreases your depth by 9, resulting in a value of 414.
+forward 2 adds 2 to your horizontal position, a total of 848.
+down 6 adds 6 to your depth, resulting in a value of 420.
+forward 2 adds 2 to your horizontal position, a total of 850.
+forward 7 adds 7 to your horizontal position, a total of 857.
+up 2 decreases your depth by 2, resulting in a value of 418.
+down 9 adds 9 to your depth, resulting in a value of 427.
+down 7 adds 7 to your depth, resulting in a value of 434.
+up 7 decreases your depth by 7, resulting in a value of 427.
+down 6 adds 6 to your depth, resulting in a value of 433.
+up 5 decreases your depth by 5, resulting in a value of 428.
+forward 1 adds 1 to your horizontal position, a total of 858.
+down 8 adds 8 to your depth, resulting in a value of 436.
+forward 8 adds 8 to your horizontal position, a total of 866.
+forward 1 adds 1 to your horizontal position, a total of 867.
+forward 7 adds 7 to your horizontal position, a total of 874.
+down 9 adds 9 to your depth, resulting in a value of 445.
+down 6 adds 6 to your depth, resulting in a value of 451.
+forward 3 adds 3 to your horizontal position, a total of 877.
+down 6 adds 6 to your depth, resulting in a value of 457.
+down 1 adds 1 to your depth, resulting in a value of 458.
+down 1 adds 1 to your depth, resulting in a value of 459.
+down 1 adds 1 to your depth, resulting in a value of 460.
+down 3 adds 3 to your depth, resulting in a value of 463.
+down 7 adds 7 to your depth, resulting in a value of 470.
+down 7 adds 7 to your depth, resulting in a value of 477.
+down 3 adds 3 to your depth, resulting in a value of 480.
+down 5 adds 5 to your depth, resulting in a value of 485.
+forward 4 adds 4 to your horizontal position, a total of 881.
+down 4 adds 4 to your depth, resulting in a value of 489.
+forward 7 adds 7 to your horizontal position, a total of 888.
+forward 5 adds 5 to your horizontal position, a total of 893.
+down 9 adds 9 to your depth, resulting in a value of 498.
+down 9 adds 9 to your depth, resulting in a value of 507.
+forward 7 adds 7 to your horizontal position, a total of 900.
+down 3 adds 3 to your depth, resulting in a value of 510.
+down 9 adds 9 to your depth, resulting in a value of 519.
+down 4 adds 4 to your depth, resulting in a value of 523.
+forward 3 adds 3 to your horizontal position, a total of 903.
+down 7 adds 7 to your depth, resulting in a value of 530.
+down 2 adds 2 to your depth, resulting in a value of 532.
+forward 2 adds 2 to your horizontal position, a total of 905.
+down 6 adds 6 to your depth, resulting in a value of 538.
+forward 9 adds 9 to your horizontal position, a total of 914.
+forward 9 adds 9 to your horizontal position, a total of 923.
+forward 5 adds 5 to your horizontal position, a total of 928.
+up 4 decreases your depth by 4, resulting in a value of 534.
+down 7 adds 7 to your depth, resulting in a value of 541.
+down 2 adds 2 to your depth, resulting in a value of 543.
+up 9 decreases your depth by 9, resulting in a value of 534.
+up 4 decreases your depth by 4, resulting in a value of 530.
+forward 8 adds 8 to your horizontal position, a total of 936.
+forward 1 adds 1 to your horizontal position, a total of 937.
+down 8 adds 8 to your depth, resulting in a value of 538.
+up 5 decreases your depth by 5, resulting in a value of 533.
+down 4 adds 4 to your depth, resulting in a value of 537.
+down 3 adds 3 to your depth, resulting in a value of 540.
+forward 2 adds 2 to your horizontal position, a total of 939.
+down 7 adds 7 to your depth, resulting in a value of 547.
+down 2 adds 2 to your depth, resulting in a value of 549.
+down 1 adds 1 to your depth, resulting in a value of 550.
+down 9 adds 9 to your depth, resulting in a value of 559.
+forward 7 adds 7 to your horizontal position, a total of 946.
+forward 7 adds 7 to your horizontal position, a total of 953.
+up 8 decreases your depth by 8, resulting in a value of 551.
+up 4 decreases your depth by 4, resulting in a value of 547.
+down 3 adds 3 to your depth, resulting in a value of 550.
+down 8 adds 8 to your depth, resulting in a value of 558.
+forward 6 adds 6 to your horizontal position, a total of 959.
+forward 5 adds 5 to your horizontal position, a total of 964.
+forward 5 adds 5 to your horizontal position, a total of 969.
+forward 5 adds 5 to your horizontal position, a total of 974.
+down 3 adds 3 to your depth, resulting in a value of 561.
+down 8 adds 8 to your depth, resulting in a value of 569.
+forward 4 adds 4 to your horizontal position, a total of 978.
+forward 7 adds 7 to your horizontal position, a total of 985.
+forward 1 adds 1 to your horizontal position, a total of 986.
+up 3 decreases your depth by 3, resulting in a value of 566.
+up 9 decreases your depth by 9, resulting in a value of 557.
+down 6 adds 6 to your depth, resulting in a value of 563.
+up 4 decreases your depth by 4, resulting in a value of 559.
+down 7 adds 7 to your depth, resulting in a value of 566.
+forward 8 adds 8 to your horizontal position, a total of 994.
+forward 4 adds 4 to your horizontal position, a total of 998.
+forward 3 adds 3 to your horizontal position, a total of 1001.
+up 8 decreases your depth by 8, resulting in a value of 558.
+up 3 decreases your depth by 3, resulting in a value of 555.
+down 3 adds 3 to your depth, resulting in a value of 558.
+forward 6 adds 6 to your horizontal position, a total of 1007.
+down 2 adds 2 to your depth, resulting in a value of 560.
+forward 7 adds 7 to your horizontal position, a total of 1014.
+forward 4 adds 4 to your horizontal position, a total of 1018.
+forward 8 adds 8 to your horizontal position, a total of 1026.
+down 3 adds 3 to your depth, resulting in a value of 563.
+down 9 adds 9 to your depth, resulting in a value of 572.
+down 9 adds 9 to your depth, resulting in a value of 581.
+down 2 adds 2 to your depth, resulting in a value of 583.
+forward 8 adds 8 to your horizontal position, a total of 1034.
+up 4 decreases your depth by 4, resulting in a value of 579.
+down 3 adds 3 to your depth, resulting in a value of 582.
+forward 8 adds 8 to your horizontal position, a total of 1042.
+forward 5 adds 5 to your horizontal position, a total of 1047.
+forward 7 adds 7 to your horizontal position, a total of 1054.
+down 6 adds 6 to your depth, resulting in a value of 588.
+up 9 decreases your depth by 9, resulting in a value of 579.
+forward 3 adds 3 to your horizontal position, a total of 1057.
+down 2 adds 2 to your depth, resulting in a value of 581.
+forward 5 adds 5 to your horizontal position, a total of 1062.
+forward 2 adds 2 to your horizontal position, a total of 1064.
+down 7 adds 7 to your depth, resulting in a value of 588.
+forward 6 adds 6 to your horizontal position, a total of 1070.
+forward 2 adds 2 to your horizontal position, a total of 1072.
+up 9 decreases your depth by 9, resulting in a value of 579.
+down 1 adds 1 to your depth, resulting in a value of 580.
+down 1 adds 1 to your depth, resulting in a value of 581.
+forward 4 adds 4 to your horizontal position, a total of 1076.
+up 1 decreases your depth by 1, resulting in a value of 580.
+forward 9 adds 9 to your horizontal position, a total of 1085.
+down 3 adds 3 to your depth, resulting in a value of 583.
+down 4 adds 4 to your depth, resulting in a value of 587.
+down 2 adds 2 to your depth, resulting in a value of 589.
+forward 3 adds 3 to your horizontal position, a total of 1088.
+forward 3 adds 3 to your horizontal position, a total of 1091.
+forward 3 adds 3 to your horizontal position, a total of 1094.
+up 7 decreases your depth by 7, resulting in a value of 582.
+up 8 decreases your depth by 8, resulting in a value of 574.
+down 5 adds 5 to your depth, resulting in a value of 579.
+forward 1 adds 1 to your horizontal position, a total of 1095.
+forward 7 adds 7 to your horizontal position, a total of 1102.
+up 9 decreases your depth by 9, resulting in a value of 570.
+up 3 decreases your depth by 3, resulting in a value of 567.
+down 3 adds 3 to your depth, resulting in a value of 570.
+down 8 adds 8 to your depth, resulting in a value of 578.
+forward 6 adds 6 to your horizontal position, a total of 1108.
+up 5 decreases your depth by 5, resulting in a value of 573.
+up 5 decreases your depth by 5, resulting in a value of 568.
+forward 4 adds 4 to your horizontal position, a total of 1112.
+down 2 adds 2 to your depth, resulting in a value of 570.
+down 8 adds 8 to your depth, resulting in a value of 578.
+down 1 adds 1 to your depth, resulting in a value of 579.
+forward 6 adds 6 to your horizontal position, a total of 1118.
+down 3 adds 3 to your depth, resulting in a value of 582.
+forward 3 adds 3 to your horizontal position, a total of 1121.
+forward 6 adds 6 to your horizontal position, a total of 1127.
+forward 1 adds 1 to your horizontal position, a total of 1128.
+up 3 decreases your depth by 3, resulting in a value of 579.
+up 1 decreases your depth by 1, resulting in a value of 578.
+down 5 adds 5 to your depth, resulting in a value of 583.
+down 2 adds 2 to your depth, resulting in a value of 585.
+down 7 adds 7 to your depth, resulting in a value of 592.
+down 1 adds 1 to your depth, resulting in a value of 593.
+forward 9 adds 9 to your horizontal position, a total of 1137.
+down 4 adds 4 to your depth, resulting in a value of 597.
+down 8 adds 8 to your depth, resulting in a value of 605.
+forward 9 adds 9 to your horizontal position, a total of 1146.
+forward 7 adds 7 to your horizontal position, a total of 1153.
+forward 8 adds 8 to your horizontal position, a total of 1161.
+down 1 adds 1 to your depth, resulting in a value of 606.
+down 2 adds 2 to your depth, resulting in a value of 608.
+up 7 decreases your depth by 7, resulting in a value of 601.
+down 5 adds 5 to your depth, resulting in a value of 606.
+down 2 adds 2 to your depth, resulting in a value of 608.
+down 1 adds 1 to your depth, resulting in a value of 609.
+up 4 decreases your depth by 4, resulting in a value of 605.
+up 8 decreases your depth by 8, resulting in a value of 597.
+up 7 decreases your depth by 7, resulting in a value of 590.
+down 4 adds 4 to your depth, resulting in a value of 594.
+forward 3 adds 3 to your horizontal position, a total of 1164.
+down 2 adds 2 to your depth, resulting in a value of 596.
+down 2 adds 2 to your depth, resulting in a value of 598.
+forward 5 adds 5 to your horizontal position, a total of 1169.
+forward 4 adds 4 to your horizontal position, a total of 1173.
+down 8 adds 8 to your depth, resulting in a value of 606.
+up 4 decreases your depth by 4, resulting in a value of 602.
+forward 4 adds 4 to your horizontal position, a total of 1177.
+up 1 decreases your depth by 1, resulting in a value of 601.
+down 3 adds 3 to your depth, resulting in a value of 604.
+down 9 adds 9 to your depth, resulting in a value of 613.
+down 9 adds 9 to your depth, resulting in a value of 622.
+down 3 adds 3 to your depth, resulting in a value of 625.
+up 8 decreases your depth by 8, resulting in a value of 617.
+forward 1 adds 1 to your horizontal position, a total of 1178.
+forward 6 adds 6 to your horizontal position, a total of 1184.
+down 6 adds 6 to your depth, resulting in a value of 623.
+down 2 adds 2 to your depth, resulting in a value of 625.
+forward 8 adds 8 to your horizontal position, a total of 1192.
+down 3 adds 3 to your depth, resulting in a value of 628.
+forward 8 adds 8 to your horizontal position, a total of 1200.
+forward 2 adds 2 to your horizontal position, a total of 1202.
+forward 9 adds 9 to your horizontal position, a total of 1211.
+up 3 decreases your depth by 3, resulting in a value of 625.
+forward 6 adds 6 to your horizontal position, a total of 1217.
+down 5 adds 5 to your depth, resulting in a value of 630.
+forward 6 adds 6 to your horizontal position, a total of 1223.
+forward 2 adds 2 to your horizontal position, a total of 1225.
+up 7 decreases your depth by 7, resulting in a value of 623.
+down 9 adds 9 to your depth, resulting in a value of 632.
+forward 2 adds 2 to your horizontal position, a total of 1227.
+up 2 decreases your depth by 2, resulting in a value of 630.
+forward 7 adds 7 to your horizontal position, a total of 1234.
+down 1 adds 1 to your depth, resulting in a value of 631.
+down 5 adds 5 to your depth, resulting in a value of 636.
+down 6 adds 6 to your depth, resulting in a value of 642.
+forward 8 adds 8 to your horizontal position, a total of 1242.
+down 6 adds 6 to your depth, resulting in a value of 648.
+forward 4 adds 4 to your horizontal position, a total of 1246.
+forward 1 adds 1 to your horizontal position, a total of 1247.
+forward 3 adds 3 to your horizontal position, a total of 1250.
+forward 4 adds 4 to your horizontal position, a total of 1254.
+up 4 decreases your depth by 4, resulting in a value of 644.
+forward 4 adds 4 to your horizontal position, a total of 1258.
+down 4 adds 4 to your depth, resulting in a value of 648.
+forward 2 adds 2 to your horizontal position, a total of 1260.
+forward 5 adds 5 to your horizontal position, a total of 1265.
+forward 2 adds 2 to your horizontal position, a total of 1267.
+forward 5 adds 5 to your horizontal position, a total of 1272.
+down 9 adds 9 to your depth, resulting in a value of 657.
+up 2 decreases your depth by 2, resulting in a value of 655.
+up 1 decreases your depth by 1, resulting in a value of 654.
+down 2 adds 2 to your depth, resulting in a value of 656.
+up 4 decreases your depth by 4, resulting in a value of 652.
+up 5 decreases your depth by 5, resulting in a value of 647.
+forward 2 adds 2 to your horizontal position, a total of 1274.
+down 3 adds 3 to your depth, resulting in a value of 650.
+down 9 adds 9 to your depth, resulting in a value of 659.
+forward 3 adds 3 to your horizontal position, a total of 1277.
+down 8 adds 8 to your depth, resulting in a value of 667.
+down 9 adds 9 to your depth, resulting in a value of 676.
+forward 5 adds 5 to your horizontal position, a total of 1282.
+down 3 adds 3 to your depth, resulting in a value of 679.
+forward 5 adds 5 to your horizontal position, a total of 1287.
+down 3 adds 3 to your depth, resulting in a value of 682.
+up 8 decreases your depth by 8, resulting in a value of 674.
+forward 7 adds 7 to your horizontal position, a total of 1294.
+forward 1 adds 1 to your horizontal position, a total of 1295.
+down 2 adds 2 to your depth, resulting in a value of 676.
+down 7 adds 7 to your depth, resulting in a value of 683.
+forward 3 adds 3 to your horizontal position, a total of 1298.
+down 8 adds 8 to your depth, resulting in a value of 691.
+forward 9 adds 9 to your horizontal position, a total of 1307.
+down 4 adds 4 to your depth, resulting in a value of 695.
+down 1 adds 1 to your depth, resulting in a value of 696.
+down 7 adds 7 to your depth, resulting in a value of 703.
+down 4 adds 4 to your depth, resulting in a value of 707.
+up 5 decreases your depth by 5, resulting in a value of 702.
+forward 1 adds 1 to your horizontal position, a total of 1308.
+down 4 adds 4 to your depth, resulting in a value of 706.
+forward 1 adds 1 to your horizontal position, a total of 1309.
+forward 8 adds 8 to your horizontal position, a total of 1317.
+up 1 decreases your depth by 1, resulting in a value of 705.
+up 5 decreases your depth by 5, resulting in a value of 700.
+up 2 decreases your depth by 2, resulting in a value of 698.
+up 2 decreases your depth by 2, resulting in a value of 696.
+down 4 adds 4 to your depth, resulting in a value of 700.
+down 7 adds 7 to your depth, resulting in a value of 707.
+forward 2 adds 2 to your horizontal position, a total of 1319.
+down 8 adds 8 to your depth, resulting in a value of 715.
+up 8 decreases your depth by 8, resulting in a value of 707.
+down 9 adds 9 to your depth, resulting in a value of 716.
+down 3 adds 3 to your depth, resulting in a value of 719.
+down 6 adds 6 to your depth, resulting in a value of 725.
+down 3 adds 3 to your depth, resulting in a value of 728.
+down 1 adds 1 to your depth, resulting in a value of 729.
+forward 7 adds 7 to your horizontal position, a total of 1326.
+up 8 decreases your depth by 8, resulting in a value of 721.
+forward 5 adds 5 to your horizontal position, a total of 1331.
+up 5 decreases your depth by 5, resulting in a value of 716.
+down 8 adds 8 to your depth, resulting in a value of 724.
+down 1 adds 1 to your depth, resulting in a value of 725.
+down 8 adds 8 to your depth, resulting in a value of 733.
+down 6 adds 6 to your depth, resulting in a value of 739.
+down 5 adds 5 to your depth, resulting in a value of 744.
+forward 2 adds 2 to your horizontal position, a total of 1333.
+up 5 decreases your depth by 5, resulting in a value of 739.
+down 6 adds 6 to your depth, resulting in a value of 745.
+forward 9 adds 9 to your horizontal position, a total of 1342.
+up 6 decreases your depth by 6, resulting in a value of 739.
+down 5 adds 5 to your depth, resulting in a value of 744.
+down 7 adds 7 to your depth, resulting in a value of 751.
+up 9 decreases your depth by 9, resulting in a value of 742.
+down 1 adds 1 to your depth, resulting in a value of 743.
+forward 4 adds 4 to your horizontal position, a total of 1346.
+up 6 decreases your depth by 6, resulting in a value of 737.
+forward 2 adds 2 to your horizontal position, a total of 1348.
+down 5 adds 5 to your depth, resulting in a value of 742.
+down 5 adds 5 to your depth, resulting in a value of 747.
+forward 2 adds 2 to your horizontal position, a total of 1350.
+up 6 decreases your depth by 6, resulting in a value of 741.
+forward 1 adds 1 to your horizontal position, a total of 1351.
+down 8 adds 8 to your depth, resulting in a value of 749.
+forward 4 adds 4 to your horizontal position, a total of 1355.
+up 8 decreases your depth by 8, resulting in a value of 741.
+down 3 adds 3 to your depth, resulting in a value of 744.
+forward 8 adds 8 to your horizontal position, a total of 1363.
+down 8 adds 8 to your depth, resulting in a value of 752.
+forward 5 adds 5 to your horizontal position, a total of 1368.
+down 6 adds 6 to your depth, resulting in a value of 758.
+down 3 adds 3 to your depth, resulting in a value of 761.
+forward 1 adds 1 to your horizontal position, a total of 1369.
+down 4 adds 4 to your depth, resulting in a value of 765.
+down 8 adds 8 to your depth, resulting in a value of 773.
+up 1 decreases your depth by 1, resulting in a value of 772.
+down 1 adds 1 to your depth, resulting in a value of 773.
+down 2 adds 2 to your depth, resulting in a value of 775.
+up 9 decreases your depth by 9, resulting in a value of 766.
+forward 2 adds 2 to your horizontal position, a total of 1371.
+forward 3 adds 3 to your horizontal position, a total of 1374.
+down 7 adds 7 to your depth, resulting in a value of 773.
+down 2 adds 2 to your depth, resulting in a value of 775.
+forward 7 adds 7 to your horizontal position, a total of 1381.
+up 8 decreases your depth by 8, resulting in a value of 767.
+down 2 adds 2 to your depth, resulting in a value of 769.
+down 8 adds 8 to your depth, resulting in a value of 777.
+down 9 adds 9 to your depth, resulting in a value of 786.
+up 1 decreases your depth by 1, resulting in a value of 785.
+down 5 adds 5 to your depth, resulting in a value of 790.
+down 5 adds 5 to your depth, resulting in a value of 795.
+down 4 adds 4 to your depth, resulting in a value of 799.
+down 8 adds 8 to your depth, resulting in a value of 807.
+down 9 adds 9 to your depth, resulting in a value of 816.
+up 5 decreases your depth by 5, resulting in a value of 811.
+forward 2 adds 2 to your horizontal position, a total of 1383.
+down 4 adds 4 to your depth, resulting in a value of 815.
+down 3 adds 3 to your depth, resulting in a value of 818.
+down 2 adds 2 to your depth, resulting in a value of 820.
+forward 5 adds 5 to your horizontal position, a total of 1388.
+forward 8 adds 8 to your horizontal position, a total of 1396.
+down 8 adds 8 to your depth, resulting in a value of 828.
+down 1 adds 1 to your depth, resulting in a value of 829.
+forward 9 adds 9 to your horizontal position, a total of 1405.
+down 5 adds 5 to your depth, resulting in a value of 834.
+forward 5 adds 5 to your horizontal position, a total of 1410.
+down 2 adds 2 to your depth, resulting in a value of 836.
+up 3 decreases your depth by 3, resulting in a value of 833.
+up 9 decreases your depth by 9, resulting in a value of 824.
+down 1 adds 1 to your depth, resulting in a value of 825.
+down 9 adds 9 to your depth, resulting in a value of 834.
+forward 7 adds 7 to your horizontal position, a total of 1417.
+up 7 decreases your depth by 7, resulting in a value of 827.
+forward 3 adds 3 to your horizontal position, a total of 1420.
+up 6 decreases your depth by 6, resulting in a value of 821.
+forward 8 adds 8 to your horizontal position, a total of 1428.
+down 2 adds 2 to your depth, resulting in a value of 823.
+down 1 adds 1 to your depth, resulting in a value of 824.
+down 7 adds 7 to your depth, resulting in a value of 831.
+forward 5 adds 5 to your horizontal position, a total of 1433.
+down 8 adds 8 to your depth, resulting in a value of 839.
+down 4 adds 4 to your depth, resulting in a value of 843.
+forward 7 adds 7 to your horizontal position, a total of 1440.
+forward 4 adds 4 to your horizontal position, a total of 1444.
+down 6 adds 6 to your depth, resulting in a value of 849.
+forward 9 adds 9 to your horizontal position, a total of 1453.
+down 3 adds 3 to your depth, resulting in a value of 852.
+forward 2 adds 2 to your horizontal position, a total of 1455.
+down 3 adds 3 to your depth, resulting in a value of 855.
+down 1 adds 1 to your depth, resulting in a value of 856.
+down 1 adds 1 to your depth, resulting in a value of 857.
+up 1 decreases your depth by 1, resulting in a value of 856.
+up 3 decreases your depth by 3, resulting in a value of 853.
+down 6 adds 6 to your depth, resulting in a value of 859.
+forward 3 adds 3 to your horizontal position, a total of 1458.
+up 9 decreases your depth by 9, resulting in a value of 850.
+down 4 adds 4 to your depth, resulting in a value of 854.
+up 2 decreases your depth by 2, resulting in a value of 852.
+down 3 adds 3 to your depth, resulting in a value of 855.
+up 1 decreases your depth by 1, resulting in a value of 854.
+down 8 adds 8 to your depth, resulting in a value of 862.
+down 5 adds 5 to your depth, resulting in a value of 867.
+forward 7 adds 7 to your horizontal position, a total of 1465.
+forward 2 adds 2 to your horizontal position, a total of 1467.
+forward 9 adds 9 to your horizontal position, a total of 1476.
+down 8 adds 8 to your depth, resulting in a value of 875.
+down 5 adds 5 to your depth, resulting in a value of 880.
+down 6 adds 6 to your depth, resulting in a value of 886.
+up 3 decreases your depth by 3, resulting in a value of 883.
+forward 2 adds 2 to your horizontal position, a total of 1478.
+up 8 decreases your depth by 8, resulting in a value of 875.
+down 4 adds 4 to your depth, resulting in a value of 879.
+forward 7 adds 7 to your horizontal position, a total of 1485.
+down 8 adds 8 to your depth, resulting in a value of 887.
+down 6 adds 6 to your depth, resulting in a value of 893.
+down 4 adds 4 to your depth, resulting in a value of 897.
+forward 7 adds 7 to your horizontal position, a total of 1492.
+up 9 decreases your depth by 9, resulting in a value of 888.
+down 4 adds 4 to your depth, resulting in a value of 892.
+forward 2 adds 2 to your horizontal position, a total of 1494.
+forward 5 adds 5 to your horizontal position, a total of 1499.
+down 3 adds 3 to your depth, resulting in a value of 895.
+up 6 decreases your depth by 6, resulting in a value of 889.
+up 6 decreases your depth by 6, resulting in a value of 883.
+down 2 adds 2 to your depth, resulting in a value of 885.
+down 4 adds 4 to your depth, resulting in a value of 889.
+forward 8 adds 8 to your horizontal position, a total of 1507.
+forward 5 adds 5 to your horizontal position, a total of 1512.
+forward 3 adds 3 to your horizontal position, a total of 1515.
+forward 5 adds 5 to your horizontal position, a total of 1520.
+down 5 adds 5 to your depth, resulting in a value of 894.
+down 5 adds 5 to your depth, resulting in a value of 899.
+down 6 adds 6 to your depth, resulting in a value of 905.
+forward 3 adds 3 to your horizontal position, a total of 1523.
+forward 7 adds 7 to your horizontal position, a total of 1530.
+forward 1 adds 1 to your horizontal position, a total of 1531.
+down 8 adds 8 to your depth, resulting in a value of 913.
+down 5 adds 5 to your depth, resulting in a value of 918.
+forward 7 adds 7 to your horizontal position, a total of 1538.
+up 7 decreases your depth by 7, resulting in a value of 911.
+down 9 adds 9 to your depth, resulting in a value of 920.
+down 9 adds 9 to your depth, resulting in a value of 929.
+down 9 adds 9 to your depth, resulting in a value of 938.
+up 6 decreases your depth by 6, resulting in a value of 932.
+down 2 adds 2 to your depth, resulting in a value of 934.
+down 3 adds 3 to your depth, resulting in a value of 937.
+forward 1 adds 1 to your horizontal position, a total of 1539.
+up 7 decreases your depth by 7, resulting in a value of 930.
+up 8 decreases your depth by 8, resulting in a value of 922.
+forward 5 adds 5 to your horizontal position, a total of 1544.
+down 1 adds 1 to your depth, resulting in a value of 923.
+down 3 adds 3 to your depth, resulting in a value of 926.
+down 3 adds 3 to your depth, resulting in a value of 929.
+forward 5 adds 5 to your horizontal position, a total of 1549.
+down 7 adds 7 to your depth, resulting in a value of 936.
+down 1 adds 1 to your depth, resulting in a value of 937.
+up 2 decreases your depth by 2, resulting in a value of 935.
+down 2 adds 2 to your depth, resulting in a value of 937.
+down 3 adds 3 to your depth, resulting in a value of 940.
+forward 7 adds 7 to your horizontal position, a total of 1556.
+down 9 adds 9 to your depth, resulting in a value of 949.
+forward 6 adds 6 to your horizontal position, a total of 1562.
+down 5 adds 5 to your depth, resulting in a value of 954.
+forward 2 adds 2 to your horizontal position, a total of 1564.
+down 5 adds 5 to your depth, resulting in a value of 959.
+forward 6 adds 6 to your horizontal position, a total of 1570.
+up 3 decreases your depth by 3, resulting in a value of 956.
+down 8 adds 8 to your depth, resulting in a value of 964.
+up 2 decreases your depth by 2, resulting in a value of 962.
+forward 5 adds 5 to your horizontal position, a total of 1575.
+forward 1 adds 1 to your horizontal position, a total of 1576.
+forward 5 adds 5 to your horizontal position, a total of 1581.
+forward 8 adds 8 to your horizontal position, a total of 1589.
+forward 6 adds 6 to your horizontal position, a total of 1595.
+forward 9 adds 9 to your horizontal position, a total of 1604.
+forward 6 adds 6 to your horizontal position, a total of 1610.
+up 6 decreases your depth by 6, resulting in a value of 956.
+up 5 decreases your depth by 5, resulting in a value of 951.
+down 8 adds 8 to your depth, resulting in a value of 959.
+down 3 adds 3 to your depth, resulting in a value of 962.
+down 5 adds 5 to your depth, resulting in a value of 967.
+down 2 adds 2 to your depth, resulting in a value of 969.
+forward 9 adds 9 to your horizontal position, a total of 1619.
+forward 8 adds 8 to your horizontal position, a total of 1627.
+down 1 adds 1 to your depth, resulting in a value of 970.
+up 1 decreases your depth by 1, resulting in a value of 969.
+up 6 decreases your depth by 6, resulting in a value of 963.
+down 6 adds 6 to your depth, resulting in a value of 969.
+forward 4 adds 4 to your horizontal position, a total of 1631.
+down 3 adds 3 to your depth, resulting in a value of 972.
+forward 6 adds 6 to your horizontal position, a total of 1637.
+forward 1 adds 1 to your horizontal position, a total of 1638.
+up 5 decreases your depth by 5, resulting in a value of 967.
+down 6 adds 6 to your depth, resulting in a value of 973.
+up 9 decreases your depth by 9, resulting in a value of 964.
+down 7 adds 7 to your depth, resulting in a value of 971.
+down 2 adds 2 to your depth, resulting in a value of 973.
+down 9 adds 9 to your depth, resulting in a value of 982.
+down 5 adds 5 to your depth, resulting in a value of 987.
+forward 5 adds 5 to your horizontal position, a total of 1643.
+up 2 decreases your depth by 2, resulting in a value of 985.
+forward 8 adds 8 to your horizontal position, a total of 1651.
+down 2 adds 2 to your depth, resulting in a value of 987.
+down 8 adds 8 to your depth, resulting in a value of 995.
+forward 6 adds 6 to your horizontal position, a total of 1657.
+down 4 adds 4 to your depth, resulting in a value of 999.
+forward 8 adds 8 to your horizontal position, a total of 1665.
+down 7 adds 7 to your depth, resulting in a value of 1006.
+down 8 adds 8 to your depth, resulting in a value of 1014.
+down 1 adds 1 to your depth, resulting in a value of 1015.
+forward 3 adds 3 to your horizontal position, a total of 1668.
+down 6 adds 6 to your depth, resulting in a value of 1021.
+down 9 adds 9 to your depth, resulting in a value of 1030.
+down 3 adds 3 to your depth, resulting in a value of 1033.
+forward 3 adds 3 to your horizontal position, a total of 1671.
+down 8 adds 8 to your depth, resulting in a value of 1041.
+forward 8 adds 8 to your horizontal position, a total of 1679.
+down 7 adds 7 to your depth, resulting in a value of 1048.
+forward 6 adds 6 to your horizontal position, a total of 1685.
+forward 8 adds 8 to your horizontal position, a total of 1693.
+down 8 adds 8 to your depth, resulting in a value of 1056.
+up 7 decreases your depth by 7, resulting in a value of 1049.
+down 1 adds 1 to your depth, resulting in a value of 1050.
+forward 2 adds 2 to your horizontal position, a total of 1695.
+forward 3 adds 3 to your horizontal position, a total of 1698.
+down 5 adds 5 to your depth, resulting in a value of 1055.
+up 8 decreases your depth by 8, resulting in a value of 1047.
+down 3 adds 3 to your depth, resulting in a value of 1050.
+down 4 adds 4 to your depth, resulting in a value of 1054.
+down 7 adds 7 to your depth, resulting in a value of 1061.
+forward 9 adds 9 to your horizontal position, a total of 1707.
+forward 7 adds 7 to your horizontal position, a total of 1714.
+forward 1 adds 1 to your horizontal position, a total of 1715.
+down 3 adds 3 to your depth, resulting in a value of 1064.
+forward 9 adds 9 to your horizontal position, a total of 1724.
+down 8 adds 8 to your depth, resulting in a value of 1072.
+forward 2 adds 2 to your horizontal position, a total of 1726.
+down 2 adds 2 to your depth, resulting in a value of 1074.
+down 9 adds 9 to your depth, resulting in a value of 1083.
+down 4 adds 4 to your depth, resulting in a value of 1087.
+down 3 adds 3 to your depth, resulting in a value of 1090.
+up 6 decreases your depth by 6, resulting in a value of 1084.
+up 9 decreases your depth by 9, resulting in a value of 1075.
+down 3 adds 3 to your depth, resulting in a value of 1078.
+down 2 adds 2 to your depth, resulting in a value of 1080.
+forward 5 adds 5 to your horizontal position, a total of 1731.
+down 3 adds 3 to your depth, resulting in a value of 1083.
+down 2 adds 2 to your depth, resulting in a value of 1085.
+down 8 adds 8 to your depth, resulting in a value of 1093.
+forward 6 adds 6 to your horizontal position, a total of 1737.
+forward 5 adds 5 to your horizontal position, a total of 1742.
+up 4 decreases your depth by 4, resulting in a value of 1089.
+forward 9 adds 9 to your horizontal position, a total of 1751.
+forward 8 adds 8 to your horizontal position, a total of 1759.
+forward 9 adds 9 to your horizontal position, a total of 1768.
+down 2 adds 2 to your depth, resulting in a value of 1091.
+forward 2 adds 2 to your horizontal position, a total of 1770.
+up 6 decreases your depth by 6, resulting in a value of 1085.
+forward 1 adds 1 to your horizontal position, a total of 1771.
+down 5 adds 5 to your depth, resulting in a value of 1090.
+forward 2 adds 2 to your horizontal position, a total of 1773.
+down 8 adds 8 to your depth, resulting in a value of 1098.
+up 2 decreases your depth by 2, resulting in a value of 1096.
+up 3 decreases your depth by 3, resulting in a value of 1093.
+down 3 adds 3 to your depth, resulting in a value of 1096.
+up 2 decreases your depth by 2, resulting in a value of 1094.
+up 1 decreases your depth by 1, resulting in a value of 1093.
+up 5 decreases your depth by 5, resulting in a value of 1088.
+forward 1 adds 1 to your horizontal position, a total of 1774.
+forward 2 adds 2 to your horizontal position, a total of 1776.
+down 8 adds 8 to your depth, resulting in a value of 1096.
+up 3 decreases your depth by 3, resulting in a value of 1093.
+down 9 adds 9 to your depth, resulting in a value of 1102.
+forward 7 adds 7 to your horizontal position, a total of 1783.
+up 5 decreases your depth by 5, resulting in a value of 1097.
+down 4 adds 4 to your depth, resulting in a value of 1101.
+down 4 adds 4 to your depth, resulting in a value of 1105.
+up 3 decreases your depth by 3, resulting in a value of 1102.
+forward 2 adds 2 to your horizontal position, a total of 1785.
+up 5 decreases your depth by 5, resulting in a value of 1097.
+down 4 adds 4 to your depth, resulting in a value of 1101.
+down 4 adds 4 to your depth, resulting in a value of 1105.
+up 5 decreases your depth by 5, resulting in a value of 1100.
+forward 8 adds 8 to your horizontal position, a total of 1793.
+down 8 adds 8 to your depth, resulting in a value of 1108.
+down 6 adds 6 to your depth, resulting in a value of 1114.
+forward 7 adds 7 to your horizontal position, a total of 1800.
+down 1 adds 1 to your depth, resulting in a value of 1115.
+down 3 adds 3 to your depth, resulting in a value of 1118.
+down 1 adds 1 to your depth, resulting in a value of 1119.
+forward 3 adds 3 to your horizontal position, a total of 1803.
+down 5 adds 5 to your depth, resulting in a value of 1124.
+down 3 adds 3 to your depth, resulting in a value of 1127.
+forward 3 adds 3 to your horizontal position, a total of 1806.
+up 2 decreases your depth by 2, resulting in a value of 1125.
+forward 2 adds 2 to your horizontal position, a total of 1808.
+down 9 adds 9 to your depth, resulting in a value of 1134.
+up 8 decreases your depth by 8, resulting in a value of 1126.
+forward 8 adds 8 to your horizontal position, a total of 1816.
+up 8 decreases your depth by 8, resulting in a value of 1118.
+forward 1 adds 1 to your horizontal position, a total of 1817.
+forward 9 adds 9 to your horizontal position, a total of 1826.
+forward 3 adds 3 to your horizontal position, a total of 1829.
+down 8 adds 8 to your depth, resulting in a value of 1126.
+down 3 adds 3 to your depth, resulting in a value of 1129.
+forward 8 adds 8 to your horizontal position, a total of 1837.
+forward 4 adds 4 to your horizontal position, a total of 1841.
+down 2 adds 2 to your depth, resulting in a value of 1131.
+forward 2 adds 2 to your horizontal position, a total of 1843.
+down 2 adds 2 to your depth, resulting in a value of 1133.
+down 5 adds 5 to your depth, resulting in a value of 1138.
+down 7 adds 7 to your depth, resulting in a value of 1145.
+down 5 adds 5 to your depth, resulting in a value of 1150.
+forward 8 adds 8 to your horizontal position, a total of 1851.
+up 3 decreases your depth by 3, resulting in a value of 1147.
+forward 1 adds 1 to your horizontal position, a total of 1852.
+down 1 adds 1 to your depth, resulting in a value of 1148.
+forward 3 adds 3 to your horizontal position, a total of 1855.
+down 9 adds 9 to your depth, resulting in a value of 1157.
+forward 2 adds 2 to your horizontal position, a total of 1857.
+forward 2 adds 2 to your horizontal position, a total of 1859.
+forward 7 adds 7 to your horizontal position, a total of 1866.
+down 7 adds 7 to your depth, resulting in a value of 1164.
+down 2 adds 2 to your depth, resulting in a value of 1166.
+forward 9 adds 9 to your horizontal position, a total of 1875.
+up 5 decreases your depth by 5, resulting in a value of 1161.
+up 7 decreases your depth by 7, resulting in a value of 1154.
+forward 8 adds 8 to your horizontal position, a total of 1883.
+forward 1 adds 1 to your horizontal position, a total of 1884.
+down 7 adds 7 to your depth, resulting in a value of 1161.
+down 8 adds 8 to your depth, resulting in a value of 1169.
+down 3 adds 3 to your depth, resulting in a value of 1172.
+forward 6 adds 6 to your horizontal position, a total of 1890.

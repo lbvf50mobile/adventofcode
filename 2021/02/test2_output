@@ -1,0 +1,1002 @@
+Second 2
+ result = 1864715580
+forward 6 adds 6 to your horizontal position, a total of 6. aim=0 depth=0
+down 8 adds 8 to your depth, resulting in a value of 0. aim=8 depth=0
+down 5 adds 5 to your depth, resulting in a value of 0. aim=13 depth=0
+down 9 adds 9 to your depth, resulting in a value of 0. aim=22 depth=0
+forward 2 adds 2 to your horizontal position, a total of 8. aim=22 depth=44
+down 5 adds 5 to your depth, resulting in a value of 44. aim=27 depth=44
+down 5 adds 5 to your depth, resulting in a value of 44. aim=32 depth=44
+forward 1 adds 1 to your horizontal position, a total of 9. aim=32 depth=76
+forward 7 adds 7 to your horizontal position, a total of 16. aim=32 depth=300
+down 8 adds 8 to your depth, resulting in a value of 300. aim=40 depth=300
+up 2 decreases your depth by 2, resulting in a value of 300. aim=38 depth=300
+down 4 adds 4 to your depth, resulting in a value of 300. aim=42 depth=300
+up 8 decreases your depth by 8, resulting in a value of 300. aim=34 depth=300
+down 8 adds 8 to your depth, resulting in a value of 300. aim=42 depth=300
+forward 3 adds 3 to your horizontal position, a total of 19. aim=42 depth=426
+forward 4 adds 4 to your horizontal position, a total of 23. aim=42 depth=594
+down 1 adds 1 to your depth, resulting in a value of 594. aim=43 depth=594
+forward 5 adds 5 to your horizontal position, a total of 28. aim=43 depth=809
+up 7 decreases your depth by 7, resulting in a value of 809. aim=36 depth=809
+down 7 adds 7 to your depth, resulting in a value of 809. aim=43 depth=809
+down 8 adds 8 to your depth, resulting in a value of 809. aim=51 depth=809
+forward 2 adds 2 to your horizontal position, a total of 30. aim=51 depth=911
+up 3 decreases your depth by 3, resulting in a value of 911. aim=48 depth=911
+forward 1 adds 1 to your horizontal position, a total of 31. aim=48 depth=959
+forward 6 adds 6 to your horizontal position, a total of 37. aim=48 depth=1247
+forward 9 adds 9 to your horizontal position, a total of 46. aim=48 depth=1679
+forward 7 adds 7 to your horizontal position, a total of 53. aim=48 depth=2015
+forward 8 adds 8 to your horizontal position, a total of 61. aim=48 depth=2399
+forward 2 adds 2 to your horizontal position, a total of 63. aim=48 depth=2495
+forward 3 adds 3 to your horizontal position, a total of 66. aim=48 depth=2639
+up 2 decreases your depth by 2, resulting in a value of 2639. aim=46 depth=2639
+up 8 decreases your depth by 8, resulting in a value of 2639. aim=38 depth=2639
+down 1 adds 1 to your depth, resulting in a value of 2639. aim=39 depth=2639
+forward 7 adds 7 to your horizontal position, a total of 73. aim=39 depth=2912
+down 7 adds 7 to your depth, resulting in a value of 2912. aim=46 depth=2912
+down 2 adds 2 to your depth, resulting in a value of 2912. aim=48 depth=2912
+forward 6 adds 6 to your horizontal position, a total of 79. aim=48 depth=3200
+down 1 adds 1 to your depth, resulting in a value of 3200. aim=49 depth=3200
+forward 5 adds 5 to your horizontal position, a total of 84. aim=49 depth=3445
+down 3 adds 3 to your depth, resulting in a value of 3445. aim=52 depth=3445
+forward 6 adds 6 to your horizontal position, a total of 90. aim=52 depth=3757
+down 7 adds 7 to your depth, resulting in a value of 3757. aim=59 depth=3757
+up 1 decreases your depth by 1, resulting in a value of 3757. aim=58 depth=3757
+up 3 decreases your depth by 3, resulting in a value of 3757. aim=55 depth=3757
+forward 7 adds 7 to your horizontal position, a total of 97. aim=55 depth=4142
+forward 6 adds 6 to your horizontal position, a total of 103. aim=55 depth=4472
+forward 8 adds 8 to your horizontal position, a total of 111. aim=55 depth=4912
+down 4 adds 4 to your depth, resulting in a value of 4912. aim=59 depth=4912
+down 2 adds 2 to your depth, resulting in a value of 4912. aim=61 depth=4912
+up 5 decreases your depth by 5, resulting in a value of 4912. aim=56 depth=4912
+down 2 adds 2 to your depth, resulting in a value of 4912. aim=58 depth=4912
+forward 2 adds 2 to your horizontal position, a total of 113. aim=58 depth=5028
+up 5 decreases your depth by 5, resulting in a value of 5028. aim=53 depth=5028
+forward 6 adds 6 to your horizontal position, a total of 119. aim=53 depth=5346
+down 3 adds 3 to your depth, resulting in a value of 5346. aim=56 depth=5346
+down 1 adds 1 to your depth, resulting in a value of 5346. aim=57 depth=5346
+down 5 adds 5 to your depth, resulting in a value of 5346. aim=62 depth=5346
+forward 6 adds 6 to your horizontal position, a total of 125. aim=62 depth=5718
+up 6 decreases your depth by 6, resulting in a value of 5718. aim=56 depth=5718
+down 7 adds 7 to your depth, resulting in a value of 5718. aim=63 depth=5718
+down 8 adds 8 to your depth, resulting in a value of 5718. aim=71 depth=5718
+down 2 adds 2 to your depth, resulting in a value of 5718. aim=73 depth=5718
+forward 3 adds 3 to your horizontal position, a total of 128. aim=73 depth=5937
+down 5 adds 5 to your depth, resulting in a value of 5937. aim=78 depth=5937
+down 4 adds 4 to your depth, resulting in a value of 5937. aim=82 depth=5937
+forward 7 adds 7 to your horizontal position, a total of 135. aim=82 depth=6511
+forward 9 adds 9 to your horizontal position, a total of 144. aim=82 depth=7249
+up 9 decreases your depth by 9, resulting in a value of 7249. aim=73 depth=7249
+up 8 decreases your depth by 8, resulting in a value of 7249. aim=65 depth=7249
+up 4 decreases your depth by 4, resulting in a value of 7249. aim=61 depth=7249
+forward 8 adds 8 to your horizontal position, a total of 152. aim=61 depth=7737
+forward 5 adds 5 to your horizontal position, a total of 157. aim=61 depth=8042
+down 4 adds 4 to your depth, resulting in a value of 8042. aim=65 depth=8042
+up 2 decreases your depth by 2, resulting in a value of 8042. aim=63 depth=8042
+forward 9 adds 9 to your horizontal position, a total of 166. aim=63 depth=8609
+up 5 decreases your depth by 5, resulting in a value of 8609. aim=58 depth=8609
+down 5 adds 5 to your depth, resulting in a value of 8609. aim=63 depth=8609
+up 9 decreases your depth by 9, resulting in a value of 8609. aim=54 depth=8609
+forward 2 adds 2 to your horizontal position, a total of 168. aim=54 depth=8717
+forward 3 adds 3 to your horizontal position, a total of 171. aim=54 depth=8879
+down 6 adds 6 to your depth, resulting in a value of 8879. aim=60 depth=8879
+down 8 adds 8 to your depth, resulting in a value of 8879. aim=68 depth=8879
+forward 8 adds 8 to your horizontal position, a total of 179. aim=68 depth=9423
+up 5 decreases your depth by 5, resulting in a value of 9423. aim=63 depth=9423
+down 5 adds 5 to your depth, resulting in a value of 9423. aim=68 depth=9423
+forward 7 adds 7 to your horizontal position, a total of 186. aim=68 depth=9899
+forward 6 adds 6 to your horizontal position, a total of 192. aim=68 depth=10307
+forward 8 adds 8 to your horizontal position, a total of 200. aim=68 depth=10851
+up 3 decreases your depth by 3, resulting in a value of 10851. aim=65 depth=10851
+forward 3 adds 3 to your horizontal position, a total of 203. aim=65 depth=11046
+forward 1 adds 1 to your horizontal position, a total of 204. aim=65 depth=11111
+up 8 decreases your depth by 8, resulting in a value of 11111. aim=57 depth=11111
+down 8 adds 8 to your depth, resulting in a value of 11111. aim=65 depth=11111
+down 2 adds 2 to your depth, resulting in a value of 11111. aim=67 depth=11111
+down 4 adds 4 to your depth, resulting in a value of 11111. aim=71 depth=11111
+up 7 decreases your depth by 7, resulting in a value of 11111. aim=64 depth=11111
+up 2 decreases your depth by 2, resulting in a value of 11111. aim=62 depth=11111
+up 9 decreases your depth by 9, resulting in a value of 11111. aim=53 depth=11111
+up 4 decreases your depth by 4, resulting in a value of 11111. aim=49 depth=11111
+forward 6 adds 6 to your horizontal position, a total of 210. aim=49 depth=11405
+down 8 adds 8 to your depth, resulting in a value of 11405. aim=57 depth=11405
+down 1 adds 1 to your depth, resulting in a value of 11405. aim=58 depth=11405
+forward 6 adds 6 to your horizontal position, a total of 216. aim=58 depth=11753
+forward 6 adds 6 to your horizontal position, a total of 222. aim=58 depth=12101
+down 4 adds 4 to your depth, resulting in a value of 12101. aim=62 depth=12101
+down 2 adds 2 to your depth, resulting in a value of 12101. aim=64 depth=12101
+up 7 decreases your depth by 7, resulting in a value of 12101. aim=57 depth=12101
+down 9 adds 9 to your depth, resulting in a value of 12101. aim=66 depth=12101
+down 9 adds 9 to your depth, resulting in a value of 12101. aim=75 depth=12101
+up 2 decreases your depth by 2, resulting in a value of 12101. aim=73 depth=12101
+up 7 decreases your depth by 7, resulting in a value of 12101. aim=66 depth=12101
+down 4 adds 4 to your depth, resulting in a value of 12101. aim=70 depth=12101
+down 2 adds 2 to your depth, resulting in a value of 12101. aim=72 depth=12101
+forward 1 adds 1 to your horizontal position, a total of 223. aim=72 depth=12173
+down 1 adds 1 to your depth, resulting in a value of 12173. aim=73 depth=12173
+up 5 decreases your depth by 5, resulting in a value of 12173. aim=68 depth=12173
+up 5 decreases your depth by 5, resulting in a value of 12173. aim=63 depth=12173
+forward 9 adds 9 to your horizontal position, a total of 232. aim=63 depth=12740
+up 3 decreases your depth by 3, resulting in a value of 12740. aim=60 depth=12740
+down 7 adds 7 to your depth, resulting in a value of 12740. aim=67 depth=12740
+forward 7 adds 7 to your horizontal position, a total of 239. aim=67 depth=13209
+down 4 adds 4 to your depth, resulting in a value of 13209. aim=71 depth=13209
+down 8 adds 8 to your depth, resulting in a value of 13209. aim=79 depth=13209
+up 1 decreases your depth by 1, resulting in a value of 13209. aim=78 depth=13209
+down 4 adds 4 to your depth, resulting in a value of 13209. aim=82 depth=13209
+down 7 adds 7 to your depth, resulting in a value of 13209. aim=89 depth=13209
+forward 5 adds 5 to your horizontal position, a total of 244. aim=89 depth=13654
+up 9 decreases your depth by 9, resulting in a value of 13654. aim=80 depth=13654
+forward 5 adds 5 to your horizontal position, a total of 249. aim=80 depth=14054
+forward 1 adds 1 to your horizontal position, a total of 250. aim=80 depth=14134
+forward 8 adds 8 to your horizontal position, a total of 258. aim=80 depth=14774
+forward 6 adds 6 to your horizontal position, a total of 264. aim=80 depth=15254
+forward 5 adds 5 to your horizontal position, a total of 269. aim=80 depth=15654
+forward 1 adds 1 to your horizontal position, a total of 270. aim=80 depth=15734
+down 4 adds 4 to your depth, resulting in a value of 15734. aim=84 depth=15734
+down 6 adds 6 to your depth, resulting in a value of 15734. aim=90 depth=15734
+forward 5 adds 5 to your horizontal position, a total of 275. aim=90 depth=16184
+forward 2 adds 2 to your horizontal position, a total of 277. aim=90 depth=16364
+forward 3 adds 3 to your horizontal position, a total of 280. aim=90 depth=16634
+down 1 adds 1 to your depth, resulting in a value of 16634. aim=91 depth=16634
+up 2 decreases your depth by 2, resulting in a value of 16634. aim=89 depth=16634
+up 9 decreases your depth by 9, resulting in a value of 16634. aim=80 depth=16634
+forward 4 adds 4 to your horizontal position, a total of 284. aim=80 depth=16954
+up 8 decreases your depth by 8, resulting in a value of 16954. aim=72 depth=16954
+down 7 adds 7 to your depth, resulting in a value of 16954. aim=79 depth=16954
+down 8 adds 8 to your depth, resulting in a value of 16954. aim=87 depth=16954
+up 7 decreases your depth by 7, resulting in a value of 16954. aim=80 depth=16954
+down 2 adds 2 to your depth, resulting in a value of 16954. aim=82 depth=16954
+forward 7 adds 7 to your horizontal position, a total of 291. aim=82 depth=17528
+up 1 decreases your depth by 1, resulting in a value of 17528. aim=81 depth=17528
+forward 5 adds 5 to your horizontal position, a total of 296. aim=81 depth=17933
+forward 1 adds 1 to your horizontal position, a total of 297. aim=81 depth=18014
+forward 8 adds 8 to your horizontal position, a total of 305. aim=81 depth=18662
+forward 1 adds 1 to your horizontal position, a total of 306. aim=81 depth=18743
+up 8 decreases your depth by 8, resulting in a value of 18743. aim=73 depth=18743
+down 6 adds 6 to your depth, resulting in a value of 18743. aim=79 depth=18743
+down 7 adds 7 to your depth, resulting in a value of 18743. aim=86 depth=18743
+forward 2 adds 2 to your horizontal position, a total of 308. aim=86 depth=18915
+down 8 adds 8 to your depth, resulting in a value of 18915. aim=94 depth=18915
+down 8 adds 8 to your depth, resulting in a value of 18915. aim=102 depth=18915
+forward 8 adds 8 to your horizontal position, a total of 316. aim=102 depth=19731
+up 8 decreases your depth by 8, resulting in a value of 19731. aim=94 depth=19731
+down 6 adds 6 to your depth, resulting in a value of 19731. aim=100 depth=19731
+down 7 adds 7 to your depth, resulting in a value of 19731. aim=107 depth=19731
+down 4 adds 4 to your depth, resulting in a value of 19731. aim=111 depth=19731
+down 7 adds 7 to your depth, resulting in a value of 19731. aim=118 depth=19731
+forward 6 adds 6 to your horizontal position, a total of 322. aim=118 depth=20439
+up 3 decreases your depth by 3, resulting in a value of 20439. aim=115 depth=20439
+forward 3 adds 3 to your horizontal position, a total of 325. aim=115 depth=20784
+down 2 adds 2 to your depth, resulting in a value of 20784. aim=117 depth=20784
+down 8 adds 8 to your depth, resulting in a value of 20784. aim=125 depth=20784
+down 3 adds 3 to your depth, resulting in a value of 20784. aim=128 depth=20784
+down 9 adds 9 to your depth, resulting in a value of 20784. aim=137 depth=20784
+forward 9 adds 9 to your horizontal position, a total of 334. aim=137 depth=22017
+forward 7 adds 7 to your horizontal position, a total of 341. aim=137 depth=22976
+down 6 adds 6 to your depth, resulting in a value of 22976. aim=143 depth=22976
+down 4 adds 4 to your depth, resulting in a value of 22976. aim=147 depth=22976
+forward 6 adds 6 to your horizontal position, a total of 347. aim=147 depth=23858
+down 2 adds 2 to your depth, resulting in a value of 23858. aim=149 depth=23858
+down 7 adds 7 to your depth, resulting in a value of 23858. aim=156 depth=23858
+up 7 decreases your depth by 7, resulting in a value of 23858. aim=149 depth=23858
+up 8 decreases your depth by 8, resulting in a value of 23858. aim=141 depth=23858
+forward 2 adds 2 to your horizontal position, a total of 349. aim=141 depth=24140
+forward 8 adds 8 to your horizontal position, a total of 357. aim=141 depth=25268
+down 3 adds 3 to your depth, resulting in a value of 25268. aim=144 depth=25268
+up 2 decreases your depth by 2, resulting in a value of 25268. aim=142 depth=25268
+forward 9 adds 9 to your horizontal position, a total of 366. aim=142 depth=26546
+down 2 adds 2 to your depth, resulting in a value of 26546. aim=144 depth=26546
+up 3 decreases your depth by 3, resulting in a value of 26546. aim=141 depth=26546
+down 1 adds 1 to your depth, resulting in a value of 26546. aim=142 depth=26546
+down 1 adds 1 to your depth, resulting in a value of 26546. aim=143 depth=26546
+down 4 adds 4 to your depth, resulting in a value of 26546. aim=147 depth=26546
+down 8 adds 8 to your depth, resulting in a value of 26546. aim=155 depth=26546
+up 2 decreases your depth by 2, resulting in a value of 26546. aim=153 depth=26546
+up 8 decreases your depth by 8, resulting in a value of 26546. aim=145 depth=26546
+forward 2 adds 2 to your horizontal position, a total of 368. aim=145 depth=26836
+forward 1 adds 1 to your horizontal position, a total of 369. aim=145 depth=26981
+up 1 decreases your depth by 1, resulting in a value of 26981. aim=144 depth=26981
+forward 7 adds 7 to your horizontal position, a total of 376. aim=144 depth=27989
+down 8 adds 8 to your depth, resulting in a value of 27989. aim=152 depth=27989
+down 1 adds 1 to your depth, resulting in a value of 27989. aim=153 depth=27989
+down 7 adds 7 to your depth, resulting in a value of 27989. aim=160 depth=27989
+up 3 decreases your depth by 3, resulting in a value of 27989. aim=157 depth=27989
+down 3 adds 3 to your depth, resulting in a value of 27989. aim=160 depth=27989
+forward 8 adds 8 to your horizontal position, a total of 384. aim=160 depth=29269
+forward 2 adds 2 to your horizontal position, a total of 386. aim=160 depth=29589
+forward 7 adds 7 to your horizontal position, a total of 393. aim=160 depth=30709
+down 2 adds 2 to your depth, resulting in a value of 30709. aim=162 depth=30709
+up 9 decreases your depth by 9, resulting in a value of 30709. aim=153 depth=30709
+up 3 decreases your depth by 3, resulting in a value of 30709. aim=150 depth=30709
+up 5 decreases your depth by 5, resulting in a value of 30709. aim=145 depth=30709
+down 4 adds 4 to your depth, resulting in a value of 30709. aim=149 depth=30709
+up 3 decreases your depth by 3, resulting in a value of 30709. aim=146 depth=30709
+forward 4 adds 4 to your horizontal position, a total of 397. aim=146 depth=31293
+up 5 decreases your depth by 5, resulting in a value of 31293. aim=141 depth=31293
+down 9 adds 9 to your depth, resulting in a value of 31293. aim=150 depth=31293
+down 9 adds 9 to your depth, resulting in a value of 31293. aim=159 depth=31293
+forward 2 adds 2 to your horizontal position, a total of 399. aim=159 depth=31611
+forward 2 adds 2 to your horizontal position, a total of 401. aim=159 depth=31929
+down 2 adds 2 to your depth, resulting in a value of 31929. aim=161 depth=31929
+down 8 adds 8 to your depth, resulting in a value of 31929. aim=169 depth=31929
+down 3 adds 3 to your depth, resulting in a value of 31929. aim=172 depth=31929
+down 5 adds 5 to your depth, resulting in a value of 31929. aim=177 depth=31929
+forward 6 adds 6 to your horizontal position, a total of 407. aim=177 depth=32991
+down 6 adds 6 to your depth, resulting in a value of 32991. aim=183 depth=32991
+up 5 decreases your depth by 5, resulting in a value of 32991. aim=178 depth=32991
+down 2 adds 2 to your depth, resulting in a value of 32991. aim=180 depth=32991
+down 4 adds 4 to your depth, resulting in a value of 32991. aim=184 depth=32991
+down 9 adds 9 to your depth, resulting in a value of 32991. aim=193 depth=32991
+down 3 adds 3 to your depth, resulting in a value of 32991. aim=196 depth=32991
+forward 7 adds 7 to your horizontal position, a total of 414. aim=196 depth=34363
+down 1 adds 1 to your depth, resulting in a value of 34363. aim=197 depth=34363
+forward 1 adds 1 to your horizontal position, a total of 415. aim=197 depth=34560
+down 4 adds 4 to your depth, resulting in a value of 34560. aim=201 depth=34560
+up 1 decreases your depth by 1, resulting in a value of 34560. aim=200 depth=34560
+down 9 adds 9 to your depth, resulting in a value of 34560. aim=209 depth=34560
+forward 5 adds 5 to your horizontal position, a total of 420. aim=209 depth=35605
+up 2 decreases your depth by 2, resulting in a value of 35605. aim=207 depth=35605
+down 3 adds 3 to your depth, resulting in a value of 35605. aim=210 depth=35605
+forward 8 adds 8 to your horizontal position, a total of 428. aim=210 depth=37285
+forward 9 adds 9 to your horizontal position, a total of 437. aim=210 depth=39175
+up 9 decreases your depth by 9, resulting in a value of 39175. aim=201 depth=39175
+down 2 adds 2 to your depth, resulting in a value of 39175. aim=203 depth=39175
+forward 8 adds 8 to your horizontal position, a total of 445. aim=203 depth=40799
+down 4 adds 4 to your depth, resulting in a value of 40799. aim=207 depth=40799
+down 5 adds 5 to your depth, resulting in a value of 40799. aim=212 depth=40799
+forward 6 adds 6 to your horizontal position, a total of 451. aim=212 depth=42071
+forward 5 adds 5 to your horizontal position, a total of 456. aim=212 depth=43131
+forward 4 adds 4 to your horizontal position, a total of 460. aim=212 depth=43979
+down 6 adds 6 to your depth, resulting in a value of 43979. aim=218 depth=43979
+down 9 adds 9 to your depth, resulting in a value of 43979. aim=227 depth=43979
+down 2 adds 2 to your depth, resulting in a value of 43979. aim=229 depth=43979
+forward 9 adds 9 to your horizontal position, a total of 469. aim=229 depth=46040
+down 4 adds 4 to your depth, resulting in a value of 46040. aim=233 depth=46040
+up 8 decreases your depth by 8, resulting in a value of 46040. aim=225 depth=46040
+up 9 decreases your depth by 9, resulting in a value of 46040. aim=216 depth=46040
+up 2 decreases your depth by 2, resulting in a value of 46040. aim=214 depth=46040
+up 5 decreases your depth by 5, resulting in a value of 46040. aim=209 depth=46040
+up 5 decreases your depth by 5, resulting in a value of 46040. aim=204 depth=46040
+forward 9 adds 9 to your horizontal position, a total of 478. aim=204 depth=47876
+up 1 decreases your depth by 1, resulting in a value of 47876. aim=203 depth=47876
+forward 6 adds 6 to your horizontal position, a total of 484. aim=203 depth=49094
+forward 7 adds 7 to your horizontal position, a total of 491. aim=203 depth=50515
+forward 8 adds 8 to your horizontal position, a total of 499. aim=203 depth=52139
+forward 9 adds 9 to your horizontal position, a total of 508. aim=203 depth=53966
+up 2 decreases your depth by 2, resulting in a value of 53966. aim=201 depth=53966
+forward 3 adds 3 to your horizontal position, a total of 511. aim=201 depth=54569
+forward 4 adds 4 to your horizontal position, a total of 515. aim=201 depth=55373
+forward 6 adds 6 to your horizontal position, a total of 521. aim=201 depth=56579
+forward 9 adds 9 to your horizontal position, a total of 530. aim=201 depth=58388
+up 5 decreases your depth by 5, resulting in a value of 58388. aim=196 depth=58388
+up 5 decreases your depth by 5, resulting in a value of 58388. aim=191 depth=58388
+down 3 adds 3 to your depth, resulting in a value of 58388. aim=194 depth=58388
+forward 1 adds 1 to your horizontal position, a total of 531. aim=194 depth=58582
+forward 3 adds 3 to your horizontal position, a total of 534. aim=194 depth=59164
+forward 2 adds 2 to your horizontal position, a total of 536. aim=194 depth=59552
+forward 3 adds 3 to your horizontal position, a total of 539. aim=194 depth=60134
+forward 6 adds 6 to your horizontal position, a total of 545. aim=194 depth=61298
+forward 7 adds 7 to your horizontal position, a total of 552. aim=194 depth=62656
+down 4 adds 4 to your depth, resulting in a value of 62656. aim=198 depth=62656
+down 2 adds 2 to your depth, resulting in a value of 62656. aim=200 depth=62656
+down 1 adds 1 to your depth, resulting in a value of 62656. aim=201 depth=62656
+forward 2 adds 2 to your horizontal position, a total of 554. aim=201 depth=63058
+down 5 adds 5 to your depth, resulting in a value of 63058. aim=206 depth=63058
+forward 3 adds 3 to your horizontal position, a total of 557. aim=206 depth=63676
+forward 6 adds 6 to your horizontal position, a total of 563. aim=206 depth=64912
+down 8 adds 8 to your depth, resulting in a value of 64912. aim=214 depth=64912
+down 9 adds 9 to your depth, resulting in a value of 64912. aim=223 depth=64912
+forward 4 adds 4 to your horizontal position, a total of 567. aim=223 depth=65804
+forward 6 adds 6 to your horizontal position, a total of 573. aim=223 depth=67142
+down 6 adds 6 to your depth, resulting in a value of 67142. aim=229 depth=67142
+down 6 adds 6 to your depth, resulting in a value of 67142. aim=235 depth=67142
+forward 3 adds 3 to your horizontal position, a total of 576. aim=235 depth=67847
+down 6 adds 6 to your depth, resulting in a value of 67847. aim=241 depth=67847
+down 8 adds 8 to your depth, resulting in a value of 67847. aim=249 depth=67847
+down 1 adds 1 to your depth, resulting in a value of 67847. aim=250 depth=67847
+forward 7 adds 7 to your horizontal position, a total of 583. aim=250 depth=69597
+forward 9 adds 9 to your horizontal position, a total of 592. aim=250 depth=71847
+down 2 adds 2 to your depth, resulting in a value of 71847. aim=252 depth=71847
+down 5 adds 5 to your depth, resulting in a value of 71847. aim=257 depth=71847
+forward 1 adds 1 to your horizontal position, a total of 593. aim=257 depth=72104
+forward 3 adds 3 to your horizontal position, a total of 596. aim=257 depth=72875
+down 2 adds 2 to your depth, resulting in a value of 72875. aim=259 depth=72875
+forward 1 adds 1 to your horizontal position, a total of 597. aim=259 depth=73134
+down 8 adds 8 to your depth, resulting in a value of 73134. aim=267 depth=73134
+down 1 adds 1 to your depth, resulting in a value of 73134. aim=268 depth=73134
+forward 4 adds 4 to your horizontal position, a total of 601. aim=268 depth=74206
+down 8 adds 8 to your depth, resulting in a value of 74206. aim=276 depth=74206
+forward 5 adds 5 to your horizontal position, a total of 606. aim=276 depth=75586
+forward 1 adds 1 to your horizontal position, a total of 607. aim=276 depth=75862
+down 7 adds 7 to your depth, resulting in a value of 75862. aim=283 depth=75862
+down 7 adds 7 to your depth, resulting in a value of 75862. aim=290 depth=75862
+forward 3 adds 3 to your horizontal position, a total of 610. aim=290 depth=76732
+forward 1 adds 1 to your horizontal position, a total of 611. aim=290 depth=77022
+forward 6 adds 6 to your horizontal position, a total of 617. aim=290 depth=78762
+forward 7 adds 7 to your horizontal position, a total of 624. aim=290 depth=80792
+forward 5 adds 5 to your horizontal position, a total of 629. aim=290 depth=82242
+up 1 decreases your depth by 1, resulting in a value of 82242. aim=289 depth=82242
+forward 2 adds 2 to your horizontal position, a total of 631. aim=289 depth=82820
+down 9 adds 9 to your depth, resulting in a value of 82820. aim=298 depth=82820
+forward 3 adds 3 to your horizontal position, a total of 634. aim=298 depth=83714
+up 1 decreases your depth by 1, resulting in a value of 83714. aim=297 depth=83714
+forward 2 adds 2 to your horizontal position, a total of 636. aim=297 depth=84308
+down 1 adds 1 to your depth, resulting in a value of 84308. aim=298 depth=84308
+down 6 adds 6 to your depth, resulting in a value of 84308. aim=304 depth=84308
+down 3 adds 3 to your depth, resulting in a value of 84308. aim=307 depth=84308
+forward 7 adds 7 to your horizontal position, a total of 643. aim=307 depth=86457
+down 5 adds 5 to your depth, resulting in a value of 86457. aim=312 depth=86457
+down 4 adds 4 to your depth, resulting in a value of 86457. aim=316 depth=86457
+down 1 adds 1 to your depth, resulting in a value of 86457. aim=317 depth=86457
+forward 9 adds 9 to your horizontal position, a total of 652. aim=317 depth=89310
+forward 9 adds 9 to your horizontal position, a total of 661. aim=317 depth=92163
+down 5 adds 5 to your depth, resulting in a value of 92163. aim=322 depth=92163
+forward 7 adds 7 to your horizontal position, a total of 668. aim=322 depth=94417
+forward 3 adds 3 to your horizontal position, a total of 671. aim=322 depth=95383
+forward 5 adds 5 to your horizontal position, a total of 676. aim=322 depth=96993
+down 1 adds 1 to your depth, resulting in a value of 96993. aim=323 depth=96993
+forward 6 adds 6 to your horizontal position, a total of 682. aim=323 depth=98931
+down 8 adds 8 to your depth, resulting in a value of 98931. aim=331 depth=98931
+up 2 decreases your depth by 2, resulting in a value of 98931. aim=329 depth=98931
+forward 6 adds 6 to your horizontal position, a total of 688. aim=329 depth=100905
+down 3 adds 3 to your depth, resulting in a value of 100905. aim=332 depth=100905
+forward 2 adds 2 to your horizontal position, a total of 690. aim=332 depth=101569
+forward 9 adds 9 to your horizontal position, a total of 699. aim=332 depth=104557
+forward 4 adds 4 to your horizontal position, a total of 703. aim=332 depth=105885
+down 1 adds 1 to your depth, resulting in a value of 105885. aim=333 depth=105885
+down 3 adds 3 to your depth, resulting in a value of 105885. aim=336 depth=105885
+forward 9 adds 9 to your horizontal position, a total of 712. aim=336 depth=108909
+forward 3 adds 3 to your horizontal position, a total of 715. aim=336 depth=109917
+forward 8 adds 8 to your horizontal position, a total of 723. aim=336 depth=112605
+forward 9 adds 9 to your horizontal position, a total of 732. aim=336 depth=115629
+up 3 decreases your depth by 3, resulting in a value of 115629. aim=333 depth=115629
+up 1 decreases your depth by 1, resulting in a value of 115629. aim=332 depth=115629
+forward 1 adds 1 to your horizontal position, a total of 733. aim=332 depth=115961
+forward 2 adds 2 to your horizontal position, a total of 735. aim=332 depth=116625
+down 8 adds 8 to your depth, resulting in a value of 116625. aim=340 depth=116625
+down 9 adds 9 to your depth, resulting in a value of 116625. aim=349 depth=116625
+down 2 adds 2 to your depth, resulting in a value of 116625. aim=351 depth=116625
+down 1 adds 1 to your depth, resulting in a value of 116625. aim=352 depth=116625
+down 3 adds 3 to your depth, resulting in a value of 116625. aim=355 depth=116625
+down 2 adds 2 to your depth, resulting in a value of 116625. aim=357 depth=116625
+forward 9 adds 9 to your horizontal position, a total of 744. aim=357 depth=119838
+forward 7 adds 7 to your horizontal position, a total of 751. aim=357 depth=122337
+down 5 adds 5 to your depth, resulting in a value of 122337. aim=362 depth=122337
+forward 1 adds 1 to your horizontal position, a total of 752. aim=362 depth=122699
+forward 6 adds 6 to your horizontal position, a total of 758. aim=362 depth=124871
+forward 3 adds 3 to your horizontal position, a total of 761. aim=362 depth=125957
+forward 9 adds 9 to your horizontal position, a total of 770. aim=362 depth=129215
+down 2 adds 2 to your depth, resulting in a value of 129215. aim=364 depth=129215
+forward 8 adds 8 to your horizontal position, a total of 778. aim=364 depth=132127
+down 5 adds 5 to your depth, resulting in a value of 132127. aim=369 depth=132127
+down 1 adds 1 to your depth, resulting in a value of 132127. aim=370 depth=132127
+forward 5 adds 5 to your horizontal position, a total of 783. aim=370 depth=133977
+forward 3 adds 3 to your horizontal position, a total of 786. aim=370 depth=135087
+down 6 adds 6 to your depth, resulting in a value of 135087. aim=376 depth=135087
+forward 6 adds 6 to your horizontal position, a total of 792. aim=376 depth=137343
+down 8 adds 8 to your depth, resulting in a value of 137343. aim=384 depth=137343
+forward 2 adds 2 to your horizontal position, a total of 794. aim=384 depth=138111
+up 5 decreases your depth by 5, resulting in a value of 138111. aim=379 depth=138111
+forward 1 adds 1 to your horizontal position, a total of 795. aim=379 depth=138490
+down 2 adds 2 to your depth, resulting in a value of 138490. aim=381 depth=138490
+down 6 adds 6 to your depth, resulting in a value of 138490. aim=387 depth=138490
+forward 9 adds 9 to your horizontal position, a total of 804. aim=387 depth=141973
+forward 7 adds 7 to your horizontal position, a total of 811. aim=387 depth=144682
+down 1 adds 1 to your depth, resulting in a value of 144682. aim=388 depth=144682
+down 3 adds 3 to your depth, resulting in a value of 144682. aim=391 depth=144682
+down 6 adds 6 to your depth, resulting in a value of 144682. aim=397 depth=144682
+up 3 decreases your depth by 3, resulting in a value of 144682. aim=394 depth=144682
+down 4 adds 4 to your depth, resulting in a value of 144682. aim=398 depth=144682
+forward 8 adds 8 to your horizontal position, a total of 819. aim=398 depth=147866
+forward 1 adds 1 to your horizontal position, a total of 820. aim=398 depth=148264
+forward 7 adds 7 to your horizontal position, a total of 827. aim=398 depth=151050
+down 2 adds 2 to your depth, resulting in a value of 151050. aim=400 depth=151050
+down 5 adds 5 to your depth, resulting in a value of 151050. aim=405 depth=151050
+down 9 adds 9 to your depth, resulting in a value of 151050. aim=414 depth=151050
+forward 6 adds 6 to your horizontal position, a total of 833. aim=414 depth=153534
+down 5 adds 5 to your depth, resulting in a value of 153534. aim=419 depth=153534
+forward 5 adds 5 to your horizontal position, a total of 838. aim=419 depth=155629
+up 1 decreases your depth by 1, resulting in a value of 155629. aim=418 depth=155629
+down 5 adds 5 to your depth, resulting in a value of 155629. aim=423 depth=155629
+forward 8 adds 8 to your horizontal position, a total of 846. aim=423 depth=159013
+up 9 decreases your depth by 9, resulting in a value of 159013. aim=414 depth=159013
+forward 2 adds 2 to your horizontal position, a total of 848. aim=414 depth=159841
+down 6 adds 6 to your depth, resulting in a value of 159841. aim=420 depth=159841
+forward 2 adds 2 to your horizontal position, a total of 850. aim=420 depth=160681
+forward 7 adds 7 to your horizontal position, a total of 857. aim=420 depth=163621
+up 2 decreases your depth by 2, resulting in a value of 163621. aim=418 depth=163621
+down 9 adds 9 to your depth, resulting in a value of 163621. aim=427 depth=163621
+down 7 adds 7 to your depth, resulting in a value of 163621. aim=434 depth=163621
+up 7 decreases your depth by 7, resulting in a value of 163621. aim=427 depth=163621
+down 6 adds 6 to your depth, resulting in a value of 163621. aim=433 depth=163621
+up 5 decreases your depth by 5, resulting in a value of 163621. aim=428 depth=163621
+forward 1 adds 1 to your horizontal position, a total of 858. aim=428 depth=164049
+down 8 adds 8 to your depth, resulting in a value of 164049. aim=436 depth=164049
+forward 8 adds 8 to your horizontal position, a total of 866. aim=436 depth=167537
+forward 1 adds 1 to your horizontal position, a total of 867. aim=436 depth=167973
+forward 7 adds 7 to your horizontal position, a total of 874. aim=436 depth=171025
+down 9 adds 9 to your depth, resulting in a value of 171025. aim=445 depth=171025
+down 6 adds 6 to your depth, resulting in a value of 171025. aim=451 depth=171025
+forward 3 adds 3 to your horizontal position, a total of 877. aim=451 depth=172378
+down 6 adds 6 to your depth, resulting in a value of 172378. aim=457 depth=172378
+down 1 adds 1 to your depth, resulting in a value of 172378. aim=458 depth=172378
+down 1 adds 1 to your depth, resulting in a value of 172378. aim=459 depth=172378
+down 1 adds 1 to your depth, resulting in a value of 172378. aim=460 depth=172378
+down 3 adds 3 to your depth, resulting in a value of 172378. aim=463 depth=172378
+down 7 adds 7 to your depth, resulting in a value of 172378. aim=470 depth=172378
+down 7 adds 7 to your depth, resulting in a value of 172378. aim=477 depth=172378
+down 3 adds 3 to your depth, resulting in a value of 172378. aim=480 depth=172378
+down 5 adds 5 to your depth, resulting in a value of 172378. aim=485 depth=172378
+forward 4 adds 4 to your horizontal position, a total of 881. aim=485 depth=174318
+down 4 adds 4 to your depth, resulting in a value of 174318. aim=489 depth=174318
+forward 7 adds 7 to your horizontal position, a total of 888. aim=489 depth=177741
+forward 5 adds 5 to your horizontal position, a total of 893. aim=489 depth=180186
+down 9 adds 9 to your depth, resulting in a value of 180186. aim=498 depth=180186
+down 9 adds 9 to your depth, resulting in a value of 180186. aim=507 depth=180186
+forward 7 adds 7 to your horizontal position, a total of 900. aim=507 depth=183735
+down 3 adds 3 to your depth, resulting in a value of 183735. aim=510 depth=183735
+down 9 adds 9 to your depth, resulting in a value of 183735. aim=519 depth=183735
+down 4 adds 4 to your depth, resulting in a value of 183735. aim=523 depth=183735
+forward 3 adds 3 to your horizontal position, a total of 903. aim=523 depth=185304
+down 7 adds 7 to your depth, resulting in a value of 185304. aim=530 depth=185304
+down 2 adds 2 to your depth, resulting in a value of 185304. aim=532 depth=185304
+forward 2 adds 2 to your horizontal position, a total of 905. aim=532 depth=186368
+down 6 adds 6 to your depth, resulting in a value of 186368. aim=538 depth=186368
+forward 9 adds 9 to your horizontal position, a total of 914. aim=538 depth=191210
+forward 9 adds 9 to your horizontal position, a total of 923. aim=538 depth=196052
+forward 5 adds 5 to your horizontal position, a total of 928. aim=538 depth=198742
+up 4 decreases your depth by 4, resulting in a value of 198742. aim=534 depth=198742
+down 7 adds 7 to your depth, resulting in a value of 198742. aim=541 depth=198742
+down 2 adds 2 to your depth, resulting in a value of 198742. aim=543 depth=198742
+up 9 decreases your depth by 9, resulting in a value of 198742. aim=534 depth=198742
+up 4 decreases your depth by 4, resulting in a value of 198742. aim=530 depth=198742
+forward 8 adds 8 to your horizontal position, a total of 936. aim=530 depth=202982
+forward 1 adds 1 to your horizontal position, a total of 937. aim=530 depth=203512
+down 8 adds 8 to your depth, resulting in a value of 203512. aim=538 depth=203512
+up 5 decreases your depth by 5, resulting in a value of 203512. aim=533 depth=203512
+down 4 adds 4 to your depth, resulting in a value of 203512. aim=537 depth=203512
+down 3 adds 3 to your depth, resulting in a value of 203512. aim=540 depth=203512
+forward 2 adds 2 to your horizontal position, a total of 939. aim=540 depth=204592
+down 7 adds 7 to your depth, resulting in a value of 204592. aim=547 depth=204592
+down 2 adds 2 to your depth, resulting in a value of 204592. aim=549 depth=204592
+down 1 adds 1 to your depth, resulting in a value of 204592. aim=550 depth=204592
+down 9 adds 9 to your depth, resulting in a value of 204592. aim=559 depth=204592
+forward 7 adds 7 to your horizontal position, a total of 946. aim=559 depth=208505
+forward 7 adds 7 to your horizontal position, a total of 953. aim=559 depth=212418
+up 8 decreases your depth by 8, resulting in a value of 212418. aim=551 depth=212418
+up 4 decreases your depth by 4, resulting in a value of 212418. aim=547 depth=212418
+down 3 adds 3 to your depth, resulting in a value of 212418. aim=550 depth=212418
+down 8 adds 8 to your depth, resulting in a value of 212418. aim=558 depth=212418
+forward 6 adds 6 to your horizontal position, a total of 959. aim=558 depth=215766
+forward 5 adds 5 to your horizontal position, a total of 964. aim=558 depth=218556
+forward 5 adds 5 to your horizontal position, a total of 969. aim=558 depth=221346
+forward 5 adds 5 to your horizontal position, a total of 974. aim=558 depth=224136
+down 3 adds 3 to your depth, resulting in a value of 224136. aim=561 depth=224136
+down 8 adds 8 to your depth, resulting in a value of 224136. aim=569 depth=224136
+forward 4 adds 4 to your horizontal position, a total of 978. aim=569 depth=226412
+forward 7 adds 7 to your horizontal position, a total of 985. aim=569 depth=230395
+forward 1 adds 1 to your horizontal position, a total of 986. aim=569 depth=230964
+up 3 decreases your depth by 3, resulting in a value of 230964. aim=566 depth=230964
+up 9 decreases your depth by 9, resulting in a value of 230964. aim=557 depth=230964
+down 6 adds 6 to your depth, resulting in a value of 230964. aim=563 depth=230964
+up 4 decreases your depth by 4, resulting in a value of 230964. aim=559 depth=230964
+down 7 adds 7 to your depth, resulting in a value of 230964. aim=566 depth=230964
+forward 8 adds 8 to your horizontal position, a total of 994. aim=566 depth=235492
+forward 4 adds 4 to your horizontal position, a total of 998. aim=566 depth=237756
+forward 3 adds 3 to your horizontal position, a total of 1001. aim=566 depth=239454
+up 8 decreases your depth by 8, resulting in a value of 239454. aim=558 depth=239454
+up 3 decreases your depth by 3, resulting in a value of 239454. aim=555 depth=239454
+down 3 adds 3 to your depth, resulting in a value of 239454. aim=558 depth=239454
+forward 6 adds 6 to your horizontal position, a total of 1007. aim=558 depth=242802
+down 2 adds 2 to your depth, resulting in a value of 242802. aim=560 depth=242802
+forward 7 adds 7 to your horizontal position, a total of 1014. aim=560 depth=246722
+forward 4 adds 4 to your horizontal position, a total of 1018. aim=560 depth=248962
+forward 8 adds 8 to your horizontal position, a total of 1026. aim=560 depth=253442
+down 3 adds 3 to your depth, resulting in a value of 253442. aim=563 depth=253442
+down 9 adds 9 to your depth, resulting in a value of 253442. aim=572 depth=253442
+down 9 adds 9 to your depth, resulting in a value of 253442. aim=581 depth=253442
+down 2 adds 2 to your depth, resulting in a value of 253442. aim=583 depth=253442
+forward 8 adds 8 to your horizontal position, a total of 1034. aim=583 depth=258106
+up 4 decreases your depth by 4, resulting in a value of 258106. aim=579 depth=258106
+down 3 adds 3 to your depth, resulting in a value of 258106. aim=582 depth=258106
+forward 8 adds 8 to your horizontal position, a total of 1042. aim=582 depth=262762
+forward 5 adds 5 to your horizontal position, a total of 1047. aim=582 depth=265672
+forward 7 adds 7 to your horizontal position, a total of 1054. aim=582 depth=269746
+down 6 adds 6 to your depth, resulting in a value of 269746. aim=588 depth=269746
+up 9 decreases your depth by 9, resulting in a value of 269746. aim=579 depth=269746
+forward 3 adds 3 to your horizontal position, a total of 1057. aim=579 depth=271483
+down 2 adds 2 to your depth, resulting in a value of 271483. aim=581 depth=271483
+forward 5 adds 5 to your horizontal position, a total of 1062. aim=581 depth=274388
+forward 2 adds 2 to your horizontal position, a total of 1064. aim=581 depth=275550
+down 7 adds 7 to your depth, resulting in a value of 275550. aim=588 depth=275550
+forward 6 adds 6 to your horizontal position, a total of 1070. aim=588 depth=279078
+forward 2 adds 2 to your horizontal position, a total of 1072. aim=588 depth=280254
+up 9 decreases your depth by 9, resulting in a value of 280254. aim=579 depth=280254
+down 1 adds 1 to your depth, resulting in a value of 280254. aim=580 depth=280254
+down 1 adds 1 to your depth, resulting in a value of 280254. aim=581 depth=280254
+forward 4 adds 4 to your horizontal position, a total of 1076. aim=581 depth=282578
+up 1 decreases your depth by 1, resulting in a value of 282578. aim=580 depth=282578
+forward 9 adds 9 to your horizontal position, a total of 1085. aim=580 depth=287798
+down 3 adds 3 to your depth, resulting in a value of 287798. aim=583 depth=287798
+down 4 adds 4 to your depth, resulting in a value of 287798. aim=587 depth=287798
+down 2 adds 2 to your depth, resulting in a value of 287798. aim=589 depth=287798
+forward 3 adds 3 to your horizontal position, a total of 1088. aim=589 depth=289565
+forward 3 adds 3 to your horizontal position, a total of 1091. aim=589 depth=291332
+forward 3 adds 3 to your horizontal position, a total of 1094. aim=589 depth=293099
+up 7 decreases your depth by 7, resulting in a value of 293099. aim=582 depth=293099
+up 8 decreases your depth by 8, resulting in a value of 293099. aim=574 depth=293099
+down 5 adds 5 to your depth, resulting in a value of 293099. aim=579 depth=293099
+forward 1 adds 1 to your horizontal position, a total of 1095. aim=579 depth=293678
+forward 7 adds 7 to your horizontal position, a total of 1102. aim=579 depth=297731
+up 9 decreases your depth by 9, resulting in a value of 297731. aim=570 depth=297731
+up 3 decreases your depth by 3, resulting in a value of 297731. aim=567 depth=297731
+down 3 adds 3 to your depth, resulting in a value of 297731. aim=570 depth=297731
+down 8 adds 8 to your depth, resulting in a value of 297731. aim=578 depth=297731
+forward 6 adds 6 to your horizontal position, a total of 1108. aim=578 depth=301199
+up 5 decreases your depth by 5, resulting in a value of 301199. aim=573 depth=301199
+up 5 decreases your depth by 5, resulting in a value of 301199. aim=568 depth=301199
+forward 4 adds 4 to your horizontal position, a total of 1112. aim=568 depth=303471
+down 2 adds 2 to your depth, resulting in a value of 303471. aim=570 depth=303471
+down 8 adds 8 to your depth, resulting in a value of 303471. aim=578 depth=303471
+down 1 adds 1 to your depth, resulting in a value of 303471. aim=579 depth=303471
+forward 6 adds 6 to your horizontal position, a total of 1118. aim=579 depth=306945
+down 3 adds 3 to your depth, resulting in a value of 306945. aim=582 depth=306945
+forward 3 adds 3 to your horizontal position, a total of 1121. aim=582 depth=308691
+forward 6 adds 6 to your horizontal position, a total of 1127. aim=582 depth=312183
+forward 1 adds 1 to your horizontal position, a total of 1128. aim=582 depth=312765
+up 3 decreases your depth by 3, resulting in a value of 312765. aim=579 depth=312765
+up 1 decreases your depth by 1, resulting in a value of 312765. aim=578 depth=312765
+down 5 adds 5 to your depth, resulting in a value of 312765. aim=583 depth=312765
+down 2 adds 2 to your depth, resulting in a value of 312765. aim=585 depth=312765
+down 7 adds 7 to your depth, resulting in a value of 312765. aim=592 depth=312765
+down 1 adds 1 to your depth, resulting in a value of 312765. aim=593 depth=312765
+forward 9 adds 9 to your horizontal position, a total of 1137. aim=593 depth=318102
+down 4 adds 4 to your depth, resulting in a value of 318102. aim=597 depth=318102
+down 8 adds 8 to your depth, resulting in a value of 318102. aim=605 depth=318102
+forward 9 adds 9 to your horizontal position, a total of 1146. aim=605 depth=323547
+forward 7 adds 7 to your horizontal position, a total of 1153. aim=605 depth=327782
+forward 8 adds 8 to your horizontal position, a total of 1161. aim=605 depth=332622
+down 1 adds 1 to your depth, resulting in a value of 332622. aim=606 depth=332622
+down 2 adds 2 to your depth, resulting in a value of 332622. aim=608 depth=332622
+up 7 decreases your depth by 7, resulting in a value of 332622. aim=601 depth=332622
+down 5 adds 5 to your depth, resulting in a value of 332622. aim=606 depth=332622
+down 2 adds 2 to your depth, resulting in a value of 332622. aim=608 depth=332622
+down 1 adds 1 to your depth, resulting in a value of 332622. aim=609 depth=332622
+up 4 decreases your depth by 4, resulting in a value of 332622. aim=605 depth=332622
+up 8 decreases your depth by 8, resulting in a value of 332622. aim=597 depth=332622
+up 7 decreases your depth by 7, resulting in a value of 332622. aim=590 depth=332622
+down 4 adds 4 to your depth, resulting in a value of 332622. aim=594 depth=332622
+forward 3 adds 3 to your horizontal position, a total of 1164. aim=594 depth=334404
+down 2 adds 2 to your depth, resulting in a value of 334404. aim=596 depth=334404
+down 2 adds 2 to your depth, resulting in a value of 334404. aim=598 depth=334404
+forward 5 adds 5 to your horizontal position, a total of 1169. aim=598 depth=337394
+forward 4 adds 4 to your horizontal position, a total of 1173. aim=598 depth=339786
+down 8 adds 8 to your depth, resulting in a value of 339786. aim=606 depth=339786
+up 4 decreases your depth by 4, resulting in a value of 339786. aim=602 depth=339786
+forward 4 adds 4 to your horizontal position, a total of 1177. aim=602 depth=342194
+up 1 decreases your depth by 1, resulting in a value of 342194. aim=601 depth=342194
+down 3 adds 3 to your depth, resulting in a value of 342194. aim=604 depth=342194
+down 9 adds 9 to your depth, resulting in a value of 342194. aim=613 depth=342194
+down 9 adds 9 to your depth, resulting in a value of 342194. aim=622 depth=342194
+down 3 adds 3 to your depth, resulting in a value of 342194. aim=625 depth=342194
+up 8 decreases your depth by 8, resulting in a value of 342194. aim=617 depth=342194
+forward 1 adds 1 to your horizontal position, a total of 1178. aim=617 depth=342811
+forward 6 adds 6 to your horizontal position, a total of 1184. aim=617 depth=346513
+down 6 adds 6 to your depth, resulting in a value of 346513. aim=623 depth=346513
+down 2 adds 2 to your depth, resulting in a value of 346513. aim=625 depth=346513
+forward 8 adds 8 to your horizontal position, a total of 1192. aim=625 depth=351513
+down 3 adds 3 to your depth, resulting in a value of 351513. aim=628 depth=351513
+forward 8 adds 8 to your horizontal position, a total of 1200. aim=628 depth=356537
+forward 2 adds 2 to your horizontal position, a total of 1202. aim=628 depth=357793
+forward 9 adds 9 to your horizontal position, a total of 1211. aim=628 depth=363445
+up 3 decreases your depth by 3, resulting in a value of 363445. aim=625 depth=363445
+forward 6 adds 6 to your horizontal position, a total of 1217. aim=625 depth=367195
+down 5 adds 5 to your depth, resulting in a value of 367195. aim=630 depth=367195
+forward 6 adds 6 to your horizontal position, a total of 1223. aim=630 depth=370975
+forward 2 adds 2 to your horizontal position, a total of 1225. aim=630 depth=372235
+up 7 decreases your depth by 7, resulting in a value of 372235. aim=623 depth=372235
+down 9 adds 9 to your depth, resulting in a value of 372235. aim=632 depth=372235
+forward 2 adds 2 to your horizontal position, a total of 1227. aim=632 depth=373499
+up 2 decreases your depth by 2, resulting in a value of 373499. aim=630 depth=373499
+forward 7 adds 7 to your horizontal position, a total of 1234. aim=630 depth=377909
+down 1 adds 1 to your depth, resulting in a value of 377909. aim=631 depth=377909
+down 5 adds 5 to your depth, resulting in a value of 377909. aim=636 depth=377909
+down 6 adds 6 to your depth, resulting in a value of 377909. aim=642 depth=377909
+forward 8 adds 8 to your horizontal position, a total of 1242. aim=642 depth=383045
+down 6 adds 6 to your depth, resulting in a value of 383045. aim=648 depth=383045
+forward 4 adds 4 to your horizontal position, a total of 1246. aim=648 depth=385637
+forward 1 adds 1 to your horizontal position, a total of 1247. aim=648 depth=386285
+forward 3 adds 3 to your horizontal position, a total of 1250. aim=648 depth=388229
+forward 4 adds 4 to your horizontal position, a total of 1254. aim=648 depth=390821
+up 4 decreases your depth by 4, resulting in a value of 390821. aim=644 depth=390821
+forward 4 adds 4 to your horizontal position, a total of 1258. aim=644 depth=393397
+down 4 adds 4 to your depth, resulting in a value of 393397. aim=648 depth=393397
+forward 2 adds 2 to your horizontal position, a total of 1260. aim=648 depth=394693
+forward 5 adds 5 to your horizontal position, a total of 1265. aim=648 depth=397933
+forward 2 adds 2 to your horizontal position, a total of 1267. aim=648 depth=399229
+forward 5 adds 5 to your horizontal position, a total of 1272. aim=648 depth=402469
+down 9 adds 9 to your depth, resulting in a value of 402469. aim=657 depth=402469
+up 2 decreases your depth by 2, resulting in a value of 402469. aim=655 depth=402469
+up 1 decreases your depth by 1, resulting in a value of 402469. aim=654 depth=402469
+down 2 adds 2 to your depth, resulting in a value of 402469. aim=656 depth=402469
+up 4 decreases your depth by 4, resulting in a value of 402469. aim=652 depth=402469
+up 5 decreases your depth by 5, resulting in a value of 402469. aim=647 depth=402469
+forward 2 adds 2 to your horizontal position, a total of 1274. aim=647 depth=403763
+down 3 adds 3 to your depth, resulting in a value of 403763. aim=650 depth=403763
+down 9 adds 9 to your depth, resulting in a value of 403763. aim=659 depth=403763
+forward 3 adds 3 to your horizontal position, a total of 1277. aim=659 depth=405740
+down 8 adds 8 to your depth, resulting in a value of 405740. aim=667 depth=405740
+down 9 adds 9 to your depth, resulting in a value of 405740. aim=676 depth=405740
+forward 5 adds 5 to your horizontal position, a total of 1282. aim=676 depth=409120
+down 3 adds 3 to your depth, resulting in a value of 409120. aim=679 depth=409120
+forward 5 adds 5 to your horizontal position, a total of 1287. aim=679 depth=412515
+down 3 adds 3 to your depth, resulting in a value of 412515. aim=682 depth=412515
+up 8 decreases your depth by 8, resulting in a value of 412515. aim=674 depth=412515
+forward 7 adds 7 to your horizontal position, a total of 1294. aim=674 depth=417233
+forward 1 adds 1 to your horizontal position, a total of 1295. aim=674 depth=417907
+down 2 adds 2 to your depth, resulting in a value of 417907. aim=676 depth=417907
+down 7 adds 7 to your depth, resulting in a value of 417907. aim=683 depth=417907
+forward 3 adds 3 to your horizontal position, a total of 1298. aim=683 depth=419956
+down 8 adds 8 to your depth, resulting in a value of 419956. aim=691 depth=419956
+forward 9 adds 9 to your horizontal position, a total of 1307. aim=691 depth=426175
+down 4 adds 4 to your depth, resulting in a value of 426175. aim=695 depth=426175
+down 1 adds 1 to your depth, resulting in a value of 426175. aim=696 depth=426175
+down 7 adds 7 to your depth, resulting in a value of 426175. aim=703 depth=426175
+down 4 adds 4 to your depth, resulting in a value of 426175. aim=707 depth=426175
+up 5 decreases your depth by 5, resulting in a value of 426175. aim=702 depth=426175
+forward 1 adds 1 to your horizontal position, a total of 1308. aim=702 depth=426877
+down 4 adds 4 to your depth, resulting in a value of 426877. aim=706 depth=426877
+forward 1 adds 1 to your horizontal position, a total of 1309. aim=706 depth=427583
+forward 8 adds 8 to your horizontal position, a total of 1317. aim=706 depth=433231
+up 1 decreases your depth by 1, resulting in a value of 433231. aim=705 depth=433231
+up 5 decreases your depth by 5, resulting in a value of 433231. aim=700 depth=433231
+up 2 decreases your depth by 2, resulting in a value of 433231. aim=698 depth=433231
+up 2 decreases your depth by 2, resulting in a value of 433231. aim=696 depth=433231
+down 4 adds 4 to your depth, resulting in a value of 433231. aim=700 depth=433231
+down 7 adds 7 to your depth, resulting in a value of 433231. aim=707 depth=433231
+forward 2 adds 2 to your horizontal position, a total of 1319. aim=707 depth=434645
+down 8 adds 8 to your depth, resulting in a value of 434645. aim=715 depth=434645
+up 8 decreases your depth by 8, resulting in a value of 434645. aim=707 depth=434645
+down 9 adds 9 to your depth, resulting in a value of 434645. aim=716 depth=434645
+down 3 adds 3 to your depth, resulting in a value of 434645. aim=719 depth=434645
+down 6 adds 6 to your depth, resulting in a value of 434645. aim=725 depth=434645
+down 3 adds 3 to your depth, resulting in a value of 434645. aim=728 depth=434645
+down 1 adds 1 to your depth, resulting in a value of 434645. aim=729 depth=434645
+forward 7 adds 7 to your horizontal position, a total of 1326. aim=729 depth=439748
+up 8 decreases your depth by 8, resulting in a value of 439748. aim=721 depth=439748
+forward 5 adds 5 to your horizontal position, a total of 1331. aim=721 depth=443353
+up 5 decreases your depth by 5, resulting in a value of 443353. aim=716 depth=443353
+down 8 adds 8 to your depth, resulting in a value of 443353. aim=724 depth=443353
+down 1 adds 1 to your depth, resulting in a value of 443353. aim=725 depth=443353
+down 8 adds 8 to your depth, resulting in a value of 443353. aim=733 depth=443353
+down 6 adds 6 to your depth, resulting in a value of 443353. aim=739 depth=443353
+down 5 adds 5 to your depth, resulting in a value of 443353. aim=744 depth=443353
+forward 2 adds 2 to your horizontal position, a total of 1333. aim=744 depth=444841
+up 5 decreases your depth by 5, resulting in a value of 444841. aim=739 depth=444841
+down 6 adds 6 to your depth, resulting in a value of 444841. aim=745 depth=444841
+forward 9 adds 9 to your horizontal position, a total of 1342. aim=745 depth=451546
+up 6 decreases your depth by 6, resulting in a value of 451546. aim=739 depth=451546
+down 5 adds 5 to your depth, resulting in a value of 451546. aim=744 depth=451546
+down 7 adds 7 to your depth, resulting in a value of 451546. aim=751 depth=451546
+up 9 decreases your depth by 9, resulting in a value of 451546. aim=742 depth=451546
+down 1 adds 1 to your depth, resulting in a value of 451546. aim=743 depth=451546
+forward 4 adds 4 to your horizontal position, a total of 1346. aim=743 depth=454518
+up 6 decreases your depth by 6, resulting in a value of 454518. aim=737 depth=454518
+forward 2 adds 2 to your horizontal position, a total of 1348. aim=737 depth=455992
+down 5 adds 5 to your depth, resulting in a value of 455992. aim=742 depth=455992
+down 5 adds 5 to your depth, resulting in a value of 455992. aim=747 depth=455992
+forward 2 adds 2 to your horizontal position, a total of 1350. aim=747 depth=457486
+up 6 decreases your depth by 6, resulting in a value of 457486. aim=741 depth=457486
+forward 1 adds 1 to your horizontal position, a total of 1351. aim=741 depth=458227
+down 8 adds 8 to your depth, resulting in a value of 458227. aim=749 depth=458227
+forward 4 adds 4 to your horizontal position, a total of 1355. aim=749 depth=461223
+up 8 decreases your depth by 8, resulting in a value of 461223. aim=741 depth=461223
+down 3 adds 3 to your depth, resulting in a value of 461223. aim=744 depth=461223
+forward 8 adds 8 to your horizontal position, a total of 1363. aim=744 depth=467175
+down 8 adds 8 to your depth, resulting in a value of 467175. aim=752 depth=467175
+forward 5 adds 5 to your horizontal position, a total of 1368. aim=752 depth=470935
+down 6 adds 6 to your depth, resulting in a value of 470935. aim=758 depth=470935
+down 3 adds 3 to your depth, resulting in a value of 470935. aim=761 depth=470935
+forward 1 adds 1 to your horizontal position, a total of 1369. aim=761 depth=471696
+down 4 adds 4 to your depth, resulting in a value of 471696. aim=765 depth=471696
+down 8 adds 8 to your depth, resulting in a value of 471696. aim=773 depth=471696
+up 1 decreases your depth by 1, resulting in a value of 471696. aim=772 depth=471696
+down 1 adds 1 to your depth, resulting in a value of 471696. aim=773 depth=471696
+down 2 adds 2 to your depth, resulting in a value of 471696. aim=775 depth=471696
+up 9 decreases your depth by 9, resulting in a value of 471696. aim=766 depth=471696
+forward 2 adds 2 to your horizontal position, a total of 1371. aim=766 depth=473228
+forward 3 adds 3 to your horizontal position, a total of 1374. aim=766 depth=475526
+down 7 adds 7 to your depth, resulting in a value of 475526. aim=773 depth=475526
+down 2 adds 2 to your depth, resulting in a value of 475526. aim=775 depth=475526
+forward 7 adds 7 to your horizontal position, a total of 1381. aim=775 depth=480951
+up 8 decreases your depth by 8, resulting in a value of 480951. aim=767 depth=480951
+down 2 adds 2 to your depth, resulting in a value of 480951. aim=769 depth=480951
+down 8 adds 8 to your depth, resulting in a value of 480951. aim=777 depth=480951
+down 9 adds 9 to your depth, resulting in a value of 480951. aim=786 depth=480951
+up 1 decreases your depth by 1, resulting in a value of 480951. aim=785 depth=480951
+down 5 adds 5 to your depth, resulting in a value of 480951. aim=790 depth=480951
+down 5 adds 5 to your depth, resulting in a value of 480951. aim=795 depth=480951
+down 4 adds 4 to your depth, resulting in a value of 480951. aim=799 depth=480951
+down 8 adds 8 to your depth, resulting in a value of 480951. aim=807 depth=480951
+down 9 adds 9 to your depth, resulting in a value of 480951. aim=816 depth=480951
+up 5 decreases your depth by 5, resulting in a value of 480951. aim=811 depth=480951
+forward 2 adds 2 to your horizontal position, a total of 1383. aim=811 depth=482573
+down 4 adds 4 to your depth, resulting in a value of 482573. aim=815 depth=482573
+down 3 adds 3 to your depth, resulting in a value of 482573. aim=818 depth=482573
+down 2 adds 2 to your depth, resulting in a value of 482573. aim=820 depth=482573
+forward 5 adds 5 to your horizontal position, a total of 1388. aim=820 depth=486673
+forward 8 adds 8 to your horizontal position, a total of 1396. aim=820 depth=493233
+down 8 adds 8 to your depth, resulting in a value of 493233. aim=828 depth=493233
+down 1 adds 1 to your depth, resulting in a value of 493233. aim=829 depth=493233
+forward 9 adds 9 to your horizontal position, a total of 1405. aim=829 depth=500694
+down 5 adds 5 to your depth, resulting in a value of 500694. aim=834 depth=500694
+forward 5 adds 5 to your horizontal position, a total of 1410. aim=834 depth=504864
+down 2 adds 2 to your depth, resulting in a value of 504864. aim=836 depth=504864
+up 3 decreases your depth by 3, resulting in a value of 504864. aim=833 depth=504864
+up 9 decreases your depth by 9, resulting in a value of 504864. aim=824 depth=504864
+down 1 adds 1 to your depth, resulting in a value of 504864. aim=825 depth=504864
+down 9 adds 9 to your depth, resulting in a value of 504864. aim=834 depth=504864
+forward 7 adds 7 to your horizontal position, a total of 1417. aim=834 depth=510702
+up 7 decreases your depth by 7, resulting in a value of 510702. aim=827 depth=510702
+forward 3 adds 3 to your horizontal position, a total of 1420. aim=827 depth=513183
+up 6 decreases your depth by 6, resulting in a value of 513183. aim=821 depth=513183
+forward 8 adds 8 to your horizontal position, a total of 1428. aim=821 depth=519751
+down 2 adds 2 to your depth, resulting in a value of 519751. aim=823 depth=519751
+down 1 adds 1 to your depth, resulting in a value of 519751. aim=824 depth=519751
+down 7 adds 7 to your depth, resulting in a value of 519751. aim=831 depth=519751
+forward 5 adds 5 to your horizontal position, a total of 1433. aim=831 depth=523906
+down 8 adds 8 to your depth, resulting in a value of 523906. aim=839 depth=523906
+down 4 adds 4 to your depth, resulting in a value of 523906. aim=843 depth=523906
+forward 7 adds 7 to your horizontal position, a total of 1440. aim=843 depth=529807
+forward 4 adds 4 to your horizontal position, a total of 1444. aim=843 depth=533179
+down 6 adds 6 to your depth, resulting in a value of 533179. aim=849 depth=533179
+forward 9 adds 9 to your horizontal position, a total of 1453. aim=849 depth=540820
+down 3 adds 3 to your depth, resulting in a value of 540820. aim=852 depth=540820
+forward 2 adds 2 to your horizontal position, a total of 1455. aim=852 depth=542524
+down 3 adds 3 to your depth, resulting in a value of 542524. aim=855 depth=542524
+down 1 adds 1 to your depth, resulting in a value of 542524. aim=856 depth=542524
+down 1 adds 1 to your depth, resulting in a value of 542524. aim=857 depth=542524
+up 1 decreases your depth by 1, resulting in a value of 542524. aim=856 depth=542524
+up 3 decreases your depth by 3, resulting in a value of 542524. aim=853 depth=542524
+down 6 adds 6 to your depth, resulting in a value of 542524. aim=859 depth=542524
+forward 3 adds 3 to your horizontal position, a total of 1458. aim=859 depth=545101
+up 9 decreases your depth by 9, resulting in a value of 545101. aim=850 depth=545101
+down 4 adds 4 to your depth, resulting in a value of 545101. aim=854 depth=545101
+up 2 decreases your depth by 2, resulting in a value of 545101. aim=852 depth=545101
+down 3 adds 3 to your depth, resulting in a value of 545101. aim=855 depth=545101
+up 1 decreases your depth by 1, resulting in a value of 545101. aim=854 depth=545101
+down 8 adds 8 to your depth, resulting in a value of 545101. aim=862 depth=545101
+down 5 adds 5 to your depth, resulting in a value of 545101. aim=867 depth=545101
+forward 7 adds 7 to your horizontal position, a total of 1465. aim=867 depth=551170
+forward 2 adds 2 to your horizontal position, a total of 1467. aim=867 depth=552904
+forward 9 adds 9 to your horizontal position, a total of 1476. aim=867 depth=560707
+down 8 adds 8 to your depth, resulting in a value of 560707. aim=875 depth=560707
+down 5 adds 5 to your depth, resulting in a value of 560707. aim=880 depth=560707
+down 6 adds 6 to your depth, resulting in a value of 560707. aim=886 depth=560707
+up 3 decreases your depth by 3, resulting in a value of 560707. aim=883 depth=560707
+forward 2 adds 2 to your horizontal position, a total of 1478. aim=883 depth=562473
+up 8 decreases your depth by 8, resulting in a value of 562473. aim=875 depth=562473
+down 4 adds 4 to your depth, resulting in a value of 562473. aim=879 depth=562473
+forward 7 adds 7 to your horizontal position, a total of 1485. aim=879 depth=568626
+down 8 adds 8 to your depth, resulting in a value of 568626. aim=887 depth=568626
+down 6 adds 6 to your depth, resulting in a value of 568626. aim=893 depth=568626
+down 4 adds 4 to your depth, resulting in a value of 568626. aim=897 depth=568626
+forward 7 adds 7 to your horizontal position, a total of 1492. aim=897 depth=574905
+up 9 decreases your depth by 9, resulting in a value of 574905. aim=888 depth=574905
+down 4 adds 4 to your depth, resulting in a value of 574905. aim=892 depth=574905
+forward 2 adds 2 to your horizontal position, a total of 1494. aim=892 depth=576689
+forward 5 adds 5 to your horizontal position, a total of 1499. aim=892 depth=581149
+down 3 adds 3 to your depth, resulting in a value of 581149. aim=895 depth=581149
+up 6 decreases your depth by 6, resulting in a value of 581149. aim=889 depth=581149
+up 6 decreases your depth by 6, resulting in a value of 581149. aim=883 depth=581149
+down 2 adds 2 to your depth, resulting in a value of 581149. aim=885 depth=581149
+down 4 adds 4 to your depth, resulting in a value of 581149. aim=889 depth=581149
+forward 8 adds 8 to your horizontal position, a total of 1507. aim=889 depth=588261
+forward 5 adds 5 to your horizontal position, a total of 1512. aim=889 depth=592706
+forward 3 adds 3 to your horizontal position, a total of 1515. aim=889 depth=595373
+forward 5 adds 5 to your horizontal position, a total of 1520. aim=889 depth=599818
+down 5 adds 5 to your depth, resulting in a value of 599818. aim=894 depth=599818
+down 5 adds 5 to your depth, resulting in a value of 599818. aim=899 depth=599818
+down 6 adds 6 to your depth, resulting in a value of 599818. aim=905 depth=599818
+forward 3 adds 3 to your horizontal position, a total of 1523. aim=905 depth=602533
+forward 7 adds 7 to your horizontal position, a total of 1530. aim=905 depth=608868
+forward 1 adds 1 to your horizontal position, a total of 1531. aim=905 depth=609773
+down 8 adds 8 to your depth, resulting in a value of 609773. aim=913 depth=609773
+down 5 adds 5 to your depth, resulting in a value of 609773. aim=918 depth=609773
+forward 7 adds 7 to your horizontal position, a total of 1538. aim=918 depth=616199
+up 7 decreases your depth by 7, resulting in a value of 616199. aim=911 depth=616199
+down 9 adds 9 to your depth, resulting in a value of 616199. aim=920 depth=616199
+down 9 adds 9 to your depth, resulting in a value of 616199. aim=929 depth=616199
+down 9 adds 9 to your depth, resulting in a value of 616199. aim=938 depth=616199
+up 6 decreases your depth by 6, resulting in a value of 616199. aim=932 depth=616199
+down 2 adds 2 to your depth, resulting in a value of 616199. aim=934 depth=616199
+down 3 adds 3 to your depth, resulting in a value of 616199. aim=937 depth=616199
+forward 1 adds 1 to your horizontal position, a total of 1539. aim=937 depth=617136
+up 7 decreases your depth by 7, resulting in a value of 617136. aim=930 depth=617136
+up 8 decreases your depth by 8, resulting in a value of 617136. aim=922 depth=617136
+forward 5 adds 5 to your horizontal position, a total of 1544. aim=922 depth=621746
+down 1 adds 1 to your depth, resulting in a value of 621746. aim=923 depth=621746
+down 3 adds 3 to your depth, resulting in a value of 621746. aim=926 depth=621746
+down 3 adds 3 to your depth, resulting in a value of 621746. aim=929 depth=621746
+forward 5 adds 5 to your horizontal position, a total of 1549. aim=929 depth=626391
+down 7 adds 7 to your depth, resulting in a value of 626391. aim=936 depth=626391
+down 1 adds 1 to your depth, resulting in a value of 626391. aim=937 depth=626391
+up 2 decreases your depth by 2, resulting in a value of 626391. aim=935 depth=626391
+down 2 adds 2 to your depth, resulting in a value of 626391. aim=937 depth=626391
+down 3 adds 3 to your depth, resulting in a value of 626391. aim=940 depth=626391
+forward 7 adds 7 to your horizontal position, a total of 1556. aim=940 depth=632971
+down 9 adds 9 to your depth, resulting in a value of 632971. aim=949 depth=632971
+forward 6 adds 6 to your horizontal position, a total of 1562. aim=949 depth=638665
+down 5 adds 5 to your depth, resulting in a value of 638665. aim=954 depth=638665
+forward 2 adds 2 to your horizontal position, a total of 1564. aim=954 depth=640573
+down 5 adds 5 to your depth, resulting in a value of 640573. aim=959 depth=640573
+forward 6 adds 6 to your horizontal position, a total of 1570. aim=959 depth=646327
+up 3 decreases your depth by 3, resulting in a value of 646327. aim=956 depth=646327
+down 8 adds 8 to your depth, resulting in a value of 646327. aim=964 depth=646327
+up 2 decreases your depth by 2, resulting in a value of 646327. aim=962 depth=646327
+forward 5 adds 5 to your horizontal position, a total of 1575. aim=962 depth=651137
+forward 1 adds 1 to your horizontal position, a total of 1576. aim=962 depth=652099
+forward 5 adds 5 to your horizontal position, a total of 1581. aim=962 depth=656909
+forward 8 adds 8 to your horizontal position, a total of 1589. aim=962 depth=664605
+forward 6 adds 6 to your horizontal position, a total of 1595. aim=962 depth=670377
+forward 9 adds 9 to your horizontal position, a total of 1604. aim=962 depth=679035
+forward 6 adds 6 to your horizontal position, a total of 1610. aim=962 depth=684807
+up 6 decreases your depth by 6, resulting in a value of 684807. aim=956 depth=684807
+up 5 decreases your depth by 5, resulting in a value of 684807. aim=951 depth=684807
+down 8 adds 8 to your depth, resulting in a value of 684807. aim=959 depth=684807
+down 3 adds 3 to your depth, resulting in a value of 684807. aim=962 depth=684807
+down 5 adds 5 to your depth, resulting in a value of 684807. aim=967 depth=684807
+down 2 adds 2 to your depth, resulting in a value of 684807. aim=969 depth=684807
+forward 9 adds 9 to your horizontal position, a total of 1619. aim=969 depth=693528
+forward 8 adds 8 to your horizontal position, a total of 1627. aim=969 depth=701280
+down 1 adds 1 to your depth, resulting in a value of 701280. aim=970 depth=701280
+up 1 decreases your depth by 1, resulting in a value of 701280. aim=969 depth=701280
+up 6 decreases your depth by 6, resulting in a value of 701280. aim=963 depth=701280
+down 6 adds 6 to your depth, resulting in a value of 701280. aim=969 depth=701280
+forward 4 adds 4 to your horizontal position, a total of 1631. aim=969 depth=705156
+down 3 adds 3 to your depth, resulting in a value of 705156. aim=972 depth=705156
+forward 6 adds 6 to your horizontal position, a total of 1637. aim=972 depth=710988
+forward 1 adds 1 to your horizontal position, a total of 1638. aim=972 depth=711960
+up 5 decreases your depth by 5, resulting in a value of 711960. aim=967 depth=711960
+down 6 adds 6 to your depth, resulting in a value of 711960. aim=973 depth=711960
+up 9 decreases your depth by 9, resulting in a value of 711960. aim=964 depth=711960
+down 7 adds 7 to your depth, resulting in a value of 711960. aim=971 depth=711960
+down 2 adds 2 to your depth, resulting in a value of 711960. aim=973 depth=711960
+down 9 adds 9 to your depth, resulting in a value of 711960. aim=982 depth=711960
+down 5 adds 5 to your depth, resulting in a value of 711960. aim=987 depth=711960
+forward 5 adds 5 to your horizontal position, a total of 1643. aim=987 depth=716895
+up 2 decreases your depth by 2, resulting in a value of 716895. aim=985 depth=716895
+forward 8 adds 8 to your horizontal position, a total of 1651. aim=985 depth=724775
+down 2 adds 2 to your depth, resulting in a value of 724775. aim=987 depth=724775
+down 8 adds 8 to your depth, resulting in a value of 724775. aim=995 depth=724775
+forward 6 adds 6 to your horizontal position, a total of 1657. aim=995 depth=730745
+down 4 adds 4 to your depth, resulting in a value of 730745. aim=999 depth=730745
+forward 8 adds 8 to your horizontal position, a total of 1665. aim=999 depth=738737
+down 7 adds 7 to your depth, resulting in a value of 738737. aim=1006 depth=738737
+down 8 adds 8 to your depth, resulting in a value of 738737. aim=1014 depth=738737
+down 1 adds 1 to your depth, resulting in a value of 738737. aim=1015 depth=738737
+forward 3 adds 3 to your horizontal position, a total of 1668. aim=1015 depth=741782
+down 6 adds 6 to your depth, resulting in a value of 741782. aim=1021 depth=741782
+down 9 adds 9 to your depth, resulting in a value of 741782. aim=1030 depth=741782
+down 3 adds 3 to your depth, resulting in a value of 741782. aim=1033 depth=741782
+forward 3 adds 3 to your horizontal position, a total of 1671. aim=1033 depth=744881
+down 8 adds 8 to your depth, resulting in a value of 744881. aim=1041 depth=744881
+forward 8 adds 8 to your horizontal position, a total of 1679. aim=1041 depth=753209
+down 7 adds 7 to your depth, resulting in a value of 753209. aim=1048 depth=753209
+forward 6 adds 6 to your horizontal position, a total of 1685. aim=1048 depth=759497
+forward 8 adds 8 to your horizontal position, a total of 1693. aim=1048 depth=767881
+down 8 adds 8 to your depth, resulting in a value of 767881. aim=1056 depth=767881
+up 7 decreases your depth by 7, resulting in a value of 767881. aim=1049 depth=767881
+down 1 adds 1 to your depth, resulting in a value of 767881. aim=1050 depth=767881
+forward 2 adds 2 to your horizontal position, a total of 1695. aim=1050 depth=769981
+forward 3 adds 3 to your horizontal position, a total of 1698. aim=1050 depth=773131
+down 5 adds 5 to your depth, resulting in a value of 773131. aim=1055 depth=773131
+up 8 decreases your depth by 8, resulting in a value of 773131. aim=1047 depth=773131
+down 3 adds 3 to your depth, resulting in a value of 773131. aim=1050 depth=773131
+down 4 adds 4 to your depth, resulting in a value of 773131. aim=1054 depth=773131
+down 7 adds 7 to your depth, resulting in a value of 773131. aim=1061 depth=773131
+forward 9 adds 9 to your horizontal position, a total of 1707. aim=1061 depth=782680
+forward 7 adds 7 to your horizontal position, a total of 1714. aim=1061 depth=790107
+forward 1 adds 1 to your horizontal position, a total of 1715. aim=1061 depth=791168
+down 3 adds 3 to your depth, resulting in a value of 791168. aim=1064 depth=791168
+forward 9 adds 9 to your horizontal position, a total of 1724. aim=1064 depth=800744
+down 8 adds 8 to your depth, resulting in a value of 800744. aim=1072 depth=800744
+forward 2 adds 2 to your horizontal position, a total of 1726. aim=1072 depth=802888
+down 2 adds 2 to your depth, resulting in a value of 802888. aim=1074 depth=802888
+down 9 adds 9 to your depth, resulting in a value of 802888. aim=1083 depth=802888
+down 4 adds 4 to your depth, resulting in a value of 802888. aim=1087 depth=802888
+down 3 adds 3 to your depth, resulting in a value of 802888. aim=1090 depth=802888
+up 6 decreases your depth by 6, resulting in a value of 802888. aim=1084 depth=802888
+up 9 decreases your depth by 9, resulting in a value of 802888. aim=1075 depth=802888
+down 3 adds 3 to your depth, resulting in a value of 802888. aim=1078 depth=802888
+down 2 adds 2 to your depth, resulting in a value of 802888. aim=1080 depth=802888
+forward 5 adds 5 to your horizontal position, a total of 1731. aim=1080 depth=808288
+down 3 adds 3 to your depth, resulting in a value of 808288. aim=1083 depth=808288
+down 2 adds 2 to your depth, resulting in a value of 808288. aim=1085 depth=808288
+down 8 adds 8 to your depth, resulting in a value of 808288. aim=1093 depth=808288
+forward 6 adds 6 to your horizontal position, a total of 1737. aim=1093 depth=814846
+forward 5 adds 5 to your horizontal position, a total of 1742. aim=1093 depth=820311
+up 4 decreases your depth by 4, resulting in a value of 820311. aim=1089 depth=820311
+forward 9 adds 9 to your horizontal position, a total of 1751. aim=1089 depth=830112
+forward 8 adds 8 to your horizontal position, a total of 1759. aim=1089 depth=838824
+forward 9 adds 9 to your horizontal position, a total of 1768. aim=1089 depth=848625
+down 2 adds 2 to your depth, resulting in a value of 848625. aim=1091 depth=848625
+forward 2 adds 2 to your horizontal position, a total of 1770. aim=1091 depth=850807
+up 6 decreases your depth by 6, resulting in a value of 850807. aim=1085 depth=850807
+forward 1 adds 1 to your horizontal position, a total of 1771. aim=1085 depth=851892
+down 5 adds 5 to your depth, resulting in a value of 851892. aim=1090 depth=851892
+forward 2 adds 2 to your horizontal position, a total of 1773. aim=1090 depth=854072
+down 8 adds 8 to your depth, resulting in a value of 854072. aim=1098 depth=854072
+up 2 decreases your depth by 2, resulting in a value of 854072. aim=1096 depth=854072
+up 3 decreases your depth by 3, resulting in a value of 854072. aim=1093 depth=854072
+down 3 adds 3 to your depth, resulting in a value of 854072. aim=1096 depth=854072
+up 2 decreases your depth by 2, resulting in a value of 854072. aim=1094 depth=854072
+up 1 decreases your depth by 1, resulting in a value of 854072. aim=1093 depth=854072
+up 5 decreases your depth by 5, resulting in a value of 854072. aim=1088 depth=854072
+forward 1 adds 1 to your horizontal position, a total of 1774. aim=1088 depth=855160
+forward 2 adds 2 to your horizontal position, a total of 1776. aim=1088 depth=857336
+down 8 adds 8 to your depth, resulting in a value of 857336. aim=1096 depth=857336
+up 3 decreases your depth by 3, resulting in a value of 857336. aim=1093 depth=857336
+down 9 adds 9 to your depth, resulting in a value of 857336. aim=1102 depth=857336
+forward 7 adds 7 to your horizontal position, a total of 1783. aim=1102 depth=865050
+up 5 decreases your depth by 5, resulting in a value of 865050. aim=1097 depth=865050
+down 4 adds 4 to your depth, resulting in a value of 865050. aim=1101 depth=865050
+down 4 adds 4 to your depth, resulting in a value of 865050. aim=1105 depth=865050
+up 3 decreases your depth by 3, resulting in a value of 865050. aim=1102 depth=865050
+forward 2 adds 2 to your horizontal position, a total of 1785. aim=1102 depth=867254
+up 5 decreases your depth by 5, resulting in a value of 867254. aim=1097 depth=867254
+down 4 adds 4 to your depth, resulting in a value of 867254. aim=1101 depth=867254
+down 4 adds 4 to your depth, resulting in a value of 867254. aim=1105 depth=867254
+up 5 decreases your depth by 5, resulting in a value of 867254. aim=1100 depth=867254
+forward 8 adds 8 to your horizontal position, a total of 1793. aim=1100 depth=876054
+down 8 adds 8 to your depth, resulting in a value of 876054. aim=1108 depth=876054
+down 6 adds 6 to your depth, resulting in a value of 876054. aim=1114 depth=876054
+forward 7 adds 7 to your horizontal position, a total of 1800. aim=1114 depth=883852
+down 1 adds 1 to your depth, resulting in a value of 883852. aim=1115 depth=883852
+down 3 adds 3 to your depth, resulting in a value of 883852. aim=1118 depth=883852
+down 1 adds 1 to your depth, resulting in a value of 883852. aim=1119 depth=883852
+forward 3 adds 3 to your horizontal position, a total of 1803. aim=1119 depth=887209
+down 5 adds 5 to your depth, resulting in a value of 887209. aim=1124 depth=887209
+down 3 adds 3 to your depth, resulting in a value of 887209. aim=1127 depth=887209
+forward 3 adds 3 to your horizontal position, a total of 1806. aim=1127 depth=890590
+up 2 decreases your depth by 2, resulting in a value of 890590. aim=1125 depth=890590
+forward 2 adds 2 to your horizontal position, a total of 1808. aim=1125 depth=892840
+down 9 adds 9 to your depth, resulting in a value of 892840. aim=1134 depth=892840
+up 8 decreases your depth by 8, resulting in a value of 892840. aim=1126 depth=892840
+forward 8 adds 8 to your horizontal position, a total of 1816. aim=1126 depth=901848
+up 8 decreases your depth by 8, resulting in a value of 901848. aim=1118 depth=901848
+forward 1 adds 1 to your horizontal position, a total of 1817. aim=1118 depth=902966
+forward 9 adds 9 to your horizontal position, a total of 1826. aim=1118 depth=913028
+forward 3 adds 3 to your horizontal position, a total of 1829. aim=1118 depth=916382
+down 8 adds 8 to your depth, resulting in a value of 916382. aim=1126 depth=916382
+down 3 adds 3 to your depth, resulting in a value of 916382. aim=1129 depth=916382
+forward 8 adds 8 to your horizontal position, a total of 1837. aim=1129 depth=925414
+forward 4 adds 4 to your horizontal position, a total of 1841. aim=1129 depth=929930
+down 2 adds 2 to your depth, resulting in a value of 929930. aim=1131 depth=929930
+forward 2 adds 2 to your horizontal position, a total of 1843. aim=1131 depth=932192
+down 2 adds 2 to your depth, resulting in a value of 932192. aim=1133 depth=932192
+down 5 adds 5 to your depth, resulting in a value of 932192. aim=1138 depth=932192
+down 7 adds 7 to your depth, resulting in a value of 932192. aim=1145 depth=932192
+down 5 adds 5 to your depth, resulting in a value of 932192. aim=1150 depth=932192
+forward 8 adds 8 to your horizontal position, a total of 1851. aim=1150 depth=941392
+up 3 decreases your depth by 3, resulting in a value of 941392. aim=1147 depth=941392
+forward 1 adds 1 to your horizontal position, a total of 1852. aim=1147 depth=942539
+down 1 adds 1 to your depth, resulting in a value of 942539. aim=1148 depth=942539
+forward 3 adds 3 to your horizontal position, a total of 1855. aim=1148 depth=945983
+down 9 adds 9 to your depth, resulting in a value of 945983. aim=1157 depth=945983
+forward 2 adds 2 to your horizontal position, a total of 1857. aim=1157 depth=948297
+forward 2 adds 2 to your horizontal position, a total of 1859. aim=1157 depth=950611
+forward 7 adds 7 to your horizontal position, a total of 1866. aim=1157 depth=958710
+down 7 adds 7 to your depth, resulting in a value of 958710. aim=1164 depth=958710
+down 2 adds 2 to your depth, resulting in a value of 958710. aim=1166 depth=958710
+forward 9 adds 9 to your horizontal position, a total of 1875. aim=1166 depth=969204
+up 5 decreases your depth by 5, resulting in a value of 969204. aim=1161 depth=969204
+up 7 decreases your depth by 7, resulting in a value of 969204. aim=1154 depth=969204
+forward 8 adds 8 to your horizontal position, a total of 1883. aim=1154 depth=978436
+forward 1 adds 1 to your horizontal position, a total of 1884. aim=1154 depth=979590
+down 7 adds 7 to your depth, resulting in a value of 979590. aim=1161 depth=979590
+down 8 adds 8 to your depth, resulting in a value of 979590. aim=1169 depth=979590
+down 3 adds 3 to your depth, resulting in a value of 979590. aim=1172 depth=979590
+forward 6 adds 6 to your horizontal position, a total of 1890. aim=1172 depth=986622

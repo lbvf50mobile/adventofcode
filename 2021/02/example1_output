@@ -1,0 +1,8 @@
+First 1
+ result = 150
+forward 5 adds 5 to your horizontal position, a total of 5.
+down 5 adds 5 to your depth, resulting in a value of 5.
+forward 8 adds 8 to your horizontal position, a total of 13.
+up 3 decreases your depth by 3, resulting in a value of 2.
+down 8 adds 8 to your depth, resulting in a value of 10.
+forward 2 adds 2 to your horizontal position, a total of 15.
