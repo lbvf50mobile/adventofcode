@@ -1,16 +1,22 @@
+# = = = = = = =
+# Accepted.
+# Thanks God!
+# = = = = = = =
 require 'set'
 class Solution
   def start1(arr)
+    p "1:----------------------------------;"
+    arr = arr.clone
     ans = "First 1\n"
     numbers = arr.shift
     numbers = numbers.split(?,).map(&:to_i)
     checked_numbers = []
     desks = [] 
-    arr.each_slice(6){|x| desks.push Desk.new(x) }
+    i = 1
+    arr.each_slice(6){|x| desks.push Desk.new(x,i); i+=1}
     winner = nil
     numbers.each do |n|
       checked_numbers.push(n)
-      winner = false
       desks.each do |desk|
         desk.check(n)
         winner = desk if desk.winner
@@ -29,15 +35,46 @@ class Solution
     return ans;
   end
   def start2(arr)
-    return "Second 2\n"
+    p "2:----------------------------------;"
+    arr = arr.clone
+    ans = "This is a Second 2\n"
+    numbers = arr.shift
+    numbers = numbers.split(?,).map(&:to_i)
+    checked_numbers = []
+    desks = [] 
+    i = 1
+    arr.each_slice(6){|x| desks.push Desk.new(x,i); i+=1 }
+    winner = nil
+    numbers.each do |n|
+      checked_numbers.push(n)
+      # p "Number: #{n}"
+      checked = []
+      desks.each do |desk|
+        next if desk.winner
+        checked.push(desk.number)
+        desk.check(n)
+        winner = desk if desk.winner
+      end
+      # p checked
+    end
+    raise "Cannot find winer" if ! winner
+    line = winner.winner
+    p line
+    result = winner.unselected_sum * line.marked.last
+    p result
+    ans += result.to_s + "\n"
+    ans += winner.inspect
+    
+    return ans;
   end
 end
 
 class Desk
-  # Accepts 6 lites. Fist is empty one.
-  attr_reader :winner, :answer, :unselected_sum, :winner
+  # Accepts 6 lines. First is empty one.
+  attr_reader :winner, :answer, :unselected_sum, :winner, :number
 
-  def initialize(arr)
+  def initialize(arr,number)
+    @number = number
     arr.shift
     numbers = arr.map{|x| x.split(" ").map(&:to_i)}
     @raw = arr.join()+"\n"
@@ -89,7 +126,4 @@ class Line
     "win = #{@win.inspect}: #{@marked.join(?,)}"
   end
 end
-
-
-
 

@@ -1,1 +1,12 @@
-Second 2
+This is a Second 2
+3178
+94 38 96 44 46
+10 14 75 97 76
+ 7 61 56 36  1
+81 67 49 78 86
+31 65 88 24 63
+
+Total sum: 1383
+Unselected sum: 227
+Selected sum: 1156
+win = true: 61,65,38,67,14
