@@ -3,7 +3,7 @@ class Solution
   def start1(arr)
     ans = "First 1\n"
     numbers = arr.shift
-    numbers = numbers.split(" ").map(&:to_i)
+    numbers = numbers.split(?,).map(&:to_i)
     checked_numbers = []
     desks = [] 
     arr.each_slice(6){|x| desks.push Desk.new(x) }
@@ -12,13 +12,19 @@ class Solution
       checked_numbers.push(n)
       winner = false
       desks.each do |desk|
-        tmp = desk.check(n)
-        winner = tmp if tmp
+        desk.check(n)
+        winner = desk if desk.winner
         break if winner
       end
       break if winner
     end
     raise "Cannot find winer" if ! winner
+    line = winner.winner
+    p line
+    result = winner.unselected_sum * line.marked.last
+    p result
+    ans += result.to_s + "\n"
+    ans += winner.inspect
     
     return ans;
   end
@@ -29,38 +35,47 @@ end
 
 class Desk
   # Accepts 6 lites. Fist is empty one.
+  attr_reader :winner, :answer, :unselected_sum, :winner
+
   def initialize(arr)
-    @raw = arr.join("\n")+"\n"
-    @winner = nil
     arr.shift
     numbers = arr.map{|x| x.split(" ").map(&:to_i)}
+    @raw = arr.join()+"\n"
+    @winner = nil
+    @full_set = Set.new(numbers.flatten)
+    @total_sum = numbers.sum{|x| x.sum}
+    @unselected_sum = @total_sum
+    @selected_sum = 0
     @lines = []
-    # Rows:
     numbers.each{|x| @lines.push(Line.new(x))}
     numbers.transpose.each{|x| @lines.push(Line.new(x))}
   end
   def check(number)
-    p number
+    return if ! @full_set.include?(number)
+    @unselected_sum -= number
+    @selected_sum += number
     @lines.each{|x| x.check(number)}
     @winner = @lines.find{|x| x.win}
   end
   def inspect
     ans = ""
-    ans += @raw
-    ans += @winner.inspect + "\n" if @winner
+    ans += @raw 
+    ans += "Total sum: #{@total_sum}\n"
+    ans += "Unselected sum: #{@unselected_sum}\n"
+    ans += "Selected sum: #{@selected_sum}\n"
+    if @winner
+      ans += @winner.inspect
+    end
     ans
   end
 end
 # 3. `desk` have `lines` line contains `nums_set`, `marked` and `win` boolean. Consturctor accepts an array. Methods `check` and `win` and `result`. 
 class Line
-  attr_reader :win
+  attr_reader :win, :marked
   def initialize(arr)
     @nums_set = Set.new(arr)
     @marked = []
     @win = false
-  end
-  def result
-    @marked.sum * @marked.last
   end
   def check(number)
     if @nums_set.include?(number)
@@ -71,7 +86,7 @@ class Line
     return false
   end
   def inspect
-    "(#{@marked.join(?+)})*#{@marked.last} = #{@marked.sum} * #{@marked.last} = #{@marked.sum*@marked.last}"
+    "win = #{@win.inspect}: #{@marked.join(?,)}"
   end
 end
 

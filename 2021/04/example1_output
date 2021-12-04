@@ -1,0 +1,12 @@
+First 1
+4512
+14 21 17 24  4
+10 16 15  9 19
+18  8 23 26 20
+22 11 13  6  5
+ 2  0 12  3  7
+
+Total sum: 325
+Unselected sum: 188
+Selected sum: 137
+win = true: 4,17,14,21,24
