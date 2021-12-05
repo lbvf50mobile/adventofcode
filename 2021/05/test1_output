@@ -1,5 +1,6 @@
 Number of cells greater or equal to 2 is 5565
 First 1
+Check correct convertions: false. Sizes lines=500, arr =500
 maxx=989, maxy=98
 1 [[414, 7], [3, 9]]
 2 [[683, 3], [9, 7]]

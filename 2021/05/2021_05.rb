@@ -3,6 +3,10 @@ class Solution
     p "1================================"
     ans = "First 1\n"
     lines = convert_arr_to_lines(arr)
+    check = check_lines_correctnes(arr,lines)
+    mes = "Check correct convertions: #{check.inspect}. Sizes lines=#{lines.size}, arr=#{arr.size}\n"
+    p mes
+    ans += mes
     maxx,maxy = find_maxx_maxy(lines)
     ans += "maxx=#{maxx}, maxy=#{maxy}\n"
     @matrix = Array.new(maxy+1).map{ Array.new(maxx+1,0)}
@@ -28,6 +32,12 @@ class Solution
   end
   def start2(arr)
     return "Second 2\n"
+  end
+  def convert_lines_to_arr(lines)
+    lines.map{|x| "#{x[0][0]},#{x[0][1]} => #{x[1][0]},#{x[1][1]}\n"}
+  end
+  def check_lines_correctnes(arr,lines)
+    arr == convert_lines_to_arr(lines)
   end
   def convert_arr_to_lines(arr)
     arr.map{|x|
