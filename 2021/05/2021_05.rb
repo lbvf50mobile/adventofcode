@@ -23,7 +23,29 @@ class Solution
     return ans
   end
   def start2(arr)
-    return "Second 2\n"
+    arr.map!(&:strip!)
+    p "2================================"
+    ans = "Second 2\n"
+    lines = convert_arr_to_lines(arr)
+    @lines = lines
+    check = check_lines_correctnes(arr,lines)
+    mes = "Check correct convertions: #{check.inspect}. Sizes lines=#{lines.size}, arr=#{arr.size}\n"
+    p mes
+    ans += mes
+    p find_first_mismatch(arr,lines)
+    maxx,maxy = find_maxx_maxy(lines)
+    ans += "maxx=#{maxx}, maxy=#{maxy}\n"
+    @matrix = Array.new(maxy+1).map{ Array.new(maxx+1,0)}
+    increase_v_and_h
+    increase_grow_diagonal
+    increase_shrink_diagonal
+    answer = @matrix.flatten.count{|x| x >= 2}
+    mes = "Answer is: #{answer}\n"
+    p mes
+    ans += mes
+    ans += str_mtrx
+    
+    return ans
   end
   def convert_lines_to_arr(lines)
     lines.map{|x| "#{x[0][0]},#{x[0][1]} -> #{x[1][0]},#{x[1][1]}"}
@@ -57,6 +79,32 @@ class Solution
         y = a[1]
         min,max = [a[0],b[0]].minmax
         (min..max).each{|x| @matrix[y][x] += 1 }
+      end
+    end
+  end
+  def increase_grow_diagonal
+    @lines.each do |l|
+      l = l.sort_by{|x| x[0]}
+      a,b = l[0], l[1]
+      next if a[0] == b[0] || a[1] == b[1]
+      dx = b[0] - a[0]
+      dy = b[1] - a[1] 
+      next if dx != dy
+      dx.times do |i|
+        @matrix[a[1]+i][a[0]+i] += 1
+      end
+    end
+  end
+  def increase_shrink_diagonal
+    @lines.each do |l|
+      l = l.sort_by{|x| x[0]}
+      a,b = l[0], l[1]
+      next if a[0] == b[0] || a[1] == b[1]
+      dx = b[0] - a[0]
+      dy = b[1] - a[1] 
+      next if dx != -dy
+      dx.times do |i|
+        @matrix[a[1]-i][a[0]+i] += 1
       end
     end
   end
