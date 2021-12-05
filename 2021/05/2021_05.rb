@@ -46,7 +46,7 @@ class Solution
   end
   def convert_arr_to_lines(arr)
     arr.map{|x|
-      flat_line = x.gsub(/^(\d+).+(\d+).+(\d+)+.(\d+)/,"\\1,\\2,\\3,\\4").split(?,).map(&:to_i)
+      flat_line = x.gsub(/^(\d+),(\d+) -\> (\d+),(\d+)/,"\\1,\\2,\\3,\\4").split(?,).map(&:to_i)
       line = [[flat_line[0],flat_line[1]],[flat_line[2],flat_line[3]]]
     }
   end
