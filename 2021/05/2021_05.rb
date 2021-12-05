@@ -1,3 +1,7 @@
+# = = = = = = =
+# Accepted.
+# Thanks God!
+# = = = = = = =
 class Solution
   def start1(arr)
     arr.map!(&:strip!)
@@ -90,7 +94,7 @@ class Solution
       dx = b[0] - a[0]
       dy = b[1] - a[1] 
       next if dx != dy
-      dx.times do |i|
+      (dx+1).times do |i|
         @matrix[a[1]+i][a[0]+i] += 1
       end
     end
@@ -103,15 +107,14 @@ class Solution
       dx = b[0] - a[0]
       dy = b[1] - a[1] 
       next if dx != -dy
-      dx.times do |i|
+      (dx+1).times do |i|
         @matrix[a[1]-i][a[0]+i] += 1
       end
     end
   end
   def str_mtrx
-    x = @matrix.map{|row| row.map(&:to_s).map{|x| ?0 == x ? ?. : x}.join(" ")}
+    x = @matrix.map{|row| row.map(&:to_s).map{|x| ?0 == x ? ?. : x}.join}
     x.join("\n")
   end
-
 end
 
