@@ -1,6 +1,6 @@
 Number of cells greater or equal to 2 is 5
 First 1
-Check correct convertions: false. Sizes lines=10, arr =10
+Check correct convertions: true. Sizes lines=10, arr=10
 maxx=9, maxy=9
 1 [[0, 9], [5, 9]]
 2 [[8, 0], [0, 8]]

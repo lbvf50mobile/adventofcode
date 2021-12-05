@@ -1,5 +1,6 @@
 class Solution
   def start1(arr)
+    arr.map!(&:strip!)
     p "1================================"
     ans = "First 1\n"
     lines = convert_arr_to_lines(arr)
@@ -7,6 +8,7 @@ class Solution
     mes = "Check correct convertions: #{check.inspect}. Sizes lines=#{lines.size}, arr=#{arr.size}\n"
     p mes
     ans += mes
+    p find_first_mismatch(arr,lines)
     maxx,maxy = find_maxx_maxy(lines)
     ans += "maxx=#{maxx}, maxy=#{maxy}\n"
     @matrix = Array.new(maxy+1).map{ Array.new(maxx+1,0)}
@@ -34,10 +36,13 @@ class Solution
     return "Second 2\n"
   end
   def convert_lines_to_arr(lines)
-    lines.map{|x| "#{x[0][0]},#{x[0][1]} => #{x[1][0]},#{x[1][1]}\n"}
+    lines.map{|x| "#{x[0][0]},#{x[0][1]} -> #{x[1][0]},#{x[1][1]}"}
   end
   def check_lines_correctnes(arr,lines)
-    arr == convert_lines_to_arr(lines)
+    arr.join("\n") == convert_lines_to_arr(lines).join("\n")
+  end
+  def find_first_mismatch(arr,lines)
+    arr.zip(convert_lines_to_arr(lines)).find{|(x,y)| x != y}
   end
   def convert_arr_to_lines(arr)
     arr.map{|x|
