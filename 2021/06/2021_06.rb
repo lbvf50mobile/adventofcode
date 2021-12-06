@@ -26,7 +26,39 @@ class Solution
     return @l
   end
   def start2(arr)
-    return "Second 2\n"
+    @l = ""
+    arr = arr[0].split(?,).map(&:to_i)
+    current_day = Array.new(9,0)
+    add_day = Array.new(9,0)
+    arr.each do |state|
+      current_day[state] += 1
+    end
+    l "Second 2."
+    number_of_days = 256
+    l "Number of days: #{number_of_days}."
+    l "Initial state: #{arr.join(?,)}"
+    l "Grouped: #{current_day.join(?,)}"
+    number_of_days.times do |step|
+      day = step + 1
+      l "Start #{day}--------------------"
+      add_day = Array.new(9,0)
+      l "#{add_day} - must be clear."
+      l "#{current_day} - this is how starts."
+      (0...9).each do |i|
+        if i.between?(1,8)
+          add_day[i-1] += current_day[i]
+        else
+          add_day[6] += current_day[i]
+          add_day[8] += current_day[i]
+        end
+      end
+      l "#{add_day} - must be shifted."
+      current_day = add_day
+      l "After #{day.to_s.rjust(2," ")}: (#{current_day.sum}) #{current_day.join(?,)}"
+      l "End #{day}--------------------"
+    end
+    l_up "Answer is: #{current_day.sum}"
+    return @l
   end
   def l(str)
     @l += str + "\n"
