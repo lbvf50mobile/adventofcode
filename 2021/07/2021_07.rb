@@ -9,10 +9,12 @@ class Solution
     l "Debuging: #{debug.inspect}"
     l "Number of crabs: #{@crabs.size}"
     l "Number of positions: #{@positions.keys.size}"
+    start_pos,end_pos = @positions.keys.minmax
+    l "From #{start_pos} til #{end_pos} there are #{end_pos - start_pos + 1} steps"
     l "Crabs: #{@crabs.inspect}" if debug
     l "Positions: #{@positions.inspect}" if debug
     position_fuel_price = {} # Cost to move crabs to the position.
-    @positions.keys.each do |destination|
+    (start_pos..end_pos).each do |destination|
       l "Start Move to #{destination}. ===================" if debug
       position_fuel_price[destination] = 0
       @positions.keys.each do |source|
