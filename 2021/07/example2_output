@@ -1,1 +1,8 @@
 Second 2.
+Answer: 168
+Input parsed correctly: true
+Debuging: false
+Number of crabs: 10
+Number of positions: 7
+From 0 til 16 there are 17 steps
+Minumum cost is: 168 at the poistion 5
