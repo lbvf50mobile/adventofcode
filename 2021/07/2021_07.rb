@@ -4,19 +4,29 @@ class Solution
     @crabs, @positions = [],{}
     get_crabs_and_positions arr
     correct_input = check_crabs_converted_correctly arr
+    debug = false
     l "Input parsed correctly: #{correct_input}"
+    l "Debuging: #{debug.inspect}"
     l "Number of crabs: #{@crabs.size}"
     l "Number of positions: #{@positions.keys.size}"
+    l "Crabs: #{@crabs.inspect}" if debug
+    l "Positions: #{@positions.inspect}" if debug
     position_fuel_price = {} # Cost to move crabs to the position.
     @positions.keys.each do |destination|
+      l "Start Move to #{destination}. ===================" if debug
       position_fuel_price[destination] = 0
       @positions.keys.each do |source|
         pos_amount =  @positions[source]
-        price = (source - destination).abs * pos_amount
+        way = (source - destination).abs
+        price =  way * pos_amount
+        l "#{price}  #{way}*#{pos_amount}=#{price}  #{destination}-#{source} = #{way}"  if debug
         position_fuel_price[destination] += price
       end
+      l "#{position_fuel_price[destination]} :total" if debug
+      l "End Move to #{destination}. ===================\n\n" if debug
     end
-    min = position_fuel_price.to_a.min{|x| x[1]}
+    min = position_fuel_price.to_a.min_by{|x| x[1]}
+    l "Min: #{min.inspect}" if debug
     l "Minumum cost is: #{min[1]} at the poistion #{min[0]}"
     l_up "Answer: #{min[1]}"
     l_up "First 1."

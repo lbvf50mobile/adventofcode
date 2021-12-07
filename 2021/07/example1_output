@@ -1,6 +1,7 @@
 First 1.
-Answer: 111
+Answer: 37
 Input parsed correctly: true
+Debuging: false
 Number of crabs: 10
 Number of positions: 7
-Minumum cost is: 111 at the poistion 16
+Minumum cost is: 37 at the poistion 2
