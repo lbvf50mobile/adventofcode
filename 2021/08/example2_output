@@ -1,13 +1,13 @@
 Second 2.
 Answer is: 0
 Correct parsing: true
-cfbegad => {"c"=>"a", "f"=>"b", "b"=>"c", "e"=>"d", "g"=>"e", "a"=>"f", "d"=>"g"}
-gcadebf => {"g"=>"a", "c"=>"b", "a"=>"c", "d"=>"d", "e"=>"e", "b"=>"f", "f"=>"g"}
-cdgabef => {"c"=>"a", "d"=>"b", "g"=>"c", "a"=>"d", "b"=>"e", "e"=>"f", "f"=>"g"}
-fcdbega => {"f"=>"a", "c"=>"b", "d"=>"c", "b"=>"d", "e"=>"e", "g"=>"f", "a"=>"g"}
-aecbfdg => {"a"=>"a", "e"=>"b", "c"=>"c", "b"=>"d", "f"=>"e", "d"=>"f", "g"=>"g"}
-bdacfeg => {"b"=>"a", "d"=>"b", "a"=>"c", "c"=>"d", "f"=>"e", "e"=>"f", "g"=>"g"}
-bdegcaf => {"b"=>"a", "d"=>"b", "e"=>"c", "g"=>"d", "c"=>"e", "a"=>"f", "f"=>"g"}
-adcbefg => {"a"=>"a", "d"=>"b", "c"=>"c", "b"=>"d", "e"=>"e", "f"=>"f", "g"=>"g"}
-gbdefca => {"g"=>"a", "b"=>"b", "d"=>"c", "e"=>"d", "f"=>"e", "c"=>"f", "a"=>"g"}
-dcaebfg => {"d"=>"a", "c"=>"b", "a"=>"c", "e"=>"d", "b"=>"e", "f"=>"f", "g"=>"g"}
+cfbegad => c:a,f:b,b:c,e:d,g:e,a:f,d:g => fdgacbe:abcdefg,cefdb:abcdg,cefbgd:abcdeg,gcbe:acde
+gcadebf => g:a,c:b,a:c,d:d,e:e,b:f,f:g => fcgedb:abdefg,cgb:abf,dgebacf:abcdefg,gc:ab
+cdgabef => c:a,d:b,g:c,a:d,b:e,e:f,f:g => cg:ac,cg:ac,fdcagb:abcdeg,cbg:ace
+fcdbega => f:a,c:b,d:c,b:d,e:e,g:f,a:g => efabcd:abcdeg,cedba:bcdeg,gadfec:abcefg,cb:bd
+aecbfdg => a:a,e:b,c:c,b:d,f:e,d:f,g:g => gecf:bceg,egdcabf:abcdefg,bgf:deg,bfgea:abdeg
+bdacfeg => b:a,d:b,a:c,c:d,f:e,e:f,g:g => gebdcfa:abcdefg,ecba:acdf,ca:cd,fadegcb:abcdefg
+bdegcaf => b:a,d:b,e:c,g:d,c:e,a:f,f:g => cefg:cdeg,dcbef:abceg,fcge:cdeg,gbcadfe:abcdefg
+adcbefg => a:a,d:b,c:c,b:d,e:e,f:f,g:g => ed:be,bcgafe:acdefg,cdgba:abcdg,cbgef:cdefg
+gbdefca => g:a,b:b,d:c,e:d,f:e,c:f,a:g => gbdfcae:abcdefg,bgc:abf,cg:af,cgb:abf
+dcaebfg => d:a,c:b,a:c,e:d,b:e,f:f,g:g => fgae:cdfg,cfgab:bcefg,fg:fg,bagce:bcdeg
