@@ -1,203 +1,203 @@
 Second 2.
 Answer is: 0
 Correct parsing: true
-begcdaf => b:a,e:b,g:c,c:d,d:e,a:f,f:g => cbgfa:acdfg,gedcb:abcde,fgecab:abcdfg,fbagdc:acdefg
-edgafcb => e:a,d:b,g:c,a:d,f:e,c:f,b:g => gbdf:bceg,gbfd:bceg,fgebac:acdefg,dfega:abcde
-febacdg => f:a,e:b,b:c,a:d,c:e,d:f,g:g => bcfdaeg:abcdefg,cf:ae,fc:ae,gecabdf:abcdefg
-dceagfb => d:a,c:b,e:c,a:d,g:e,f:f,b:g => dgb:aeg,cbadg:abdeg,cagdb:abdeg,cfbd:abfg
-edcbafg => e:a,d:b,c:c,b:d,a:e,f:f,g:g => ba:de,eab:ade,cdgefa:abcefg,gcab:cdeg
-gbdcfea => g:a,b:b,d:c,c:d,f:e,e:f,a:g => cbgefd:abcdef,defcg:acdef,cbefdg:abcdef,eafgcdb:abcdefg
-gafbdce => g:a,a:b,f:c,b:d,d:e,c:f,e:g => ecdfb:cdefg,fcegab:abcdfg,badgefc:abcdefg,dafb:bcde
-agefbdc => a:a,g:b,e:c,f:d,b:e,d:f,c:g => cfgbdea:abcdefg,fe:cd,abecd:acefg,efc:cdg
-gbfecad => g:a,b:b,f:c,e:d,c:e,a:f,d:g => cegfbd:abcdeg,efg:acd,fgabd:abcfg,bedgacf:abcdefg
-fdcebga => f:a,d:b,c:c,e:d,b:e,g:f,a:g => agdcbfe:abcdefg,cfead:abcdg,fcdea:abcdg,ad:bg
-cgaedbf => c:a,g:b,a:c,e:d,d:e,b:f,f:g => aceg:abcd,eg:bd,ge:bd,ged:bde
-cafgebd => c:a,a:b,f:c,g:d,e:e,b:f,d:g => ed:eg,daebg:bdefg,egd:deg,gacfbe:abcdef
-bcadgef => b:a,c:b,a:c,d:d,g:e,e:f,f:g => gafdb:acdeg,edgaf:cdefg,bag:ace,edcagfb:abcdefg
-acgebfd => a:a,c:b,g:c,e:d,b:e,f:f,d:g => fgcae:abcdf,eabg:acde,fdbcge:bcdefg,agbe:acde
-fdcabeg => f:a,d:b,c:c,a:d,b:e,e:f,g:g => ba:de,bgeadfc:abcdefg,cgdbea:bcdefg,ab:de
-gadbefc => g:a,a:b,d:c,b:d,e:e,f:f,c:g => ac:bg,gcdbafe:abcdefg,ca:bg,fca:bfg
-fgcbdea => f:a,g:b,c:c,b:d,d:e,e:f,a:g => bed:def,cgdebfa:abcdefg,abdegf:abdefg,bfea:adfg
-daefcgb => d:a,a:b,e:c,f:d,c:e,g:f,b:g => gcba:befg,ca:be,bgdeaf:abcdfg,afbdg:abdfg
-afcedgb => a:a,f:b,c:c,e:d,d:e,g:f,b:g => cdfea:abcde,bagdef:abdefg,bcefd:bcdeg,cdfae:abcde
-gecbdaf => g:a,e:b,c:c,b:d,d:e,a:f,f:g => bgd:ade,bdcafg:acdefg,bgd:ade,dbafcg:acdefg
-dfbaceg => d:a,f:b,b:c,a:d,c:e,e:f,g:g => eg:fg,dge:afg,agfdec:abdefg,deg:afg
-bcdgfae => b:a,c:b,d:c,g:d,f:e,a:f,e:g => bfdgcea:abcdefg,fge:deg,fegbda:acdefg,cgdfba:abcdef
-ebgdcaf => e:a,b:b,g:c,d:d,c:e,a:f,f:g => fbgade:abcdfg,eab:abf,efdcga:acdefg,egafdb:abcdfg
-efdbgca => e:a,f:b,d:c,b:d,g:e,c:f,a:g => dbefc:abcdf,dbcef:abcdf,bfacd:bcdfg,ce:af
-gaecbdf => g:a,a:b,e:c,c:d,b:e,d:f,f:g => ge:ac,dabgef:abcefg,bdfae:bcefg,dbefg:acefg
-dgafbec => d:a,g:b,a:c,f:d,b:e,e:f,c:g => abgcd:abceg,bcgda:abceg,dceb:aefg,fadegb:abcdef
-aecgdbf => a:a,e:b,c:c,g:d,d:e,b:f,f:g => fc:cg,afedgb:abdefg,gfacbe:abcdfg,afbdeg:abdefg
-aegdcfb => a:a,e:b,g:c,d:d,c:e,f:f,b:g => ac:ae,dbgfaec:abcdefg,fgaec:abcef,agfdbec:abcdefg
-ceagdbf => c:a,e:b,a:c,g:d,d:e,b:f,f:g => edgfa:bcdeg,fea:bcg,gfdbe:bdefg,bgfeca:abcdfg
-fdgeacb => f:a,d:b,g:c,e:d,a:e,c:f,b:g => gcfe:acdf,abdegc:bcdefg,egfc:acdf,bcagfe:acdefg
-begdfca => b:a,e:b,g:c,d:d,f:e,c:f,a:g => agbc:acfg,badef:abdeg,aefbd:abdeg,fcbdega:abcdefg
-gfaedbc => g:a,f:b,a:c,e:d,d:e,b:f,c:g => adbfegc:abcdefg,edbga:acdef,eafcd:bcdeg,bca:cfg
-fdgbaec => f:a,d:b,g:c,b:d,a:e,e:f,c:g => gcfde:abcfg,cafebg:acdefg,aefgbc:acdefg,dafbc:abdeg
-fgbdcea => f:a,g:b,b:c,d:d,c:e,e:f,a:g => dcafg:abdeg,bedf:acdf,fdbe:acdf,befd:acdf
-egbdcfa => e:a,g:b,b:c,d:d,c:e,f:f,a:g => daefbc:acdefg,bedga:abcdg,egadb:abcdg,decg:abde
-dbcgefa => d:a,b:b,c:c,g:d,e:e,f:f,a:g => gf:df,bfdac:abcfg,dbgf:abdf,gf:df
-cfbedag => c:a,f:b,b:c,e:d,d:e,a:f,g:g => baec:acdf,gdacb:acefg,afbcgd:abcefg,abegdc:acdefg
-eagdbcf => e:a,a:b,g:c,d:d,b:e,c:f,f:g => feadcgb:abcdefg,db:de,bdec:adef,cgeabfd:abcdefg
-dcbgefa => d:a,c:b,b:c,g:d,e:e,f:f,a:g => gd:ad,gadbc:abcdg,gdbf:acdf,cbagd:abcdg
-dcgbfea => d:a,c:b,g:c,b:d,f:e,e:f,a:g => agbdc:abcdg,ge:cf,ged:acf,cfead:abefg
-defagbc => d:a,e:b,f:c,a:d,g:e,b:f,c:g => ba:df,edcgb:abefg,afbdec:abcdfg,cadgebf:abcdefg
-dgfcbea => d:a,g:b,f:c,c:d,b:e,e:f,a:g => deagb:abefg,egdacfb:abcdefg,bfge:bcef,fcdgae:abcdfg
-gecbdaf => g:a,e:b,c:c,b:d,d:e,a:f,f:g => dfcbge:abcdeg,bfgdc:acdeg,acfb:cdfg,fa:fg
-cfdageb => c:a,f:b,d:c,a:d,g:e,e:f,b:g => eb:fg,faedc:abcdf,gbef:befg,gcbdfea:abcdefg
-bgcedaf => b:a,g:b,c:c,e:d,d:e,a:f,f:g => fgdbae:abdefg,fcgad:bcefg,fac:cfg,fca:cfg
-cebgfda => c:a,e:b,b:c,g:d,f:e,d:f,a:g => bc:ac,fgbdaec:abcdefg,fedac:abefg,gefba:bcdeg
-ebcfgad => e:a,b:b,c:c,f:d,g:e,a:f,d:g => edbagc:abcefg,cfbdea:abcdfg,fbda:bdfg,edbcf:abcdg
-cdbfgae => c:a,d:b,b:c,f:d,g:e,a:f,e:g => fabd:bcdf,bfdgae:bcdefg,daegfc:abdefg,faegbcd:abcdefg
-acgefbd => a:a,c:b,g:c,e:d,f:e,b:f,d:g => fb:ef,efdacg:abcdeg,fb:ef,agbf:acef
-aegbdcf => a:a,e:b,g:c,b:d,d:e,c:f,f:g => da:ae,da:ae,bfgae:abcdg,adfg:aceg
-ecagfbd => e:a,c:b,a:c,g:d,f:e,b:f,d:g => bad:cfg,bad:cfg,fgabde:acdefg,bd:fg
-cabfdeg => c:a,a:b,b:c,f:d,d:e,e:f,g:g => ebagdc:abcefg,bd:ce,ecdb:acef,abedfgc:abcdefg
-fdceagb => f:a,d:b,c:c,e:d,a:e,g:f,b:g => cf:ac,fec:acd,gfac:acef,gfbdeac:abcdefg
-cgfbeda => c:a,g:b,f:c,b:d,e:e,d:f,a:g => gdbf:bcdf,fb:cd,bfdaeg:bcdefg,fegabc:abcdeg
-cgabedf => c:a,g:b,a:c,b:d,e:e,d:f,f:g => cfgabed:abcdefg,aecdgb:abcdef,fgeb:bdeg,fgcbad:abcdfg
-gabfdce => g:a,a:b,b:c,f:d,d:e,c:f,e:g => adcefb:bcdefg,dfacb:bcdef,adf:bde,agefbd:abcdeg
-cegdfab => c:a,e:b,g:c,d:d,f:e,a:f,b:g => bfe:beg,edfbc:abdeg,dgefbca:abcdefg,befdc:abdeg
-fgaedcb => f:a,g:b,a:c,e:d,d:e,c:f,b:g => bfdgcea:abcdefg,caed:cdef,deacbg:bcdefg,dbc:efg
-dbgfaec => d:a,b:b,g:c,f:d,a:e,e:f,c:g => cfead:adefg,ca:eg,befcd:abdfg,geabfd:abcdef
-fcdageb => f:a,c:b,d:c,a:d,g:e,e:f,b:g => dbcge:bcefg,bdeagfc:abcdefg,cefdbag:abcdefg,gca:bde
-fbeacdg => f:a,b:b,e:c,a:d,c:e,d:f,g:g => bc:be,cfgabd:abdefg,acgfb:abdeg,afegc:acdeg
-bagfced => b:a,a:b,g:c,f:d,c:e,e:f,d:g => efdcbg:acdefg,agbef:abcdf,ef:df,face:bdef
-cgdefab => c:a,g:b,d:c,e:d,f:e,a:f,b:g => ce:ad,gdbae:bcdfg,ceb:adg,dbafeg:bcdefg
-fbcgaed => f:a,b:b,c:c,g:d,a:e,e:f,d:g => fcgb:abcd,gcdfba:abcdeg,cab:bce,adbcef:abcefg
-bgefcad => b:a,g:b,e:c,f:d,c:e,a:f,d:g => edb:acg,bde:acg,bcefda:acdefg,gcedfa:bcdefg
-bfdgaec => b:a,f:b,d:c,g:d,a:e,e:f,c:g => cdga:cdeg,cfged:bcdfg,afg:bde,ag:de
-dcfbgea => d:a,c:b,f:c,b:d,g:e,e:f,a:g => cbef:bcdf,cfgab:bcdeg,bc:bd,gabfc:bcdeg
-egcdafb => e:a,g:b,c:c,d:d,a:e,f:f,b:g => dabec:acdeg,fcag:bcef,afgc:bcef,fbcage:abcefg
-ceagbdf => c:a,e:b,a:c,g:d,b:e,d:f,f:g => deb:bef,ebdfagc:abcdefg,fabedc:abcefg,fgbecd:abdefg
-egdbacf => e:a,g:b,d:c,b:d,a:e,c:f,f:g => befdac:acdefg,ecbad:acdef,fecab:adefg,cegbda:abcdef
-dgcbaef => d:a,g:b,c:c,b:d,a:e,e:f,f:g => fegab:bdefg,ae:ef,gbdef:abdfg,gcbedaf:abcdefg
-dabfgce => d:a,a:b,b:c,f:d,g:e,c:f,e:g => gcdfae:abdefg,dbcfeg:acdefg,acgbe:bcefg,bgecf:cdefg
-gedfcba => g:a,e:b,d:c,f:d,c:e,b:f,a:g => cged:abce,gfdacb:acdefg,cegd:abce,abcedf:bcdefg
-gefcdba => g:a,e:b,f:c,c:d,d:e,b:f,a:g => bdceagf:abcdefg,fgdebac:abcdefg,bgca:adfg,gfcde:abcde
-edagbfc => e:a,d:b,a:c,g:d,b:e,f:f,c:g => dgabf:bcdef,fbdag:bcdef,cg:dg,gc:dg
-dceafbg => d:a,c:b,e:c,a:d,f:e,b:f,g:g => bdgaf:adefg,bfeag:cdefg,fe:ce,eagbdf:acdefg
-afedgcb => a:a,f:b,e:c,d:d,g:e,c:f,b:g => bcad:adfg,bcefga:abcefg,db:dg,fbdae:abcdg
-ecfdabg => e:a,c:b,f:c,d:d,a:e,b:f,g:g => bcgdfe:abcdfg,dfga:cdeg,agebf:acefg,dfga:cdeg
-fgdceab => f:a,g:b,d:c,c:d,e:e,a:f,b:g => dacefgb:abcdefg,dfgcae:abcdef,gadefc:abcdef,bgc:bdg
-fgcbead => f:a,g:b,c:c,b:d,e:e,a:f,d:g => bgca:bcdf,dfaecb:acdefg,gabc:bcdf,cabg:bcdf
-feadbgc => f:a,e:b,a:c,d:d,b:e,g:f,c:g => be:be,efba:abce,aefb:abce,eb:be
-agcfbed => a:a,g:b,c:c,f:d,b:e,e:f,d:g => bfdac:acdeg,eda:afg,aegcf:abcdf,gcfeba:abcdef
-gdbcaef => g:a,d:b,b:c,c:d,a:e,e:f,f:g => faegd:abefg,gbecfd:abcdfg,gef:afg,fbgad:abceg
-acfegbd => a:a,c:b,f:c,e:d,g:e,b:f,d:g => gdcebfa:abcdefg,dge:deg,abdcg:abefg,cafdgb:abcefg
-gfbedac => g:a,f:b,b:c,e:d,d:e,a:f,c:g => fbacdeg:abcdefg,ad:ef,adeg:adef,beafdgc:abcdefg
-dfgcbae => d:a,f:b,g:c,c:d,b:e,a:f,e:g => egfbcd:abcdeg,agcefb:bcdefg,fbagce:bcdefg,aegdbcf:abcdefg
-dagebfc => d:a,a:b,g:c,e:d,b:e,f:f,c:g => gbadec:abcdeg,dbacge:abcdeg,fg:cf,gdfcaeb:abcdefg
-cbadgef => c:a,b:b,a:c,d:d,g:e,e:f,f:g => agfed:cdefg,acgbdef:abcdefg,egfda:cdefg,gadfbe:bcdefg
-abdfgec => a:a,b:b,d:c,f:d,g:e,e:f,c:g => febadcg:abcdefg,bcdg:bceg,gdbc:bceg,geacdf:acdefg
-gcbadef => g:a,c:b,b:c,a:d,d:e,e:f,f:g => bdfae:cdefg,cgaf:abdg,bcadeg:abcdef,cf:bg
-bcefagd => b:a,c:b,e:c,f:d,a:e,g:f,d:g => acgbde:abcefg,afbedc:abcdeg,edbacg:abcefg,cgd:bfg
-fbcgaed => f:a,b:b,c:c,g:d,a:e,e:f,d:g => fbdac:abceg,bgecfd:abcdfg,dcgab:bcdeg,fc:ac
-eabgfcd => e:a,a:b,b:c,g:d,f:e,c:f,d:g => bc:cf,cfgdeab:abcdefg,cb:cf,cb:cf
-agbfecd => a:a,g:b,b:c,f:d,e:e,c:f,d:g => cf:df,fdgbeca:abcdefg,cgbdeaf:abcdefg,eafdbg:abcdeg
-faedcbg => f:a,a:b,e:c,d:d,c:e,b:f,g:g => ca:be,cdegf:acdeg,ac:be,cae:bce
-gfebcad => g:a,f:b,e:c,b:d,c:e,a:f,d:g => fgcabe:abcdef,eg:ac,dabgefc:abcdefg,egf:abc
-dcbfgea => d:a,c:b,b:c,f:d,g:e,e:f,a:g => becgafd:abcdefg,edgcb:abcef,egdbfa:acdefg,afdgbce:abcdefg
-defbcag => d:a,e:b,f:c,b:d,c:e,a:f,g:g => ecad:abef,ad:af,adf:acf,agdcf:acefg
-aebgdcf => a:a,e:b,b:c,g:d,d:e,c:f,f:g => ea:ab,ea:ab,gbadf:acdeg,dgebacf:abcdefg
-cbfadeg => c:a,b:b,f:c,a:d,d:e,e:f,g:g => dfec:acef,acefb:abcdf,ef:cf,caedbfg:abcdefg
-cdfgabe => c:a,d:b,f:c,g:d,a:e,b:f,e:g => daegcfb:abcdefg,dgae:bdeg,da:be,decbfga:abcdefg
-ebdfgca => e:a,b:b,d:c,f:d,g:e,c:f,a:g => ebcg:abef,egbc:abef,cbfdae:abcdfg,adegb:abceg
-adebgfc => a:a,d:b,e:c,b:d,g:e,f:f,c:g => aefgc:acefg,fadebc:abcdfg,dcbf:bdfg,fde:bcf
-edcgbaf => e:a,d:b,c:c,g:d,b:e,a:f,f:g => bdgeca:abcdef,daebc:abcef,dbcae:abcef,ceg:acd
-egcdfab => e:a,g:b,c:c,d:d,f:e,a:f,b:g => fbc:ceg,gfbecd:abcdeg,fc:ce,cafg:bcef
-dacfegb => d:a,a:b,c:c,f:d,e:e,g:f,b:g => afcged:abcdef,agefdc:abcdef,egcadf:abcdef,fbde:adeg
-efdgabc => e:a,f:b,d:c,g:d,a:e,b:f,c:g => adec:aceg,fgced:abcdg,cef:abg,ec:ag
-adecbfg => a:a,d:b,e:c,c:d,b:e,f:f,g:g => gacdbf:abdefg,gecbadf:abcdefg,eagd:abcg,efacd:abcdf
-dgcaebf => d:a,g:b,c:c,a:d,e:e,b:f,f:g => bg:bf,cfagd:abcdg,cedbf:acefg,gb:bf
-ebdgfca => e:a,b:b,d:c,g:d,f:e,c:f,a:g => deagb:abcdg,cb:bf,cbd:bcf,eadbg:abcdg
-abcgedf => a:a,b:b,c:c,g:d,e:e,d:f,f:g => fcg:cdg,fcg:cdg,bdfc:bcfg,fgc:cdg
-acbedgf => a:a,c:b,b:c,e:d,d:e,g:f,f:g => cad:abe,febda:acdeg,dgeafb:acdefg,dfcabe:abcdeg
-cadegfb => c:a,a:b,d:c,e:d,g:e,f:f,b:g => abdefc:abcdfg,dbgce:acdeg,gdfbace:abcdefg,bef:dfg
-bdafegc => b:a,d:b,a:c,f:d,e:e,g:f,c:g => gacdfe:bcdefg,afcged:bcdefg,edbacf:abcdeg,adebcf:abcdeg
-aebgdfc => a:a,e:b,b:c,g:d,d:e,f:f,c:g => ecgfadb:abcdefg,egb:bcd,abgdc:acdeg,gefdcb:bcdefg
-aecbgfd => a:a,e:b,c:c,b:d,g:e,f:f,d:g => cgaef:abcef,efacdg:abcefg,cagfebd:abcdefg,cefga:abcef
-decabfg => d:a,e:b,c:c,a:d,b:e,f:f,g:g => bagfdc:acdefg,bd:ae,dfb:aef,afdbge:abdefg
-acbgdfe => a:a,c:b,b:c,g:d,d:e,f:f,e:g => dagcfbe:abcdefg,bfade:acefg,gbedac:abcdeg,ab:ac
-cdbfgea => c:a,d:b,b:c,f:d,g:e,e:f,a:g => abegfdc:abcdefg,feag:defg,gbf:cde,geadcb:abcefg
-cdeafbg => c:a,d:b,e:c,a:d,f:e,b:f,g:g => cad:abd,fabd:bdef,acedf:abcde,fcgbea:acdefg
-facbedg => f:a,a:b,c:c,b:d,e:e,d:f,g:g => gfc:acg,cfg:acg,decbf:acdef,gfc:acg
-fadegcb => f:a,a:b,d:c,e:d,g:e,c:f,b:g => deg:cde,cgfda:abcef,de:cd,gde:cde
-agbdcef => a:a,g:b,b:c,d:d,c:e,e:f,f:g => adbf:acdg,fadgbc:abcdeg,gdfac:abdeg,dfba:acdg
-baecgfd => b:a,a:b,e:c,c:d,g:e,f:f,d:g => bcgdafe:abcdefg,df:fg,df:fg,dgaebc:abcdeg
-cedabfg => c:a,e:b,d:c,a:d,b:e,f:f,g:g => bcadgf:acdefg,gfdea:bcdfg,fdbecg:abcefg,fedab:bcdef
-cbadefg => c:a,b:b,a:c,d:d,e:e,f:f,g:g => fbcade:abcdef,cgfbea:abcefg,gc:ag,cg:ag
-gfdecba => g:a,f:b,d:c,e:d,c:e,b:f,a:g => dgefa:abcdg,fbdgae:abcdfg,becfadg:abcdefg,egf:abd
-fcedbag => f:a,c:b,e:c,d:d,b:e,a:f,g:g => agedf:acdfg,afb:aef,fb:ae,efdb:acde
-cgebadf => c:a,g:b,e:c,b:d,a:e,d:f,f:g => gbaf:bdeg,bdace:acdef,dfb:dfg,ceadgfb:abcdefg
-ebgfacd => e:a,b:b,g:c,f:d,a:e,c:f,d:g => de:ag,dgbface:abcdefg,afdcb:bdefg,fead:adeg
-dfgbaec => d:a,f:b,g:c,b:d,a:e,e:f,c:g => ebcfgad:abcdefg,afcbe:bdefg,gdfaeb:abcdef,dgcafe:abcefg
-bacdfge => b:a,a:b,c:c,d:d,f:e,g:f,e:g => ebgdf:adefg,adfgbec:abcdefg,cdabgfe:abcdefg,fegac:bcefg
-gdbefac => g:a,d:b,b:c,e:d,f:e,a:f,c:g => feb:cde,cgdef:abdeg,bace:cdfg,be:cd
-gcadbef => g:a,c:b,a:c,d:d,b:e,e:f,f:g => cadge:abcdf,dea:cdf,eda:cdf,bafgce:abcefg
-fdgbcae => f:a,d:b,g:c,b:d,c:e,a:f,e:g => fda:abf,begfdca:abcdefg,agdfebc:abcdefg,fcdg:abce
-cfadgeb => c:a,f:b,a:c,d:d,g:e,e:f,b:g => cbgda:acdeg,fdcgae:abcdef,bgafd:bcdeg,efgabcd:abcdefg
-gedcafb => g:a,e:b,d:c,c:d,a:e,f:f,b:g => dbface:bcdefg,eg:ab,cedgb:abcdg,edg:abc
-gaecfbd => g:a,a:b,e:c,c:d,f:e,b:f,d:g => gdbcf:adefg,degcba:abcdfg,bafcd:bdefg,fa:be
-geabfdc => g:a,e:b,a:c,b:d,f:e,d:f,c:g => dfabg:acdef,adb:cdf,dab:cdf,fdac:cefg
-fcaebdg => f:a,c:b,a:c,e:d,b:e,d:f,g:g => gdeba:cdefg,afegb:acdeg,ef:ad,gfecbd:abdefg
-cfabedg => c:a,f:b,a:c,b:d,e:e,d:f,g:g => baced:acdef,ebagcfd:abcdefg,fbdga:bcdfg,ceaf:abce
-gacfebd => g:a,a:b,c:c,f:d,e:e,b:f,d:g => fabecgd:abcdefg,bge:aef,geb:aef,afgb:abdf
-gdbcfea => g:a,d:b,b:c,c:d,f:e,e:f,a:g => cdgae:abdfg,edfb:bcef,afcdeb:bcdefg,gecda:abdfg
-dfcageb => d:a,f:b,c:c,a:d,g:e,e:f,b:g => de:af,ed:af,ebd:afg,bcagfe:bcdefg
-ceagbdf => c:a,e:b,a:c,g:d,b:e,d:f,f:g => afgc:acdg,fbc:aeg,cf:ag,gbfec:abdeg
-dfgbaec => d:a,f:b,g:c,b:d,a:e,e:f,c:g => cbadfe:abdefg,abgdc:acdeg,de:af,agcdb:acdeg
-dbgeacf => d:a,b:b,g:c,e:d,a:e,c:f,f:g => efdgca:acdefg,acdfe:adefg,dcgaf:acefg,adfcg:acefg
-bdegcfa => b:a,d:b,e:c,g:d,c:e,f:f,a:g => fgedbc:abcdef,daebf:abcfg,efdba:abcfg,ceafb:acefg
-gbfdeca => g:a,b:b,f:c,d:d,e:e,c:f,a:g => gdbef:abcde,gecda:adefg,gab:abg,acbfeg:abcefg
-fbcaedg => f:a,b:b,c:c,a:d,e:e,d:f,g:g => bdgefac:abcdefg,bde:bef,agbd:bdfg,agbfedc:abcdefg
-fbcedag => f:a,b:b,c:c,e:d,d:e,a:f,g:g => bef:abd,facde:acdef,fdcea:acdef,aecb:bcdf
-afcdgbe => a:a,f:b,c:c,d:d,g:e,b:f,e:g => aebdgf:abdefg,eabgfd:abdefg,dbcefa:abcdfg,edagf:abdeg
-bedacgf => b:a,e:b,d:c,a:d,c:e,g:f,f:g => gcbdf:acefg,cabdgf:acdefg,fd:cg,ecdbg:abcef
-bfdgace => b:a,f:b,d:c,g:d,a:e,c:f,e:g => af:be,fcga:bdef,dcbef:abcfg,baf:abe
-fdaebcg => f:a,d:b,a:c,e:d,b:e,c:f,g:g => fcdae:abcdf,ed:bd,befd:abde,eda:bcd
-beadgcf => b:a,e:b,a:c,d:d,g:e,c:f,f:g => cf:fg,bfgeac:abcefg,gdacbf:acdefg,agfde:bcdeg
-gcdfbea => g:a,c:b,d:c,f:d,b:e,e:f,a:g => egfcdb:abcdef,bfacg:abdeg,fa:dg,gbdeafc:abcdefg
-cgadbef => c:a,g:b,a:c,d:d,b:e,e:f,f:g => eagdcf:abcdfg,bgcfde:abdefg,acdfg:abcdg,ac:ac
-gdbcfea => g:a,d:b,b:c,c:d,f:e,e:f,a:g => cdbg:abcd,fdcgeba:abcdefg,bgfcae:acdefg,cegad:abdfg
-eafdcgb => e:a,a:b,f:c,d:d,c:e,g:f,b:g => gf:cf,gebcaf:abcefg,agf:bcf,bedcfga:abcdefg
-fcbdeag => f:a,c:b,b:c,d:d,e:e,a:f,g:g => gfeda:adefg,efbagd:acdefg,defgb:acdeg,fbg:acg
-cagdbfe => c:a,a:b,g:c,d:d,b:e,f:f,e:g => bacegd:abcdeg,gfdce:acdfg,fe:fg,adbgec:abcdeg
-fgdabec => f:a,g:b,d:c,a:d,b:e,e:f,c:g => egb:bef,egb:bef,cdabfe:acdefg,dgef:abcf
-dfgaecb => d:a,f:b,g:c,a:d,e:e,c:f,b:g => aecbgd:acdefg,becgfda:abcdefg,gbda:acdg,fdabce:abdefg
-gadcfeb => g:a,a:b,d:c,c:d,f:e,e:f,b:g => gcdeba:abcdfg,feagd:abcef,edf:cef,cagbed:abcdfg
-gefdcba => g:a,e:b,f:c,d:d,c:e,b:f,a:g => gda:adg,fdbac:cdefg,dcfbae:bcdefg,fdbg:acdf
-cbfdage => c:a,b:b,f:c,d:d,a:e,g:f,e:g => degaf:cdefg,fcd:acd,cbfgdea:abcdefg,ecbdafg:abcdefg
-aegdcfb => a:a,e:b,g:c,d:d,c:e,f:f,b:g => cefga:abcef,eagbc:abceg,acbedg:abcdeg,acf:aef
-aegfdcb => a:a,e:b,g:c,f:d,d:e,c:f,b:g => fdcga:acdef,adefbcg:abcdefg,efgd:bcde,cgdafb:acdefg
-cgedabf => c:a,g:b,e:c,d:d,a:e,b:f,f:g => egcdba:abcdef,da:de,ecbfga:abcefg,ecgbad:abcdef
-badfceg => b:a,a:b,d:c,f:d,c:e,e:f,g:g => dfg:cdg,cgfa:bdeg,afcg:bdeg,fedac:bcdef
-fbegdac => f:a,b:b,e:c,g:d,d:e,a:f,c:g => aedcg:cdefg,dgcef:acdeg,dcbaeg:bcdefg,edf:ace
-gadfbec => g:a,a:b,d:c,f:d,b:e,e:f,c:g => dfec:cdfg,fegdba:abcdef,gef:adf,cfde:cdfg
-dcfebag => d:a,c:b,f:c,e:d,b:e,a:f,g:g => cbaegdf:abcdefg,daf:acf,agfdce:abcdfg,ebfacgd:abcdefg
-aefbgdc => a:a,e:b,f:c,b:d,g:e,d:f,c:g => agfc:aceg,abgcfd:acdefg,cgd:efg,acbgfd:acdefg
-cdabgef => c:a,d:b,a:c,b:d,g:e,e:f,f:g => dbag:bcde,gb:de,bg:de,dgab:bcde
-efdgbca => e:a,f:b,d:c,g:d,b:e,c:f,a:g => bdacfeg:abcdefg,gacedb:acdefg,cdegfa:abcdfg,agdfc:bcdfg
-agdefcb => a:a,g:b,d:c,e:d,f:e,c:f,b:g => efda:acde,gfeacbd:abcdefg,ea:ad,deagbc:abcdfg
-gadefcb => g:a,a:b,d:c,e:d,f:e,c:f,b:g => bed:cdg,ebacdg:abcdfg,gcfabde:abcdefg,fceab:bdefg
-fecbdga => f:a,e:b,c:c,b:d,d:e,g:f,a:g => ba:dg,gdacef:abcefg,fgacde:abcefg,cbafged:abcdefg
-dbgfcea => d:a,b:b,g:c,f:d,c:e,e:f,a:g => efagdc:acdefg,ab:bg,ba:bg,egfad:acdfg
-fecabdg => f:a,e:b,c:c,a:d,b:e,d:f,g:g => gdcebaf:abcdefg,edgcb:bcefg,aedfgcb:abcdefg,efacdgb:abcdefg
-gbcafed => g:a,b:b,c:c,a:d,f:e,e:f,d:g => gafce:acdef,ecg:acf,cge:acf,egfbadc:abcdefg
-adfgebc => a:a,d:b,f:c,g:d,e:e,b:f,c:g => becfad:abcefg,gc:dg,gdaec:abdeg,dgbc:bdfg
-bdgfaec => b:a,d:b,g:c,f:d,a:e,e:f,c:g => fegbdca:abcdefg,dga:bce,fgcedb:abcdfg,cgdeba:abcefg
-cfdgbea => c:a,f:b,d:c,g:d,b:e,e:f,a:g => fgbeda:bcdefg,eadfb:bcefg,fgd:bcd,agcfe:abdfg
-fecgdab => f:a,e:b,c:c,g:d,d:e,a:f,b:g => gbfad:adefg,cfg:acd,eacdgf:abcdef,dfeagc:abcdef
-fgbeacd => f:a,g:b,b:c,e:d,a:e,c:f,d:g => ad:eg,cfbga:abcef,edgfb:abcdg,ebdfca:acdefg
-dbacgfe => d:a,b:b,a:c,c:d,g:e,f:f,e:g => adfce:acdfg,bfcd:abdf,cabedf:abcdfg,cfdb:abdf
-dafcegb => d:a,a:b,f:c,c:d,e:e,g:f,b:g => dab:abg,agdefb:abcefg,cfadbe:abcdeg,dba:abg
-dbaecfg => d:a,b:b,a:c,e:d,c:e,f:f,g:g => gefbd:abdfg,gbecda:abcdeg,egdcaf:acdefg,ebcag:bcdeg
-gcefabd => g:a,c:b,e:c,f:d,a:e,b:f,d:g => acegb:abcef,defgcba:abcdefg,cbaed:bcefg,cebdfag:abcdefg
-dfbecag => d:a,f:b,b:c,e:d,c:e,a:f,g:g => cg:eg,dgc:aeg,fcge:bdeg,acbegd:acdefg
-aefbgdc => a:a,e:b,f:c,b:d,g:e,d:f,c:g => gbcaed:abdefg,bgefcda:abcdefg,eacd:abfg,efagcb:abcdeg
-daecfgb => d:a,a:b,e:c,c:d,f:e,g:f,b:g => cgef:cdef,gfce:cdef,ce:cd,cea:bcd
-cfebdag => c:a,f:b,e:c,b:d,d:e,a:f,g:g => ag:fg,ag:fg,cag:afg,afge:bcfg
-fgceabd => f:a,g:b,c:c,e:d,a:e,b:f,d:g => bcfga:abcef,cfebg:abcdf,cge:bcd,bdcef:acdfg
-bdgcefa => b:a,d:b,g:c,c:d,e:e,f:f,a:g => egbfdc:abcdef,aecgd:bcdeg,fgdca:bcdfg,cabdegf:abcdefg
-agbcdef => a:a,g:b,b:c,c:d,d:e,e:f,f:g => baefg:abcfg,faebg:abcfg,fdgcbe:bcdefg,bgdecf:bcdefg
-aefbdcg => a:a,e:b,f:c,b:d,d:e,c:f,g:g => fgbdce:bcdefg,gdfacb:acdefg,bfc:cdf,egbc:bdfg
+begcdaf => b:a,e:b,g:c,c:d,d:e,a:f,f:g nil
+edgafcb => e:a,d:b,g:c,a:d,f:e,c:f,b:g nil
+febacdg => f:a,e:b,b:c,a:d,c:e,d:f,g:g nil
+dceagfb => d:a,c:b,e:c,a:d,g:e,f:f,b:g nil
+edcbafg => e:a,d:b,c:c,b:d,a:e,f:f,g:g 8
+gbdcfea => g:a,b:b,d:c,c:d,f:e,e:f,a:g 8
+gafbdce => g:a,a:b,f:c,b:d,d:e,c:f,e:g nil
+agefbdc => a:a,g:b,e:c,f:d,b:e,d:f,c:g nil
+gbfecad => g:a,b:b,f:c,e:d,c:e,a:f,d:g nil
+fdcebga => f:a,d:b,c:c,e:d,b:e,g:f,a:g nil
+cgaedbf => c:a,g:b,a:c,e:d,d:e,b:f,f:g nil
+cafgebd => c:a,a:b,f:c,g:d,e:e,b:f,d:g nil
+bcadgef => b:a,c:b,a:c,d:d,g:e,e:f,f:g nil
+acgebfd => a:a,c:b,g:c,e:d,b:e,f:f,d:g nil
+fdcabeg => f:a,d:b,c:c,a:d,b:e,e:f,g:g nil
+gadbefc => g:a,a:b,d:c,b:d,e:e,f:f,c:g nil
+fgcbdea => f:a,g:b,c:c,b:d,d:e,e:f,a:g nil
+daefcgb => d:a,a:b,e:c,f:d,c:e,g:f,b:g nil
+afcedgb => a:a,f:b,c:c,e:d,d:e,g:f,b:g nil
+gecbdaf => g:a,e:b,c:c,b:d,d:e,a:f,f:g nil
+dfbaceg => d:a,f:b,b:c,a:d,c:e,e:f,g:g nil
+bcdgfae => b:a,c:b,d:c,g:d,f:e,a:f,e:g nil
+ebgdcaf => e:a,b:b,g:c,d:d,c:e,a:f,f:g nil
+efdbgca => e:a,f:b,d:c,b:d,g:e,c:f,a:g nil
+gaecbdf => g:a,a:b,e:c,c:d,b:e,d:f,f:g nil
+dgafbec => d:a,g:b,a:c,f:d,b:e,e:f,c:g nil
+aecgdbf => a:a,e:b,c:c,g:d,d:e,b:f,f:g nil
+aegdcfb => a:a,e:b,g:c,d:d,c:e,f:f,b:g nil
+ceagdbf => c:a,e:b,a:c,g:d,d:e,b:f,f:g nil
+fdgeacb => f:a,d:b,g:c,e:d,a:e,c:f,b:g nil
+begdfca => b:a,e:b,g:c,d:d,f:e,c:f,a:g nil
+gfaedbc => g:a,f:b,a:c,e:d,d:e,b:f,c:g nil
+fdgbaec => f:a,d:b,g:c,b:d,a:e,e:f,c:g nil
+fgbdcea => f:a,g:b,b:c,d:d,c:e,e:f,a:g nil
+egbdcfa => e:a,g:b,b:c,d:d,c:e,f:f,a:g nil
+dbcgefa => d:a,b:b,c:c,g:d,e:e,f:f,a:g nil
+cfbedag => c:a,f:b,b:c,e:d,d:e,a:f,g:g nil
+eagdbcf => e:a,a:b,g:c,d:d,b:e,c:f,f:g nil
+dcbgefa => d:a,c:b,b:c,g:d,e:e,f:f,a:g nil
+dcgbfea => d:a,c:b,g:c,b:d,f:e,e:f,a:g nil
+defagbc => d:a,e:b,f:c,a:d,g:e,b:f,c:g nil
+dgfcbea => d:a,g:b,f:c,c:d,b:e,e:f,a:g nil
+gecbdaf => g:a,e:b,c:c,b:d,d:e,a:f,f:g nil
+cfdageb => c:a,f:b,d:c,a:d,g:e,e:f,b:g nil
+bgcedaf => b:a,g:b,c:c,e:d,d:e,a:f,f:g nil
+cebgfda => c:a,e:b,b:c,g:d,f:e,d:f,a:g nil
+ebcfgad => e:a,b:b,c:c,f:d,g:e,a:f,d:g nil
+cdbfgae => c:a,d:b,b:c,f:d,g:e,a:f,e:g nil
+acgefbd => a:a,c:b,g:c,e:d,f:e,b:f,d:g nil
+aegbdcf => a:a,e:b,g:c,b:d,d:e,c:f,f:g nil
+ecagfbd => e:a,c:b,a:c,g:d,f:e,b:f,d:g nil
+cabfdeg => c:a,a:b,b:c,f:d,d:e,e:f,g:g nil
+fdceagb => f:a,d:b,c:c,e:d,a:e,g:f,b:g nil
+cgfbeda => c:a,g:b,f:c,b:d,e:e,d:f,a:g nil
+cgabedf => c:a,g:b,a:c,b:d,e:e,d:f,f:g nil
+gabfdce => g:a,a:b,b:c,f:d,d:e,c:f,e:g nil
+cegdfab => c:a,e:b,g:c,d:d,f:e,a:f,b:g nil
+fgaedcb => f:a,g:b,a:c,e:d,d:e,c:f,b:g nil
+dbgfaec => d:a,b:b,g:c,f:d,a:e,e:f,c:g nil
+fcdageb => f:a,c:b,d:c,a:d,g:e,e:f,b:g nil
+fbeacdg => f:a,b:b,e:c,a:d,c:e,d:f,g:g nil
+bagfced => b:a,a:b,g:c,f:d,c:e,e:f,d:g nil
+cgdefab => c:a,g:b,d:c,e:d,f:e,a:f,b:g nil
+fbcgaed => f:a,b:b,c:c,g:d,a:e,e:f,d:g nil
+bgefcad => b:a,g:b,e:c,f:d,c:e,a:f,d:g nil
+bfdgaec => b:a,f:b,d:c,g:d,a:e,e:f,c:g nil
+dcfbgea => d:a,c:b,f:c,b:d,g:e,e:f,a:g nil
+egcdafb => e:a,g:b,c:c,d:d,a:e,f:f,b:g 8
+ceagbdf => c:a,e:b,a:c,g:d,b:e,d:f,f:g nil
+egdbacf => e:a,g:b,d:c,b:d,a:e,c:f,f:g nil
+dgcbaef => d:a,g:b,c:c,b:d,a:e,e:f,f:g nil
+dabfgce => d:a,a:b,b:c,f:d,g:e,c:f,e:g nil
+gedfcba => g:a,e:b,d:c,f:d,c:e,b:f,a:g nil
+gefcdba => g:a,e:b,f:c,c:d,d:e,b:f,a:g nil
+edagbfc => e:a,d:b,a:c,g:d,b:e,f:f,c:g nil
+dceafbg => d:a,c:b,e:c,a:d,f:e,b:f,g:g nil
+afedgcb => a:a,f:b,e:c,d:d,g:e,c:f,b:g nil
+ecfdabg => e:a,c:b,f:c,d:d,a:e,b:f,g:g nil
+fgdceab => f:a,g:b,d:c,c:d,e:e,a:f,b:g 8
+fgcbead => f:a,g:b,c:c,b:d,e:e,a:f,d:g nil
+feadbgc => f:a,e:b,a:c,d:d,b:e,g:f,c:g nil
+agcfbed => a:a,g:b,c:c,f:d,b:e,e:f,d:g nil
+gdbcaef => g:a,d:b,b:c,c:d,a:e,e:f,f:g nil
+acfegbd => a:a,c:b,f:c,e:d,g:e,b:f,d:g nil
+gfbedac => g:a,f:b,b:c,e:d,d:e,a:f,c:g nil
+dfgcbae => d:a,f:b,g:c,c:d,b:e,a:f,e:g nil
+dagebfc => d:a,a:b,g:c,e:d,b:e,f:f,c:g nil
+cbadgef => c:a,b:b,a:c,d:d,g:e,e:f,f:g nil
+abdfgec => a:a,b:b,d:c,f:d,g:e,e:f,c:g nil
+gcbadef => g:a,c:b,b:c,a:d,d:e,e:f,f:g nil
+bcefagd => b:a,c:b,e:c,f:d,a:e,g:f,d:g nil
+fbcgaed => f:a,b:b,c:c,g:d,a:e,e:f,d:g nil
+eabgfcd => e:a,a:b,b:c,g:d,f:e,c:f,d:g nil
+agbfecd => a:a,g:b,b:c,f:d,e:e,c:f,d:g nil
+faedcbg => f:a,a:b,e:c,d:d,c:e,b:f,g:g nil
+gfebcad => g:a,f:b,e:c,b:d,c:e,a:f,d:g nil
+dcbfgea => d:a,c:b,b:c,f:d,g:e,e:f,a:g nil
+defbcag => d:a,e:b,f:c,b:d,c:e,a:f,g:g nil
+aebgdcf => a:a,e:b,b:c,g:d,d:e,c:f,f:g nil
+cbfadeg => c:a,b:b,f:c,a:d,d:e,e:f,g:g nil
+cdfgabe => c:a,d:b,f:c,g:d,a:e,b:f,e:g nil
+ebdfgca => e:a,b:b,d:c,f:d,g:e,c:f,a:g nil
+adebgfc => a:a,d:b,e:c,b:d,g:e,f:f,c:g nil
+edcgbaf => e:a,d:b,c:c,g:d,b:e,a:f,f:g nil
+egcdfab => e:a,g:b,c:c,d:d,f:e,a:f,b:g nil
+dacfegb => d:a,a:b,c:c,f:d,e:e,g:f,b:g nil
+efdgabc => e:a,f:b,d:c,g:d,a:e,b:f,c:g nil
+adecbfg => a:a,d:b,e:c,c:d,b:e,f:f,g:g nil
+dgcaebf => d:a,g:b,c:c,a:d,e:e,b:f,f:g nil
+ebdgfca => e:a,b:b,d:c,g:d,f:e,c:f,a:g nil
+abcgedf => a:a,b:b,c:c,g:d,e:e,d:f,f:g nil
+acbedgf => a:a,c:b,b:c,e:d,d:e,g:f,f:g 8
+cadegfb => c:a,a:b,d:c,e:d,g:e,f:f,b:g nil
+bdafegc => b:a,d:b,a:c,f:d,e:e,g:f,c:g nil
+aebgdfc => a:a,e:b,b:c,g:d,d:e,f:f,c:g nil
+aecbgfd => a:a,e:b,c:c,b:d,g:e,f:f,d:g nil
+decabfg => d:a,e:b,c:c,a:d,b:e,f:f,g:g 8
+acbgdfe => a:a,c:b,b:c,g:d,d:e,f:f,e:g nil
+cdbfgea => c:a,d:b,b:c,f:d,g:e,e:f,a:g nil
+cdeafbg => c:a,d:b,e:c,a:d,f:e,b:f,g:g nil
+facbedg => f:a,a:b,c:c,b:d,e:e,d:f,g:g nil
+fadegcb => f:a,a:b,d:c,e:d,g:e,c:f,b:g nil
+agbdcef => a:a,g:b,b:c,d:d,c:e,e:f,f:g nil
+baecgfd => b:a,a:b,e:c,c:d,g:e,f:f,d:g nil
+cedabfg => c:a,e:b,d:c,a:d,b:e,f:f,g:g nil
+cbadefg => c:a,b:b,a:c,d:d,e:e,f:f,g:g 8
+gfdecba => g:a,f:b,d:c,e:d,c:e,b:f,a:g nil
+fcedbag => f:a,c:b,e:c,d:d,b:e,a:f,g:g nil
+cgebadf => c:a,g:b,e:c,b:d,a:e,d:f,f:g nil
+ebgfacd => e:a,b:b,g:c,f:d,a:e,c:f,d:g nil
+dfgbaec => d:a,f:b,g:c,b:d,a:e,e:f,c:g nil
+bacdfge => b:a,a:b,c:c,d:d,f:e,g:f,e:g nil
+gdbefac => g:a,d:b,b:c,e:d,f:e,a:f,c:g nil
+gcadbef => g:a,c:b,a:c,d:d,b:e,e:f,f:g nil
+fdgbcae => f:a,d:b,g:c,b:d,c:e,a:f,e:g nil
+cfadgeb => c:a,f:b,a:c,d:d,g:e,e:f,b:g nil
+gedcafb => g:a,e:b,d:c,c:d,a:e,f:f,b:g nil
+gaecfbd => g:a,a:b,e:c,c:d,f:e,b:f,d:g nil
+geabfdc => g:a,e:b,a:c,b:d,f:e,d:f,c:g nil
+fcaebdg => f:a,c:b,a:c,e:d,b:e,d:f,g:g nil
+cfabedg => c:a,f:b,a:c,b:d,e:e,d:f,g:g nil
+gacfebd => g:a,a:b,c:c,f:d,e:e,b:f,d:g nil
+gdbcfea => g:a,d:b,b:c,c:d,f:e,e:f,a:g nil
+dfcageb => d:a,f:b,c:c,a:d,g:e,e:f,b:g nil
+ceagbdf => c:a,e:b,a:c,g:d,b:e,d:f,f:g nil
+dfgbaec => d:a,f:b,g:c,b:d,a:e,e:f,c:g nil
+dbgeacf => d:a,b:b,g:c,e:d,a:e,c:f,f:g nil
+bdegcfa => b:a,d:b,e:c,g:d,c:e,f:f,a:g nil
+gbfdeca => g:a,b:b,f:c,d:d,e:e,c:f,a:g 8
+fbcaedg => f:a,b:b,c:c,a:d,e:e,d:f,g:g nil
+fbcedag => f:a,b:b,c:c,e:d,d:e,a:f,g:g 8
+afcdgbe => a:a,f:b,c:c,d:d,g:e,b:f,e:g 8
+bedacgf => b:a,e:b,d:c,a:d,c:e,g:f,f:g nil
+bfdgace => b:a,f:b,d:c,g:d,a:e,c:f,e:g nil
+fdaebcg => f:a,d:b,a:c,e:d,b:e,c:f,g:g nil
+beadgcf => b:a,e:b,a:c,d:d,g:e,c:f,f:g nil
+gcdfbea => g:a,c:b,d:c,f:d,b:e,e:f,a:g nil
+cgadbef => c:a,g:b,a:c,d:d,b:e,e:f,f:g nil
+gdbcfea => g:a,d:b,b:c,c:d,f:e,e:f,a:g nil
+eafdcgb => e:a,a:b,f:c,d:d,c:e,g:f,b:g nil
+fcbdeag => f:a,c:b,b:c,d:d,e:e,a:f,g:g 8
+cagdbfe => c:a,a:b,g:c,d:d,b:e,f:f,e:g nil
+fgdabec => f:a,g:b,d:c,a:d,b:e,e:f,c:g nil
+dfgaecb => d:a,f:b,g:c,a:d,e:e,c:f,b:g nil
+gadcfeb => g:a,a:b,d:c,c:d,f:e,e:f,b:g nil
+gefdcba => g:a,e:b,f:c,d:d,c:e,b:f,a:g nil
+cbfdage => c:a,b:b,f:c,d:d,a:e,g:f,e:g nil
+aegdcfb => a:a,e:b,g:c,d:d,c:e,f:f,b:g nil
+aegfdcb => a:a,e:b,g:c,f:d,d:e,c:f,b:g nil
+cgedabf => c:a,g:b,e:c,d:d,a:e,b:f,f:g nil
+badfceg => b:a,a:b,d:c,f:d,c:e,e:f,g:g nil
+fbegdac => f:a,b:b,e:c,g:d,d:e,a:f,c:g nil
+gadfbec => g:a,a:b,d:c,f:d,b:e,e:f,c:g nil
+dcfebag => d:a,c:b,f:c,e:d,b:e,a:f,g:g nil
+aefbgdc => a:a,e:b,f:c,b:d,g:e,d:f,c:g nil
+cdabgef => c:a,d:b,a:c,b:d,g:e,e:f,f:g nil
+efdgbca => e:a,f:b,d:c,g:d,b:e,c:f,a:g nil
+agdefcb => a:a,g:b,d:c,e:d,f:e,c:f,b:g nil
+gadefcb => g:a,a:b,d:c,e:d,f:e,c:f,b:g nil
+fecbdga => f:a,e:b,c:c,b:d,d:e,g:f,a:g nil
+dbgfcea => d:a,b:b,g:c,f:d,c:e,e:f,a:g nil
+fecabdg => f:a,e:b,c:c,a:d,b:e,d:f,g:g nil
+gbcafed => g:a,b:b,c:c,a:d,f:e,e:f,d:g nil
+adfgebc => a:a,d:b,f:c,g:d,e:e,b:f,c:g nil
+bdgfaec => b:a,d:b,g:c,f:d,a:e,e:f,c:g nil
+cfdgbea => c:a,f:b,d:c,g:d,b:e,e:f,a:g nil
+fecgdab => f:a,e:b,c:c,g:d,d:e,a:f,b:g nil
+fgbeacd => f:a,g:b,b:c,e:d,a:e,c:f,d:g nil
+dbacgfe => d:a,b:b,a:c,c:d,g:e,f:f,e:g nil
+dafcegb => d:a,a:b,f:c,c:d,e:e,g:f,b:g nil
+dbaecfg => d:a,b:b,a:c,e:d,c:e,f:f,g:g nil
+gcefabd => g:a,c:b,e:c,f:d,a:e,b:f,d:g nil
+dfbecag => d:a,f:b,b:c,e:d,c:e,a:f,g:g nil
+aefbgdc => a:a,e:b,f:c,b:d,g:e,d:f,c:g nil
+daecfgb => d:a,a:b,e:c,c:d,f:e,g:f,b:g nil
+cfebdag => c:a,f:b,e:c,b:d,d:e,a:f,g:g nil
+fgceabd => f:a,g:b,c:c,e:d,a:e,b:f,d:g nil
+bdgcefa => b:a,d:b,g:c,c:d,e:e,f:f,a:g nil
+agbcdef => a:a,g:b,b:c,c:d,d:e,e:f,f:g nil
+aefbdcg => a:a,e:b,f:c,b:d,d:e,c:f,g:g nil

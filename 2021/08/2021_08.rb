@@ -25,16 +25,16 @@ class Solution
     l "Correct parsing: #{correct.inspect}"
     answer = 0
     numbers = {}
-    numbers[0] = "abcefg"
-    numbers[1] = "cf"
-    numbers[2] = "acdeg"
-    numbers[3] = "acdfg"
-    numbers[4] = "bcdf"
-    numbers[5] = "abdfg"
-    numbers[6] = "abdefg"
-    numbers[7] = "acf"
-    numbers[8] = "abcdefg"
-    numbers[9] = "abcdfg"
+    numbers["abcefg"] = 0
+    numbers["cf"] = 1
+    numbers["acdeg"] = 2
+    numbers["acdfg"] = 3
+    numbers["bcdf"] = 4
+    numbers["abdfg"] = 5
+    numbers["abdefg"] = 6
+    numbers["acf"] = 7
+    numbers["abcdefg"] = 8
+    numbers["abcdfg"] = 9
     @pairs.each do |(a,b)|
       full_array = (a+b)
       eight = full_array.find{|x| 7 == x.size} 
@@ -42,10 +42,9 @@ class Solution
       [?a,?b,?c,?d,?e,?f,?g].each_with_index do |value,i|
         map[eight[i]] = value
       end
+      new_numbers = numbers.to_a.map{|(a,b)| [a.chars.map{|x| map[x]}.join,b]}.to_h
       print_map = map.to_a.map{|x| x.join(?:)}.join(?,)
-      b = b.map{|x| [x,x.chars.map{|z| map[z]}.sort.join]}
-      print_b = b.map{|x| x.join(?:)}.join(?,)
-      l "#{eight} => #{print_map} => #{print_b}"
+      l "#{eight} => #{print_map} #{new_numbers[eight].inspect}"
     end
     l_up "Answer is: #{answer}"
     l_up "Second 2."
