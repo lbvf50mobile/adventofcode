@@ -24,11 +24,15 @@ class Solution
     correct = check(arr)
     l "Correct parsing: #{correct.inspect}"
     answer = 0
-    counter_of_eight = 0
     @pairs.each do |(a,b)|
-      counter_of_eight += 1 if (a + b).find(8)
+      full_array = (a+b)
+      eight = full_array.find{|x| 7 == x.size} 
+      map = {}
+      [?a,?b,?c,?d,?e,?f,?g].each_with_index do |value,i|
+        map[eight[i]] = value
+      end
+      l "#{eight} => #{map.inspect}"
     end
-    l  "Each line has eight: #{(counter_of_eight == @pairs.size).inspect}"
     l_up "Answer is: #{answer}"
     l_up "Second 2."
     return @l
