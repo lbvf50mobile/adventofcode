@@ -1,203 +1,803 @@
 Second 2.
 Answer is: 0
 Correct parsing: true
-begcdaf => b:a,e:b,g:c,c:d,d:e,a:f,f:g nil
-edgafcb => e:a,d:b,g:c,a:d,f:e,c:f,b:g nil
-febacdg => f:a,e:b,b:c,a:d,c:e,d:f,g:g nil
-dceagfb => d:a,c:b,e:c,a:d,g:e,f:f,b:g nil
-edcbafg => e:a,d:b,c:c,b:d,a:e,f:f,g:g 8
-gbdcfea => g:a,b:b,d:c,c:d,f:e,e:f,a:g 8
-gafbdce => g:a,a:b,f:c,b:d,d:e,c:f,e:g nil
-agefbdc => a:a,g:b,e:c,f:d,b:e,d:f,c:g nil
-gbfecad => g:a,b:b,f:c,e:d,c:e,a:f,d:g nil
-fdcebga => f:a,d:b,c:c,e:d,b:e,g:f,a:g nil
-cgaedbf => c:a,g:b,a:c,e:d,d:e,b:f,f:g nil
-cafgebd => c:a,a:b,f:c,g:d,e:e,b:f,d:g nil
-bcadgef => b:a,c:b,a:c,d:d,g:e,e:f,f:g nil
-acgebfd => a:a,c:b,g:c,e:d,b:e,f:f,d:g nil
-fdcabeg => f:a,d:b,c:c,a:d,b:e,e:f,g:g nil
-gadbefc => g:a,a:b,d:c,b:d,e:e,f:f,c:g nil
-fgcbdea => f:a,g:b,c:c,b:d,d:e,e:f,a:g nil
-daefcgb => d:a,a:b,e:c,f:d,c:e,g:f,b:g nil
-afcedgb => a:a,f:b,c:c,e:d,d:e,g:f,b:g nil
-gecbdaf => g:a,e:b,c:c,b:d,d:e,a:f,f:g nil
-dfbaceg => d:a,f:b,b:c,a:d,c:e,e:f,g:g nil
-bcdgfae => b:a,c:b,d:c,g:d,f:e,a:f,e:g nil
-ebgdcaf => e:a,b:b,g:c,d:d,c:e,a:f,f:g nil
-efdbgca => e:a,f:b,d:c,b:d,g:e,c:f,a:g nil
-gaecbdf => g:a,a:b,e:c,c:d,b:e,d:f,f:g nil
-dgafbec => d:a,g:b,a:c,f:d,b:e,e:f,c:g nil
-aecgdbf => a:a,e:b,c:c,g:d,d:e,b:f,f:g nil
-aegdcfb => a:a,e:b,g:c,d:d,c:e,f:f,b:g nil
-ceagdbf => c:a,e:b,a:c,g:d,d:e,b:f,f:g nil
-fdgeacb => f:a,d:b,g:c,e:d,a:e,c:f,b:g nil
-begdfca => b:a,e:b,g:c,d:d,f:e,c:f,a:g nil
-gfaedbc => g:a,f:b,a:c,e:d,d:e,b:f,c:g nil
-fdgbaec => f:a,d:b,g:c,b:d,a:e,e:f,c:g nil
-fgbdcea => f:a,g:b,b:c,d:d,c:e,e:f,a:g nil
-egbdcfa => e:a,g:b,b:c,d:d,c:e,f:f,a:g nil
-dbcgefa => d:a,b:b,c:c,g:d,e:e,f:f,a:g nil
-cfbedag => c:a,f:b,b:c,e:d,d:e,a:f,g:g nil
-eagdbcf => e:a,a:b,g:c,d:d,b:e,c:f,f:g nil
-dcbgefa => d:a,c:b,b:c,g:d,e:e,f:f,a:g nil
-dcgbfea => d:a,c:b,g:c,b:d,f:e,e:f,a:g nil
-defagbc => d:a,e:b,f:c,a:d,g:e,b:f,c:g nil
-dgfcbea => d:a,g:b,f:c,c:d,b:e,e:f,a:g nil
-gecbdaf => g:a,e:b,c:c,b:d,d:e,a:f,f:g nil
-cfdageb => c:a,f:b,d:c,a:d,g:e,e:f,b:g nil
-bgcedaf => b:a,g:b,c:c,e:d,d:e,a:f,f:g nil
-cebgfda => c:a,e:b,b:c,g:d,f:e,d:f,a:g nil
-ebcfgad => e:a,b:b,c:c,f:d,g:e,a:f,d:g nil
-cdbfgae => c:a,d:b,b:c,f:d,g:e,a:f,e:g nil
-acgefbd => a:a,c:b,g:c,e:d,f:e,b:f,d:g nil
-aegbdcf => a:a,e:b,g:c,b:d,d:e,c:f,f:g nil
-ecagfbd => e:a,c:b,a:c,g:d,f:e,b:f,d:g nil
-cabfdeg => c:a,a:b,b:c,f:d,d:e,e:f,g:g nil
-fdceagb => f:a,d:b,c:c,e:d,a:e,g:f,b:g nil
-cgfbeda => c:a,g:b,f:c,b:d,e:e,d:f,a:g nil
-cgabedf => c:a,g:b,a:c,b:d,e:e,d:f,f:g nil
-gabfdce => g:a,a:b,b:c,f:d,d:e,c:f,e:g nil
-cegdfab => c:a,e:b,g:c,d:d,f:e,a:f,b:g nil
-fgaedcb => f:a,g:b,a:c,e:d,d:e,c:f,b:g nil
-dbgfaec => d:a,b:b,g:c,f:d,a:e,e:f,c:g nil
-fcdageb => f:a,c:b,d:c,a:d,g:e,e:f,b:g nil
-fbeacdg => f:a,b:b,e:c,a:d,c:e,d:f,g:g nil
-bagfced => b:a,a:b,g:c,f:d,c:e,e:f,d:g nil
-cgdefab => c:a,g:b,d:c,e:d,f:e,a:f,b:g nil
-fbcgaed => f:a,b:b,c:c,g:d,a:e,e:f,d:g nil
-bgefcad => b:a,g:b,e:c,f:d,c:e,a:f,d:g nil
-bfdgaec => b:a,f:b,d:c,g:d,a:e,e:f,c:g nil
-dcfbgea => d:a,c:b,f:c,b:d,g:e,e:f,a:g nil
-egcdafb => e:a,g:b,c:c,d:d,a:e,f:f,b:g 8
-ceagbdf => c:a,e:b,a:c,g:d,b:e,d:f,f:g nil
-egdbacf => e:a,g:b,d:c,b:d,a:e,c:f,f:g nil
-dgcbaef => d:a,g:b,c:c,b:d,a:e,e:f,f:g nil
-dabfgce => d:a,a:b,b:c,f:d,g:e,c:f,e:g nil
-gedfcba => g:a,e:b,d:c,f:d,c:e,b:f,a:g nil
-gefcdba => g:a,e:b,f:c,c:d,d:e,b:f,a:g nil
-edagbfc => e:a,d:b,a:c,g:d,b:e,f:f,c:g nil
-dceafbg => d:a,c:b,e:c,a:d,f:e,b:f,g:g nil
-afedgcb => a:a,f:b,e:c,d:d,g:e,c:f,b:g nil
-ecfdabg => e:a,c:b,f:c,d:d,a:e,b:f,g:g nil
-fgdceab => f:a,g:b,d:c,c:d,e:e,a:f,b:g 8
-fgcbead => f:a,g:b,c:c,b:d,e:e,a:f,d:g nil
-feadbgc => f:a,e:b,a:c,d:d,b:e,g:f,c:g nil
-agcfbed => a:a,g:b,c:c,f:d,b:e,e:f,d:g nil
-gdbcaef => g:a,d:b,b:c,c:d,a:e,e:f,f:g nil
-acfegbd => a:a,c:b,f:c,e:d,g:e,b:f,d:g nil
-gfbedac => g:a,f:b,b:c,e:d,d:e,a:f,c:g nil
-dfgcbae => d:a,f:b,g:c,c:d,b:e,a:f,e:g nil
-dagebfc => d:a,a:b,g:c,e:d,b:e,f:f,c:g nil
-cbadgef => c:a,b:b,a:c,d:d,g:e,e:f,f:g nil
-abdfgec => a:a,b:b,d:c,f:d,g:e,e:f,c:g nil
-gcbadef => g:a,c:b,b:c,a:d,d:e,e:f,f:g nil
-bcefagd => b:a,c:b,e:c,f:d,a:e,g:f,d:g nil
-fbcgaed => f:a,b:b,c:c,g:d,a:e,e:f,d:g nil
-eabgfcd => e:a,a:b,b:c,g:d,f:e,c:f,d:g nil
-agbfecd => a:a,g:b,b:c,f:d,e:e,c:f,d:g nil
-faedcbg => f:a,a:b,e:c,d:d,c:e,b:f,g:g nil
-gfebcad => g:a,f:b,e:c,b:d,c:e,a:f,d:g nil
-dcbfgea => d:a,c:b,b:c,f:d,g:e,e:f,a:g nil
-defbcag => d:a,e:b,f:c,b:d,c:e,a:f,g:g nil
-aebgdcf => a:a,e:b,b:c,g:d,d:e,c:f,f:g nil
-cbfadeg => c:a,b:b,f:c,a:d,d:e,e:f,g:g nil
-cdfgabe => c:a,d:b,f:c,g:d,a:e,b:f,e:g nil
-ebdfgca => e:a,b:b,d:c,f:d,g:e,c:f,a:g nil
-adebgfc => a:a,d:b,e:c,b:d,g:e,f:f,c:g nil
-edcgbaf => e:a,d:b,c:c,g:d,b:e,a:f,f:g nil
-egcdfab => e:a,g:b,c:c,d:d,f:e,a:f,b:g nil
-dacfegb => d:a,a:b,c:c,f:d,e:e,g:f,b:g nil
-efdgabc => e:a,f:b,d:c,g:d,a:e,b:f,c:g nil
-adecbfg => a:a,d:b,e:c,c:d,b:e,f:f,g:g nil
-dgcaebf => d:a,g:b,c:c,a:d,e:e,b:f,f:g nil
-ebdgfca => e:a,b:b,d:c,g:d,f:e,c:f,a:g nil
-abcgedf => a:a,b:b,c:c,g:d,e:e,d:f,f:g nil
-acbedgf => a:a,c:b,b:c,e:d,d:e,g:f,f:g 8
-cadegfb => c:a,a:b,d:c,e:d,g:e,f:f,b:g nil
-bdafegc => b:a,d:b,a:c,f:d,e:e,g:f,c:g nil
-aebgdfc => a:a,e:b,b:c,g:d,d:e,f:f,c:g nil
-aecbgfd => a:a,e:b,c:c,b:d,g:e,f:f,d:g nil
-decabfg => d:a,e:b,c:c,a:d,b:e,f:f,g:g 8
-acbgdfe => a:a,c:b,b:c,g:d,d:e,f:f,e:g nil
-cdbfgea => c:a,d:b,b:c,f:d,g:e,e:f,a:g nil
-cdeafbg => c:a,d:b,e:c,a:d,f:e,b:f,g:g nil
-facbedg => f:a,a:b,c:c,b:d,e:e,d:f,g:g nil
-fadegcb => f:a,a:b,d:c,e:d,g:e,c:f,b:g nil
-agbdcef => a:a,g:b,b:c,d:d,c:e,e:f,f:g nil
-baecgfd => b:a,a:b,e:c,c:d,g:e,f:f,d:g nil
-cedabfg => c:a,e:b,d:c,a:d,b:e,f:f,g:g nil
-cbadefg => c:a,b:b,a:c,d:d,e:e,f:f,g:g 8
-gfdecba => g:a,f:b,d:c,e:d,c:e,b:f,a:g nil
-fcedbag => f:a,c:b,e:c,d:d,b:e,a:f,g:g nil
-cgebadf => c:a,g:b,e:c,b:d,a:e,d:f,f:g nil
-ebgfacd => e:a,b:b,g:c,f:d,a:e,c:f,d:g nil
-dfgbaec => d:a,f:b,g:c,b:d,a:e,e:f,c:g nil
-bacdfge => b:a,a:b,c:c,d:d,f:e,g:f,e:g nil
-gdbefac => g:a,d:b,b:c,e:d,f:e,a:f,c:g nil
-gcadbef => g:a,c:b,a:c,d:d,b:e,e:f,f:g nil
-fdgbcae => f:a,d:b,g:c,b:d,c:e,a:f,e:g nil
-cfadgeb => c:a,f:b,a:c,d:d,g:e,e:f,b:g nil
-gedcafb => g:a,e:b,d:c,c:d,a:e,f:f,b:g nil
-gaecfbd => g:a,a:b,e:c,c:d,f:e,b:f,d:g nil
-geabfdc => g:a,e:b,a:c,b:d,f:e,d:f,c:g nil
-fcaebdg => f:a,c:b,a:c,e:d,b:e,d:f,g:g nil
-cfabedg => c:a,f:b,a:c,b:d,e:e,d:f,g:g nil
-gacfebd => g:a,a:b,c:c,f:d,e:e,b:f,d:g nil
-gdbcfea => g:a,d:b,b:c,c:d,f:e,e:f,a:g nil
-dfcageb => d:a,f:b,c:c,a:d,g:e,e:f,b:g nil
-ceagbdf => c:a,e:b,a:c,g:d,b:e,d:f,f:g nil
-dfgbaec => d:a,f:b,g:c,b:d,a:e,e:f,c:g nil
-dbgeacf => d:a,b:b,g:c,e:d,a:e,c:f,f:g nil
-bdegcfa => b:a,d:b,e:c,g:d,c:e,f:f,a:g nil
-gbfdeca => g:a,b:b,f:c,d:d,e:e,c:f,a:g 8
-fbcaedg => f:a,b:b,c:c,a:d,e:e,d:f,g:g nil
-fbcedag => f:a,b:b,c:c,e:d,d:e,a:f,g:g 8
-afcdgbe => a:a,f:b,c:c,d:d,g:e,b:f,e:g 8
-bedacgf => b:a,e:b,d:c,a:d,c:e,g:f,f:g nil
-bfdgace => b:a,f:b,d:c,g:d,a:e,c:f,e:g nil
-fdaebcg => f:a,d:b,a:c,e:d,b:e,c:f,g:g nil
-beadgcf => b:a,e:b,a:c,d:d,g:e,c:f,f:g nil
-gcdfbea => g:a,c:b,d:c,f:d,b:e,e:f,a:g nil
-cgadbef => c:a,g:b,a:c,d:d,b:e,e:f,f:g nil
-gdbcfea => g:a,d:b,b:c,c:d,f:e,e:f,a:g nil
-eafdcgb => e:a,a:b,f:c,d:d,c:e,g:f,b:g nil
-fcbdeag => f:a,c:b,b:c,d:d,e:e,a:f,g:g 8
-cagdbfe => c:a,a:b,g:c,d:d,b:e,f:f,e:g nil
-fgdabec => f:a,g:b,d:c,a:d,b:e,e:f,c:g nil
-dfgaecb => d:a,f:b,g:c,a:d,e:e,c:f,b:g nil
-gadcfeb => g:a,a:b,d:c,c:d,f:e,e:f,b:g nil
-gefdcba => g:a,e:b,f:c,d:d,c:e,b:f,a:g nil
-cbfdage => c:a,b:b,f:c,d:d,a:e,g:f,e:g nil
-aegdcfb => a:a,e:b,g:c,d:d,c:e,f:f,b:g nil
-aegfdcb => a:a,e:b,g:c,f:d,d:e,c:f,b:g nil
-cgedabf => c:a,g:b,e:c,d:d,a:e,b:f,f:g nil
-badfceg => b:a,a:b,d:c,f:d,c:e,e:f,g:g nil
-fbegdac => f:a,b:b,e:c,g:d,d:e,a:f,c:g nil
-gadfbec => g:a,a:b,d:c,f:d,b:e,e:f,c:g nil
-dcfebag => d:a,c:b,f:c,e:d,b:e,a:f,g:g nil
-aefbgdc => a:a,e:b,f:c,b:d,g:e,d:f,c:g nil
-cdabgef => c:a,d:b,a:c,b:d,g:e,e:f,f:g nil
-efdgbca => e:a,f:b,d:c,g:d,b:e,c:f,a:g nil
-agdefcb => a:a,g:b,d:c,e:d,f:e,c:f,b:g nil
-gadefcb => g:a,a:b,d:c,e:d,f:e,c:f,b:g nil
-fecbdga => f:a,e:b,c:c,b:d,d:e,g:f,a:g nil
-dbgfcea => d:a,b:b,g:c,f:d,c:e,e:f,a:g nil
-fecabdg => f:a,e:b,c:c,a:d,b:e,d:f,g:g nil
-gbcafed => g:a,b:b,c:c,a:d,f:e,e:f,d:g nil
-adfgebc => a:a,d:b,f:c,g:d,e:e,b:f,c:g nil
-bdgfaec => b:a,d:b,g:c,f:d,a:e,e:f,c:g nil
-cfdgbea => c:a,f:b,d:c,g:d,b:e,e:f,a:g nil
-fecgdab => f:a,e:b,c:c,g:d,d:e,a:f,b:g nil
-fgbeacd => f:a,g:b,b:c,e:d,a:e,c:f,d:g nil
-dbacgfe => d:a,b:b,a:c,c:d,g:e,f:f,e:g nil
-dafcegb => d:a,a:b,f:c,c:d,e:e,g:f,b:g nil
-dbaecfg => d:a,b:b,a:c,e:d,c:e,f:f,g:g nil
-gcefabd => g:a,c:b,e:c,f:d,a:e,b:f,d:g nil
-dfbecag => d:a,f:b,b:c,e:d,c:e,a:f,g:g nil
-aefbgdc => a:a,e:b,f:c,b:d,g:e,d:f,c:g nil
-daecfgb => d:a,a:b,e:c,c:d,f:e,g:f,b:g nil
-cfebdag => c:a,f:b,e:c,b:d,d:e,a:f,g:g nil
-fgceabd => f:a,g:b,c:c,e:d,a:e,b:f,d:g nil
-bdgcefa => b:a,d:b,g:c,c:d,e:e,f:f,a:g nil
-agbcdef => a:a,g:b,b:c,c:d,d:e,e:f,f:g nil
-aefbdcg => a:a,e:b,f:c,b:d,d:e,c:f,g:g nil
+begcdaf => a:b,b:e,c:g,d:c,e:d,f:a,g:f 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"begdaf"=>0, "ga"=>1, "bgcdf"=>2, "bgcaf"=>3, "egca"=>4, "becaf"=>5, "becdaf"=>6, "bga"=>7, "begcdaf"=>8, "begcaf"=>9}
+---------------------------------------
+edgafcb => a:e,b:d,c:g,d:a,e:f,f:c,g:b 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"edgfcb"=>0, "gc"=>1, "egafb"=>2, "egacb"=>3, "dgac"=>4, "edacb"=>5, "edafcb"=>6, "egc"=>7, "edgafcb"=>8, "edgacb"=>9}
+---------------------------------------
+febacdg => a:f,b:e,c:b,d:a,e:c,f:d,g:g 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"febcdg"=>0, "bd"=>1, "fbacg"=>2, "fbadg"=>3, "ebad"=>4, "feadg"=>5, "feacdg"=>6, "fbd"=>7, "febacdg"=>8, "febadg"=>9}
+---------------------------------------
+dceagfb => a:d,b:c,c:e,d:a,e:g,f:f,g:b 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"dcegfb"=>0, "ef"=>1, "deagb"=>2, "deafb"=>3, "ceaf"=>4, "dcafb"=>5, "dcagfb"=>6, "def"=>7, "dceagfb"=>8, "dceafb"=>9}
+---------------------------------------
+edcbafg => a:e,b:d,c:c,d:b,e:a,f:f,g:g 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"edcafg"=>0, "cf"=>1, "ecbag"=>2, "ecbfg"=>3, "dcbf"=>4, "edbfg"=>5, "edbafg"=>6, "ecf"=>7, "edcbafg"=>8, "edcbfg"=>9}
+---------------------------------------
+gbdcfea => a:g,b:b,c:d,d:c,e:f,f:e,g:a 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"gbdfea"=>0, "de"=>1, "gdcfa"=>2, "gdcea"=>3, "bdce"=>4, "gbcea"=>5, "gbcfea"=>6, "gde"=>7, "gbdcfea"=>8, "gbdcea"=>9}
+---------------------------------------
+gafbdce => a:g,b:a,c:f,d:b,e:d,f:c,g:e 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"gafdce"=>0, "fc"=>1, "gfbde"=>2, "gfbce"=>3, "afbc"=>4, "gabce"=>5, "gabdce"=>6, "gfc"=>7, "gafbdce"=>8, "gafbce"=>9}
+---------------------------------------
+agefbdc => a:a,b:g,c:e,d:f,e:b,f:d,g:c 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"agebdc"=>0, "ed"=>1, "aefbc"=>2, "aefdc"=>3, "gefd"=>4, "agfdc"=>5, "agfbdc"=>6, "aed"=>7, "agefbdc"=>8, "agefdc"=>9}
+---------------------------------------
+gbfecad => a:g,b:b,c:f,d:e,e:c,f:a,g:d 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"gbfcad"=>0, "fa"=>1, "gfecd"=>2, "gfead"=>3, "bfea"=>4, "gbead"=>5, "gbecad"=>6, "gfa"=>7, "gbfecad"=>8, "gbfead"=>9}
+---------------------------------------
+fdcebga => a:f,b:d,c:c,d:e,e:b,f:g,g:a 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"fdcbga"=>0, "cg"=>1, "fceba"=>2, "fcega"=>3, "dceg"=>4, "fdega"=>5, "fdebga"=>6, "fcg"=>7, "fdcebga"=>8, "fdcega"=>9}
+---------------------------------------
+cgaedbf => a:c,b:g,c:a,d:e,e:d,f:b,g:f 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"cgadbf"=>0, "ab"=>1, "caedf"=>2, "caebf"=>3, "gaeb"=>4, "cgebf"=>5, "cgedbf"=>6, "cab"=>7, "cgaedbf"=>8, "cgaebf"=>9}
+---------------------------------------
+cafgebd => a:c,b:a,c:f,d:g,e:e,f:b,g:d 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"cafebd"=>0, "fb"=>1, "cfged"=>2, "cfgbd"=>3, "afgb"=>4, "cagbd"=>5, "cagebd"=>6, "cfb"=>7, "cafgebd"=>8, "cafgbd"=>9}
+---------------------------------------
+bcadgef => a:b,b:c,c:a,d:d,e:g,f:e,g:f 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"bcagef"=>0, "ae"=>1, "badgf"=>2, "badef"=>3, "cade"=>4, "bcdef"=>5, "bcdgef"=>6, "bae"=>7, "bcadgef"=>8, "bcadef"=>9}
+---------------------------------------
+acgebfd => a:a,b:c,c:g,d:e,e:b,f:f,g:d 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"acgbfd"=>0, "gf"=>1, "agebd"=>2, "agefd"=>3, "cgef"=>4, "acefd"=>5, "acebfd"=>6, "agf"=>7, "acgebfd"=>8, "acgefd"=>9}
+---------------------------------------
+fdcabeg => a:f,b:d,c:c,d:a,e:b,f:e,g:g 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"fdcbeg"=>0, "ce"=>1, "fcabg"=>2, "fcaeg"=>3, "dcae"=>4, "fdaeg"=>5, "fdabeg"=>6, "fce"=>7, "fdcabeg"=>8, "fdcaeg"=>9}
+---------------------------------------
+gadbefc => a:g,b:a,c:d,d:b,e:e,f:f,g:c 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"gadefc"=>0, "df"=>1, "gdbec"=>2, "gdbfc"=>3, "adbf"=>4, "gabfc"=>5, "gabefc"=>6, "gdf"=>7, "gadbefc"=>8, "gadbfc"=>9}
+---------------------------------------
+fgcbdea => a:f,b:g,c:c,d:b,e:d,f:e,g:a 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"fgcdea"=>0, "ce"=>1, "fcbda"=>2, "fcbea"=>3, "gcbe"=>4, "fgbea"=>5, "fgbdea"=>6, "fce"=>7, "fgcbdea"=>8, "fgcbea"=>9}
+---------------------------------------
+daefcgb => a:d,b:a,c:e,d:f,e:c,f:g,g:b 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"daecgb"=>0, "eg"=>1, "defcb"=>2, "defgb"=>3, "aefg"=>4, "dafgb"=>5, "dafcgb"=>6, "deg"=>7, "daefcgb"=>8, "daefgb"=>9}
+---------------------------------------
+afcedgb => a:a,b:f,c:c,d:e,e:d,f:g,g:b 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"afcdgb"=>0, "cg"=>1, "acedb"=>2, "acegb"=>3, "fceg"=>4, "afegb"=>5, "afedgb"=>6, "acg"=>7, "afcedgb"=>8, "afcegb"=>9}
+---------------------------------------
+gecbdaf => a:g,b:e,c:c,d:b,e:d,f:a,g:f 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"gecdaf"=>0, "ca"=>1, "gcbdf"=>2, "gcbaf"=>3, "ecba"=>4, "gebaf"=>5, "gebdaf"=>6, "gca"=>7, "gecbdaf"=>8, "gecbaf"=>9}
+---------------------------------------
+dfbaceg => a:d,b:f,c:b,d:a,e:c,f:e,g:g 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"dfbceg"=>0, "be"=>1, "dbacg"=>2, "dbaeg"=>3, "fbae"=>4, "dfaeg"=>5, "dfaceg"=>6, "dbe"=>7, "dfbaceg"=>8, "dfbaeg"=>9}
+---------------------------------------
+bcdgfae => a:b,b:c,c:d,d:g,e:f,f:a,g:e 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"bcdfae"=>0, "da"=>1, "bdgfe"=>2, "bdgae"=>3, "cdga"=>4, "bcgae"=>5, "bcgfae"=>6, "bda"=>7, "bcdgfae"=>8, "bcdgae"=>9}
+---------------------------------------
+ebgdcaf => a:e,b:b,c:g,d:d,e:c,f:a,g:f 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"ebgcaf"=>0, "ga"=>1, "egdcf"=>2, "egdaf"=>3, "bgda"=>4, "ebdaf"=>5, "ebdcaf"=>6, "ega"=>7, "ebgdcaf"=>8, "ebgdaf"=>9}
+---------------------------------------
+efdbgca => a:e,b:f,c:d,d:b,e:g,f:c,g:a 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"efdgca"=>0, "dc"=>1, "edbga"=>2, "edbca"=>3, "fdbc"=>4, "efbca"=>5, "efbgca"=>6, "edc"=>7, "efdbgca"=>8, "efdbca"=>9}
+---------------------------------------
+gaecbdf => a:g,b:a,c:e,d:c,e:b,f:d,g:f 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"gaebdf"=>0, "ed"=>1, "gecbf"=>2, "gecdf"=>3, "aecd"=>4, "gacdf"=>5, "gacbdf"=>6, "ged"=>7, "gaecbdf"=>8, "gaecdf"=>9}
+---------------------------------------
+dgafbec => a:d,b:g,c:a,d:f,e:b,f:e,g:c 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"dgabec"=>0, "ae"=>1, "dafbc"=>2, "dafec"=>3, "gafe"=>4, "dgfec"=>5, "dgfbec"=>6, "dae"=>7, "dgafbec"=>8, "dgafec"=>9}
+---------------------------------------
+aecgdbf => a:a,b:e,c:c,d:g,e:d,f:b,g:f 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"aecdbf"=>0, "cb"=>1, "acgdf"=>2, "acgbf"=>3, "ecgb"=>4, "aegbf"=>5, "aegdbf"=>6, "acb"=>7, "aecgdbf"=>8, "aecgbf"=>9}
+---------------------------------------
+aegdcfb => a:a,b:e,c:g,d:d,e:c,f:f,g:b 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"aegcfb"=>0, "gf"=>1, "agdcb"=>2, "agdfb"=>3, "egdf"=>4, "aedfb"=>5, "aedcfb"=>6, "agf"=>7, "aegdcfb"=>8, "aegdfb"=>9}
+---------------------------------------
+ceagdbf => a:c,b:e,c:a,d:g,e:d,f:b,g:f 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"ceadbf"=>0, "ab"=>1, "cagdf"=>2, "cagbf"=>3, "eagb"=>4, "cegbf"=>5, "cegdbf"=>6, "cab"=>7, "ceagdbf"=>8, "ceagbf"=>9}
+---------------------------------------
+fdgeacb => a:f,b:d,c:g,d:e,e:a,f:c,g:b 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"fdgacb"=>0, "gc"=>1, "fgeab"=>2, "fgecb"=>3, "dgec"=>4, "fdecb"=>5, "fdeacb"=>6, "fgc"=>7, "fdgeacb"=>8, "fdgecb"=>9}
+---------------------------------------
+begdfca => a:b,b:e,c:g,d:d,e:f,f:c,g:a 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"begfca"=>0, "gc"=>1, "bgdfa"=>2, "bgdca"=>3, "egdc"=>4, "bedca"=>5, "bedfca"=>6, "bgc"=>7, "begdfca"=>8, "begdca"=>9}
+---------------------------------------
+gfaedbc => a:g,b:f,c:a,d:e,e:d,f:b,g:c 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"gfadbc"=>0, "ab"=>1, "gaedc"=>2, "gaebc"=>3, "faeb"=>4, "gfebc"=>5, "gfedbc"=>6, "gab"=>7, "gfaedbc"=>8, "gfaebc"=>9}
+---------------------------------------
+fdgbaec => a:f,b:d,c:g,d:b,e:a,f:e,g:c 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"fdgaec"=>0, "ge"=>1, "fgbac"=>2, "fgbec"=>3, "dgbe"=>4, "fdbec"=>5, "fdbaec"=>6, "fge"=>7, "fdgbaec"=>8, "fdgbec"=>9}
+---------------------------------------
+fgbdcea => a:f,b:g,c:b,d:d,e:c,f:e,g:a 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"fgbcea"=>0, "be"=>1, "fbdca"=>2, "fbdea"=>3, "gbde"=>4, "fgdea"=>5, "fgdcea"=>6, "fbe"=>7, "fgbdcea"=>8, "fgbdea"=>9}
+---------------------------------------
+egbdcfa => a:e,b:g,c:b,d:d,e:c,f:f,g:a 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"egbcfa"=>0, "bf"=>1, "ebdca"=>2, "ebdfa"=>3, "gbdf"=>4, "egdfa"=>5, "egdcfa"=>6, "ebf"=>7, "egbdcfa"=>8, "egbdfa"=>9}
+---------------------------------------
+dbcgefa => a:d,b:b,c:c,d:g,e:e,f:f,g:a 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"dbcefa"=>0, "cf"=>1, "dcgea"=>2, "dcgfa"=>3, "bcgf"=>4, "dbgfa"=>5, "dbgefa"=>6, "dcf"=>7, "dbcgefa"=>8, "dbcgfa"=>9}
+---------------------------------------
+cfbedag => a:c,b:f,c:b,d:e,e:d,f:a,g:g 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"cfbdag"=>0, "ba"=>1, "cbedg"=>2, "cbeag"=>3, "fbea"=>4, "cfeag"=>5, "cfedag"=>6, "cba"=>7, "cfbedag"=>8, "cfbeag"=>9}
+---------------------------------------
+eagdbcf => a:e,b:a,c:g,d:d,e:b,f:c,g:f 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"eagbcf"=>0, "gc"=>1, "egdbf"=>2, "egdcf"=>3, "agdc"=>4, "eadcf"=>5, "eadbcf"=>6, "egc"=>7, "eagdbcf"=>8, "eagdcf"=>9}
+---------------------------------------
+dcbgefa => a:d,b:c,c:b,d:g,e:e,f:f,g:a 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"dcbefa"=>0, "bf"=>1, "dbgea"=>2, "dbgfa"=>3, "cbgf"=>4, "dcgfa"=>5, "dcgefa"=>6, "dbf"=>7, "dcbgefa"=>8, "dcbgfa"=>9}
+---------------------------------------
+dcgbfea => a:d,b:c,c:g,d:b,e:f,f:e,g:a 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"dcgfea"=>0, "ge"=>1, "dgbfa"=>2, "dgbea"=>3, "cgbe"=>4, "dcbea"=>5, "dcbfea"=>6, "dge"=>7, "dcgbfea"=>8, "dcgbea"=>9}
+---------------------------------------
+defagbc => a:d,b:e,c:f,d:a,e:g,f:b,g:c 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"defgbc"=>0, "fb"=>1, "dfagc"=>2, "dfabc"=>3, "efab"=>4, "deabc"=>5, "deagbc"=>6, "dfb"=>7, "defagbc"=>8, "defabc"=>9}
+---------------------------------------
+dgfcbea => a:d,b:g,c:f,d:c,e:b,f:e,g:a 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"dgfbea"=>0, "fe"=>1, "dfcba"=>2, "dfcea"=>3, "gfce"=>4, "dgcea"=>5, "dgcbea"=>6, "dfe"=>7, "dgfcbea"=>8, "dgfcea"=>9}
+---------------------------------------
+gecbdaf => a:g,b:e,c:c,d:b,e:d,f:a,g:f 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"gecdaf"=>0, "ca"=>1, "gcbdf"=>2, "gcbaf"=>3, "ecba"=>4, "gebaf"=>5, "gebdaf"=>6, "gca"=>7, "gecbdaf"=>8, "gecbaf"=>9}
+---------------------------------------
+cfdageb => a:c,b:f,c:d,d:a,e:g,f:e,g:b 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"cfdgeb"=>0, "de"=>1, "cdagb"=>2, "cdaeb"=>3, "fdae"=>4, "cfaeb"=>5, "cfageb"=>6, "cde"=>7, "cfdageb"=>8, "cfdaeb"=>9}
+---------------------------------------
+bgcedaf => a:b,b:g,c:c,d:e,e:d,f:a,g:f 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"bgcdaf"=>0, "ca"=>1, "bcedf"=>2, "bceaf"=>3, "gcea"=>4, "bgeaf"=>5, "bgedaf"=>6, "bca"=>7, "bgcedaf"=>8, "bgceaf"=>9}
+---------------------------------------
+cebgfda => a:c,b:e,c:b,d:g,e:f,f:d,g:a 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"cebfda"=>0, "bd"=>1, "cbgfa"=>2, "cbgda"=>3, "ebgd"=>4, "cegda"=>5, "cegfda"=>6, "cbd"=>7, "cebgfda"=>8, "cebgda"=>9}
+---------------------------------------
+ebcfgad => a:e,b:b,c:c,d:f,e:g,f:a,g:d 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"ebcgad"=>0, "ca"=>1, "ecfgd"=>2, "ecfad"=>3, "bcfa"=>4, "ebfad"=>5, "ebfgad"=>6, "eca"=>7, "ebcfgad"=>8, "ebcfad"=>9}
+---------------------------------------
+cdbfgae => a:c,b:d,c:b,d:f,e:g,f:a,g:e 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"cdbgae"=>0, "ba"=>1, "cbfge"=>2, "cbfae"=>3, "dbfa"=>4, "cdfae"=>5, "cdfgae"=>6, "cba"=>7, "cdbfgae"=>8, "cdbfae"=>9}
+---------------------------------------
+acgefbd => a:a,b:c,c:g,d:e,e:f,f:b,g:d 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"acgfbd"=>0, "gb"=>1, "agefd"=>2, "agebd"=>3, "cgeb"=>4, "acebd"=>5, "acefbd"=>6, "agb"=>7, "acgefbd"=>8, "acgebd"=>9}
+---------------------------------------
+aegbdcf => a:a,b:e,c:g,d:b,e:d,f:c,g:f 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"aegdcf"=>0, "gc"=>1, "agbdf"=>2, "agbcf"=>3, "egbc"=>4, "aebcf"=>5, "aebdcf"=>6, "agc"=>7, "aegbdcf"=>8, "aegbcf"=>9}
+---------------------------------------
+ecagfbd => a:e,b:c,c:a,d:g,e:f,f:b,g:d 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"ecafbd"=>0, "ab"=>1, "eagfd"=>2, "eagbd"=>3, "cagb"=>4, "ecgbd"=>5, "ecgfbd"=>6, "eab"=>7, "ecagfbd"=>8, "ecagbd"=>9}
+---------------------------------------
+cabfdeg => a:c,b:a,c:b,d:f,e:d,f:e,g:g 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"cabdeg"=>0, "be"=>1, "cbfdg"=>2, "cbfeg"=>3, "abfe"=>4, "cafeg"=>5, "cafdeg"=>6, "cbe"=>7, "cabfdeg"=>8, "cabfeg"=>9}
+---------------------------------------
+fdceagb => a:f,b:d,c:c,d:e,e:a,f:g,g:b 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"fdcagb"=>0, "cg"=>1, "fceab"=>2, "fcegb"=>3, "dceg"=>4, "fdegb"=>5, "fdeagb"=>6, "fcg"=>7, "fdceagb"=>8, "fdcegb"=>9}
+---------------------------------------
+cgfbeda => a:c,b:g,c:f,d:b,e:e,f:d,g:a 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"cgfeda"=>0, "fd"=>1, "cfbea"=>2, "cfbda"=>3, "gfbd"=>4, "cgbda"=>5, "cgbeda"=>6, "cfd"=>7, "cgfbeda"=>8, "cgfbda"=>9}
+---------------------------------------
+cgabedf => a:c,b:g,c:a,d:b,e:e,f:d,g:f 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"cgaedf"=>0, "ad"=>1, "cabef"=>2, "cabdf"=>3, "gabd"=>4, "cgbdf"=>5, "cgbedf"=>6, "cad"=>7, "cgabedf"=>8, "cgabdf"=>9}
+---------------------------------------
+gabfdce => a:g,b:a,c:b,d:f,e:d,f:c,g:e 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"gabdce"=>0, "bc"=>1, "gbfde"=>2, "gbfce"=>3, "abfc"=>4, "gafce"=>5, "gafdce"=>6, "gbc"=>7, "gabfdce"=>8, "gabfce"=>9}
+---------------------------------------
+cegdfab => a:c,b:e,c:g,d:d,e:f,f:a,g:b 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"cegfab"=>0, "ga"=>1, "cgdfb"=>2, "cgdab"=>3, "egda"=>4, "cedab"=>5, "cedfab"=>6, "cga"=>7, "cegdfab"=>8, "cegdab"=>9}
+---------------------------------------
+fgaedcb => a:f,b:g,c:a,d:e,e:d,f:c,g:b 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"fgadcb"=>0, "ac"=>1, "faedb"=>2, "faecb"=>3, "gaec"=>4, "fgecb"=>5, "fgedcb"=>6, "fac"=>7, "fgaedcb"=>8, "fgaecb"=>9}
+---------------------------------------
+dbgfaec => a:d,b:b,c:g,d:f,e:a,f:e,g:c 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"dbgaec"=>0, "ge"=>1, "dgfac"=>2, "dgfec"=>3, "bgfe"=>4, "dbfec"=>5, "dbfaec"=>6, "dge"=>7, "dbgfaec"=>8, "dbgfec"=>9}
+---------------------------------------
+fcdageb => a:f,b:c,c:d,d:a,e:g,f:e,g:b 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"fcdgeb"=>0, "de"=>1, "fdagb"=>2, "fdaeb"=>3, "cdae"=>4, "fcaeb"=>5, "fcageb"=>6, "fde"=>7, "fcdageb"=>8, "fcdaeb"=>9}
+---------------------------------------
+fbeacdg => a:f,b:b,c:e,d:a,e:c,f:d,g:g 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"fbecdg"=>0, "ed"=>1, "feacg"=>2, "feadg"=>3, "bead"=>4, "fbadg"=>5, "fbacdg"=>6, "fed"=>7, "fbeacdg"=>8, "fbeadg"=>9}
+---------------------------------------
+bagfced => a:b,b:a,c:g,d:f,e:c,f:e,g:d 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"bagced"=>0, "ge"=>1, "bgfcd"=>2, "bgfed"=>3, "agfe"=>4, "bafed"=>5, "bafced"=>6, "bge"=>7, "bagfced"=>8, "bagfed"=>9}
+---------------------------------------
+cgdefab => a:c,b:g,c:d,d:e,e:f,f:a,g:b 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"cgdfab"=>0, "da"=>1, "cdefb"=>2, "cdeab"=>3, "gdea"=>4, "cgeab"=>5, "cgefab"=>6, "cda"=>7, "cgdefab"=>8, "cgdeab"=>9}
+---------------------------------------
+fbcgaed => a:f,b:b,c:c,d:g,e:a,f:e,g:d 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"fbcaed"=>0, "ce"=>1, "fcgad"=>2, "fcged"=>3, "bcge"=>4, "fbged"=>5, "fbgaed"=>6, "fce"=>7, "fbcgaed"=>8, "fbcged"=>9}
+---------------------------------------
+bgefcad => a:b,b:g,c:e,d:f,e:c,f:a,g:d 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"bgecad"=>0, "ea"=>1, "befcd"=>2, "befad"=>3, "gefa"=>4, "bgfad"=>5, "bgfcad"=>6, "bea"=>7, "bgefcad"=>8, "bgefad"=>9}
+---------------------------------------
+bfdgaec => a:b,b:f,c:d,d:g,e:a,f:e,g:c 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"bfdaec"=>0, "de"=>1, "bdgac"=>2, "bdgec"=>3, "fdge"=>4, "bfgec"=>5, "bfgaec"=>6, "bde"=>7, "bfdgaec"=>8, "bfdgec"=>9}
+---------------------------------------
+dcfbgea => a:d,b:c,c:f,d:b,e:g,f:e,g:a 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"dcfgea"=>0, "fe"=>1, "dfbga"=>2, "dfbea"=>3, "cfbe"=>4, "dcbea"=>5, "dcbgea"=>6, "dfe"=>7, "dcfbgea"=>8, "dcfbea"=>9}
+---------------------------------------
+egcdafb => a:e,b:g,c:c,d:d,e:a,f:f,g:b 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"egcafb"=>0, "cf"=>1, "ecdab"=>2, "ecdfb"=>3, "gcdf"=>4, "egdfb"=>5, "egdafb"=>6, "ecf"=>7, "egcdafb"=>8, "egcdfb"=>9}
+---------------------------------------
+ceagbdf => a:c,b:e,c:a,d:g,e:b,f:d,g:f 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"ceabdf"=>0, "ad"=>1, "cagbf"=>2, "cagdf"=>3, "eagd"=>4, "cegdf"=>5, "cegbdf"=>6, "cad"=>7, "ceagbdf"=>8, "ceagdf"=>9}
+---------------------------------------
+egdbacf => a:e,b:g,c:d,d:b,e:a,f:c,g:f 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"egdacf"=>0, "dc"=>1, "edbaf"=>2, "edbcf"=>3, "gdbc"=>4, "egbcf"=>5, "egbacf"=>6, "edc"=>7, "egdbacf"=>8, "egdbcf"=>9}
+---------------------------------------
+dgcbaef => a:d,b:g,c:c,d:b,e:a,f:e,g:f 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"dgcaef"=>0, "ce"=>1, "dcbaf"=>2, "dcbef"=>3, "gcbe"=>4, "dgbef"=>5, "dgbaef"=>6, "dce"=>7, "dgcbaef"=>8, "dgcbef"=>9}
+---------------------------------------
+dabfgce => a:d,b:a,c:b,d:f,e:g,f:c,g:e 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"dabgce"=>0, "bc"=>1, "dbfge"=>2, "dbfce"=>3, "abfc"=>4, "dafce"=>5, "dafgce"=>6, "dbc"=>7, "dabfgce"=>8, "dabfce"=>9}
+---------------------------------------
+gedfcba => a:g,b:e,c:d,d:f,e:c,f:b,g:a 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"gedcba"=>0, "db"=>1, "gdfca"=>2, "gdfba"=>3, "edfb"=>4, "gefba"=>5, "gefcba"=>6, "gdb"=>7, "gedfcba"=>8, "gedfba"=>9}
+---------------------------------------
+gefcdba => a:g,b:e,c:f,d:c,e:d,f:b,g:a 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"gefdba"=>0, "fb"=>1, "gfcda"=>2, "gfcba"=>3, "efcb"=>4, "gecba"=>5, "gecdba"=>6, "gfb"=>7, "gefcdba"=>8, "gefcba"=>9}
+---------------------------------------
+edagbfc => a:e,b:d,c:a,d:g,e:b,f:f,g:c 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"edabfc"=>0, "af"=>1, "eagbc"=>2, "eagfc"=>3, "dagf"=>4, "edgfc"=>5, "edgbfc"=>6, "eaf"=>7, "edagbfc"=>8, "edagfc"=>9}
+---------------------------------------
+dceafbg => a:d,b:c,c:e,d:a,e:f,f:b,g:g 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"dcefbg"=>0, "eb"=>1, "deafg"=>2, "deabg"=>3, "ceab"=>4, "dcabg"=>5, "dcafbg"=>6, "deb"=>7, "dceafbg"=>8, "dceabg"=>9}
+---------------------------------------
+afedgcb => a:a,b:f,c:e,d:d,e:g,f:c,g:b 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"afegcb"=>0, "ec"=>1, "aedgb"=>2, "aedcb"=>3, "fedc"=>4, "afdcb"=>5, "afdgcb"=>6, "aec"=>7, "afedgcb"=>8, "afedcb"=>9}
+---------------------------------------
+ecfdabg => a:e,b:c,c:f,d:d,e:a,f:b,g:g 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"ecfabg"=>0, "fb"=>1, "efdag"=>2, "efdbg"=>3, "cfdb"=>4, "ecdbg"=>5, "ecdabg"=>6, "efb"=>7, "ecfdabg"=>8, "ecfdbg"=>9}
+---------------------------------------
+fgdceab => a:f,b:g,c:d,d:c,e:e,f:a,g:b 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"fgdeab"=>0, "da"=>1, "fdceb"=>2, "fdcab"=>3, "gdca"=>4, "fgcab"=>5, "fgceab"=>6, "fda"=>7, "fgdceab"=>8, "fgdcab"=>9}
+---------------------------------------
+fgcbead => a:f,b:g,c:c,d:b,e:e,f:a,g:d 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"fgcead"=>0, "ca"=>1, "fcbed"=>2, "fcbad"=>3, "gcba"=>4, "fgbad"=>5, "fgbead"=>6, "fca"=>7, "fgcbead"=>8, "fgcbad"=>9}
+---------------------------------------
+feadbgc => a:f,b:e,c:a,d:d,e:b,f:g,g:c 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"feabgc"=>0, "ag"=>1, "fadbc"=>2, "fadgc"=>3, "eadg"=>4, "fedgc"=>5, "fedbgc"=>6, "fag"=>7, "feadbgc"=>8, "feadgc"=>9}
+---------------------------------------
+agcfbed => a:a,b:g,c:c,d:f,e:b,f:e,g:d 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"agcbed"=>0, "ce"=>1, "acfbd"=>2, "acfed"=>3, "gcfe"=>4, "agfed"=>5, "agfbed"=>6, "ace"=>7, "agcfbed"=>8, "agcfed"=>9}
+---------------------------------------
+gdbcaef => a:g,b:d,c:b,d:c,e:a,f:e,g:f 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"gdbaef"=>0, "be"=>1, "gbcaf"=>2, "gbcef"=>3, "dbce"=>4, "gdcef"=>5, "gdcaef"=>6, "gbe"=>7, "gdbcaef"=>8, "gdbcef"=>9}
+---------------------------------------
+acfegbd => a:a,b:c,c:f,d:e,e:g,f:b,g:d 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"acfgbd"=>0, "fb"=>1, "afegd"=>2, "afebd"=>3, "cfeb"=>4, "acebd"=>5, "acegbd"=>6, "afb"=>7, "acfegbd"=>8, "acfebd"=>9}
+---------------------------------------
+gfbedac => a:g,b:f,c:b,d:e,e:d,f:a,g:c 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"gfbdac"=>0, "ba"=>1, "gbedc"=>2, "gbeac"=>3, "fbea"=>4, "gfeac"=>5, "gfedac"=>6, "gba"=>7, "gfbedac"=>8, "gfbeac"=>9}
+---------------------------------------
+dfgcbae => a:d,b:f,c:g,d:c,e:b,f:a,g:e 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"dfgbae"=>0, "ga"=>1, "dgcbe"=>2, "dgcae"=>3, "fgca"=>4, "dfcae"=>5, "dfcbae"=>6, "dga"=>7, "dfgcbae"=>8, "dfgcae"=>9}
+---------------------------------------
+dagebfc => a:d,b:a,c:g,d:e,e:b,f:f,g:c 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"dagbfc"=>0, "gf"=>1, "dgebc"=>2, "dgefc"=>3, "agef"=>4, "daefc"=>5, "daebfc"=>6, "dgf"=>7, "dagebfc"=>8, "dagefc"=>9}
+---------------------------------------
+cbadgef => a:c,b:b,c:a,d:d,e:g,f:e,g:f 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"cbagef"=>0, "ae"=>1, "cadgf"=>2, "cadef"=>3, "bade"=>4, "cbdef"=>5, "cbdgef"=>6, "cae"=>7, "cbadgef"=>8, "cbadef"=>9}
+---------------------------------------
+abdfgec => a:a,b:b,c:d,d:f,e:g,f:e,g:c 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"abdgec"=>0, "de"=>1, "adfgc"=>2, "adfec"=>3, "bdfe"=>4, "abfec"=>5, "abfgec"=>6, "ade"=>7, "abdfgec"=>8, "abdfec"=>9}
+---------------------------------------
+gcbadef => a:g,b:c,c:b,d:a,e:d,f:e,g:f 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"gcbdef"=>0, "be"=>1, "gbadf"=>2, "gbaef"=>3, "cbae"=>4, "gcaef"=>5, "gcadef"=>6, "gbe"=>7, "gcbadef"=>8, "gcbaef"=>9}
+---------------------------------------
+bcefagd => a:b,b:c,c:e,d:f,e:a,f:g,g:d 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"bceagd"=>0, "eg"=>1, "befad"=>2, "befgd"=>3, "cefg"=>4, "bcfgd"=>5, "bcfagd"=>6, "beg"=>7, "bcefagd"=>8, "bcefgd"=>9}
+---------------------------------------
+fbcgaed => a:f,b:b,c:c,d:g,e:a,f:e,g:d 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"fbcaed"=>0, "ce"=>1, "fcgad"=>2, "fcged"=>3, "bcge"=>4, "fbged"=>5, "fbgaed"=>6, "fce"=>7, "fbcgaed"=>8, "fbcged"=>9}
+---------------------------------------
+eabgfcd => a:e,b:a,c:b,d:g,e:f,f:c,g:d 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"eabfcd"=>0, "bc"=>1, "ebgfd"=>2, "ebgcd"=>3, "abgc"=>4, "eagcd"=>5, "eagfcd"=>6, "ebc"=>7, "eabgfcd"=>8, "eabgcd"=>9}
+---------------------------------------
+agbfecd => a:a,b:g,c:b,d:f,e:e,f:c,g:d 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"agbecd"=>0, "bc"=>1, "abfed"=>2, "abfcd"=>3, "gbfc"=>4, "agfcd"=>5, "agfecd"=>6, "abc"=>7, "agbfecd"=>8, "agbfcd"=>9}
+---------------------------------------
+faedcbg => a:f,b:a,c:e,d:d,e:c,f:b,g:g 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"faecbg"=>0, "eb"=>1, "fedcg"=>2, "fedbg"=>3, "aedb"=>4, "fadbg"=>5, "fadcbg"=>6, "feb"=>7, "faedcbg"=>8, "faedbg"=>9}
+---------------------------------------
+gfebcad => a:g,b:f,c:e,d:b,e:c,f:a,g:d 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"gfecad"=>0, "ea"=>1, "gebcd"=>2, "gebad"=>3, "feba"=>4, "gfbad"=>5, "gfbcad"=>6, "gea"=>7, "gfebcad"=>8, "gfebad"=>9}
+---------------------------------------
+dcbfgea => a:d,b:c,c:b,d:f,e:g,f:e,g:a 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"dcbgea"=>0, "be"=>1, "dbfga"=>2, "dbfea"=>3, "cbfe"=>4, "dcfea"=>5, "dcfgea"=>6, "dbe"=>7, "dcbfgea"=>8, "dcbfea"=>9}
+---------------------------------------
+defbcag => a:d,b:e,c:f,d:b,e:c,f:a,g:g 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"defcag"=>0, "fa"=>1, "dfbcg"=>2, "dfbag"=>3, "efba"=>4, "debag"=>5, "debcag"=>6, "dfa"=>7, "defbcag"=>8, "defbag"=>9}
+---------------------------------------
+aebgdcf => a:a,b:e,c:b,d:g,e:d,f:c,g:f 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"aebdcf"=>0, "bc"=>1, "abgdf"=>2, "abgcf"=>3, "ebgc"=>4, "aegcf"=>5, "aegdcf"=>6, "abc"=>7, "aebgdcf"=>8, "aebgcf"=>9}
+---------------------------------------
+cbfadeg => a:c,b:b,c:f,d:a,e:d,f:e,g:g 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"cbfdeg"=>0, "fe"=>1, "cfadg"=>2, "cfaeg"=>3, "bfae"=>4, "cbaeg"=>5, "cbadeg"=>6, "cfe"=>7, "cbfadeg"=>8, "cbfaeg"=>9}
+---------------------------------------
+cdfgabe => a:c,b:d,c:f,d:g,e:a,f:b,g:e 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"cdfabe"=>0, "fb"=>1, "cfgae"=>2, "cfgbe"=>3, "dfgb"=>4, "cdgbe"=>5, "cdgabe"=>6, "cfb"=>7, "cdfgabe"=>8, "cdfgbe"=>9}
+---------------------------------------
+ebdfgca => a:e,b:b,c:d,d:f,e:g,f:c,g:a 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"ebdgca"=>0, "dc"=>1, "edfga"=>2, "edfca"=>3, "bdfc"=>4, "ebfca"=>5, "ebfgca"=>6, "edc"=>7, "ebdfgca"=>8, "ebdfca"=>9}
+---------------------------------------
+adebgfc => a:a,b:d,c:e,d:b,e:g,f:f,g:c 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"adegfc"=>0, "ef"=>1, "aebgc"=>2, "aebfc"=>3, "debf"=>4, "adbfc"=>5, "adbgfc"=>6, "aef"=>7, "adebgfc"=>8, "adebfc"=>9}
+---------------------------------------
+edcgbaf => a:e,b:d,c:c,d:g,e:b,f:a,g:f 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"edcbaf"=>0, "ca"=>1, "ecgbf"=>2, "ecgaf"=>3, "dcga"=>4, "edgaf"=>5, "edgbaf"=>6, "eca"=>7, "edcgbaf"=>8, "edcgaf"=>9}
+---------------------------------------
+egcdfab => a:e,b:g,c:c,d:d,e:f,f:a,g:b 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"egcfab"=>0, "ca"=>1, "ecdfb"=>2, "ecdab"=>3, "gcda"=>4, "egdab"=>5, "egdfab"=>6, "eca"=>7, "egcdfab"=>8, "egcdab"=>9}
+---------------------------------------
+dacfegb => a:d,b:a,c:c,d:f,e:e,f:g,g:b 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"dacegb"=>0, "cg"=>1, "dcfeb"=>2, "dcfgb"=>3, "acfg"=>4, "dafgb"=>5, "dafegb"=>6, "dcg"=>7, "dacfegb"=>8, "dacfgb"=>9}
+---------------------------------------
+efdgabc => a:e,b:f,c:d,d:g,e:a,f:b,g:c 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"efdabc"=>0, "db"=>1, "edgac"=>2, "edgbc"=>3, "fdgb"=>4, "efgbc"=>5, "efgabc"=>6, "edb"=>7, "efdgabc"=>8, "efdgbc"=>9}
+---------------------------------------
+adecbfg => a:a,b:d,c:e,d:c,e:b,f:f,g:g 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"adebfg"=>0, "ef"=>1, "aecbg"=>2, "aecfg"=>3, "decf"=>4, "adcfg"=>5, "adcbfg"=>6, "aef"=>7, "adecbfg"=>8, "adecfg"=>9}
+---------------------------------------
+dgcaebf => a:d,b:g,c:c,d:a,e:e,f:b,g:f 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"dgcebf"=>0, "cb"=>1, "dcaef"=>2, "dcabf"=>3, "gcab"=>4, "dgabf"=>5, "dgaebf"=>6, "dcb"=>7, "dgcaebf"=>8, "dgcabf"=>9}
+---------------------------------------
+ebdgfca => a:e,b:b,c:d,d:g,e:f,f:c,g:a 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"ebdfca"=>0, "dc"=>1, "edgfa"=>2, "edgca"=>3, "bdgc"=>4, "ebgca"=>5, "ebgfca"=>6, "edc"=>7, "ebdgfca"=>8, "ebdgca"=>9}
+---------------------------------------
+abcgedf => a:a,b:b,c:c,d:g,e:e,f:d,g:f 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"abcedf"=>0, "cd"=>1, "acgef"=>2, "acgdf"=>3, "bcgd"=>4, "abgdf"=>5, "abgedf"=>6, "acd"=>7, "abcgedf"=>8, "abcgdf"=>9}
+---------------------------------------
+acbedgf => a:a,b:c,c:b,d:e,e:d,f:g,g:f 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"acbdgf"=>0, "bg"=>1, "abedf"=>2, "abegf"=>3, "cbeg"=>4, "acegf"=>5, "acedgf"=>6, "abg"=>7, "acbedgf"=>8, "acbegf"=>9}
+---------------------------------------
+cadegfb => a:c,b:a,c:d,d:e,e:g,f:f,g:b 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"cadgfb"=>0, "df"=>1, "cdegb"=>2, "cdefb"=>3, "adef"=>4, "caefb"=>5, "caegfb"=>6, "cdf"=>7, "cadegfb"=>8, "cadefb"=>9}
+---------------------------------------
+bdafegc => a:b,b:d,c:a,d:f,e:e,f:g,g:c 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"bdaegc"=>0, "ag"=>1, "bafec"=>2, "bafgc"=>3, "dafg"=>4, "bdfgc"=>5, "bdfegc"=>6, "bag"=>7, "bdafegc"=>8, "bdafgc"=>9}
+---------------------------------------
+aebgdfc => a:a,b:e,c:b,d:g,e:d,f:f,g:c 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"aebdfc"=>0, "bf"=>1, "abgdc"=>2, "abgfc"=>3, "ebgf"=>4, "aegfc"=>5, "aegdfc"=>6, "abf"=>7, "aebgdfc"=>8, "aebgfc"=>9}
+---------------------------------------
+aecbgfd => a:a,b:e,c:c,d:b,e:g,f:f,g:d 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"aecgfd"=>0, "cf"=>1, "acbgd"=>2, "acbfd"=>3, "ecbf"=>4, "aebfd"=>5, "aebgfd"=>6, "acf"=>7, "aecbgfd"=>8, "aecbfd"=>9}
+---------------------------------------
+decabfg => a:d,b:e,c:c,d:a,e:b,f:f,g:g 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"decbfg"=>0, "cf"=>1, "dcabg"=>2, "dcafg"=>3, "ecaf"=>4, "deafg"=>5, "deabfg"=>6, "dcf"=>7, "decabfg"=>8, "decafg"=>9}
+---------------------------------------
+acbgdfe => a:a,b:c,c:b,d:g,e:d,f:f,g:e 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"acbdfe"=>0, "bf"=>1, "abgde"=>2, "abgfe"=>3, "cbgf"=>4, "acgfe"=>5, "acgdfe"=>6, "abf"=>7, "acbgdfe"=>8, "acbgfe"=>9}
+---------------------------------------
+cdbfgea => a:c,b:d,c:b,d:f,e:g,f:e,g:a 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"cdbgea"=>0, "be"=>1, "cbfga"=>2, "cbfea"=>3, "dbfe"=>4, "cdfea"=>5, "cdfgea"=>6, "cbe"=>7, "cdbfgea"=>8, "cdbfea"=>9}
+---------------------------------------
+cdeafbg => a:c,b:d,c:e,d:a,e:f,f:b,g:g 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"cdefbg"=>0, "eb"=>1, "ceafg"=>2, "ceabg"=>3, "deab"=>4, "cdabg"=>5, "cdafbg"=>6, "ceb"=>7, "cdeafbg"=>8, "cdeabg"=>9}
+---------------------------------------
+facbedg => a:f,b:a,c:c,d:b,e:e,f:d,g:g 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"facedg"=>0, "cd"=>1, "fcbeg"=>2, "fcbdg"=>3, "acbd"=>4, "fabdg"=>5, "fabedg"=>6, "fcd"=>7, "facbedg"=>8, "facbdg"=>9}
+---------------------------------------
+fadegcb => a:f,b:a,c:d,d:e,e:g,f:c,g:b 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"fadgcb"=>0, "dc"=>1, "fdegb"=>2, "fdecb"=>3, "adec"=>4, "faecb"=>5, "faegcb"=>6, "fdc"=>7, "fadegcb"=>8, "fadecb"=>9}
+---------------------------------------
+agbdcef => a:a,b:g,c:b,d:d,e:c,f:e,g:f 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"agbcef"=>0, "be"=>1, "abdcf"=>2, "abdef"=>3, "gbde"=>4, "agdef"=>5, "agdcef"=>6, "abe"=>7, "agbdcef"=>8, "agbdef"=>9}
+---------------------------------------
+baecgfd => a:b,b:a,c:e,d:c,e:g,f:f,g:d 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"baegfd"=>0, "ef"=>1, "becgd"=>2, "becfd"=>3, "aecf"=>4, "bacfd"=>5, "bacgfd"=>6, "bef"=>7, "baecgfd"=>8, "baecfd"=>9}
+---------------------------------------
+cedabfg => a:c,b:e,c:d,d:a,e:b,f:f,g:g 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"cedbfg"=>0, "df"=>1, "cdabg"=>2, "cdafg"=>3, "edaf"=>4, "ceafg"=>5, "ceabfg"=>6, "cdf"=>7, "cedabfg"=>8, "cedafg"=>9}
+---------------------------------------
+cbadefg => a:c,b:b,c:a,d:d,e:e,f:f,g:g 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"cbaefg"=>0, "af"=>1, "cadeg"=>2, "cadfg"=>3, "badf"=>4, "cbdfg"=>5, "cbdefg"=>6, "caf"=>7, "cbadefg"=>8, "cbadfg"=>9}
+---------------------------------------
+gfdecba => a:g,b:f,c:d,d:e,e:c,f:b,g:a 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"gfdcba"=>0, "db"=>1, "gdeca"=>2, "gdeba"=>3, "fdeb"=>4, "gfeba"=>5, "gfecba"=>6, "gdb"=>7, "gfdecba"=>8, "gfdeba"=>9}
+---------------------------------------
+fcedbag => a:f,b:c,c:e,d:d,e:b,f:a,g:g 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"fcebag"=>0, "ea"=>1, "fedbg"=>2, "fedag"=>3, "ceda"=>4, "fcdag"=>5, "fcdbag"=>6, "fea"=>7, "fcedbag"=>8, "fcedag"=>9}
+---------------------------------------
+cgebadf => a:c,b:g,c:e,d:b,e:a,f:d,g:f 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"cgeadf"=>0, "ed"=>1, "cebaf"=>2, "cebdf"=>3, "gebd"=>4, "cgbdf"=>5, "cgbadf"=>6, "ced"=>7, "cgebadf"=>8, "cgebdf"=>9}
+---------------------------------------
+ebgfacd => a:e,b:b,c:g,d:f,e:a,f:c,g:d 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"ebgacd"=>0, "gc"=>1, "egfad"=>2, "egfcd"=>3, "bgfc"=>4, "ebfcd"=>5, "ebfacd"=>6, "egc"=>7, "ebgfacd"=>8, "ebgfcd"=>9}
+---------------------------------------
+dfgbaec => a:d,b:f,c:g,d:b,e:a,f:e,g:c 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"dfgaec"=>0, "ge"=>1, "dgbac"=>2, "dgbec"=>3, "fgbe"=>4, "dfbec"=>5, "dfbaec"=>6, "dge"=>7, "dfgbaec"=>8, "dfgbec"=>9}
+---------------------------------------
+bacdfge => a:b,b:a,c:c,d:d,e:f,f:g,g:e 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"bacfge"=>0, "cg"=>1, "bcdfe"=>2, "bcdge"=>3, "acdg"=>4, "badge"=>5, "badfge"=>6, "bcg"=>7, "bacdfge"=>8, "bacdge"=>9}
+---------------------------------------
+gdbefac => a:g,b:d,c:b,d:e,e:f,f:a,g:c 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"gdbfac"=>0, "ba"=>1, "gbefc"=>2, "gbeac"=>3, "dbea"=>4, "gdeac"=>5, "gdefac"=>6, "gba"=>7, "gdbefac"=>8, "gdbeac"=>9}
+---------------------------------------
+gcadbef => a:g,b:c,c:a,d:d,e:b,f:e,g:f 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"gcabef"=>0, "ae"=>1, "gadbf"=>2, "gadef"=>3, "cade"=>4, "gcdef"=>5, "gcdbef"=>6, "gae"=>7, "gcadbef"=>8, "gcadef"=>9}
+---------------------------------------
+fdgbcae => a:f,b:d,c:g,d:b,e:c,f:a,g:e 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"fdgcae"=>0, "ga"=>1, "fgbce"=>2, "fgbae"=>3, "dgba"=>4, "fdbae"=>5, "fdbcae"=>6, "fga"=>7, "fdgbcae"=>8, "fdgbae"=>9}
+---------------------------------------
+cfadgeb => a:c,b:f,c:a,d:d,e:g,f:e,g:b 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"cfageb"=>0, "ae"=>1, "cadgb"=>2, "cadeb"=>3, "fade"=>4, "cfdeb"=>5, "cfdgeb"=>6, "cae"=>7, "cfadgeb"=>8, "cfadeb"=>9}
+---------------------------------------
+gedcafb => a:g,b:e,c:d,d:c,e:a,f:f,g:b 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"gedafb"=>0, "df"=>1, "gdcab"=>2, "gdcfb"=>3, "edcf"=>4, "gecfb"=>5, "gecafb"=>6, "gdf"=>7, "gedcafb"=>8, "gedcfb"=>9}
+---------------------------------------
+gaecfbd => a:g,b:a,c:e,d:c,e:f,f:b,g:d 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"gaefbd"=>0, "eb"=>1, "gecfd"=>2, "gecbd"=>3, "aecb"=>4, "gacbd"=>5, "gacfbd"=>6, "geb"=>7, "gaecfbd"=>8, "gaecbd"=>9}
+---------------------------------------
+geabfdc => a:g,b:e,c:a,d:b,e:f,f:d,g:c 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"geafdc"=>0, "ad"=>1, "gabfc"=>2, "gabdc"=>3, "eabd"=>4, "gebdc"=>5, "gebfdc"=>6, "gad"=>7, "geabfdc"=>8, "geabdc"=>9}
+---------------------------------------
+fcaebdg => a:f,b:c,c:a,d:e,e:b,f:d,g:g 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"fcabdg"=>0, "ad"=>1, "faebg"=>2, "faedg"=>3, "caed"=>4, "fcedg"=>5, "fcebdg"=>6, "fad"=>7, "fcaebdg"=>8, "fcaedg"=>9}
+---------------------------------------
+cfabedg => a:c,b:f,c:a,d:b,e:e,f:d,g:g 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"cfaedg"=>0, "ad"=>1, "cabeg"=>2, "cabdg"=>3, "fabd"=>4, "cfbdg"=>5, "cfbedg"=>6, "cad"=>7, "cfabedg"=>8, "cfabdg"=>9}
+---------------------------------------
+gacfebd => a:g,b:a,c:c,d:f,e:e,f:b,g:d 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"gacebd"=>0, "cb"=>1, "gcfed"=>2, "gcfbd"=>3, "acfb"=>4, "gafbd"=>5, "gafebd"=>6, "gcb"=>7, "gacfebd"=>8, "gacfbd"=>9}
+---------------------------------------
+gdbcfea => a:g,b:d,c:b,d:c,e:f,f:e,g:a 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"gdbfea"=>0, "be"=>1, "gbcfa"=>2, "gbcea"=>3, "dbce"=>4, "gdcea"=>5, "gdcfea"=>6, "gbe"=>7, "gdbcfea"=>8, "gdbcea"=>9}
+---------------------------------------
+dfcageb => a:d,b:f,c:c,d:a,e:g,f:e,g:b 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"dfcgeb"=>0, "ce"=>1, "dcagb"=>2, "dcaeb"=>3, "fcae"=>4, "dfaeb"=>5, "dfageb"=>6, "dce"=>7, "dfcageb"=>8, "dfcaeb"=>9}
+---------------------------------------
+ceagbdf => a:c,b:e,c:a,d:g,e:b,f:d,g:f 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"ceabdf"=>0, "ad"=>1, "cagbf"=>2, "cagdf"=>3, "eagd"=>4, "cegdf"=>5, "cegbdf"=>6, "cad"=>7, "ceagbdf"=>8, "ceagdf"=>9}
+---------------------------------------
+dfgbaec => a:d,b:f,c:g,d:b,e:a,f:e,g:c 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"dfgaec"=>0, "ge"=>1, "dgbac"=>2, "dgbec"=>3, "fgbe"=>4, "dfbec"=>5, "dfbaec"=>6, "dge"=>7, "dfgbaec"=>8, "dfgbec"=>9}
+---------------------------------------
+dbgeacf => a:d,b:b,c:g,d:e,e:a,f:c,g:f 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"dbgacf"=>0, "gc"=>1, "dgeaf"=>2, "dgecf"=>3, "bgec"=>4, "dbecf"=>5, "dbeacf"=>6, "dgc"=>7, "dbgeacf"=>8, "dbgecf"=>9}
+---------------------------------------
+bdegcfa => a:b,b:d,c:e,d:g,e:c,f:f,g:a 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"bdecfa"=>0, "ef"=>1, "begca"=>2, "begfa"=>3, "degf"=>4, "bdgfa"=>5, "bdgcfa"=>6, "bef"=>7, "bdegcfa"=>8, "bdegfa"=>9}
+---------------------------------------
+gbfdeca => a:g,b:b,c:f,d:d,e:e,f:c,g:a 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"gbfeca"=>0, "fc"=>1, "gfdea"=>2, "gfdca"=>3, "bfdc"=>4, "gbdca"=>5, "gbdeca"=>6, "gfc"=>7, "gbfdeca"=>8, "gbfdca"=>9}
+---------------------------------------
+fbcaedg => a:f,b:b,c:c,d:a,e:e,f:d,g:g 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"fbcedg"=>0, "cd"=>1, "fcaeg"=>2, "fcadg"=>3, "bcad"=>4, "fbadg"=>5, "fbaedg"=>6, "fcd"=>7, "fbcaedg"=>8, "fbcadg"=>9}
+---------------------------------------
+fbcedag => a:f,b:b,c:c,d:e,e:d,f:a,g:g 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"fbcdag"=>0, "ca"=>1, "fcedg"=>2, "fceag"=>3, "bcea"=>4, "fbeag"=>5, "fbedag"=>6, "fca"=>7, "fbcedag"=>8, "fbceag"=>9}
+---------------------------------------
+afcdgbe => a:a,b:f,c:c,d:d,e:g,f:b,g:e 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"afcgbe"=>0, "cb"=>1, "acdge"=>2, "acdbe"=>3, "fcdb"=>4, "afdbe"=>5, "afdgbe"=>6, "acb"=>7, "afcdgbe"=>8, "afcdbe"=>9}
+---------------------------------------
+bedacgf => a:b,b:e,c:d,d:a,e:c,f:g,g:f 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"bedcgf"=>0, "dg"=>1, "bdacf"=>2, "bdagf"=>3, "edag"=>4, "beagf"=>5, "beacgf"=>6, "bdg"=>7, "bedacgf"=>8, "bedagf"=>9}
+---------------------------------------
+bfdgace => a:b,b:f,c:d,d:g,e:a,f:c,g:e 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"bfdace"=>0, "dc"=>1, "bdgae"=>2, "bdgce"=>3, "fdgc"=>4, "bfgce"=>5, "bfgace"=>6, "bdc"=>7, "bfdgace"=>8, "bfdgce"=>9}
+---------------------------------------
+fdaebcg => a:f,b:d,c:a,d:e,e:b,f:c,g:g 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"fdabcg"=>0, "ac"=>1, "faebg"=>2, "faecg"=>3, "daec"=>4, "fdecg"=>5, "fdebcg"=>6, "fac"=>7, "fdaebcg"=>8, "fdaecg"=>9}
+---------------------------------------
+beadgcf => a:b,b:e,c:a,d:d,e:g,f:c,g:f 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"beagcf"=>0, "ac"=>1, "badgf"=>2, "badcf"=>3, "eadc"=>4, "bedcf"=>5, "bedgcf"=>6, "bac"=>7, "beadgcf"=>8, "beadcf"=>9}
+---------------------------------------
+gcdfbea => a:g,b:c,c:d,d:f,e:b,f:e,g:a 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"gcdbea"=>0, "de"=>1, "gdfba"=>2, "gdfea"=>3, "cdfe"=>4, "gcfea"=>5, "gcfbea"=>6, "gde"=>7, "gcdfbea"=>8, "gcdfea"=>9}
+---------------------------------------
+cgadbef => a:c,b:g,c:a,d:d,e:b,f:e,g:f 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"cgabef"=>0, "ae"=>1, "cadbf"=>2, "cadef"=>3, "gade"=>4, "cgdef"=>5, "cgdbef"=>6, "cae"=>7, "cgadbef"=>8, "cgadef"=>9}
+---------------------------------------
+gdbcfea => a:g,b:d,c:b,d:c,e:f,f:e,g:a 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"gdbfea"=>0, "be"=>1, "gbcfa"=>2, "gbcea"=>3, "dbce"=>4, "gdcea"=>5, "gdcfea"=>6, "gbe"=>7, "gdbcfea"=>8, "gdbcea"=>9}
+---------------------------------------
+eafdcgb => a:e,b:a,c:f,d:d,e:c,f:g,g:b 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"eafcgb"=>0, "fg"=>1, "efdcb"=>2, "efdgb"=>3, "afdg"=>4, "eadgb"=>5, "eadcgb"=>6, "efg"=>7, "eafdcgb"=>8, "eafdgb"=>9}
+---------------------------------------
+fcbdeag => a:f,b:c,c:b,d:d,e:e,f:a,g:g 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"fcbeag"=>0, "ba"=>1, "fbdeg"=>2, "fbdag"=>3, "cbda"=>4, "fcdag"=>5, "fcdeag"=>6, "fba"=>7, "fcbdeag"=>8, "fcbdag"=>9}
+---------------------------------------
+cagdbfe => a:c,b:a,c:g,d:d,e:b,f:f,g:e 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"cagbfe"=>0, "gf"=>1, "cgdbe"=>2, "cgdfe"=>3, "agdf"=>4, "cadfe"=>5, "cadbfe"=>6, "cgf"=>7, "cagdbfe"=>8, "cagdfe"=>9}
+---------------------------------------
+fgdabec => a:f,b:g,c:d,d:a,e:b,f:e,g:c 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"fgdbec"=>0, "de"=>1, "fdabc"=>2, "fdaec"=>3, "gdae"=>4, "fgaec"=>5, "fgabec"=>6, "fde"=>7, "fgdabec"=>8, "fgdaec"=>9}
+---------------------------------------
+dfgaecb => a:d,b:f,c:g,d:a,e:e,f:c,g:b 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"dfgecb"=>0, "gc"=>1, "dgaeb"=>2, "dgacb"=>3, "fgac"=>4, "dfacb"=>5, "dfaecb"=>6, "dgc"=>7, "dfgaecb"=>8, "dfgacb"=>9}
+---------------------------------------
+gadcfeb => a:g,b:a,c:d,d:c,e:f,f:e,g:b 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"gadfeb"=>0, "de"=>1, "gdcfb"=>2, "gdceb"=>3, "adce"=>4, "gaceb"=>5, "gacfeb"=>6, "gde"=>7, "gadcfeb"=>8, "gadceb"=>9}
+---------------------------------------
+gefdcba => a:g,b:e,c:f,d:d,e:c,f:b,g:a 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"gefcba"=>0, "fb"=>1, "gfdca"=>2, "gfdba"=>3, "efdb"=>4, "gedba"=>5, "gedcba"=>6, "gfb"=>7, "gefdcba"=>8, "gefdba"=>9}
+---------------------------------------
+cbfdage => a:c,b:b,c:f,d:d,e:a,f:g,g:e 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"cbfage"=>0, "fg"=>1, "cfdae"=>2, "cfdge"=>3, "bfdg"=>4, "cbdge"=>5, "cbdage"=>6, "cfg"=>7, "cbfdage"=>8, "cbfdge"=>9}
+---------------------------------------
+aegdcfb => a:a,b:e,c:g,d:d,e:c,f:f,g:b 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"aegcfb"=>0, "gf"=>1, "agdcb"=>2, "agdfb"=>3, "egdf"=>4, "aedfb"=>5, "aedcfb"=>6, "agf"=>7, "aegdcfb"=>8, "aegdfb"=>9}
+---------------------------------------
+aegfdcb => a:a,b:e,c:g,d:f,e:d,f:c,g:b 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"aegdcb"=>0, "gc"=>1, "agfdb"=>2, "agfcb"=>3, "egfc"=>4, "aefcb"=>5, "aefdcb"=>6, "agc"=>7, "aegfdcb"=>8, "aegfcb"=>9}
+---------------------------------------
+cgedabf => a:c,b:g,c:e,d:d,e:a,f:b,g:f 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"cgeabf"=>0, "eb"=>1, "cedaf"=>2, "cedbf"=>3, "gedb"=>4, "cgdbf"=>5, "cgdabf"=>6, "ceb"=>7, "cgedabf"=>8, "cgedbf"=>9}
+---------------------------------------
+badfceg => a:b,b:a,c:d,d:f,e:c,f:e,g:g 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"badceg"=>0, "de"=>1, "bdfcg"=>2, "bdfeg"=>3, "adfe"=>4, "bafeg"=>5, "bafceg"=>6, "bde"=>7, "badfceg"=>8, "badfeg"=>9}
+---------------------------------------
+fbegdac => a:f,b:b,c:e,d:g,e:d,f:a,g:c 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"fbedac"=>0, "ea"=>1, "fegdc"=>2, "fegac"=>3, "bega"=>4, "fbgac"=>5, "fbgdac"=>6, "fea"=>7, "fbegdac"=>8, "fbegac"=>9}
+---------------------------------------
+gadfbec => a:g,b:a,c:d,d:f,e:b,f:e,g:c 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"gadbec"=>0, "de"=>1, "gdfbc"=>2, "gdfec"=>3, "adfe"=>4, "gafec"=>5, "gafbec"=>6, "gde"=>7, "gadfbec"=>8, "gadfec"=>9}
+---------------------------------------
+dcfebag => a:d,b:c,c:f,d:e,e:b,f:a,g:g 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"dcfbag"=>0, "fa"=>1, "dfebg"=>2, "dfeag"=>3, "cfea"=>4, "dceag"=>5, "dcebag"=>6, "dfa"=>7, "dcfebag"=>8, "dcfeag"=>9}
+---------------------------------------
+aefbgdc => a:a,b:e,c:f,d:b,e:g,f:d,g:c 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"aefgdc"=>0, "fd"=>1, "afbgc"=>2, "afbdc"=>3, "efbd"=>4, "aebdc"=>5, "aebgdc"=>6, "afd"=>7, "aefbgdc"=>8, "aefbdc"=>9}
+---------------------------------------
+cdabgef => a:c,b:d,c:a,d:b,e:g,f:e,g:f 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"cdagef"=>0, "ae"=>1, "cabgf"=>2, "cabef"=>3, "dabe"=>4, "cdbef"=>5, "cdbgef"=>6, "cae"=>7, "cdabgef"=>8, "cdabef"=>9}
+---------------------------------------
+efdgbca => a:e,b:f,c:d,d:g,e:b,f:c,g:a 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"efdbca"=>0, "dc"=>1, "edgba"=>2, "edgca"=>3, "fdgc"=>4, "efgca"=>5, "efgbca"=>6, "edc"=>7, "efdgbca"=>8, "efdgca"=>9}
+---------------------------------------
+agdefcb => a:a,b:g,c:d,d:e,e:f,f:c,g:b 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"agdfcb"=>0, "dc"=>1, "adefb"=>2, "adecb"=>3, "gdec"=>4, "agecb"=>5, "agefcb"=>6, "adc"=>7, "agdefcb"=>8, "agdecb"=>9}
+---------------------------------------
+gadefcb => a:g,b:a,c:d,d:e,e:f,f:c,g:b 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"gadfcb"=>0, "dc"=>1, "gdefb"=>2, "gdecb"=>3, "adec"=>4, "gaecb"=>5, "gaefcb"=>6, "gdc"=>7, "gadefcb"=>8, "gadecb"=>9}
+---------------------------------------
+fecbdga => a:f,b:e,c:c,d:b,e:d,f:g,g:a 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"fecdga"=>0, "cg"=>1, "fcbda"=>2, "fcbga"=>3, "ecbg"=>4, "febga"=>5, "febdga"=>6, "fcg"=>7, "fecbdga"=>8, "fecbga"=>9}
+---------------------------------------
+dbgfcea => a:d,b:b,c:g,d:f,e:c,f:e,g:a 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"dbgcea"=>0, "ge"=>1, "dgfca"=>2, "dgfea"=>3, "bgfe"=>4, "dbfea"=>5, "dbfcea"=>6, "dge"=>7, "dbgfcea"=>8, "dbgfea"=>9}
+---------------------------------------
+fecabdg => a:f,b:e,c:c,d:a,e:b,f:d,g:g 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"fecbdg"=>0, "cd"=>1, "fcabg"=>2, "fcadg"=>3, "ecad"=>4, "feadg"=>5, "feabdg"=>6, "fcd"=>7, "fecabdg"=>8, "fecadg"=>9}
+---------------------------------------
+gbcafed => a:g,b:b,c:c,d:a,e:f,f:e,g:d 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"gbcfed"=>0, "ce"=>1, "gcafd"=>2, "gcaed"=>3, "bcae"=>4, "gbaed"=>5, "gbafed"=>6, "gce"=>7, "gbcafed"=>8, "gbcaed"=>9}
+---------------------------------------
+adfgebc => a:a,b:d,c:f,d:g,e:e,f:b,g:c 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"adfebc"=>0, "fb"=>1, "afgec"=>2, "afgbc"=>3, "dfgb"=>4, "adgbc"=>5, "adgebc"=>6, "afb"=>7, "adfgebc"=>8, "adfgbc"=>9}
+---------------------------------------
+bdgfaec => a:b,b:d,c:g,d:f,e:a,f:e,g:c 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"bdgaec"=>0, "ge"=>1, "bgfac"=>2, "bgfec"=>3, "dgfe"=>4, "bdfec"=>5, "bdfaec"=>6, "bge"=>7, "bdgfaec"=>8, "bdgfec"=>9}
+---------------------------------------
+cfdgbea => a:c,b:f,c:d,d:g,e:b,f:e,g:a 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"cfdbea"=>0, "de"=>1, "cdgba"=>2, "cdgea"=>3, "fdge"=>4, "cfgea"=>5, "cfgbea"=>6, "cde"=>7, "cfdgbea"=>8, "cfdgea"=>9}
+---------------------------------------
+fecgdab => a:f,b:e,c:c,d:g,e:d,f:a,g:b 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"fecdab"=>0, "ca"=>1, "fcgdb"=>2, "fcgab"=>3, "ecga"=>4, "fegab"=>5, "fegdab"=>6, "fca"=>7, "fecgdab"=>8, "fecgab"=>9}
+---------------------------------------
+fgbeacd => a:f,b:g,c:b,d:e,e:a,f:c,g:d 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"fgbacd"=>0, "bc"=>1, "fbead"=>2, "fbecd"=>3, "gbec"=>4, "fgecd"=>5, "fgeacd"=>6, "fbc"=>7, "fgbeacd"=>8, "fgbecd"=>9}
+---------------------------------------
+dbacgfe => a:d,b:b,c:a,d:c,e:g,f:f,g:e 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"dbagfe"=>0, "af"=>1, "dacge"=>2, "dacfe"=>3, "bacf"=>4, "dbcfe"=>5, "dbcgfe"=>6, "daf"=>7, "dbacgfe"=>8, "dbacfe"=>9}
+---------------------------------------
+dafcegb => a:d,b:a,c:f,d:c,e:e,f:g,g:b 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"dafegb"=>0, "fg"=>1, "dfceb"=>2, "dfcgb"=>3, "afcg"=>4, "dacgb"=>5, "dacegb"=>6, "dfg"=>7, "dafcegb"=>8, "dafcgb"=>9}
+---------------------------------------
+dbaecfg => a:d,b:b,c:a,d:e,e:c,f:f,g:g 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"dbacfg"=>0, "af"=>1, "daecg"=>2, "daefg"=>3, "baef"=>4, "dbefg"=>5, "dbecfg"=>6, "daf"=>7, "dbaecfg"=>8, "dbaefg"=>9}
+---------------------------------------
+gcefabd => a:g,b:c,c:e,d:f,e:a,f:b,g:d 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"gceabd"=>0, "eb"=>1, "gefad"=>2, "gefbd"=>3, "cefb"=>4, "gcfbd"=>5, "gcfabd"=>6, "geb"=>7, "gcefabd"=>8, "gcefbd"=>9}
+---------------------------------------
+dfbecag => a:d,b:f,c:b,d:e,e:c,f:a,g:g 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"dfbcag"=>0, "ba"=>1, "dbecg"=>2, "dbeag"=>3, "fbea"=>4, "dfeag"=>5, "dfecag"=>6, "dba"=>7, "dfbecag"=>8, "dfbeag"=>9}
+---------------------------------------
+aefbgdc => a:a,b:e,c:f,d:b,e:g,f:d,g:c 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"aefgdc"=>0, "fd"=>1, "afbgc"=>2, "afbdc"=>3, "efbd"=>4, "aebdc"=>5, "aebgdc"=>6, "afd"=>7, "aefbgdc"=>8, "aefbdc"=>9}
+---------------------------------------
+daecfgb => a:d,b:a,c:e,d:c,e:f,f:g,g:b 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"daefgb"=>0, "eg"=>1, "decfb"=>2, "decgb"=>3, "aecg"=>4, "dacgb"=>5, "dacfgb"=>6, "deg"=>7, "daecfgb"=>8, "daecgb"=>9}
+---------------------------------------
+cfebdag => a:c,b:f,c:e,d:b,e:d,f:a,g:g 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"cfedag"=>0, "ea"=>1, "cebdg"=>2, "cebag"=>3, "feba"=>4, "cfbag"=>5, "cfbdag"=>6, "cea"=>7, "cfebdag"=>8, "cfebag"=>9}
+---------------------------------------
+fgceabd => a:f,b:g,c:c,d:e,e:a,f:b,g:d 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"fgcabd"=>0, "cb"=>1, "fcead"=>2, "fcebd"=>3, "gceb"=>4, "fgebd"=>5, "fgeabd"=>6, "fcb"=>7, "fgceabd"=>8, "fgcebd"=>9}
+---------------------------------------
+bdgcefa => a:b,b:d,c:g,d:c,e:e,f:f,g:a 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"bdgefa"=>0, "gf"=>1, "bgcea"=>2, "bgcfa"=>3, "dgcf"=>4, "bdcfa"=>5, "bdcefa"=>6, "bgf"=>7, "bdgcefa"=>8, "bdgcfa"=>9}
+---------------------------------------
+agbcdef => a:a,b:g,c:b,d:c,e:d,f:e,g:f 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"agbdef"=>0, "be"=>1, "abcdf"=>2, "abcef"=>3, "gbce"=>4, "agcef"=>5, "agcdef"=>6, "abe"=>7, "agbcdef"=>8, "agbcef"=>9}
+---------------------------------------
+aefbdcg => a:a,b:e,c:f,d:b,e:d,f:c,g:g 8
+{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
+{"aefdcg"=>0, "fc"=>1, "afbdg"=>2, "afbcg"=>3, "efbc"=>4, "aebcg"=>5, "aebdcg"=>6, "afc"=>7, "aefbdcg"=>8, "aefbcg"=>9}
+---------------------------------------

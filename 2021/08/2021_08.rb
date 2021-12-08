@@ -39,12 +39,15 @@ class Solution
       full_array = (a+b)
       eight = full_array.find{|x| 7 == x.size} 
       map = {}
-      [?a,?b,?c,?d,?e,?f,?g].each_with_index do |value,i|
-        map[eight[i]] = value
+      [?a,?b,?c,?d,?e,?f,?g].each_with_index do |correct,i|
+        map[correct] = eight[i]
       end
       new_numbers = numbers.to_a.map{|(a,b)| [a.chars.map{|x| map[x]}.join,b]}.to_h
       print_map = map.to_a.map{|x| x.join(?:)}.join(?,)
       l "#{eight} => #{print_map} #{new_numbers[eight].inspect}"
+      l "#{numbers.inspect}"
+      l "#{new_numbers.inspect}"
+      l "---------------------------------------"
     end
     l_up "Answer is: #{answer}"
     l_up "Second 2."
