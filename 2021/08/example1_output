@@ -1,0 +1,13 @@
+First 1.
+Answer is: 26
+Correct parsing: true
+["fdgacbe", "cefdb", "cefbgd", "gcbe"] | [7, 5, 6, 4] | 2 : [7, 4] => 2
+["fcgedb", "cgb", "dgebacf", "gc"] | [6, 3, 7, 2] | 3 : [3, 7, 2] => 5
+["cg", "cg", "fdcagb", "cbg"] | [2, 2, 6, 3] | 3 : [2, 2, 3] => 8
+["efabcd", "cedba", "gadfec", "cb"] | [6, 5, 6, 2] | 1 : [2] => 9
+["gecf", "egdcabf", "bgf", "bfgea"] | [4, 7, 3, 5] | 3 : [4, 7, 3] => 12
+["gebdcfa", "ecba", "ca", "fadegcb"] | [7, 4, 2, 7] | 4 : [7, 4, 2, 7] => 16
+["cefg", "dcbef", "fcge", "gbcadfe"] | [4, 5, 4, 7] | 3 : [4, 4, 7] => 19
+["ed", "bcgafe", "cdgba", "cbgef"] | [2, 6, 5, 5] | 1 : [2] => 20
+["gbdfcae", "bgc", "cg", "cgb"] | [7, 3, 2, 3] | 4 : [7, 3, 2, 3] => 24
+["fgae", "cfgab", "fg", "bagce"] | [4, 5, 2, 5] | 2 : [4, 2] => 26
