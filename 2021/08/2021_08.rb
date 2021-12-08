@@ -19,6 +19,17 @@ class Solution
   end
   def start2(arr)
     @l = ""
+    @pairs = []
+    convert_arr_to_pairs(arr)
+    correct = check(arr)
+    l "Correct parsing: #{correct.inspect}"
+    answer = 0
+    counter_of_eight = 0
+    @pairs.each do |(a,b)|
+      counter_of_eight += 1 if (a + b).find(8)
+    end
+    l  "Each line has eight: #{(counter_of_eight == @pairs.size).inspect}"
+    l_up "Answer is: #{answer}"
     l_up "Second 2."
     return @l
   end
