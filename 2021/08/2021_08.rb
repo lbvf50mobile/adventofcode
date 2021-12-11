@@ -46,8 +46,9 @@ class Solution
       converted_eight = eight.chars.map{|c| incorrect_map[c]}.join
       # Convert four digit from incorrect to correct.
       converted = b.map{|x| x.chars.map{|c| incorrect_map[c]}.sort.join}
+      digits = converted.map{|str| numbers[str]}
       l "#{eight} = #{converted_eight}"
-      l "#{b.inspect} => #{converted.inspect}"
+      l "#{b.inspect} => #{converted.inspect} => #{digits}"
       l "---------------------------------------"
     end
     l_up "Answer is: #{answer}"
