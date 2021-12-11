@@ -1,33 +1,54 @@
 Second 2.
 Answer is: 0
 Correct parsing: true
-cfbegad = abcdefg
-["fdgacbe", "cefdb", "cefbgd", "gcbe"] => ["abcdefg", "abcdg", "abcdeg", "acde"] => [8, nil, nil, nil]
+Digits map for task 2: {"deagbc"=>0, "ab"=>1, "dafgc"=>2, "dafbc"=>3, "eafb"=>4, "defbc"=>5, "defgbc"=>6, "dab"=>7, "deafgbc"=>8, "deafbc"=>9}
+["fdgacbe", "cefdb", "cefbgd", "gcbe"]
+["abcdefg", "abcdg", "abcdeg", "acde"]
+["deafgbc", "deafc", "deafgc", "dafg"]
+[nil, nil, nil, nil]
 ---------------------------------------
-gcadebf = abcdefg
-["fcgedb", "cgb", "dgebacf", "gc"] => ["abdefg", "abf", "abcdefg", "ab"] => [6, nil, 8, nil]
+["fcgedb", "cgb", "dgebacf", "gc"]
+["abdefg", "abf", "abcdefg", "ab"]
+["defgbc", "deb", "deafgbc", "de"]
+[nil, nil, nil, 1]
 ---------------------------------------
-cdgabef = abcdefg
-["cg", "cg", "fdcagb", "cbg"] => ["ac", "ac", "abcdeg", "ace"] => [nil, nil, nil, nil]
+["cg", "cg", "fdcagb", "cbg"]
+["ac", "ac", "abcdeg", "ace"]
+["da", "da", "deafgc", "dag"]
+[nil, nil, nil, nil]
 ---------------------------------------
-fcdbega = abcdefg
-["efabcd", "cedba", "gadfec", "cb"] => ["abcdeg", "bcdeg", "abcefg", "bd"] => [nil, nil, 0, nil]
+["efabcd", "cedba", "gadfec", "cb"]
+["abcdeg", "bcdeg", "abcefg", "bd"]
+["deafgc", "eafgc", "deagbc", "ef"]
+[nil, nil, nil, nil]
 ---------------------------------------
-aecbfdg = abcdefg
-["gecf", "egdcabf", "bgf", "bfgea"] => ["bceg", "abcdefg", "deg", "abdeg"] => [nil, 8, nil, nil]
+["gecf", "egdcabf", "bgf", "bfgea"]
+["bceg", "abcdefg", "deg", "abdeg"]
+["eagc", "deafgbc", "fgc", "defgc"]
+[nil, nil, nil, nil]
 ---------------------------------------
-bdacfeg = abcdefg
-["gebdcfa", "ecba", "ca", "fadegcb"] => ["abcdefg", "acdf", "cd", "abcdefg"] => [8, nil, nil, 8]
+["gebdcfa", "ecba", "ca", "fadegcb"]
+["abcdefg", "acdf", "cd", "abcdefg"]
+["deafgbc", "dafb", "af", "deafgbc"]
+[nil, nil, nil, nil]
 ---------------------------------------
-bdegcaf = abcdefg
-["cefg", "dcbef", "fcge", "gbcadfe"] => ["cdeg", "abceg", "cdeg", "abcdefg"] => [nil, nil, nil, 8]
+["cefg", "dcbef", "fcge", "gbcadfe"]
+["cdeg", "abceg", "cdeg", "abcdefg"]
+["afgc", "deagc", "afgc", "deafgbc"]
+[nil, nil, nil, nil]
 ---------------------------------------
-adcbefg = abcdefg
-["ed", "bcgafe", "cdgba", "cbgef"] => ["be", "acdefg", "abcdg", "cdefg"] => [nil, nil, nil, nil]
+["ed", "bcgafe", "cdgba", "cbgef"]
+["be", "acdefg", "abcdg", "cdefg"]
+["eg", "dafgbc", "deafc", "afgbc"]
+[nil, nil, nil, nil]
 ---------------------------------------
-gbdefca = abcdefg
-["gbdfcae", "bgc", "cg", "cgb"] => ["abcdefg", "abf", "af", "abf"] => [8, nil, nil, nil]
+["gbdfcae", "bgc", "cg", "cgb"]
+["abcdefg", "abf", "af", "abf"]
+["deafgbc", "deb", "db", "deb"]
+[nil, nil, nil, nil]
 ---------------------------------------
-dcaebfg = abcdefg
-["fgae", "cfgab", "fg", "bagce"] => ["cdfg", "bcefg", "fg", "bcdeg"] => [nil, nil, nil, nil]
+["fgae", "cfgab", "fg", "bagce"]
+["cdfg", "bcefg", "fg", "bcdeg"]
+["afbc", "eagbc", "bc", "eafgc"]
+[nil, nil, nil, nil]
 ---------------------------------------

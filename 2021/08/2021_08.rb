@@ -35,6 +35,12 @@ class Solution
     numbers["acf"] = 7
     numbers["abcdefg"] = 8
     numbers["abcdfg"] = 9
+    second_numbers = {}
+    numbers.keys.each do |key|
+      new_key = convert_string_to_second_mapping(key)
+      second_numbers[new_key] = numbers[key]
+    end
+    l "Digits map for task 2: #{second_numbers}"
     @pairs.each do |(a,b)|
       eight = a.find{|x| 7 == x.size} 
       map = {}
@@ -46,9 +52,12 @@ class Solution
       converted_eight = eight.chars.map{|c| incorrect_map[c]}.join
       # Convert four digit from incorrect to correct.
       converted = b.map{|x| x.chars.map{|c| incorrect_map[c]}.sort.join}
-      digits = converted.map{|str| numbers[str]}
-      l "#{eight} = #{converted_eight}"
-      l "#{b.inspect} => #{converted.inspect} => #{digits}"
+      second_converted = converted.map{|x| convert_string_to_second_mapping(x)}
+      digits = converted.map{|str| second_numbers[str]}
+      l "#{b}"
+      l "#{converted}"
+      l "#{second_converted}"
+      l "#{digits}"
       l "---------------------------------------"
     end
     l_up "Answer is: #{answer}"
@@ -73,6 +82,17 @@ class Solution
   end
   def check(arr)
     arr.map(&:strip) == @pairs.map{|(a,b)| a.join(" ") + " | " + b.join(" ")}
+  end
+  def convert_string_to_second_mapping str
+    mp = {}
+    mp[?a] = ?d
+    mp[?b] = ?e
+    mp[?c] = ?a
+    mp[?d] = ?f
+    mp[?e] = ?g
+    mp[?f] = ?b
+    mp[?g] = ?c
+    str.chars.map{|c| mp[c]}.join
   end
 end
 

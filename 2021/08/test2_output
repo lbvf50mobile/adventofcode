@@ -1,603 +1,1004 @@
 Second 2.
 Answer is: 0
 Correct parsing: true
-begcdaf = abcdefg
-["cbgfa", "gedcb", "fgecab", "fbagdc"] => ["acdfg", "abcde", "abcdfg", "acdefg"] => [3, nil, 9, nil]
----------------------------------------
-edgafcb = abcdefg
-["gbdf", "gbfd", "fgebac", "dfega"] => ["bceg", "bceg", "acdefg", "abcde"] => [nil, nil, nil, nil]
----------------------------------------
-febacdg = abcdefg
-["bcfdaeg", "cf", "fc", "gecabdf"] => ["abcdefg", "ae", "ae", "abcdefg"] => [8, nil, nil, 8]
----------------------------------------
-dceagfb = abcdefg
-["dgb", "cbadg", "cagdb", "cfbd"] => ["aeg", "abdeg", "abdeg", "abfg"] => [nil, nil, nil, nil]
----------------------------------------
-edcbafg = abcdefg
-["ba", "eab", "cdgefa", "gcab"] => ["de", "ade", "abcefg", "cdeg"] => [nil, nil, 0, nil]
----------------------------------------
-gbdcfea = abcdefg
-["cbgefd", "defcg", "cbefdg", "eafgcdb"] => ["abcdef", "acdef", "abcdef", "abcdefg"] => [nil, nil, nil, 8]
----------------------------------------
-gafbdce = abcdefg
-["ecdfb", "fcegab", "badgefc", "dafb"] => ["cdefg", "abcdfg", "abcdefg", "bcde"] => [nil, 9, 8, nil]
----------------------------------------
-agefbdc = abcdefg
-["cfgbdea", "fe", "abecd", "efc"] => ["abcdefg", "cd", "acefg", "cdg"] => [8, nil, nil, nil]
----------------------------------------
-gbfecad = abcdefg
-["cegfbd", "efg", "fgabd", "bedgacf"] => ["abcdeg", "acd", "abcfg", "abcdefg"] => [nil, nil, nil, 8]
----------------------------------------
-fdcebga = abcdefg
-["agdcbfe", "cfead", "fcdea", "ad"] => ["abcdefg", "abcdg", "abcdg", "bg"] => [8, nil, nil, nil]
----------------------------------------
-cgaedbf = abcdefg
-["aceg", "eg", "ge", "ged"] => ["abcd", "bd", "bd", "bde"] => [nil, nil, nil, nil]
----------------------------------------
-cafgebd = abcdefg
-["ed", "daebg", "egd", "gacfbe"] => ["eg", "bdefg", "deg", "abcdef"] => [nil, nil, nil, nil]
----------------------------------------
-bcadgef = abcdefg
-["gafdb", "edgaf", "bag", "edcagfb"] => ["acdeg", "cdefg", "ace", "abcdefg"] => [2, nil, nil, 8]
----------------------------------------
-acgebfd = abcdefg
-["fgcae", "eabg", "fdbcge", "agbe"] => ["abcdf", "acde", "bcdefg", "acde"] => [nil, nil, nil, nil]
----------------------------------------
-fdcabeg = abcdefg
-["ba", "bgeadfc", "cgdbea", "ab"] => ["de", "abcdefg", "bcdefg", "de"] => [nil, 8, nil, nil]
----------------------------------------
-gadbefc = abcdefg
-["ac", "gcdbafe", "ca", "fca"] => ["bg", "abcdefg", "bg", "bfg"] => [nil, 8, nil, nil]
----------------------------------------
-fgcbdea = abcdefg
-["bed", "cgdebfa", "abdegf", "bfea"] => ["def", "abcdefg", "abdefg", "adfg"] => [nil, 8, 6, nil]
----------------------------------------
-daefcgb = abcdefg
-["gcba", "ca", "bgdeaf", "afbdg"] => ["befg", "be", "abcdfg", "abdfg"] => [nil, nil, 9, 5]
----------------------------------------
-afcedgb = abcdefg
-["cdfea", "bagdef", "bcefd", "cdfae"] => ["abcde", "abdefg", "bcdeg", "abcde"] => [nil, 6, nil, nil]
----------------------------------------
-gecbdaf = abcdefg
-["bgd", "bdcafg", "bgd", "dbafcg"] => ["ade", "acdefg", "ade", "acdefg"] => [nil, nil, nil, nil]
----------------------------------------
-dfbaceg = abcdefg
-["eg", "dge", "agfdec", "deg"] => ["fg", "afg", "abdefg", "afg"] => [nil, nil, 6, nil]
----------------------------------------
-bcdgfae = abcdefg
-["bfdgcea", "fge", "fegbda", "cgdfba"] => ["abcdefg", "deg", "acdefg", "abcdef"] => [8, nil, nil, nil]
----------------------------------------
-ebgdcaf = abcdefg
-["fbgade", "eab", "efdcga", "egafdb"] => ["abcdfg", "abf", "acdefg", "abcdfg"] => [9, nil, nil, 9]
----------------------------------------
-efdbgca = abcdefg
-["dbefc", "dbcef", "bfacd", "ce"] => ["abcdf", "abcdf", "bcdfg", "af"] => [nil, nil, nil, nil]
----------------------------------------
-gaecbdf = abcdefg
-["ge", "dabgef", "bdfae", "dbefg"] => ["ac", "abcefg", "bcefg", "acefg"] => [nil, 0, nil, nil]
----------------------------------------
-dgafbec = abcdefg
-["abgcd", "bcgda", "dceb", "fadegb"] => ["abceg", "abceg", "aefg", "abcdef"] => [nil, nil, nil, nil]
----------------------------------------
-aecgdbf = abcdefg
-["fc", "afedgb", "gfacbe", "afbdeg"] => ["cg", "abdefg", "abcdfg", "abdefg"] => [nil, 6, 9, 6]
----------------------------------------
-aegdcfb = abcdefg
-["ac", "dbgfaec", "fgaec", "agfdbec"] => ["ae", "abcdefg", "abcef", "abcdefg"] => [nil, 8, nil, 8]
----------------------------------------
-ceagdbf = abcdefg
-["edgfa", "fea", "gfdbe", "bgfeca"] => ["bcdeg", "bcg", "bdefg", "abcdfg"] => [nil, nil, nil, 9]
----------------------------------------
-fdgeacb = abcdefg
-["gcfe", "abdegc", "egfc", "bcagfe"] => ["acdf", "bcdefg", "acdf", "acdefg"] => [nil, nil, nil, nil]
----------------------------------------
-begdfca = abcdefg
-["agbc", "badef", "aefbd", "fcbdega"] => ["acfg", "abdeg", "abdeg", "abcdefg"] => [nil, nil, nil, 8]
----------------------------------------
-gfaedbc = abcdefg
-["adbfegc", "edbga", "eafcd", "bca"] => ["abcdefg", "acdef", "bcdeg", "cfg"] => [8, nil, nil, nil]
----------------------------------------
-fdgbaec = abcdefg
-["gcfde", "cafebg", "aefgbc", "dafbc"] => ["abcfg", "acdefg", "acdefg", "abdeg"] => [nil, nil, nil, nil]
----------------------------------------
-fgbdcea = abcdefg
-["dcafg", "bedf", "fdbe", "befd"] => ["abdeg", "acdf", "acdf", "acdf"] => [nil, nil, nil, nil]
----------------------------------------
-egbdcfa = abcdefg
-["daefbc", "bedga", "egadb", "decg"] => ["acdefg", "abcdg", "abcdg", "abde"] => [nil, nil, nil, nil]
----------------------------------------
-dbcgefa = abcdefg
-["gf", "bfdac", "dbgf", "gf"] => ["df", "abcfg", "abdf", "df"] => [nil, nil, nil, nil]
----------------------------------------
-cfbedag = abcdefg
-["baec", "gdacb", "afbcgd", "abegdc"] => ["acdf", "acefg", "abcefg", "acdefg"] => [nil, nil, 0, nil]
----------------------------------------
-eagdbcf = abcdefg
-["feadcgb", "db", "bdec", "cgeabfd"] => ["abcdefg", "de", "adef", "abcdefg"] => [8, nil, nil, 8]
----------------------------------------
-dcbgefa = abcdefg
-["gd", "gadbc", "gdbf", "cbagd"] => ["ad", "abcdg", "acdf", "abcdg"] => [nil, nil, nil, nil]
----------------------------------------
-dcgbfea = abcdefg
-["agbdc", "ge", "ged", "cfead"] => ["abcdg", "cf", "acf", "abefg"] => [nil, 1, 7, nil]
----------------------------------------
-defagbc = abcdefg
-["ba", "edcgb", "afbdec", "cadgebf"] => ["df", "abefg", "abcdfg", "abcdefg"] => [nil, nil, 9, 8]
----------------------------------------
-dgfcbea = abcdefg
-["deagb", "egdacfb", "bfge", "fcdgae"] => ["abefg", "abcdefg", "bcef", "abcdfg"] => [nil, 8, nil, 9]
----------------------------------------
-gecbdaf = abcdefg
-["dfcbge", "bfgdc", "acfb", "fa"] => ["abcdeg", "acdeg", "cdfg", "fg"] => [nil, 2, nil, nil]
----------------------------------------
-cfdageb = abcdefg
-["eb", "faedc", "gbef", "gcbdfea"] => ["fg", "abcdf", "befg", "abcdefg"] => [nil, nil, nil, 8]
----------------------------------------
-bgcedaf = abcdefg
-["fgdbae", "fcgad", "fac", "fca"] => ["abdefg", "bcefg", "cfg", "cfg"] => [6, nil, nil, nil]
----------------------------------------
-cebgfda = abcdefg
-["bc", "fgbdaec", "fedac", "gefba"] => ["ac", "abcdefg", "abefg", "bcdeg"] => [nil, 8, nil, nil]
----------------------------------------
-ebcfgad = abcdefg
-["edbagc", "cfbdea", "fbda", "edbcf"] => ["abcefg", "abcdfg", "bdfg", "abcdg"] => [0, 9, nil, nil]
----------------------------------------
-cdbfgae = abcdefg
-["fabd", "bfdgae", "daegfc", "faegbcd"] => ["bcdf", "bcdefg", "abdefg", "abcdefg"] => [4, nil, 6, 8]
----------------------------------------
-acgefbd = abcdefg
-["fb", "efdacg", "fb", "agbf"] => ["ef", "abcdeg", "ef", "acef"] => [nil, nil, nil, nil]
----------------------------------------
-aegbdcf = abcdefg
-["da", "da", "bfgae", "adfg"] => ["ae", "ae", "abcdg", "aceg"] => [nil, nil, nil, nil]
----------------------------------------
-ecagfbd = abcdefg
-["bad", "bad", "fgabde", "bd"] => ["cfg", "cfg", "acdefg", "fg"] => [nil, nil, nil, nil]
----------------------------------------
-cabfdeg = abcdefg
-["ebagdc", "bd", "ecdb", "abedfgc"] => ["abcefg", "ce", "acef", "abcdefg"] => [0, nil, nil, 8]
----------------------------------------
-fdceagb = abcdefg
-["cf", "fec", "gfac", "gfbdeac"] => ["ac", "acd", "acef", "abcdefg"] => [nil, nil, nil, 8]
----------------------------------------
-cgfbeda = abcdefg
-["gdbf", "fb", "bfdaeg", "fegabc"] => ["bcdf", "cd", "bcdefg", "abcdeg"] => [4, nil, nil, nil]
----------------------------------------
-cgabedf = abcdefg
-["cfgabed", "aecdgb", "fgeb", "fgcbad"] => ["abcdefg", "abcdef", "bdeg", "abcdfg"] => [8, nil, nil, 9]
----------------------------------------
-gabfdce = abcdefg
-["adcefb", "dfacb", "adf", "agefbd"] => ["bcdefg", "bcdef", "bde", "abcdeg"] => [nil, nil, nil, nil]
----------------------------------------
-cegdfab = abcdefg
-["bfe", "edfbc", "dgefbca", "befdc"] => ["beg", "abdeg", "abcdefg", "abdeg"] => [nil, nil, 8, nil]
----------------------------------------
-fgaedcb = abcdefg
-["bfdgcea", "caed", "deacbg", "dbc"] => ["abcdefg", "cdef", "bcdefg", "efg"] => [8, nil, nil, nil]
----------------------------------------
-dbgfaec = abcdefg
-["cfead", "ca", "befcd", "geabfd"] => ["adefg", "eg", "abdfg", "abcdef"] => [nil, nil, 5, nil]
----------------------------------------
-fcdageb = abcdefg
-["dbcge", "bdeagfc", "cefdbag", "gca"] => ["bcefg", "abcdefg", "abcdefg", "bde"] => [nil, 8, 8, nil]
----------------------------------------
-fbeacdg = abcdefg
-["bc", "cfgabd", "acgfb", "afegc"] => ["be", "abdefg", "abdeg", "acdeg"] => [nil, 6, nil, 2]
----------------------------------------
-bagfced = abcdefg
-["efdcbg", "agbef", "ef", "face"] => ["acdefg", "abcdf", "df", "bdef"] => [nil, nil, nil, nil]
----------------------------------------
-cgdefab = abcdefg
-["ce", "gdbae", "ceb", "dbafeg"] => ["ad", "bcdfg", "adg", "bcdefg"] => [nil, nil, nil, nil]
----------------------------------------
-fbcgaed = abcdefg
-["fcgb", "gcdfba", "cab", "adbcef"] => ["abcd", "abcdeg", "bce", "abcefg"] => [nil, nil, nil, 0]
----------------------------------------
-bgefcad = abcdefg
-["edb", "bde", "bcefda", "gcedfa"] => ["acg", "acg", "acdefg", "bcdefg"] => [nil, nil, nil, nil]
----------------------------------------
-bfdgaec = abcdefg
-["cdga", "cfged", "afg", "ag"] => ["cdeg", "bcdfg", "bde", "de"] => [nil, nil, nil, nil]
----------------------------------------
-dcfbgea = abcdefg
-["cbef", "cfgab", "bc", "gabfc"] => ["bcdf", "bcdeg", "bd", "bcdeg"] => [4, nil, nil, nil]
----------------------------------------
-egcdafb = abcdefg
-["dabec", "fcag", "afgc", "fbcage"] => ["acdeg", "bcef", "bcef", "abcefg"] => [2, nil, nil, 0]
----------------------------------------
-ceagbdf = abcdefg
-["deb", "ebdfagc", "fabedc", "fgbecd"] => ["bef", "abcdefg", "abcefg", "abdefg"] => [nil, 8, 0, 6]
----------------------------------------
-egdbacf = abcdefg
-["befdac", "ecbad", "fecab", "cegbda"] => ["acdefg", "acdef", "adefg", "abcdef"] => [nil, nil, nil, nil]
----------------------------------------
-dgcbaef = abcdefg
-["fegab", "ae", "gbdef", "gcbedaf"] => ["bdefg", "ef", "abdfg", "abcdefg"] => [nil, nil, 5, 8]
----------------------------------------
-dabfgce = abcdefg
-["gcdfae", "dbcfeg", "acgbe", "bgecf"] => ["abdefg", "acdefg", "bcefg", "cdefg"] => [6, nil, nil, nil]
----------------------------------------
-gedfcba = abcdefg
-["cged", "gfdacb", "cegd", "abcedf"] => ["abce", "acdefg", "abce", "bcdefg"] => [nil, nil, nil, nil]
----------------------------------------
-gefcdba = abcdefg
-["bdceagf", "fgdebac", "bgca", "gfcde"] => ["abcdefg", "abcdefg", "adfg", "abcde"] => [8, 8, nil, nil]
----------------------------------------
-edagbfc = abcdefg
-["dgabf", "fbdag", "cg", "gc"] => ["bcdef", "bcdef", "dg", "dg"] => [nil, nil, nil, nil]
----------------------------------------
-dceafbg = abcdefg
-["bdgaf", "bfeag", "fe", "eagbdf"] => ["adefg", "cdefg", "ce", "acdefg"] => [nil, nil, nil, nil]
----------------------------------------
-afedgcb = abcdefg
-["bcad", "bcefga", "db", "fbdae"] => ["adfg", "abcefg", "dg", "abcdg"] => [nil, 0, nil, nil]
----------------------------------------
-ecfdabg = abcdefg
-["bcgdfe", "dfga", "agebf", "dfga"] => ["abcdfg", "cdeg", "acefg", "cdeg"] => [9, nil, nil, nil]
----------------------------------------
-fgdceab = abcdefg
-["dacefgb", "dfgcae", "gadefc", "bgc"] => ["abcdefg", "abcdef", "abcdef", "bdg"] => [8, nil, nil, nil]
----------------------------------------
-fgcbead = abcdefg
-["bgca", "dfaecb", "gabc", "cabg"] => ["bcdf", "acdefg", "bcdf", "bcdf"] => [4, nil, 4, 4]
----------------------------------------
-feadbgc = abcdefg
-["be", "efba", "aefb", "eb"] => ["be", "abce", "abce", "be"] => [nil, nil, nil, nil]
----------------------------------------
-agcfbed = abcdefg
-["bfdac", "eda", "aegcf", "gcfeba"] => ["acdeg", "afg", "abcdf", "abcdef"] => [2, nil, nil, nil]
----------------------------------------
-gdbcaef = abcdefg
-["faegd", "gbecfd", "gef", "fbgad"] => ["abefg", "abcdfg", "afg", "abceg"] => [nil, 9, nil, nil]
----------------------------------------
-acfegbd = abcdefg
-["gdcebfa", "dge", "abdcg", "cafdgb"] => ["abcdefg", "deg", "abefg", "abcefg"] => [8, nil, nil, 0]
----------------------------------------
-gfbedac = abcdefg
-["fbacdeg", "ad", "adeg", "beafdgc"] => ["abcdefg", "ef", "adef", "abcdefg"] => [8, nil, nil, 8]
----------------------------------------
-dfgcbae = abcdefg
-["egfbcd", "agcefb", "fbagce", "aegdbcf"] => ["abcdeg", "bcdefg", "bcdefg", "abcdefg"] => [nil, nil, nil, 8]
----------------------------------------
-dagebfc = abcdefg
-["gbadec", "dbacge", "fg", "gdfcaeb"] => ["abcdeg", "abcdeg", "cf", "abcdefg"] => [nil, nil, 1, 8]
----------------------------------------
-cbadgef = abcdefg
-["agfed", "acgbdef", "egfda", "gadfbe"] => ["cdefg", "abcdefg", "cdefg", "bcdefg"] => [nil, 8, nil, nil]
----------------------------------------
-abdfgec = abcdefg
-["febadcg", "bcdg", "gdbc", "geacdf"] => ["abcdefg", "bceg", "bceg", "acdefg"] => [8, nil, nil, nil]
----------------------------------------
-gcbadef = abcdefg
-["bdfae", "cgaf", "bcadeg", "cf"] => ["cdefg", "abdg", "abcdef", "bg"] => [nil, nil, nil, nil]
----------------------------------------
-bcefagd = abcdefg
-["acgbde", "afbedc", "edbacg", "cgd"] => ["abcefg", "abcdeg", "abcefg", "bfg"] => [0, nil, 0, nil]
----------------------------------------
-fbcgaed = abcdefg
-["fbdac", "bgecfd", "dcgab", "fc"] => ["abceg", "abcdfg", "bcdeg", "ac"] => [nil, 9, nil, nil]
----------------------------------------
-eabgfcd = abcdefg
-["bc", "cfgdeab", "cb", "cb"] => ["cf", "abcdefg", "cf", "cf"] => [1, 8, 1, 1]
----------------------------------------
-agbfecd = abcdefg
-["cf", "fdgbeca", "cgbdeaf", "eafdbg"] => ["df", "abcdefg", "abcdefg", "abcdeg"] => [nil, 8, 8, nil]
----------------------------------------
-faedcbg = abcdefg
-["ca", "cdegf", "ac", "cae"] => ["be", "acdeg", "be", "bce"] => [nil, 2, nil, nil]
----------------------------------------
-gfebcad = abcdefg
-["fgcabe", "eg", "dabgefc", "egf"] => ["abcdef", "ac", "abcdefg", "abc"] => [nil, nil, 8, nil]
----------------------------------------
-dcbfgea = abcdefg
-["becgafd", "edgcb", "egdbfa", "afdgbce"] => ["abcdefg", "abcef", "acdefg", "abcdefg"] => [8, nil, nil, 8]
----------------------------------------
-defbcag = abcdefg
-["ecad", "ad", "adf", "agdcf"] => ["abef", "af", "acf", "acefg"] => [nil, nil, 7, nil]
----------------------------------------
-aebgdcf = abcdefg
-["ea", "ea", "gbadf", "dgebacf"] => ["ab", "ab", "acdeg", "abcdefg"] => [nil, nil, 2, 8]
----------------------------------------
-cbfadeg = abcdefg
-["dfec", "acefb", "ef", "caedbfg"] => ["acef", "abcdf", "cf", "abcdefg"] => [nil, nil, 1, 8]
----------------------------------------
-cdfgabe = abcdefg
-["daegcfb", "dgae", "da", "decbfga"] => ["abcdefg", "bdeg", "be", "abcdefg"] => [8, nil, nil, 8]
----------------------------------------
-ebdfgca = abcdefg
-["ebcg", "egbc", "cbfdae", "adegb"] => ["abef", "abef", "abcdfg", "abceg"] => [nil, nil, 9, nil]
----------------------------------------
-adebgfc = abcdefg
-["aefgc", "fadebc", "dcbf", "fde"] => ["acefg", "abcdfg", "bdfg", "bcf"] => [nil, 9, nil, nil]
----------------------------------------
-edcgbaf = abcdefg
-["bdgeca", "daebc", "dbcae", "ceg"] => ["abcdef", "abcef", "abcef", "acd"] => [nil, nil, nil, nil]
----------------------------------------
-egcdfab = abcdefg
-["fbc", "gfbecd", "fc", "cafg"] => ["ceg", "abcdeg", "ce", "bcef"] => [nil, nil, nil, nil]
----------------------------------------
-dacfegb = abcdefg
-["afcged", "agefdc", "egcadf", "fbde"] => ["abcdef", "abcdef", "abcdef", "adeg"] => [nil, nil, nil, nil]
----------------------------------------
-efdgabc = abcdefg
-["adec", "fgced", "cef", "ec"] => ["aceg", "abcdg", "abg", "ag"] => [nil, nil, nil, nil]
----------------------------------------
-adecbfg = abcdefg
-["gacdbf", "gecbadf", "eagd", "efacd"] => ["abdefg", "abcdefg", "abcg", "abcdf"] => [6, 8, nil, nil]
----------------------------------------
-dgcaebf = abcdefg
-["bg", "cfagd", "cedbf", "gb"] => ["bf", "abcdg", "acefg", "bf"] => [nil, nil, nil, nil]
----------------------------------------
-ebdgfca = abcdefg
-["deagb", "cb", "cbd", "eadbg"] => ["abcdg", "bf", "bcf", "abcdg"] => [nil, nil, nil, nil]
----------------------------------------
-abcgedf = abcdefg
-["fcg", "fcg", "bdfc", "fgc"] => ["cdg", "cdg", "bcfg", "cdg"] => [nil, nil, nil, nil]
----------------------------------------
-acbedgf = abcdefg
-["cad", "febda", "dgeafb", "dfcabe"] => ["abe", "acdeg", "acdefg", "abcdeg"] => [nil, 2, nil, nil]
----------------------------------------
-cadegfb = abcdefg
-["abdefc", "dbgce", "gdfbace", "bef"] => ["abcdfg", "acdeg", "abcdefg", "dfg"] => [9, 2, 8, nil]
----------------------------------------
-bdafegc = abcdefg
-["gacdfe", "afcged", "edbacf", "adebcf"] => ["bcdefg", "bcdefg", "abcdeg", "abcdeg"] => [nil, nil, nil, nil]
----------------------------------------
-aebgdfc = abcdefg
-["ecgfadb", "egb", "abgdc", "gefdcb"] => ["abcdefg", "bcd", "acdeg", "bcdefg"] => [8, nil, 2, nil]
----------------------------------------
-aecbgfd = abcdefg
-["cgaef", "efacdg", "cagfebd", "cefga"] => ["abcef", "abcefg", "abcdefg", "abcef"] => [nil, 0, 8, nil]
----------------------------------------
-decabfg = abcdefg
-["bagfdc", "bd", "dfb", "afdbge"] => ["acdefg", "ae", "aef", "abdefg"] => [nil, nil, nil, 6]
----------------------------------------
-acbgdfe = abcdefg
-["dagcfbe", "bfade", "gbedac", "ab"] => ["abcdefg", "acefg", "abcdeg", "ac"] => [8, nil, nil, nil]
----------------------------------------
-cdbfgea = abcdefg
-["abegfdc", "feag", "gbf", "geadcb"] => ["abcdefg", "defg", "cde", "abcefg"] => [8, nil, nil, 0]
----------------------------------------
-cdeafbg = abcdefg
-["cad", "fabd", "acedf", "fcgbea"] => ["abd", "bdef", "abcde", "acdefg"] => [nil, nil, nil, nil]
----------------------------------------
-facbedg = abcdefg
-["gfc", "cfg", "decbf", "gfc"] => ["acg", "acg", "acdef", "acg"] => [nil, nil, nil, nil]
----------------------------------------
-fadegcb = abcdefg
-["deg", "cgfda", "de", "gde"] => ["cde", "abcef", "cd", "cde"] => [nil, nil, nil, nil]
----------------------------------------
-agbdcef = abcdefg
-["adbf", "fadgbc", "gdfac", "dfba"] => ["acdg", "abcdeg", "abdeg", "acdg"] => [nil, nil, nil, nil]
----------------------------------------
-baecgfd = abcdefg
-["bcgdafe", "df", "df", "dgaebc"] => ["abcdefg", "fg", "fg", "abcdeg"] => [8, nil, nil, nil]
----------------------------------------
-cedabfg = abcdefg
-["bcadgf", "gfdea", "fdbecg", "fedab"] => ["acdefg", "bcdfg", "abcefg", "bcdef"] => [nil, nil, 0, nil]
----------------------------------------
-cbadefg = abcdefg
-["fbcade", "cgfbea", "gc", "cg"] => ["abcdef", "abcefg", "ag", "ag"] => [nil, 0, nil, nil]
----------------------------------------
-gfdecba = abcdefg
-["dgefa", "fbdgae", "becfadg", "egf"] => ["abcdg", "abcdfg", "abcdefg", "abd"] => [nil, 9, 8, nil]
----------------------------------------
-fcedbag = abcdefg
-["agedf", "afb", "fb", "efdb"] => ["acdfg", "aef", "ae", "acde"] => [3, nil, nil, nil]
----------------------------------------
-cgebadf = abcdefg
-["gbaf", "bdace", "dfb", "ceadgfb"] => ["bdeg", "acdef", "dfg", "abcdefg"] => [nil, nil, nil, 8]
----------------------------------------
-ebgfacd = abcdefg
-["de", "dgbface", "afdcb", "fead"] => ["ag", "abcdefg", "bdefg", "adeg"] => [nil, 8, nil, nil]
----------------------------------------
-dfgbaec = abcdefg
-["ebcfgad", "afcbe", "gdfaeb", "dgcafe"] => ["abcdefg", "bdefg", "abcdef", "abcefg"] => [8, nil, nil, 0]
----------------------------------------
-bacdfge = abcdefg
-["ebgdf", "adfgbec", "cdabgfe", "fegac"] => ["adefg", "abcdefg", "abcdefg", "bcefg"] => [nil, 8, 8, nil]
----------------------------------------
-gdbefac = abcdefg
-["feb", "cgdef", "bace", "be"] => ["cde", "abdeg", "cdfg", "cd"] => [nil, nil, nil, nil]
----------------------------------------
-gcadbef = abcdefg
-["cadge", "dea", "eda", "bafgce"] => ["abcdf", "cdf", "cdf", "abcefg"] => [nil, nil, nil, 0]
----------------------------------------
-fdgbcae = abcdefg
-["fda", "begfdca", "agdfebc", "fcdg"] => ["abf", "abcdefg", "abcdefg", "abce"] => [nil, 8, 8, nil]
----------------------------------------
-cfadgeb = abcdefg
-["cbgda", "fdcgae", "bgafd", "efgabcd"] => ["acdeg", "abcdef", "bcdeg", "abcdefg"] => [2, nil, nil, 8]
----------------------------------------
-gedcafb = abcdefg
-["dbface", "eg", "cedgb", "edg"] => ["bcdefg", "ab", "abcdg", "abc"] => [nil, nil, nil, nil]
----------------------------------------
-gaecfbd = abcdefg
-["gdbcf", "degcba", "bafcd", "fa"] => ["adefg", "abcdfg", "bdefg", "be"] => [nil, 9, nil, nil]
----------------------------------------
-geabfdc = abcdefg
-["dfabg", "adb", "dab", "fdac"] => ["acdef", "cdf", "cdf", "cefg"] => [nil, nil, nil, nil]
----------------------------------------
-fcaebdg = abcdefg
-["gdeba", "afegb", "ef", "gfecbd"] => ["cdefg", "acdeg", "ad", "abdefg"] => [nil, 2, nil, 6]
----------------------------------------
-cfabedg = abcdefg
-["baced", "ebagcfd", "fbdga", "ceaf"] => ["acdef", "abcdefg", "bcdfg", "abce"] => [nil, 8, nil, nil]
----------------------------------------
-gacfebd = abcdefg
-["fabecgd", "bge", "geb", "afgb"] => ["abcdefg", "aef", "aef", "abdf"] => [8, nil, nil, nil]
----------------------------------------
-gdbcfea = abcdefg
-["cdgae", "edfb", "afcdeb", "gecda"] => ["abdfg", "bcef", "bcdefg", "abdfg"] => [5, nil, nil, 5]
----------------------------------------
-dfcageb = abcdefg
-["de", "ed", "ebd", "bcagfe"] => ["af", "af", "afg", "bcdefg"] => [nil, nil, nil, nil]
----------------------------------------
-ceagbdf = abcdefg
-["afgc", "fbc", "cf", "gbfec"] => ["acdg", "aeg", "ag", "abdeg"] => [nil, nil, nil, nil]
----------------------------------------
-dfgbaec = abcdefg
-["cbadfe", "abgdc", "de", "agcdb"] => ["abdefg", "acdeg", "af", "acdeg"] => [6, 2, nil, 2]
----------------------------------------
-dbgeacf = abcdefg
-["efdgca", "acdfe", "dcgaf", "adfcg"] => ["acdefg", "adefg", "acefg", "acefg"] => [nil, nil, nil, nil]
----------------------------------------
-bdegcfa = abcdefg
-["fgedbc", "daebf", "efdba", "ceafb"] => ["abcdef", "abcfg", "abcfg", "acefg"] => [nil, nil, nil, nil]
----------------------------------------
-gbfdeca = abcdefg
-["gdbef", "gecda", "gab", "acbfeg"] => ["abcde", "adefg", "abg", "abcefg"] => [nil, nil, nil, 0]
----------------------------------------
-fbcaedg = abcdefg
-["bdgefac", "bde", "agbd", "agbfedc"] => ["abcdefg", "bef", "bdfg", "abcdefg"] => [8, nil, nil, 8]
----------------------------------------
-fbcedag = abcdefg
-["bef", "facde", "fdcea", "aecb"] => ["abd", "acdef", "acdef", "bcdf"] => [nil, nil, nil, 4]
----------------------------------------
-afcdgbe = abcdefg
-["aebdgf", "eabgfd", "dbcefa", "edagf"] => ["abdefg", "abdefg", "abcdfg", "abdeg"] => [6, 6, 9, nil]
----------------------------------------
-bedacgf = abcdefg
-["gcbdf", "cabdgf", "fd", "ecdbg"] => ["acefg", "acdefg", "cg", "abcef"] => [nil, nil, nil, nil]
----------------------------------------
-bfdgace = abcdefg
-["af", "fcga", "dcbef", "baf"] => ["be", "bdef", "abcfg", "abe"] => [nil, nil, nil, nil]
----------------------------------------
-fdaebcg = abcdefg
-["fcdae", "ed", "befd", "eda"] => ["abcdf", "bd", "abde", "bcd"] => [nil, nil, nil, nil]
----------------------------------------
-beadgcf = abcdefg
-["cf", "bfgeac", "gdacbf", "agfde"] => ["fg", "abcefg", "acdefg", "bcdeg"] => [nil, 0, nil, nil]
----------------------------------------
-gcdfbea = abcdefg
-["egfcdb", "bfacg", "fa", "gbdeafc"] => ["abcdef", "abdeg", "dg", "abcdefg"] => [nil, nil, nil, 8]
----------------------------------------
-cgadbef = abcdefg
-["eagdcf", "bgcfde", "acdfg", "ac"] => ["abcdfg", "abdefg", "abcdg", "ac"] => [9, 6, nil, nil]
----------------------------------------
-gdbcfea = abcdefg
-["cdbg", "fdcgeba", "bgfcae", "cegad"] => ["abcd", "abcdefg", "acdefg", "abdfg"] => [nil, 8, nil, 5]
----------------------------------------
-eafdcgb = abcdefg
-["gf", "gebcaf", "agf", "bedcfga"] => ["cf", "abcefg", "bcf", "abcdefg"] => [1, 0, nil, 8]
----------------------------------------
-fcbdeag = abcdefg
-["gfeda", "efbagd", "defgb", "fbg"] => ["adefg", "acdefg", "acdeg", "acg"] => [nil, nil, 2, nil]
----------------------------------------
-cagdbfe = abcdefg
-["bacegd", "gfdce", "fe", "adbgec"] => ["abcdeg", "acdfg", "fg", "abcdeg"] => [nil, 3, nil, nil]
----------------------------------------
-fgdabec = abcdefg
-["egb", "egb", "cdabfe", "dgef"] => ["bef", "bef", "acdefg", "abcf"] => [nil, nil, nil, nil]
----------------------------------------
-dfgaecb = abcdefg
-["aecbgd", "becgfda", "gbda", "fdabce"] => ["acdefg", "abcdefg", "acdg", "abdefg"] => [nil, 8, nil, 6]
----------------------------------------
-gadcfeb = abcdefg
-["gcdeba", "feagd", "edf", "cagbed"] => ["abcdfg", "abcef", "cef", "abcdfg"] => [9, nil, nil, 9]
----------------------------------------
-gefdcba = abcdefg
-["gda", "fdbac", "dcfbae", "fdbg"] => ["adg", "cdefg", "bcdefg", "acdf"] => [nil, nil, nil, nil]
----------------------------------------
-cbfdage = abcdefg
-["degaf", "fcd", "cbfgdea", "ecbdafg"] => ["cdefg", "acd", "abcdefg", "abcdefg"] => [nil, nil, 8, 8]
----------------------------------------
-aegdcfb = abcdefg
-["cefga", "eagbc", "acbedg", "acf"] => ["abcef", "abceg", "abcdeg", "aef"] => [nil, nil, nil, nil]
----------------------------------------
-aegfdcb = abcdefg
-["fdcga", "adefbcg", "efgd", "cgdafb"] => ["acdef", "abcdefg", "bcde", "acdefg"] => [nil, 8, nil, nil]
----------------------------------------
-cgedabf = abcdefg
-["egcdba", "da", "ecbfga", "ecgbad"] => ["abcdef", "de", "abcefg", "abcdef"] => [nil, nil, 0, nil]
----------------------------------------
-badfceg = abcdefg
-["dfg", "cgfa", "afcg", "fedac"] => ["cdg", "bdeg", "bdeg", "bcdef"] => [nil, nil, nil, nil]
----------------------------------------
-fbegdac = abcdefg
-["aedcg", "dgcef", "dcbaeg", "edf"] => ["cdefg", "acdeg", "bcdefg", "ace"] => [nil, 2, nil, nil]
----------------------------------------
-gadfbec = abcdefg
-["dfec", "fegdba", "gef", "cfde"] => ["cdfg", "abcdef", "adf", "cdfg"] => [nil, nil, nil, nil]
----------------------------------------
-dcfebag = abcdefg
-["cbaegdf", "daf", "agfdce", "ebfacgd"] => ["abcdefg", "acf", "abcdfg", "abcdefg"] => [8, 7, 9, 8]
----------------------------------------
-aefbgdc = abcdefg
-["agfc", "abgcfd", "cgd", "acbgfd"] => ["aceg", "acdefg", "efg", "acdefg"] => [nil, nil, nil, nil]
----------------------------------------
-cdabgef = abcdefg
-["dbag", "gb", "bg", "dgab"] => ["bcde", "de", "de", "bcde"] => [nil, nil, nil, nil]
----------------------------------------
-efdgbca = abcdefg
-["bdacfeg", "gacedb", "cdegfa", "agdfc"] => ["abcdefg", "acdefg", "abcdfg", "bcdfg"] => [8, nil, 9, nil]
----------------------------------------
-agdefcb = abcdefg
-["efda", "gfeacbd", "ea", "deagbc"] => ["acde", "abcdefg", "ad", "abcdfg"] => [nil, 8, nil, 9]
----------------------------------------
-gadefcb = abcdefg
-["bed", "ebacdg", "gcfabde", "fceab"] => ["cdg", "abcdfg", "abcdefg", "bdefg"] => [nil, 9, 8, nil]
----------------------------------------
-fecbdga = abcdefg
-["ba", "gdacef", "fgacde", "cbafged"] => ["dg", "abcefg", "abcefg", "abcdefg"] => [nil, 0, 0, 8]
----------------------------------------
-dbgfcea = abcdefg
-["efagdc", "ab", "ba", "egfad"] => ["acdefg", "bg", "bg", "acdfg"] => [nil, nil, nil, 3]
----------------------------------------
-fecabdg = abcdefg
-["gdcebaf", "edgcb", "aedfgcb", "efacdgb"] => ["abcdefg", "bcefg", "abcdefg", "abcdefg"] => [8, nil, 8, 8]
----------------------------------------
-gbcafed = abcdefg
-["gafce", "ecg", "cge", "egfbadc"] => ["acdef", "acf", "acf", "abcdefg"] => [nil, 7, 7, 8]
----------------------------------------
-adfgebc = abcdefg
-["becfad", "gc", "gdaec", "dgbc"] => ["abcefg", "dg", "abdeg", "bdfg"] => [0, nil, nil, nil]
----------------------------------------
-bdgfaec = abcdefg
-["fegbdca", "dga", "fgcedb", "cgdeba"] => ["abcdefg", "bce", "abcdfg", "abcefg"] => [8, nil, 9, 0]
----------------------------------------
-cfdgbea = abcdefg
-["fgbeda", "eadfb", "fgd", "agcfe"] => ["bcdefg", "bcefg", "bcd", "abdfg"] => [nil, nil, nil, 5]
----------------------------------------
-fecgdab = abcdefg
-["gbfad", "cfg", "eacdgf", "dfeagc"] => ["adefg", "acd", "abcdef", "abcdef"] => [nil, nil, nil, nil]
----------------------------------------
-fgbeacd = abcdefg
-["ad", "cfbga", "edgfb", "ebdfca"] => ["eg", "abcef", "abcdg", "acdefg"] => [nil, nil, nil, nil]
----------------------------------------
-dbacgfe = abcdefg
-["adfce", "bfcd", "cabedf", "cfdb"] => ["acdfg", "abdf", "abcdfg", "abdf"] => [3, nil, 9, nil]
----------------------------------------
-dafcegb = abcdefg
-["dab", "agdefb", "cfadbe", "dba"] => ["abg", "abcefg", "abcdeg", "abg"] => [nil, 0, nil, nil]
----------------------------------------
-dbaecfg = abcdefg
-["gefbd", "gbecda", "egdcaf", "ebcag"] => ["abdfg", "abcdeg", "acdefg", "bcdeg"] => [5, nil, nil, nil]
----------------------------------------
-gcefabd = abcdefg
-["acegb", "defgcba", "cbaed", "cebdfag"] => ["abcef", "abcdefg", "bcefg", "abcdefg"] => [nil, 8, nil, 8]
----------------------------------------
-dfbecag = abcdefg
-["cg", "dgc", "fcge", "acbegd"] => ["eg", "aeg", "bdeg", "acdefg"] => [nil, nil, nil, nil]
----------------------------------------
-aefbgdc = abcdefg
-["gbcaed", "bgefcda", "eacd", "efagcb"] => ["abdefg", "abcdefg", "abfg", "abcdeg"] => [6, 8, nil, nil]
----------------------------------------
-daecfgb = abcdefg
-["cgef", "gfce", "ce", "cea"] => ["cdef", "cdef", "cd", "bcd"] => [nil, nil, nil, nil]
----------------------------------------
-cfebdag = abcdefg
-["ag", "ag", "cag", "afge"] => ["fg", "fg", "afg", "bcfg"] => [nil, nil, nil, nil]
----------------------------------------
-fgceabd = abcdefg
-["bcfga", "cfebg", "cge", "bdcef"] => ["abcef", "abcdf", "bcd", "acdfg"] => [nil, nil, nil, 3]
----------------------------------------
-bdgcefa = abcdefg
-["egbfdc", "aecgd", "fgdca", "cabdegf"] => ["abcdef", "bcdeg", "bcdfg", "abcdefg"] => [nil, nil, nil, 8]
----------------------------------------
-agbcdef = abcdefg
-["baefg", "faebg", "fdgcbe", "bgdecf"] => ["abcfg", "abcfg", "bcdefg", "bcdefg"] => [nil, nil, nil, nil]
----------------------------------------
-aefbdcg = abcdefg
-["fgbdce", "gdfacb", "bfc", "egbc"] => ["bcdefg", "acdefg", "cdf", "bdfg"] => [nil, nil, nil, nil]
+Digits map for task 2: {"deagbc"=>0, "ab"=>1, "dafgc"=>2, "dafbc"=>3, "eafb"=>4, "defbc"=>5, "defgbc"=>6, "dab"=>7, "deafgbc"=>8, "deafbc"=>9}
+["cbgfa", "gedcb", "fgecab", "fbagdc"]
+["acdfg", "abcde", "abcdfg", "acdefg"]
+["dafbc", "deafg", "deafbc", "dafgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["gbdf", "gbfd", "fgebac", "dfega"]
+["bceg", "bceg", "acdefg", "abcde"]
+["eagc", "eagc", "dafgbc", "deafg"]
+[nil, nil, nil, nil]
+---------------------------------------
+["bcfdaeg", "cf", "fc", "gecabdf"]
+["abcdefg", "ae", "ae", "abcdefg"]
+["deafgbc", "dg", "dg", "deafgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["dgb", "cbadg", "cagdb", "cfbd"]
+["aeg", "abdeg", "abdeg", "abfg"]
+["dgc", "defgc", "defgc", "debc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["ba", "eab", "cdgefa", "gcab"]
+["de", "ade", "abcefg", "cdeg"]
+["fg", "dfg", "deagbc", "afgc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["cbgefd", "defcg", "cbefdg", "eafgcdb"]
+["abcdef", "acdef", "abcdef", "abcdefg"]
+["deafgb", "dafgb", "deafgb", "deafgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["ecdfb", "fcegab", "badgefc", "dafb"]
+["cdefg", "abcdfg", "abcdefg", "bcde"]
+["afgbc", "deafbc", "deafgbc", "eafg"]
+[nil, nil, nil, nil]
+---------------------------------------
+["cfgbdea", "fe", "abecd", "efc"]
+["abcdefg", "cd", "acefg", "cdg"]
+["deafgbc", "af", "dagbc", "afc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["cegfbd", "efg", "fgabd", "bedgacf"]
+["abcdeg", "acd", "abcfg", "abcdefg"]
+["deafgc", "daf", "deabc", "deafgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["agdcbfe", "cfead", "fcdea", "ad"]
+["abcdefg", "abcdg", "abcdg", "bg"]
+["deafgbc", "deafc", "deafc", "ec"]
+[nil, nil, nil, nil]
+---------------------------------------
+["aceg", "eg", "ge", "ged"]
+["abcd", "bd", "bd", "bde"]
+["deaf", "ef", "ef", "efg"]
+[nil, nil, nil, nil]
+---------------------------------------
+["ed", "daebg", "egd", "gacfbe"]
+["eg", "bdefg", "deg", "abcdef"]
+["gc", "efgbc", "fgc", "deafgb"]
+[nil, nil, nil, nil]
+---------------------------------------
+["gafdb", "edgaf", "bag", "edcagfb"]
+["acdeg", "cdefg", "ace", "abcdefg"]
+["dafgc", "afgbc", "dag", "deafgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["fgcae", "eabg", "fdbcge", "agbe"]
+["abcdf", "acde", "bcdefg", "acde"]
+["deafb", "dafg", "eafgbc", "dafg"]
+[nil, nil, nil, nil]
+---------------------------------------
+["ba", "bgeadfc", "cgdbea", "ab"]
+["de", "abcdefg", "bcdefg", "de"]
+["fg", "deafgbc", "eafgbc", "fg"]
+[nil, nil, nil, nil]
+---------------------------------------
+["ac", "gcdbafe", "ca", "fca"]
+["bg", "abcdefg", "bg", "bfg"]
+["ec", "deafgbc", "ec", "ebc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["bed", "cgdebfa", "abdegf", "bfea"]
+["def", "abcdefg", "abdefg", "adfg"]
+["fgb", "deafgbc", "defgbc", "dfbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["gcba", "ca", "bgdeaf", "afbdg"]
+["befg", "be", "abcdfg", "abdfg"]
+["egbc", "eg", "deafbc", "defbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["cdfea", "bagdef", "bcefd", "cdfae"]
+["abcde", "abdefg", "bcdeg", "abcde"]
+["deafg", "defgbc", "eafgc", "deafg"]
+[nil, nil, nil, nil]
+---------------------------------------
+["bgd", "bdcafg", "bgd", "dbafcg"]
+["ade", "acdefg", "ade", "acdefg"]
+["dfg", "dafgbc", "dfg", "dafgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["eg", "dge", "agfdec", "deg"]
+["fg", "afg", "abdefg", "afg"]
+["bc", "dbc", "defgbc", "dbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["bfdgcea", "fge", "fegbda", "cgdfba"]
+["abcdefg", "deg", "acdefg", "abcdef"]
+["deafgbc", "fgc", "dafgbc", "deafgb"]
+[nil, nil, nil, nil]
+---------------------------------------
+["fbgade", "eab", "efdcga", "egafdb"]
+["abcdfg", "abf", "acdefg", "abcdfg"]
+["deafbc", "deb", "dafgbc", "deafbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["dbefc", "dbcef", "bfacd", "ce"]
+["abcdf", "abcdf", "bcdfg", "af"]
+["deafb", "deafb", "eafbc", "db"]
+[nil, nil, nil, nil]
+---------------------------------------
+["ge", "dabgef", "bdfae", "dbefg"]
+["ac", "abcefg", "bcefg", "acefg"]
+["da", "deagbc", "eagbc", "dagbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["abgcd", "bcgda", "dceb", "fadegb"]
+["abceg", "abceg", "aefg", "abcdef"]
+["deagc", "deagc", "dgbc", "deafgb"]
+[nil, nil, nil, nil]
+---------------------------------------
+["fc", "afedgb", "gfacbe", "afbdeg"]
+["cg", "abdefg", "abcdfg", "abdefg"]
+["ac", "defgbc", "deafbc", "defgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["ac", "dbgfaec", "fgaec", "agfdbec"]
+["ae", "abcdefg", "abcef", "abcdefg"]
+["dg", "deafgbc", "deagb", "deafgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["edgfa", "fea", "gfdbe", "bgfeca"]
+["bcdeg", "bcg", "bdefg", "abcdfg"]
+["eafgc", "eac", "efgbc", "deafbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["gcfe", "abdegc", "egfc", "bcagfe"]
+["acdf", "bcdefg", "acdf", "acdefg"]
+["dafb", "eafgbc", "dafb", "dafgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["agbc", "badef", "aefbd", "fcbdega"]
+["acfg", "abdeg", "abdeg", "abcdefg"]
+["dabc", "defgc", "defgc", "deafgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["adbfegc", "edbga", "eafcd", "bca"]
+["abcdefg", "acdef", "bcdeg", "cfg"]
+["deafgbc", "dafgb", "eafgc", "abc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["gcfde", "cafebg", "aefgbc", "dafbc"]
+["abcfg", "acdefg", "acdefg", "abdeg"]
+["deabc", "dafgbc", "dafgbc", "defgc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["dcafg", "bedf", "fdbe", "befd"]
+["abdeg", "acdf", "acdf", "acdf"]
+["defgc", "dafb", "dafb", "dafb"]
+[nil, nil, nil, nil]
+---------------------------------------
+["daefbc", "bedga", "egadb", "decg"]
+["acdefg", "abcdg", "abcdg", "abde"]
+["dafgbc", "deafc", "deafc", "defg"]
+[nil, nil, nil, nil]
+---------------------------------------
+["gf", "bfdac", "dbgf", "gf"]
+["df", "abcfg", "abdf", "df"]
+["fb", "deabc", "defb", "fb"]
+[nil, nil, nil, nil]
+---------------------------------------
+["baec", "gdacb", "afbcgd", "abegdc"]
+["acdf", "acefg", "abcefg", "acdefg"]
+["dafb", "dagbc", "deagbc", "dafgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["feadcgb", "db", "bdec", "cgeabfd"]
+["abcdefg", "de", "adef", "abcdefg"]
+["deafgbc", "fg", "dfgb", "deafgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["gd", "gadbc", "gdbf", "cbagd"]
+["ad", "abcdg", "acdf", "abcdg"]
+["df", "deafc", "dafb", "deafc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["agbdc", "ge", "ged", "cfead"]
+["abcdg", "cf", "acf", "abefg"]
+["deafc", "ab", "dab", "degbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["ba", "edcgb", "afbdec", "cadgebf"]
+["df", "abefg", "abcdfg", "abcdefg"]
+["fb", "degbc", "deafbc", "deafgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["deagb", "egdacfb", "bfge", "fcdgae"]
+["abefg", "abcdefg", "bcef", "abcdfg"]
+["degbc", "deafgbc", "eagb", "deafbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["dfcbge", "bfgdc", "acfb", "fa"]
+["abcdeg", "acdeg", "cdfg", "fg"]
+["deafgc", "dafgc", "afbc", "bc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["eb", "faedc", "gbef", "gcbdfea"]
+["fg", "abcdf", "befg", "abcdefg"]
+["bc", "deafb", "egbc", "deafgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["fgdbae", "fcgad", "fac", "fca"]
+["abdefg", "bcefg", "cfg", "cfg"]
+["defgbc", "eagbc", "abc", "abc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["bc", "fgbdaec", "fedac", "gefba"]
+["ac", "abcdefg", "abefg", "bcdeg"]
+["da", "deafgbc", "degbc", "eafgc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["edbagc", "cfbdea", "fbda", "edbcf"]
+["abcefg", "abcdfg", "bdfg", "abcdg"]
+["deagbc", "deafbc", "efbc", "deafc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["fabd", "bfdgae", "daegfc", "faegbcd"]
+["bcdf", "bcdefg", "abdefg", "abcdefg"]
+["eafb", "eafgbc", "defgbc", "deafgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["fb", "efdacg", "fb", "agbf"]
+["ef", "abcdeg", "ef", "acef"]
+["gb", "deafgc", "gb", "dagb"]
+[nil, nil, nil, nil]
+---------------------------------------
+["da", "da", "bfgae", "adfg"]
+["ae", "ae", "abcdg", "aceg"]
+["dg", "dg", "deafc", "dagc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["bad", "bad", "fgabde", "bd"]
+["cfg", "cfg", "acdefg", "fg"]
+["abc", "abc", "dafgbc", "bc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["ebagdc", "bd", "ecdb", "abedfgc"]
+["abcefg", "ce", "acef", "abcdefg"]
+["deagbc", "ag", "dagb", "deafgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["cf", "fec", "gfac", "gfbdeac"]
+["ac", "acd", "acef", "abcdefg"]
+["da", "daf", "dagb", "deafgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["gdbf", "fb", "bfdaeg", "fegabc"]
+["bcdf", "cd", "bcdefg", "abcdeg"]
+["eafb", "af", "eafgbc", "deafgc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["cfgabed", "aecdgb", "fgeb", "fgcbad"]
+["abcdefg", "abcdef", "bdeg", "abcdfg"]
+["deafgbc", "deafgb", "efgc", "deafbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["adcefb", "dfacb", "adf", "agefbd"]
+["bcdefg", "bcdef", "bde", "abcdeg"]
+["eafgbc", "eafgb", "efg", "deafgc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["bfe", "edfbc", "dgefbca", "befdc"]
+["beg", "abdeg", "abcdefg", "abdeg"]
+["egc", "defgc", "deafgbc", "defgc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["bfdgcea", "caed", "deacbg", "dbc"]
+["abcdefg", "cdef", "bcdefg", "efg"]
+["deafgbc", "afgb", "eafgbc", "gbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["cfead", "ca", "befcd", "geabfd"]
+["adefg", "eg", "abdfg", "abcdef"]
+["dfgbc", "gc", "defbc", "deafgb"]
+[nil, nil, nil, nil]
+---------------------------------------
+["dbcge", "bdeagfc", "cefdbag", "gca"]
+["bcefg", "abcdefg", "abcdefg", "bde"]
+["eagbc", "deafgbc", "deafgbc", "efg"]
+[nil, nil, nil, nil]
+---------------------------------------
+["bc", "cfgabd", "acgfb", "afegc"]
+["be", "abdefg", "abdeg", "acdeg"]
+["eg", "defgbc", "defgc", "dafgc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["efdcbg", "agbef", "ef", "face"]
+["acdefg", "abcdf", "df", "bdef"]
+["dafgbc", "deafb", "fb", "efgb"]
+[nil, nil, nil, nil]
+---------------------------------------
+["ce", "gdbae", "ceb", "dbafeg"]
+["ad", "bcdfg", "adg", "bcdefg"]
+["df", "eafbc", "dfc", "eafgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["fcgb", "gcdfba", "cab", "adbcef"]
+["abcd", "abcdeg", "bce", "abcefg"]
+["deaf", "deafgc", "eag", "deagbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["edb", "bde", "bcefda", "gcedfa"]
+["acg", "acg", "acdefg", "bcdefg"]
+["dac", "dac", "dafgbc", "eafgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["cdga", "cfged", "afg", "ag"]
+["cdeg", "bcdfg", "bde", "de"]
+["afgc", "eafbc", "efg", "fg"]
+[nil, nil, nil, nil]
+---------------------------------------
+["cbef", "cfgab", "bc", "gabfc"]
+["bcdf", "bcdeg", "bd", "bcdeg"]
+["eafb", "eafgc", "ef", "eafgc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["dabec", "fcag", "afgc", "fbcage"]
+["acdeg", "bcef", "bcef", "abcefg"]
+["dafgc", "eagb", "eagb", "deagbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["deb", "ebdfagc", "fabedc", "fgbecd"]
+["bef", "abcdefg", "abcefg", "abdefg"]
+["egb", "deafgbc", "deagbc", "defgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["befdac", "ecbad", "fecab", "cegbda"]
+["acdefg", "acdef", "adefg", "abcdef"]
+["dafgbc", "dafgb", "dfgbc", "deafgb"]
+[nil, nil, nil, nil]
+---------------------------------------
+["fegab", "ae", "gbdef", "gcbedaf"]
+["bdefg", "ef", "abdfg", "abcdefg"]
+["efgbc", "gb", "defbc", "deafgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["gcdfae", "dbcfeg", "acgbe", "bgecf"]
+["abdefg", "acdefg", "bcefg", "cdefg"]
+["defgbc", "dafgbc", "eagbc", "afgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["cged", "gfdacb", "cegd", "abcedf"]
+["abce", "acdefg", "abce", "bcdefg"]
+["deag", "dafgbc", "deag", "eafgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["bdceagf", "fgdebac", "bgca", "gfcde"]
+["abcdefg", "abcdefg", "adfg", "abcde"]
+["deafgbc", "deafgbc", "dfbc", "deafg"]
+[nil, nil, nil, nil]
+---------------------------------------
+["dgabf", "fbdag", "cg", "gc"]
+["bcdef", "bcdef", "dg", "dg"]
+["eafgb", "eafgb", "fc", "fc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["bdgaf", "bfeag", "fe", "eagbdf"]
+["adefg", "cdefg", "ce", "acdefg"]
+["dfgbc", "afgbc", "ag", "dafgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["bcad", "bcefga", "db", "fbdae"]
+["adfg", "abcefg", "dg", "abcdg"]
+["dfbc", "deagbc", "fc", "deafc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["bcgdfe", "dfga", "agebf", "dfga"]
+["abcdfg", "cdeg", "acefg", "cdeg"]
+["deafbc", "afgc", "dagbc", "afgc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["dacefgb", "dfgcae", "gadefc", "bgc"]
+["abcdefg", "abcdef", "abcdef", "bdg"]
+["deafgbc", "deafgb", "deafgb", "efc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["bgca", "dfaecb", "gabc", "cabg"]
+["bcdf", "acdefg", "bcdf", "bcdf"]
+["eafb", "dafgbc", "eafb", "eafb"]
+[nil, nil, nil, nil]
+---------------------------------------
+["be", "efba", "aefb", "eb"]
+["be", "abce", "abce", "be"]
+["eg", "deag", "deag", "eg"]
+[nil, nil, nil, nil]
+---------------------------------------
+["bfdac", "eda", "aegcf", "gcfeba"]
+["acdeg", "afg", "abcdf", "abcdef"]
+["dafgc", "dbc", "deafb", "deafgb"]
+[nil, nil, nil, nil]
+---------------------------------------
+["faegd", "gbecfd", "gef", "fbgad"]
+["abefg", "abcdfg", "afg", "abceg"]
+["degbc", "deafbc", "dbc", "deagc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["gdcebfa", "dge", "abdcg", "cafdgb"]
+["abcdefg", "deg", "abefg", "abcefg"]
+["deafgbc", "fgc", "degbc", "deagbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["fbacdeg", "ad", "adeg", "beafdgc"]
+["abcdefg", "ef", "adef", "abcdefg"]
+["deafgbc", "gb", "dfgb", "deafgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["egfbcd", "agcefb", "fbagce", "aegdbcf"]
+["abcdeg", "bcdefg", "bcdefg", "abcdefg"]
+["deafgc", "eafgbc", "eafgbc", "deafgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["gbadec", "dbacge", "fg", "gdfcaeb"]
+["abcdeg", "abcdeg", "cf", "abcdefg"]
+["deafgc", "deafgc", "ab", "deafgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["agfed", "acgbdef", "egfda", "gadfbe"]
+["cdefg", "abcdefg", "cdefg", "bcdefg"]
+["afgbc", "deafgbc", "afgbc", "eafgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["febadcg", "bcdg", "gdbc", "geacdf"]
+["abcdefg", "bceg", "bceg", "acdefg"]
+["deafgbc", "eagc", "eagc", "dafgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["bdfae", "cgaf", "bcadeg", "cf"]
+["cdefg", "abdg", "abcdef", "bg"]
+["afgbc", "defc", "deafgb", "ec"]
+[nil, nil, nil, nil]
+---------------------------------------
+["acgbde", "afbedc", "edbacg", "cgd"]
+["abcefg", "abcdeg", "abcefg", "bfg"]
+["deagbc", "deafgc", "deagbc", "ebc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["fbdac", "bgecfd", "dcgab", "fc"]
+["abceg", "abcdfg", "bcdeg", "ac"]
+["deagc", "deafbc", "eafgc", "da"]
+[nil, nil, nil, nil]
+---------------------------------------
+["bc", "cfgdeab", "cb", "cb"]
+["cf", "abcdefg", "cf", "cf"]
+["ab", "deafgbc", "ab", "ab"]
+[nil, nil, nil, nil]
+---------------------------------------
+["cf", "fdgbeca", "cgbdeaf", "eafdbg"]
+["df", "abcdefg", "abcdefg", "abcdeg"]
+["fb", "deafgbc", "deafgbc", "deafgc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["ca", "cdegf", "ac", "cae"]
+["be", "acdeg", "be", "bce"]
+["eg", "dafgc", "eg", "eag"]
+[nil, nil, nil, nil]
+---------------------------------------
+["fgcabe", "eg", "dabgefc", "egf"]
+["abcdef", "ac", "abcdefg", "abc"]
+["deafgb", "da", "deafgbc", "dea"]
+[nil, nil, nil, nil]
+---------------------------------------
+["becgafd", "edgcb", "egdbfa", "afdgbce"]
+["abcdefg", "abcef", "acdefg", "abcdefg"]
+["deafgbc", "deagb", "dafgbc", "deafgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["ecad", "ad", "adf", "agdcf"]
+["abef", "af", "acf", "acefg"]
+["degb", "db", "dab", "dagbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["ea", "ea", "gbadf", "dgebacf"]
+["ab", "ab", "acdeg", "abcdefg"]
+["de", "de", "dafgc", "deafgbc"]
+[1, 1, nil, nil]
+---------------------------------------
+["dfec", "acefb", "ef", "caedbfg"]
+["acef", "abcdf", "cf", "abcdefg"]
+["dagb", "deafb", "ab", "deafgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["daegcfb", "dgae", "da", "decbfga"]
+["abcdefg", "bdeg", "be", "abcdefg"]
+["deafgbc", "efgc", "eg", "deafgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["ebcg", "egbc", "cbfdae", "adegb"]
+["abef", "abef", "abcdfg", "abceg"]
+["degb", "degb", "deafbc", "deagc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["aefgc", "fadebc", "dcbf", "fde"]
+["acefg", "abcdfg", "bdfg", "bcf"]
+["dagbc", "deafbc", "efbc", "eab"]
+[nil, nil, nil, nil]
+---------------------------------------
+["bdgeca", "daebc", "dbcae", "ceg"]
+["abcdef", "abcef", "abcef", "acd"]
+["deafgb", "deagb", "deagb", "daf"]
+[nil, nil, nil, nil]
+---------------------------------------
+["fbc", "gfbecd", "fc", "cafg"]
+["ceg", "abcdeg", "ce", "bcef"]
+["agc", "deafgc", "ag", "eagb"]
+[nil, nil, nil, nil]
+---------------------------------------
+["afcged", "agefdc", "egcadf", "fbde"]
+["abcdef", "abcdef", "abcdef", "adeg"]
+["deafgb", "deafgb", "deafgb", "dfgc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["adec", "fgced", "cef", "ec"]
+["aceg", "abcdg", "abg", "ag"]
+["dagc", "deafc", "dec", "dc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["gacdbf", "gecbadf", "eagd", "efacd"]
+["abdefg", "abcdefg", "abcg", "abcdf"]
+["defgbc", "deafgbc", "deac", "deafb"]
+[nil, nil, nil, nil]
+---------------------------------------
+["bg", "cfagd", "cedbf", "gb"]
+["bf", "abcdg", "acefg", "bf"]
+["eb", "deafc", "dagbc", "eb"]
+[nil, nil, nil, nil]
+---------------------------------------
+["deagb", "cb", "cbd", "eadbg"]
+["abcdg", "bf", "bcf", "abcdg"]
+["deafc", "eb", "eab", "deafc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["fcg", "fcg", "bdfc", "fgc"]
+["cdg", "cdg", "bcfg", "cdg"]
+["afc", "afc", "eabc", "afc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["cad", "febda", "dgeafb", "dfcabe"]
+["abe", "acdeg", "acdefg", "abcdeg"]
+["deg", "dafgc", "dafgbc", "deafgc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["abdefc", "dbgce", "gdfbace", "bef"]
+["abcdfg", "acdeg", "abcdefg", "dfg"]
+["deafbc", "dafgc", "deafgbc", "fbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["gacdfe", "afcged", "edbacf", "adebcf"]
+["bcdefg", "bcdefg", "abcdeg", "abcdeg"]
+["eafgbc", "eafgbc", "deafgc", "deafgc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["ecgfadb", "egb", "abgdc", "gefdcb"]
+["abcdefg", "bcd", "acdeg", "bcdefg"]
+["deafgbc", "eaf", "dafgc", "eafgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["cgaef", "efacdg", "cagfebd", "cefga"]
+["abcef", "abcefg", "abcdefg", "abcef"]
+["deagb", "deagbc", "deafgbc", "deagb"]
+[nil, nil, nil, nil]
+---------------------------------------
+["bagfdc", "bd", "dfb", "afdbge"]
+["acdefg", "ae", "aef", "abdefg"]
+["dafgbc", "dg", "dgb", "defgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["dagcfbe", "bfade", "gbedac", "ab"]
+["abcdefg", "acefg", "abcdeg", "ac"]
+["deafgbc", "dagbc", "deafgc", "da"]
+[nil, nil, nil, nil]
+---------------------------------------
+["abegfdc", "feag", "gbf", "geadcb"]
+["abcdefg", "defg", "cde", "abcefg"]
+["deafgbc", "fgbc", "afg", "deagbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["cad", "fabd", "acedf", "fcgbea"]
+["abd", "bdef", "abcde", "acdefg"]
+["def", "efgb", "deafg", "dafgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["gfc", "cfg", "decbf", "gfc"]
+["acg", "acg", "acdef", "acg"]
+["dac", "dac", "dafgb", "dac"]
+[nil, nil, nil, nil]
+---------------------------------------
+["deg", "cgfda", "de", "gde"]
+["cde", "abcef", "cd", "cde"]
+["afg", "deagb", "af", "afg"]
+[nil, nil, nil, nil]
+---------------------------------------
+["adbf", "fadgbc", "gdfac", "dfba"]
+["acdg", "abcdeg", "abdeg", "acdg"]
+["dafc", "deafgc", "defgc", "dafc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["bcgdafe", "df", "df", "dgaebc"]
+["abcdefg", "fg", "fg", "abcdeg"]
+["deafgbc", "bc", "bc", "deafgc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["bcadgf", "gfdea", "fdbecg", "fedab"]
+["acdefg", "bcdfg", "abcefg", "bcdef"]
+["dafgbc", "eafbc", "deagbc", "eafgb"]
+[nil, nil, nil, nil]
+---------------------------------------
+["fbcade", "cgfbea", "gc", "cg"]
+["abcdef", "abcefg", "ag", "ag"]
+["deafgb", "deagbc", "dc", "dc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["dgefa", "fbdgae", "becfadg", "egf"]
+["abcdg", "abcdfg", "abcdefg", "abd"]
+["deafc", "deafbc", "deafgbc", "def"]
+[nil, nil, nil, nil]
+---------------------------------------
+["agedf", "afb", "fb", "efdb"]
+["acdfg", "aef", "ae", "acde"]
+["dafbc", "dgb", "dg", "dafg"]
+[nil, nil, nil, nil]
+---------------------------------------
+["gbaf", "bdace", "dfb", "ceadgfb"]
+["bdeg", "acdef", "dfg", "abcdefg"]
+["efgc", "dafgb", "fbc", "deafgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["de", "dgbface", "afdcb", "fead"]
+["ag", "abcdefg", "bdefg", "adeg"]
+["dc", "deafgbc", "efgbc", "dfgc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["ebcfgad", "afcbe", "gdfaeb", "dgcafe"]
+["abcdefg", "bdefg", "abcdef", "abcefg"]
+["deafgbc", "efgbc", "deafgb", "deagbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["ebgdf", "adfgbec", "cdabgfe", "fegac"]
+["adefg", "abcdefg", "abcdefg", "bcefg"]
+["dfgbc", "deafgbc", "deafgbc", "eagbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["feb", "cgdef", "bace", "be"]
+["cde", "abdeg", "cdfg", "cd"]
+["afg", "defgc", "afbc", "af"]
+[nil, nil, nil, nil]
+---------------------------------------
+["cadge", "dea", "eda", "bafgce"]
+["abcdf", "cdf", "cdf", "abcefg"]
+["deafb", "afb", "afb", "deagbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["fda", "begfdca", "agdfebc", "fcdg"]
+["abf", "abcdefg", "abcdefg", "abce"]
+["deb", "deafgbc", "deafgbc", "deag"]
+[nil, nil, nil, nil]
+---------------------------------------
+["cbgda", "fdcgae", "bgafd", "efgabcd"]
+["acdeg", "abcdef", "bcdeg", "abcdefg"]
+["dafgc", "deafgb", "eafgc", "deafgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["dbface", "eg", "cedgb", "edg"]
+["bcdefg", "ab", "abcdg", "abc"]
+["eafgbc", "de", "deafc", "dea"]
+[nil, 1, nil, nil]
+---------------------------------------
+["gdbcf", "degcba", "bafcd", "fa"]
+["adefg", "abcdfg", "bdefg", "be"]
+["dfgbc", "deafbc", "efgbc", "eg"]
+[nil, nil, nil, nil]
+---------------------------------------
+["dfabg", "adb", "dab", "fdac"]
+["acdef", "cdf", "cdf", "cefg"]
+["dafgb", "afb", "afb", "agbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["gdeba", "afegb", "ef", "gfecbd"]
+["cdefg", "acdeg", "ad", "abdefg"]
+["afgbc", "dafgc", "df", "defgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["baced", "ebagcfd", "fbdga", "ceaf"]
+["acdef", "abcdefg", "bcdfg", "abce"]
+["dafgb", "deafgbc", "eafbc", "deag"]
+[nil, nil, nil, nil]
+---------------------------------------
+["fabecgd", "bge", "geb", "afgb"]
+["abcdefg", "aef", "aef", "abdf"]
+["deafgbc", "dgb", "dgb", "defb"]
+[nil, nil, nil, nil]
+---------------------------------------
+["cdgae", "edfb", "afcdeb", "gecda"]
+["abdfg", "bcef", "bcdefg", "abdfg"]
+["defbc", "eagb", "eafgbc", "defbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["de", "ed", "ebd", "bcagfe"]
+["af", "af", "afg", "bcdefg"]
+["db", "db", "dbc", "eafgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["afgc", "fbc", "cf", "gbfec"]
+["acdg", "aeg", "ag", "abdeg"]
+["dafc", "dgc", "dc", "defgc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["cbadfe", "abgdc", "de", "agcdb"]
+["abdefg", "acdeg", "af", "acdeg"]
+["defgbc", "dafgc", "db", "dafgc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["efdgca", "acdfe", "dcgaf", "adfcg"]
+["acdefg", "adefg", "acefg", "acefg"]
+["dafgbc", "dfgbc", "dagbc", "dagbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["fgedbc", "daebf", "efdba", "ceafb"]
+["abcdef", "abcfg", "abcfg", "acefg"]
+["deafgb", "deabc", "deabc", "dagbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["gdbef", "gecda", "gab", "acbfeg"]
+["abcde", "adefg", "abg", "abcefg"]
+["deafg", "dfgbc", "dec", "deagbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["bdgefac", "bde", "agbd", "agbfedc"]
+["abcdefg", "bef", "bdfg", "abcdefg"]
+["deafgbc", "egb", "efbc", "deafgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["bef", "facde", "fdcea", "aecb"]
+["abd", "acdef", "acdef", "bcdf"]
+["def", "dafgb", "dafgb", "eafb"]
+[nil, nil, nil, nil]
+---------------------------------------
+["aebdgf", "eabgfd", "dbcefa", "edagf"]
+["abdefg", "abdefg", "abcdfg", "abdeg"]
+["defgbc", "defgbc", "deafbc", "defgc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["gcbdf", "cabdgf", "fd", "ecdbg"]
+["acefg", "acdefg", "cg", "abcef"]
+["dagbc", "dafgbc", "ac", "deagb"]
+[nil, nil, nil, nil]
+---------------------------------------
+["af", "fcga", "dcbef", "baf"]
+["be", "bdef", "abcfg", "abe"]
+["eg", "efgb", "deabc", "deg"]
+[nil, nil, nil, nil]
+---------------------------------------
+["fcdae", "ed", "befd", "eda"]
+["abcdf", "bd", "abde", "bcd"]
+["deafb", "ef", "defg", "eaf"]
+[nil, nil, nil, nil]
+---------------------------------------
+["cf", "bfgeac", "gdacbf", "agfde"]
+["fg", "abcefg", "acdefg", "bcdeg"]
+["bc", "deagbc", "dafgbc", "eafgc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["egfcdb", "bfacg", "fa", "gbdeafc"]
+["abcdef", "abdeg", "dg", "abcdefg"]
+["deafgb", "defgc", "fc", "deafgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["eagdcf", "bgcfde", "acdfg", "ac"]
+["abcdfg", "abdefg", "abcdg", "ac"]
+["deafbc", "defgbc", "deafc", "da"]
+[nil, nil, nil, nil]
+---------------------------------------
+["cdbg", "fdcgeba", "bgfcae", "cegad"]
+["abcd", "abcdefg", "acdefg", "abdfg"]
+["deaf", "deafgbc", "dafgbc", "defbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["gf", "gebcaf", "agf", "bedcfga"]
+["cf", "abcefg", "bcf", "abcdefg"]
+["ab", "deagbc", "eab", "deafgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["gfeda", "efbagd", "defgb", "fbg"]
+["adefg", "acdefg", "acdeg", "acg"]
+["dfgbc", "dafgbc", "dafgc", "dac"]
+[nil, nil, nil, nil]
+---------------------------------------
+["bacegd", "gfdce", "fe", "adbgec"]
+["abcdeg", "acdfg", "fg", "abcdeg"]
+["deafgc", "dafbc", "bc", "deafgc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["egb", "egb", "cdabfe", "dgef"]
+["bef", "bef", "acdefg", "abcf"]
+["egb", "egb", "dafgbc", "deab"]
+[nil, nil, nil, nil]
+---------------------------------------
+["aecbgd", "becgfda", "gbda", "fdabce"]
+["acdefg", "abcdefg", "acdg", "abdefg"]
+["dafgbc", "deafgbc", "dafc", "defgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["gcdeba", "feagd", "edf", "cagbed"]
+["abcdfg", "abcef", "cef", "abcdfg"]
+["deafbc", "deagb", "agb", "deafbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["gda", "fdbac", "dcfbae", "fdbg"]
+["adg", "cdefg", "bcdefg", "acdf"]
+["dfc", "afgbc", "eafgbc", "dafb"]
+[nil, nil, nil, nil]
+---------------------------------------
+["degaf", "fcd", "cbfgdea", "ecbdafg"]
+["cdefg", "acd", "abcdefg", "abcdefg"]
+["afgbc", "daf", "deafgbc", "deafgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["cefga", "eagbc", "acbedg", "acf"]
+["abcef", "abceg", "abcdeg", "aef"]
+["deagb", "deagc", "deafgc", "dgb"]
+[nil, nil, nil, nil]
+---------------------------------------
+["fdcga", "adefbcg", "efgd", "cgdafb"]
+["acdef", "abcdefg", "bcde", "acdefg"]
+["dafgb", "deafgbc", "eafg", "dafgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["egcdba", "da", "ecbfga", "ecgbad"]
+["abcdef", "de", "abcefg", "abcdef"]
+["deafgb", "fg", "deagbc", "deafgb"]
+[nil, nil, nil, nil]
+---------------------------------------
+["dfg", "cgfa", "afcg", "fedac"]
+["cdg", "bdeg", "bdeg", "bcdef"]
+["afc", "efgc", "efgc", "eafgb"]
+[nil, nil, nil, nil]
+---------------------------------------
+["aedcg", "dgcef", "dcbaeg", "edf"]
+["cdefg", "acdeg", "bcdefg", "ace"]
+["afgbc", "dafgc", "eafgbc", "dag"]
+[nil, nil, nil, nil]
+---------------------------------------
+["dfec", "fegdba", "gef", "cfde"]
+["cdfg", "abcdef", "adf", "cdfg"]
+["afbc", "deafgb", "dfb", "afbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["cbaegdf", "daf", "agfdce", "ebfacgd"]
+["abcdefg", "acf", "abcdfg", "abcdefg"]
+["deafgbc", "dab", "deafbc", "deafgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["agfc", "abgcfd", "cgd", "acbgfd"]
+["aceg", "acdefg", "efg", "acdefg"]
+["dagc", "dafgbc", "gbc", "dafgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["dbag", "gb", "bg", "dgab"]
+["bcde", "de", "de", "bcde"]
+["eafg", "fg", "fg", "eafg"]
+[nil, nil, nil, nil]
+---------------------------------------
+["bdacfeg", "gacedb", "cdegfa", "agdfc"]
+["abcdefg", "acdefg", "abcdfg", "bcdfg"]
+["deafgbc", "dafgbc", "deafbc", "eafbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["efda", "gfeacbd", "ea", "deagbc"]
+["acde", "abcdefg", "ad", "abcdfg"]
+["dafg", "deafgbc", "df", "deafbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["bed", "ebacdg", "gcfabde", "fceab"]
+["cdg", "abcdfg", "abcdefg", "bdefg"]
+["afc", "deafbc", "deafgbc", "efgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["ba", "gdacef", "fgacde", "cbafged"]
+["dg", "abcefg", "abcefg", "abcdefg"]
+["fc", "deagbc", "deagbc", "deafgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["efagdc", "ab", "ba", "egfad"]
+["acdefg", "bg", "bg", "acdfg"]
+["dafgbc", "ec", "ec", "dafbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["gdcebaf", "edgcb", "aedfgcb", "efacdgb"]
+["abcdefg", "bcefg", "abcdefg", "abcdefg"]
+["deafgbc", "eagbc", "deafgbc", "deafgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["gafce", "ecg", "cge", "egfbadc"]
+["acdef", "acf", "acf", "abcdefg"]
+["dafgb", "dab", "dab", "deafgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["becfad", "gc", "gdaec", "dgbc"]
+["abcefg", "dg", "abdeg", "bdfg"]
+["deagbc", "fc", "defgc", "efbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["fegbdca", "dga", "fgcedb", "cgdeba"]
+["abcdefg", "bce", "abcdfg", "abcefg"]
+["deafgbc", "eag", "deafbc", "deagbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["fgbeda", "eadfb", "fgd", "agcfe"]
+["bcdefg", "bcefg", "bcd", "abdfg"]
+["eafgbc", "eagbc", "eaf", "defbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["gbfad", "cfg", "eacdgf", "dfeagc"]
+["adefg", "acd", "abcdef", "abcdef"]
+["dfgbc", "daf", "deafgb", "deafgb"]
+[nil, nil, nil, nil]
+---------------------------------------
+["ad", "cfbga", "edgfb", "ebdfca"]
+["eg", "abcef", "abcdg", "acdefg"]
+["gc", "deagb", "deafc", "dafgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["adfce", "bfcd", "cabedf", "cfdb"]
+["acdfg", "abdf", "abcdfg", "abdf"]
+["dafbc", "defb", "deafbc", "defb"]
+[nil, nil, nil, nil]
+---------------------------------------
+["dab", "agdefb", "cfadbe", "dba"]
+["abg", "abcefg", "abcdeg", "abg"]
+["dec", "deagbc", "deafgc", "dec"]
+[nil, nil, nil, nil]
+---------------------------------------
+["gefbd", "gbecda", "egdcaf", "ebcag"]
+["abdfg", "abcdeg", "acdefg", "bcdeg"]
+["defbc", "deafgc", "dafgbc", "eafgc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["acegb", "defgcba", "cbaed", "cebdfag"]
+["abcef", "abcdefg", "bcefg", "abcdefg"]
+["deagb", "deafgbc", "eagbc", "deafgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["cg", "dgc", "fcge", "acbegd"]
+["eg", "aeg", "bdeg", "acdefg"]
+["gc", "dgc", "efgc", "dafgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["gbcaed", "bgefcda", "eacd", "efagcb"]
+["abdefg", "abcdefg", "abfg", "abcdeg"]
+["defgbc", "deafgbc", "debc", "deafgc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["cgef", "gfce", "ce", "cea"]
+["cdef", "cdef", "cd", "bcd"]
+["afgb", "afgb", "af", "eaf"]
+[nil, nil, nil, nil]
+---------------------------------------
+["ag", "ag", "cag", "afge"]
+["fg", "fg", "afg", "bcfg"]
+["bc", "bc", "dbc", "eabc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["bcfga", "cfebg", "cge", "bdcef"]
+["abcef", "abcdf", "bcd", "acdfg"]
+["deagb", "deafb", "eaf", "dafbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["egbfdc", "aecgd", "fgdca", "cabdegf"]
+["abcdef", "bcdeg", "bcdfg", "abcdefg"]
+["deafgb", "eafgc", "eafbc", "deafgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["baefg", "faebg", "fdgcbe", "bgdecf"]
+["abcfg", "abcfg", "bcdefg", "bcdefg"]
+["deabc", "deabc", "eafgbc", "eafgbc"]
+[nil, nil, nil, nil]
+---------------------------------------
+["fgbdce", "gdfacb", "bfc", "egbc"]
+["bcdefg", "acdefg", "cdf", "bdfg"]
+["eafgbc", "dafgbc", "afb", "efbc"]
+[nil, nil, nil, nil]
 ---------------------------------------
