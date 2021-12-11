@@ -1,3 +1,4 @@
+require 'set'
 class Solution
   def start1(arr)
     @l = ""
@@ -27,7 +28,7 @@ class Solution
     @pairs.each do |(a,b)|
       a = a.sort_by(&:size).map{|x| x.chars.sort.join}
       b = b.sort_by(&:size).map{|x| x.chars.sort.join}
-      numbers = convert_b(b)
+      numbers = convert_b(a,b)
       l "#{a.join(?,)}, #{numbers.join(?,)}"
     end
     l_up "Answer is: #{answer}"
@@ -53,23 +54,24 @@ class Solution
   def check(arr)
     arr.map(&:strip) == @pairs.map{|(a,b)| a.join(" ") + " | " + b.join(" ")}
   end
-  def set_cr(arr)
+  def set_cr(a,b)
+    one = a.find{|x| 2 == x.size}.chars.to_set
     @criteria = []
     @criteria[0] = ->x{false}
     @criteria[1] = ->x{ 2 == x.size}
     @criteria[2] = ->x{false}
     @criteria[3] = ->x{false}
-    @criteria[4] = ->x{false}
+    @criteria[4] = ->x{ 4 == x.size}
     @criteria[5] = ->x{false}
     @criteria[6] = ->x{false}
-    @criteria[7] = ->x{false}
+    @criteria[7] = ->x{ 3 == x.size}
     @criteria[8] = ->x{ 7 == x.size}
     @criteria[9] = ->x{false}
   end
 
-  def convert_b(arr)
-    set_cr(arr)
-    arr.map{|x|
+  def convert_b(a,b)
+    set_cr(a,b)
+    b.map{|x|
       ans = nil
       @criteria.each_with_index do |fun,i|
         ans = i if fun[x]
