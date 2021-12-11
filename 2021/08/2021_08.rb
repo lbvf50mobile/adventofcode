@@ -36,17 +36,18 @@ class Solution
     numbers["abcdefg"] = 8
     numbers["abcdfg"] = 9
     @pairs.each do |(a,b)|
-      full_array = (a+b)
-      eight = full_array.find{|x| 7 == x.size} 
+      eight = a.find{|x| 7 == x.size} 
       map = {}
+      incorrect_map = {}
       [?a,?b,?c,?d,?e,?f,?g].each_with_index do |correct,i|
         map[correct] = eight[i]
+        incorrect_map[eight[i]] = correct
       end
-      new_numbers = numbers.to_a.map{|(a,b)| [a.chars.map{|x| map[x]}.join,b]}.to_h
-      print_map = map.to_a.map{|x| x.join(?:)}.join(?,)
-      l "#{eight} => #{print_map} #{new_numbers[eight].inspect}"
-      l "#{numbers.inspect}"
-      l "#{new_numbers.inspect}"
+      converted_eight = eight.chars.map{|c| incorrect_map[c]}.join
+      # Convert four digit from incorrect to correct.
+      converted = b.map{|x| x.chars.map{|c| incorrect_map[c]}.sort.join}
+      l "#{eight} = #{converted_eight}"
+      l "#{b.inspect} => #{converted.inspect}"
       l "---------------------------------------"
     end
     l_up "Answer is: #{answer}"

@@ -1,43 +1,33 @@
 Second 2.
 Answer is: 0
 Correct parsing: true
-cfbegad => a:c,b:f,c:b,d:e,e:g,f:a,g:d 8
-{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
-{"cfbgad"=>0, "ba"=>1, "cbegd"=>2, "cbead"=>3, "fbea"=>4, "cfead"=>5, "cfegad"=>6, "cba"=>7, "cfbegad"=>8, "cfbead"=>9}
+cfbegad = abcdefg
+["fdgacbe", "cefdb", "cefbgd", "gcbe"] => ["abcdefg", "abcdg", "abcdeg", "acde"]
 ---------------------------------------
-gcadebf => a:g,b:c,c:a,d:d,e:e,f:b,g:f 8
-{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
-{"gcaebf"=>0, "ab"=>1, "gadef"=>2, "gadbf"=>3, "cadb"=>4, "gcdbf"=>5, "gcdebf"=>6, "gab"=>7, "gcadebf"=>8, "gcadbf"=>9}
+gcadebf = abcdefg
+["fcgedb", "cgb", "dgebacf", "gc"] => ["abdefg", "abf", "abcdefg", "ab"]
 ---------------------------------------
-cdgabef => a:c,b:d,c:g,d:a,e:b,f:e,g:f 8
-{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
-{"cdgbef"=>0, "ge"=>1, "cgabf"=>2, "cgaef"=>3, "dgae"=>4, "cdaef"=>5, "cdabef"=>6, "cge"=>7, "cdgabef"=>8, "cdgaef"=>9}
+cdgabef = abcdefg
+["cg", "cg", "fdcagb", "cbg"] => ["ac", "ac", "abcdeg", "ace"]
 ---------------------------------------
-fcdbega => a:f,b:c,c:d,d:b,e:e,f:g,g:a 8
-{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
-{"fcdega"=>0, "dg"=>1, "fdbea"=>2, "fdbga"=>3, "cdbg"=>4, "fcbga"=>5, "fcbega"=>6, "fdg"=>7, "fcdbega"=>8, "fcdbga"=>9}
+fcdbega = abcdefg
+["efabcd", "cedba", "gadfec", "cb"] => ["abcdeg", "bcdeg", "abcefg", "bd"]
 ---------------------------------------
-aecbfdg => a:a,b:e,c:c,d:b,e:f,f:d,g:g 8
-{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
-{"aecfdg"=>0, "cd"=>1, "acbfg"=>2, "acbdg"=>3, "ecbd"=>4, "aebdg"=>5, "aebfdg"=>6, "acd"=>7, "aecbfdg"=>8, "aecbdg"=>9}
+aecbfdg = abcdefg
+["gecf", "egdcabf", "bgf", "bfgea"] => ["bceg", "abcdefg", "deg", "abdeg"]
 ---------------------------------------
-bdacfeg => a:b,b:d,c:a,d:c,e:f,f:e,g:g 8
-{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
-{"bdafeg"=>0, "ae"=>1, "bacfg"=>2, "baceg"=>3, "dace"=>4, "bdceg"=>5, "bdcfeg"=>6, "bae"=>7, "bdacfeg"=>8, "bdaceg"=>9}
+bdacfeg = abcdefg
+["gebdcfa", "ecba", "ca", "fadegcb"] => ["abcdefg", "acdf", "cd", "abcdefg"]
 ---------------------------------------
-bdegcaf => a:b,b:d,c:e,d:g,e:c,f:a,g:f 8
-{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
-{"bdecaf"=>0, "ea"=>1, "begcf"=>2, "begaf"=>3, "dega"=>4, "bdgaf"=>5, "bdgcaf"=>6, "bea"=>7, "bdegcaf"=>8, "bdegaf"=>9}
+bdegcaf = abcdefg
+["cefg", "dcbef", "fcge", "gbcadfe"] => ["cdeg", "abceg", "cdeg", "abcdefg"]
 ---------------------------------------
-adcbefg => a:a,b:d,c:c,d:b,e:e,f:f,g:g 8
-{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
-{"adcefg"=>0, "cf"=>1, "acbeg"=>2, "acbfg"=>3, "dcbf"=>4, "adbfg"=>5, "adbefg"=>6, "acf"=>7, "adcbefg"=>8, "adcbfg"=>9}
+adcbefg = abcdefg
+["ed", "bcgafe", "cdgba", "cbgef"] => ["be", "acdefg", "abcdg", "cdefg"]
 ---------------------------------------
-gbdefca => a:g,b:b,c:d,d:e,e:f,f:c,g:a 8
-{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
-{"gbdfca"=>0, "dc"=>1, "gdefa"=>2, "gdeca"=>3, "bdec"=>4, "gbeca"=>5, "gbefca"=>6, "gdc"=>7, "gbdefca"=>8, "gbdeca"=>9}
+gbdefca = abcdefg
+["gbdfcae", "bgc", "cg", "cgb"] => ["abcdefg", "abf", "af", "abf"]
 ---------------------------------------
-dcaebfg => a:d,b:c,c:a,d:e,e:b,f:f,g:g 8
-{"abcefg"=>0, "cf"=>1, "acdeg"=>2, "acdfg"=>3, "bcdf"=>4, "abdfg"=>5, "abdefg"=>6, "acf"=>7, "abcdefg"=>8, "abcdfg"=>9}
-{"dcabfg"=>0, "af"=>1, "daebg"=>2, "daefg"=>3, "caef"=>4, "dcefg"=>5, "dcebfg"=>6, "daf"=>7, "dcaebfg"=>8, "dcaefg"=>9}
+dcaebfg = abcdefg
+["fgae", "cfgab", "fg", "bagce"] => ["cdfg", "bcefg", "fg", "bcdeg"]
 ---------------------------------------
