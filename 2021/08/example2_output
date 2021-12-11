@@ -1,54 +1,13 @@
 Second 2.
 Answer is: 0
 Correct parsing: true
-Digits map for task 2: {"deagbc"=>0, "ab"=>1, "dafgc"=>2, "dafbc"=>3, "eafb"=>4, "defbc"=>5, "defgbc"=>6, "dab"=>7, "deafgbc"=>8, "deafbc"=>9}
-["fdgacbe", "cefdb", "cefbgd", "gcbe"]
-["abcdefg", "abcdg", "abcdeg", "acde"]
-["deafgbc", "deafc", "deafgc", "dafg"]
-[nil, nil, nil, nil]
----------------------------------------
-["fcgedb", "cgb", "dgebacf", "gc"]
-["abdefg", "abf", "abcdefg", "ab"]
-["defgbc", "deb", "deafgbc", "de"]
-[nil, nil, nil, 1]
----------------------------------------
-["cg", "cg", "fdcagb", "cbg"]
-["ac", "ac", "abcdeg", "ace"]
-["da", "da", "deafgc", "dag"]
-[nil, nil, nil, nil]
----------------------------------------
-["efabcd", "cedba", "gadfec", "cb"]
-["abcdeg", "bcdeg", "abcefg", "bd"]
-["deafgc", "eafgc", "deagbc", "ef"]
-[nil, nil, nil, nil]
----------------------------------------
-["gecf", "egdcabf", "bgf", "bfgea"]
-["bceg", "abcdefg", "deg", "abdeg"]
-["eagc", "deafgbc", "fgc", "defgc"]
-[nil, nil, nil, nil]
----------------------------------------
-["gebdcfa", "ecba", "ca", "fadegcb"]
-["abcdefg", "acdf", "cd", "abcdefg"]
-["deafgbc", "dafb", "af", "deafgbc"]
-[nil, nil, nil, nil]
----------------------------------------
-["cefg", "dcbef", "fcge", "gbcadfe"]
-["cdeg", "abceg", "cdeg", "abcdefg"]
-["afgc", "deagc", "afgc", "deafgbc"]
-[nil, nil, nil, nil]
----------------------------------------
-["ed", "bcgafe", "cdgba", "cbgef"]
-["be", "acdefg", "abcdg", "cdefg"]
-["eg", "dafgbc", "deafc", "afgbc"]
-[nil, nil, nil, nil]
----------------------------------------
-["gbdfcae", "bgc", "cg", "cgb"]
-["abcdefg", "abf", "af", "abf"]
-["deafgbc", "deb", "db", "deb"]
-[nil, nil, nil, nil]
----------------------------------------
-["fgae", "cfgab", "fg", "bagce"]
-["cdfg", "bcefg", "fg", "bcdeg"]
-["afbc", "eagbc", "bc", "eafgc"]
-[nil, nil, nil, nil]
----------------------------------------
+be,bde,bceg,cdefg,bcdef,abcdf,bcdefg,acdefg,abdefg,abcdefg, bceg,bcdef,bcdefg,8
+cg,bcg,cefg,bcdeg,bdefg,abcde,abdefg,abcdfg,bcdefg,abcdefg, 1,bcg,bcdefg,8
+cg,bcg,acfg,abcde,abdfg,abcdg,abdefg,abcdfg,bcdefg,abcdefg, 1,1,bcg,abcdfg
+bc,bcd,abcf,abdeg,acdef,abcde,bcdefg,abcdef,acdefg,abcdefg, 1,abcde,abcdef,acdefg
+fg,bfg,cefg,abefg,abdef,abceg,abcefg,abcdeg,abcdfg,abcdefg, bfg,cefg,abefg,8
+ac,acf,abce,abefg,bcdfg,abcfg,abcefg,acdefg,abdefg,abcdefg, 1,abce,8,8
+fg,dfg,cefg,bcdfg,bcdef,abcdg,abdefg,abcdef,bcdefg,abcdefg, cefg,cefg,bcdef,8
+de,cde,bdef,bcefg,abcdg,bcdeg,bcdefg,abcefg,acdefg,abcdefg, 1,abcdg,bcefg,abcefg
+cg,bcg,cdeg,abcef,bdefg,bcefg,abdefg,bcdefg,abcdfg,abcdefg, 1,bcg,bcg,8
+fg,cfg,aefg,abcfg,abceg,abcdf,abcdeg,abcefg,bcdefg,abcdefg, 1,aefg,abcfg,abceg

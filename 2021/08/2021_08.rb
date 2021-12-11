@@ -24,41 +24,11 @@ class Solution
     correct = check(arr)
     l "Correct parsing: #{correct.inspect}"
     answer = 0
-    numbers = {}
-    numbers["abcefg"] = 0
-    numbers["cf"] = 1
-    numbers["acdeg"] = 2
-    numbers["acdfg"] = 3
-    numbers["bcdf"] = 4
-    numbers["abdfg"] = 5
-    numbers["abdefg"] = 6
-    numbers["acf"] = 7
-    numbers["abcdefg"] = 8
-    numbers["abcdfg"] = 9
-    second_numbers = {}
-    numbers.keys.each do |key|
-      new_key = convert_string_to_second_mapping(key)
-      second_numbers[new_key] = numbers[key]
-    end
-    l "Digits map for task 2: #{second_numbers}"
     @pairs.each do |(a,b)|
-      eight = a.find{|x| 7 == x.size} 
-      map = {}
-      incorrect_map = {}
-      [?a,?b,?c,?d,?e,?f,?g].each_with_index do |correct,i|
-        map[correct] = eight[i]
-        incorrect_map[eight[i]] = correct
-      end
-      converted_eight = eight.chars.map{|c| incorrect_map[c]}.join
-      # Convert four digit from incorrect to correct.
-      converted = b.map{|x| x.chars.map{|c| incorrect_map[c]}.sort.join}
-      second_converted = converted.map{|x| convert_string_to_second_mapping(x)}
-      digits = converted.map{|str| second_numbers[str]}
-      l "#{b}"
-      l "#{converted}"
-      l "#{second_converted}"
-      l "#{digits}"
-      l "---------------------------------------"
+      a = a.sort_by(&:size).map{|x| x.chars.sort.join}
+      b = b.sort_by(&:size).map{|x| x.chars.sort.join}
+      numbers = convert_b(b)
+      l "#{a.join(?,)}, #{numbers.join(?,)}"
     end
     l_up "Answer is: #{answer}"
     l_up "Second 2."
@@ -83,16 +53,29 @@ class Solution
   def check(arr)
     arr.map(&:strip) == @pairs.map{|(a,b)| a.join(" ") + " | " + b.join(" ")}
   end
-  def convert_string_to_second_mapping str
-    mp = {}
-    mp[?a] = ?d
-    mp[?b] = ?e
-    mp[?c] = ?a
-    mp[?d] = ?f
-    mp[?e] = ?g
-    mp[?f] = ?b
-    mp[?g] = ?c
-    str.chars.map{|c| mp[c]}.join
+  def set_cr(arr)
+    @criteria = []
+    @criteria[0] = ->x{false}
+    @criteria[1] = ->x{ 2 == x.size}
+    @criteria[2] = ->x{false}
+    @criteria[3] = ->x{false}
+    @criteria[4] = ->x{false}
+    @criteria[5] = ->x{false}
+    @criteria[6] = ->x{false}
+    @criteria[7] = ->x{false}
+    @criteria[8] = ->x{ 7 == x.size}
+    @criteria[9] = ->x{false}
+  end
+
+  def convert_b(arr)
+    set_cr(arr)
+    arr.map{|x|
+      ans = nil
+      @criteria.each_with_index do |fun,i|
+        ans = i if fun[x]
+      end
+      ans ? ans : x
+    }
   end
 end
 
