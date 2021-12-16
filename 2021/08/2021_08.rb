@@ -1,3 +1,7 @@
+# = = = = = = =
+# Accepted.
+# Thanks God!
+# = = = = = = =
 require 'set'
 class Solution
   def start1(arr)
@@ -26,14 +30,19 @@ class Solution
     l "Correct parsing: #{correct.inspect}"
     answer = 0
     @pairs.each do |(a,b)|
-      a = a.sort_by(&:size).map{|x| x.chars.sort.join}
-      b = b.sort_by(&:size).map{|x| x.chars.sort.join}
-      numbers = convert_b(a,b)
-      l "#{a.join(?,)}, #{numbers.join(?,)}"
+      a = a.map{|x| x.chars.sort.join}
+      b = b.map{|x| x.chars.sort.join}
+      numbers = numbers_str_to_digit(convert_b(a,b))
+      answer += numbers
+      l "#{a.join(?,)}, #{numbers}"
     end
     l_up "Answer is: #{answer}"
     l_up "Second 2."
     return @l
+  end
+  def numbers_str_to_digit(arr)
+    raise "Incorrect arrays size." if 4 != arr.size
+    arr.each_with_index.reduce(0){|sum,(num,i)| sum += num.to_i * (10**3)/(10**i)}
   end
   def l(str)
     @l += str + "\n"
