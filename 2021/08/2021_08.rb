@@ -64,7 +64,12 @@ class Solution
     @criteria[0] = ->x{ 6 == x.size && ! (four_minus_one - x.chars.to_set).empty?}
     @criteria[1] = ->x{ 2 == x.size}
     @criteria[2] = ->x{false}
-    @criteria[3] = ->x{false}
+    @criteria[3] = ->x{
+      set = x.chars.to_set
+      first_ = 5 == x.size
+      second_ = (one - set).empty?
+      first_ && second_ 
+    }
     @criteria[4] = ->x{ 4 == x.size}
     @criteria[5] = ->x{false}
     @criteria[6] = ->x{
