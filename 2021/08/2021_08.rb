@@ -67,10 +67,22 @@ class Solution
     @criteria[3] = ->x{false}
     @criteria[4] = ->x{ 4 == x.size}
     @criteria[5] = ->x{false}
-    @criteria[6] = ->x{false}
+    @criteria[6] = ->x{
+      set = x.chars.to_set
+      first_ = 6 == x.size
+      second_ = (four_minus_one - set).empty?
+      third_ = (one - set).empty?
+      first_ && second_ && ! third_
+    }
     @criteria[7] = ->x{ 3 == x.size}
     @criteria[8] = ->x{ 7 == x.size}
-    @criteria[9] = ->x{false}
+    @criteria[9] = ->x{
+      set = x.chars.to_set
+      first_ = 6 == x.size
+      second_ = (four_minus_one - set).empty?
+      third_ = (one - set).empty?
+      first_ && second_ &&  third_
+    }
   end
 
   def convert_b(a,b)

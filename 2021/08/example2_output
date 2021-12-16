@@ -1,13 +1,13 @@
 Second 2.
 Answer is: 0
 Correct parsing: true
-be,bde,bceg,cdefg,bcdef,abcdf,bcdefg,acdefg,abdefg,abcdefg, 4,bcdef,bcdefg,8
-cg,bcg,cefg,bcdeg,bdefg,abcde,abdefg,abcdfg,bcdefg,abcdefg, 1,7,bcdefg,8
-cg,bcg,acfg,abcde,abdfg,abcdg,abdefg,abcdfg,bcdefg,abcdefg, 1,1,7,abcdfg
-bc,bcd,abcf,abdeg,acdef,abcde,bcdefg,abcdef,acdefg,abcdefg, 1,abcde,abcdef,acdefg
+be,bde,bceg,cdefg,bcdef,abcdf,bcdefg,acdefg,abdefg,abcdefg, 4,bcdef,9,8
+cg,bcg,cefg,bcdeg,bdefg,abcde,abdefg,abcdfg,bcdefg,abcdefg, 1,7,9,8
+cg,bcg,acfg,abcde,abdfg,abcdg,abdefg,abcdfg,bcdefg,abcdefg, 1,1,7,9
+bc,bcd,abcf,abdeg,acdef,abcde,bcdefg,abcdef,acdefg,abcdefg, 1,abcde,9,6
 fg,bfg,cefg,abefg,abdef,abceg,abcefg,abcdeg,abcdfg,abcdefg, 7,4,abefg,8
 ac,acf,abce,abefg,bcdfg,abcfg,abcefg,acdefg,abdefg,abcdefg, 1,4,8,8
 fg,dfg,cefg,bcdfg,bcdef,abcdg,abdefg,abcdef,bcdefg,abcdefg, 4,4,bcdef,8
-de,cde,bdef,bcefg,abcdg,bcdeg,bcdefg,abcefg,acdefg,abcdefg, 1,abcdg,bcefg,abcefg
+de,cde,bdef,bcefg,abcdg,bcdeg,bcdefg,abcefg,acdefg,abcdefg, 1,abcdg,bcefg,6
 cg,bcg,cdeg,abcef,bdefg,bcefg,abdefg,bcdefg,abcdfg,abcdefg, 1,7,7,8
 fg,cfg,aefg,abcfg,abceg,abcdf,abcdeg,abcefg,bcdefg,abcdefg, 1,4,abcfg,abceg
