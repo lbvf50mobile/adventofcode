@@ -56,8 +56,12 @@ class Solution
   end
   def set_cr(a,b)
     one = a.find{|x| 2 == x.size}.chars.to_set
+    four = a.find{|x| 4 == x.size}.chars.to_set
+    seven = a.find{|x| 7 == x.size}.chars.to_set
+    four_minus_one = four - one
+
     @criteria = []
-    @criteria[0] = ->x{false}
+    @criteria[0] = ->x{ 6 == x.size && ! (four_minus_one - x.chars.to_set).empty?}
     @criteria[1] = ->x{ 2 == x.size}
     @criteria[2] = ->x{false}
     @criteria[3] = ->x{false}
