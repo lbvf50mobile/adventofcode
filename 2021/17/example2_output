@@ -1,1 +1,8 @@
 Second 2.
+Input parsed correctly: true
+Size is: 5x10
+There are 4 min points.
+Point [0, 1] pool size 3
+Point [0, 9] pool size 9
+Point [2, 2] pool size 14
+Point [4, 6] pool size 9
