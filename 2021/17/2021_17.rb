@@ -1,3 +1,7 @@
+# = = = = = = =
+# Accepted.
+# Thanks God!
+# = = = = = = =
 class Solution
   def start1(arr)
     @l = ""
@@ -25,6 +29,10 @@ class Solution
     l "There are #{@min_points.size} min points."
     @pools = []
     create_pools
+    biggest_pools = @pools.sort.reverse[0..2]
+    answer = biggest_pools.reduce(&:*)
+    l_up "#{biggest_pools.join(?*)} = #{answer}"
+    l_up "Answer is #{answer}."
     l_up "Second 2."
     return @l
   end
@@ -109,5 +117,4 @@ class Solution
     end
   end
 end
-
 
