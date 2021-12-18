@@ -7,8 +7,18 @@ class Solution
     l "Number of lines: #{@input.size}"
     set_default_array_and_hashes
     check_input_for_corrupted
-    
-
+    l "Stats:"
+    results = []
+    @close_brackets.each do |c|
+      n = @number_of_error_close_brackets[c]
+      points = @error_closing_brackets_points[c]
+      mul = n * points
+      results.push(mul)
+      l "#{c}: #{n}*#{points} = #{mul}"
+    end
+    answer = results.reduce(&:+)
+    l_up "#{results.join(?+)}=#{answer}"
+    l_up "Answer: #{answer}"
     l_up "First 1."
     return @l
   end

@@ -1,4 +1,6 @@
 First 1.
+Answer: 26397
+6+57+1197+25137=26397
 Input parsed correctly: true
 Number of lines: 10
 [({(<(())[]>[[{[]{<()<>> - OK
@@ -11,3 +13,8 @@ Number of lines: 10
 [<(<(<(<{}))><([]([]() - Expected <, but found ) instead.
 <{([([[(<>()){}]>(<<{{ - Expected [, but found > instead.
 <{([{{}}[<[[[<>{}]]]>[]] - OK
+Stats:
+): 2*3 = 6
+]: 1*57 = 57
+}: 1*1197 = 1197
+>: 1*25137 = 25137
