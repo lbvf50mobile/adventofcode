@@ -1,0 +1,13 @@
+First 1.
+Input parsed correctly: true
+Number of lines: 10
+[({(<(())[]>[[{[]{<()<>> - OK
+[(()[<>])]({[<{<<[]>>( - OK
+{([(<{}[<>[]}>{[]{[(<()> - Expected [, but found } instead.
+(((({<>}<{<{<>}{[]{[]{} - OK
+[[<[([]))<([[{}[[()]]] - Expected [, but found ) instead.
+[{[{({}]{}}([{[{{{}}([] - Expected (, but found ] instead.
+{<[[]]>}<{[{[{[]{()[[[] - OK
+[<(<(<(<{}))><([]([]() - Expected <, but found ) instead.
+<{([([[(<>()){}]>(<<{{ - Expected [, but found > instead.
+<{([{{}}[<[[[<>{}]]]>[]] - OK
