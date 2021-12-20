@@ -48,7 +48,6 @@ class Solution
   def set_overloades_to_zero
     @matrix.size.times.each do |i|
       @matrix[0].size.times.each do |j|
-        @matrix[i][j] += 1
         if 9 < @matrix[i][j]
           @matrix[i][j] = 0
         end
