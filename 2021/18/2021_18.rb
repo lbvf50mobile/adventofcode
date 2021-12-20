@@ -24,6 +24,12 @@ class Solution
   end
   def start2(arr)
     @l = ""
+    @input = parse_input(arr)
+    correct = check_input(arr)
+    l "Input parsed correctly: #{correct.inspect}"
+    l "Number of lines: #{@input.size}"
+    set_default_array_and_hashes
+    complete_lines
     l_up "Second 2."
     return @l
   end
@@ -75,6 +81,47 @@ class Solution
     end
     l "#{line.join} - OK"
   end
+  def complete_lines
+    @input.each{|line| complete_line(line)}
+  end
+  def complete_line(line)
+    stack = []
+    char_illegal = nil
+    char_must_be = ?_
+    line.each do |c|
+      if stack.empty? && @close_brackets.include?(c)
+        char_illegal = c
+        @number_of_error_close_brackets[c] += 1
+        break
+      end
+      if @close_brackets.include?(c) && @open_close_pair[stack.last] != c
+        char_illegal = c
+        char_must_be = stack.last
+        @number_of_error_close_brackets[c] += 1
+        break
+      end
+      if @close_brackets.include?(c) && @open_close_pair[stack.last] == c
+        stack.pop
+        next
+      end
+      if @open_brackets.include?(c)
+        stack.push(c)
+        next
+      end
+      raise "Unpredicted case at #{line}."
+    end
+    if char_illegal
+      # Just corrupted line skip it.
+      return
+    end
+    if ! stack.empty?
+      close_brackets = stack.map{|x| @open_close_pair[x]}
+      scores = close_brackets.map{|x| @completion_points[x]}
+      l "#{line.join} <===> #{close_brackets.join} => #{scores.join(?,)}"
+      return
+    end
+    raise "#{line.join} - Line without an error not corrupted not incompleted."
+  end
   def set_default_array_and_hashes
     @open_brackets = [?(,?[,?{,?<]
     @close_brackets = [?),?],?},?>]
@@ -93,6 +140,13 @@ class Solution
     @number_of_error_close_brackets[?]] = 0
     @number_of_error_close_brackets[?}] = 0
     @number_of_error_close_brackets[?>] = 0
+    # Task 2.
+    @completion_lines_results = []
+    @completion_points = {}
+    @completion_points[?)] = 1
+    @completion_points[?]] = 2
+    @completion_points[?}] = 3
+    @completion_points[?>] = 4
   end
 end
 
