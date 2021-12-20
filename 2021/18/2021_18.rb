@@ -37,7 +37,7 @@ class Solution
     sorted = @completion_lines_results.sort
     l "#{sorted.inspect}"
     answer = sorted[sorted.size/2]
-    l "Middile is: #{answer}"
+    l "Middle is: #{answer}"
     l_up "Answer: #{answer}"
     l_up "Second 2."
     return @l
