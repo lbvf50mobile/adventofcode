@@ -1,0 +1,23 @@
+First 1.
+Correctly parsed: true.
+Before any steps:
+11111
+19991
+19191
+19991
+11111
+ 
+After step 1:
+45654
+50005
+60006
+50005
+45654
+ 
+After step 2:
+67876
+72227
+82228
+72227
+67876
+ 
