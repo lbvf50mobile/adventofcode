@@ -1,3 +1,7 @@
+# = = = = = = =
+# Accepted.
+# Thanks God!
+# = = = = = = =
 class Solution
   def start1(arr)
     @l = ""
@@ -30,6 +34,11 @@ class Solution
     l "Number of lines: #{@input.size}"
     set_default_array_and_hashes
     complete_lines
+    sorted = @completion_lines_results.sort
+    l "#{sorted.inspect}"
+    answer = sorted[sorted.size/2]
+    l "Middile is: #{answer}"
+    l_up "Answer: #{answer}"
     l_up "Second 2."
     return @l
   end
@@ -115,9 +124,11 @@ class Solution
       return
     end
     if ! stack.empty?
-      close_brackets = stack.map{|x| @open_close_pair[x]}
+      close_brackets = stack.reverse.map{|x| @open_close_pair[x]}
       scores = close_brackets.map{|x| @completion_points[x]}
-      l "#{line.join} <===> #{close_brackets.join} => #{scores.join(?,)}"
+      total_score = scores.reduce(0){|ans,el| ans*5 + el}
+      @completion_lines_results.push(total_score)
+      l "#{line.join} <===> #{close_brackets.join} => #{scores.join(?,)} = #{total_score}"
       return
     end
     raise "#{line.join} - Line without an error not corrupted not incompleted."
