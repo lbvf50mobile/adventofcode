@@ -4,7 +4,11 @@ class Solution
     input arr
     correct = check(arr)
     l "Correctly parsed: #{correct.inspect}."
-    make_steps(2)
+    steps = 100
+    @flashes_total = 0
+    make_steps(steps)
+    l_up "Steps: #{steps}."
+    l_up "Answer: #{@flashes_total}."
     l_up "First 1."
     return @l
   end
@@ -50,6 +54,7 @@ class Solution
       @matrix[0].size.times.each do |j|
         if 9 < @matrix[i][j]
           @matrix[i][j] = 0
+          @flashes_total += 1
         end
       end
     end
