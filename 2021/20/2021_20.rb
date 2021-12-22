@@ -6,14 +6,24 @@ class Solution
     l "Correctly parsed: #{correct.inspect}."
     steps = 100
     @flashes_total = 0
+    @print_steps = true
     make_steps(steps)
-    l_up "Steps: #{steps}."
-    l_up "Answer: #{@flashes_total}."
+    l_up "Steps: #{steps}. Print steps: #{@print_steps.inspect}."
+    l_up "Answer total number of flashes: #{@flashes_total}."
     l_up "First 1."
     return @l
   end
   def start2(arr)
     @l = ""
+    input arr
+    correct = check(arr)
+    l "Correctly parsed: #{correct.inspect}."
+    steps = 1000
+    @flashes_total = 0
+    @print_steps = false
+    make_steps(steps)
+    l_up "Steps: #{steps}. Print steps: #{@print_steps.inspect}."
+    l_up "Answer total number of flashes: #{@flashes_total}."
     l_up "Second 2."
     return @l
   end
@@ -24,10 +34,10 @@ class Solution
     @l = str + "\n" + @l
   end
   def make_steps(number)
-    l "Before any steps:"
+    l "Before any steps:" if @print_steps
     print_matrix
     number.times do |i|
-      l "After step #{i+1}:"
+      l "After step #{i+1}:" if @print_steps
       create_flashed_map
       increase_each_cell_by_one
       iterate_over_cells_start_flashes
@@ -35,6 +45,7 @@ class Solution
     end
   end
   def print_matrix
+    return if ! @print_steps
     @matrix.each do |row|
       l "#{row.join}"
     end
