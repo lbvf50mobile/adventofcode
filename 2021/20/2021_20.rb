@@ -4,7 +4,7 @@ class Solution
     input arr
     correct = check(arr)
     l "Correctly parsed: #{correct.inspect}."
-    steps = 2
+    steps = 100
     @flashes_total = 0
     make_steps(steps)
     l_up "Steps: #{steps}."
@@ -66,6 +66,7 @@ class Solution
       i,j = q.pop
       increase_around(i,j)
       @matrix[i][j] = 0
+      @flashes_total += 1
       (-1..1).each do |di|
         (-1..1).each do |dj|
           ii = di + i
