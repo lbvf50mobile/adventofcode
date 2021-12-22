@@ -1,3 +1,7 @@
+# = = = = = = =
+# Accepted.
+# Thanks God!
+# = = = = = = =
 class Solution
   def start1(arr)
     @l = ""
@@ -6,6 +10,8 @@ class Solution
     l "Correctly parsed: #{correct.inspect}."
     steps = 100
     @flashes_total = 0
+    @full_flash_step_number = nil
+    @step_number = 0
     @print_steps = true
     make_steps(steps)
     l_up "Steps: #{steps}. Print steps: #{@print_steps.inspect}."
@@ -20,10 +26,13 @@ class Solution
     l "Correctly parsed: #{correct.inspect}."
     steps = 1000
     @flashes_total = 0
+    @full_flash_step_number = nil
+    @step_number = 0
     @print_steps = false
     make_steps(steps)
     l_up "Steps: #{steps}. Print steps: #{@print_steps.inspect}."
     l_up "Answer total number of flashes: #{@flashes_total}."
+    l_up "First full flash is on the step: #{@full_flash_step_number}."
     l_up "Second 2."
     return @l
   end
@@ -38,6 +47,7 @@ class Solution
     print_matrix
     number.times do |i|
       l "After step #{i+1}:" if @print_steps
+      @step_number = i+1;
       create_flashed_map
       increase_each_cell_by_one
       iterate_over_cells_start_flashes
@@ -53,6 +63,9 @@ class Solution
   end
   def create_flashed_map
     @flashed = Array.new(@matrix.size).map{ Array.new(@matrix[0].size,false)}
+  end
+  def count_flashed
+    @flashed.flatten.count(true)
   end
   def increase_each_cell_by_one
     @matrix.size.times.each do |i|
@@ -90,6 +103,9 @@ class Solution
           @flashed[ii][jj] = true
           q.unshift([ii,jj])
         end
+      end
+      if ! @full_flash_step_number
+        @full_flash_step_number = @step_number if @matrix.size * @matrix[1].size == count_flashed
       end
     end
   end
