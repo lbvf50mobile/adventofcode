@@ -19,6 +19,22 @@ class Solution
   end
   def start2(arr)
     @l = ""
+    fill_input(arr)
+    check = check_input(arr)
+    @d = true
+    l "Input checked: #{check.inspect}. Debug = #{@d.inspect}."
+    @adjacency_list = {}
+    make_adjacency_list
+    @limit = {}
+    set_limits_for_nodes
+    l @limit.to_a.map{|x| x.join(?:)}.join(?,) if @d
+    @visits_number = {}
+    prepare_visits_number
+    @path = []
+    @valid_paths = []
+    backtracking2('start')
+    print_paths
+    l_up "Number of paths: #{@valid_paths.size}."
     l_up "Second 2."
     return @l
   end
@@ -51,6 +67,25 @@ class Solution
       end
     end
   end
+  def set_limits_for_nodes
+    @matrix.flatten.uniq.each do |node|
+      if /[A-Z]/ === node
+        @limit[node] = -1
+      else
+        if 1 == @adjacency_list[node].size
+          @limit[node] = 2
+        else
+          @limit[node] = 1
+        end
+      end
+    end
+    @limit['start'] = 1
+  end
+  def prepare_visits_number
+    @matrix.flatten.uniq.each do |node|
+      @visits_number[node] = 0
+    end
+  end
   def print_paths
     @valid_paths.each do |path|
       l path.join(?,)
@@ -74,6 +109,33 @@ class Solution
     end
     @path.pop()
     @visited[node] = false
+  end
+  def backtracking2(node)
+    raise "No such node #{node}." if @adjacency_list[node].nil?
+    if @limit[node] > 0
+      @visits_number[node] += 1
+    end
+    @path.push("#{node}:#{@visits_number[node]}/#{@limit[node]}")
+    if 'end' == node
+      @valid_paths.push(@path.clone)
+      @visits_number[node] -= 1 if @limit[node] > 0
+      @path.pop()
+      return
+    end
+    @adjacency_list[node].each do |next_node|
+      if @limit[next_node] < 0
+        backtracking2(next_node)
+        next
+      end
+      if @visits_number[next_node] < @limit[next_node]
+        backtracking2(next_node)
+        next
+      end
+    end
+    @path.pop()
+    if @limit[node] > 0
+      @visits_number[node] -= 1
+    end
   end
 end
 
