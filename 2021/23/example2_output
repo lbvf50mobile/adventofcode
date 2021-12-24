@@ -1,21 +1,16 @@
 Second 2.
-Number of paths: 16.
+Number of paths: 10.
 Input checked: true. Debug = true.
-start:1,A:-1,b:1,c:2,d:2,end:1
-start:1/1,A:0/-1,c:1/2,A:0/-1,c:2/2,A:0/-1,b:1/1,A:0/-1,end:1/1
-start:1/1,A:0/-1,c:1/2,A:0/-1,c:2/2,A:0/-1,b:1/1,end:1/1
-start:1/1,A:0/-1,c:1/2,A:0/-1,c:2/2,A:0/-1,end:1/1
-start:1/1,A:0/-1,c:1/2,A:0/-1,b:1/1,A:0/-1,c:2/2,A:0/-1,end:1/1
-start:1/1,A:0/-1,c:1/2,A:0/-1,b:1/1,A:0/-1,end:1/1
-start:1/1,A:0/-1,c:1/2,A:0/-1,b:1/1,end:1/1
-start:1/1,A:0/-1,c:1/2,A:0/-1,end:1/1
-start:1/1,A:0/-1,b:1/1,A:0/-1,c:1/2,A:0/-1,c:2/2,A:0/-1,end:1/1
-start:1/1,A:0/-1,b:1/1,A:0/-1,c:1/2,A:0/-1,end:1/1
+start:1,A:-1,b:1,c:1,d:1,end:1
+List of small caves: ["b", "c", "d"].
+start:1/1,A:0/-1,c:1/1,A:0/-1,b:1/1,A:0/-1,end:1/1
+start:1/1,A:0/-1,c:1/1,A:0/-1,b:1/1,end:1/1
+start:1/1,A:0/-1,c:1/1,A:0/-1,end:1/1
+start:1/1,A:0/-1,b:1/1,A:0/-1,c:1/1,A:0/-1,end:1/1
 start:1/1,A:0/-1,b:1/1,A:0/-1,end:1/1
 start:1/1,A:0/-1,b:1/1,end:1/1
 start:1/1,A:0/-1,end:1/1
-start:1/1,b:1/1,A:0/-1,c:1/2,A:0/-1,c:2/2,A:0/-1,end:1/1
-start:1/1,b:1/1,A:0/-1,c:1/2,A:0/-1,end:1/1
+start:1/1,b:1/1,A:0/-1,c:1/1,A:0/-1,end:1/1
 start:1/1,b:1/1,A:0/-1,end:1/1
 start:1/1,b:1/1,end:1/1
  

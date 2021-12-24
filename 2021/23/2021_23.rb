@@ -25,11 +25,18 @@ class Solution
     l "Input checked: #{check.inspect}. Debug = #{@d.inspect}."
     @adjacency_list = {}
     make_adjacency_list
+
     @limit = {}
     set_limits_for_nodes
     l @limit.to_a.map{|x| x.join(?:)}.join(?,) if @d
+
+    @small_caves = []
+    extract_small_caves
+    l "List of small caves: #{@small_caves}."
+
     @visits_number = {}
     prepare_visits_number
+
     @path = []
     @valid_paths = []
     backtracking2('start')
@@ -67,16 +74,19 @@ class Solution
       end
     end
   end
+  def extract_small_caves
+    @matrix.flatten.uniq.each do |node|
+      if 'start' != node && 'end' != node && /[a-z]/ === node
+        @small_caves.push(node)
+      end
+    end
+  end
   def set_limits_for_nodes
     @matrix.flatten.uniq.each do |node|
       if /[A-Z]/ === node
         @limit[node] = -1
       else
-        if 1 == @adjacency_list[node].size
-          @limit[node] = 2
-        else
-          @limit[node] = 1
-        end
+        @limit[node] = 1
       end
     end
     @limit['start'] = 1
