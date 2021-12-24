@@ -1,3 +1,7 @@
+# = = = = = = =
+# Accepted.
+# Thanks God!
+# = = = = = = =
 class Solution
   def start1(arr)
     @l = ""
@@ -21,26 +25,32 @@ class Solution
     @l = ""
     fill_input(arr)
     check = check_input(arr)
-    @d = true
+    @d = false
     l "Input checked: #{check.inspect}. Debug = #{@d.inspect}."
     @adjacency_list = {}
     make_adjacency_list
-
-    @limit = {}
-    set_limits_for_nodes
-    l @limit.to_a.map{|x| x.join(?:)}.join(?,) if @d
 
     @small_caves = []
     extract_small_caves
     l "List of small caves: #{@small_caves}."
 
-    @visits_number = {}
-    prepare_visits_number
-
-    @path = []
     @valid_paths = []
-    backtracking2('start')
-    print_paths2
+    @small_caves.each do |cave|
+      l "Cave #{cave}." if @d
+      @limit = {}
+      set_limits_for_nodes
+      @limit[cave] = 2
+      l @limit.to_a.map{|x| x.join(?:)}.join(?,) if @d
+
+      @visits_number = {}
+      prepare_visits_number
+
+      @path = []
+      backtracking2('start')
+    end
+    @valid_paths = @valid_paths.uniq
+
+    print_paths2 if @d
     l_up "Number of paths: #{@valid_paths.size}."
     l_up "Second 2."
     return @l
