@@ -40,7 +40,7 @@ class Solution
     @path = []
     @valid_paths = []
     backtracking2('start')
-    print_paths
+    print_paths2
     l_up "Number of paths: #{@valid_paths.size}."
     l_up "Second 2."
     return @l
@@ -102,6 +102,12 @@ class Solution
     end
     l " "
   end
+  def print_paths2
+    @valid_paths.each do |path|
+      l path
+    end
+    l " "
+  end
   def backtracking(node)
     raise "No such node #{node}." if @adjacency_list[node].nil?
     if @mark_as_visited[node]
@@ -125,9 +131,9 @@ class Solution
     if @limit[node] > 0
       @visits_number[node] += 1
     end
-    @path.push("#{node}:#{@visits_number[node]}/#{@limit[node]}")
+    @path.push(node)
     if 'end' == node
-      @valid_paths.push(@path.clone)
+      @valid_paths.push(@path.clone.join(?,))
       @visits_number[node] -= 1 if @limit[node] > 0
       @path.pop()
       return

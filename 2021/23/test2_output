@@ -3,14 +3,14 @@ Number of paths: 10.
 Input checked: true. Debug = true.
 start:1,A:-1,b:1,c:1,d:1,end:1
 List of small caves: ["b", "c", "d"].
-start:1/1,A:0/-1,c:1/1,A:0/-1,b:1/1,A:0/-1,end:1/1
-start:1/1,A:0/-1,c:1/1,A:0/-1,b:1/1,end:1/1
-start:1/1,A:0/-1,c:1/1,A:0/-1,end:1/1
-start:1/1,A:0/-1,b:1/1,A:0/-1,c:1/1,A:0/-1,end:1/1
-start:1/1,A:0/-1,b:1/1,A:0/-1,end:1/1
-start:1/1,A:0/-1,b:1/1,end:1/1
-start:1/1,A:0/-1,end:1/1
-start:1/1,b:1/1,A:0/-1,c:1/1,A:0/-1,end:1/1
-start:1/1,b:1/1,A:0/-1,end:1/1
-start:1/1,b:1/1,end:1/1
+start,A,c,A,b,A,end
+start,A,c,A,b,end
+start,A,c,A,end
+start,A,b,A,c,A,end
+start,A,b,A,end
+start,A,b,end
+start,A,end
+start,b,A,c,A,end
+start,b,A,end
+start,b,end
  
