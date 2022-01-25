@@ -1,0 +1,44 @@
+#!/usr/bin/env ruby
+
+# Start Adventures of code script for both inputs.
+# For a current day.
+
+# 2021-12-01 Wednesday 18:56
+# 2021-12-02 Thursday 21:26
+
+p Dir.pwd
+
+
+# Exit from the boom if it is not an adventures of code file.
+if ! (/adventofcode$/ === Dir.pwd)
+  puts "It is not adventofcode Dir. Exit from the program."
+  return
+
+else
+  puts "Ok"
+end
+
+dir = File.read('.dir')
+file_path = File.read('.file_path')
+
+# Require Soulution.
+require Dir.pwd + ?/ + file_path + ".rb"
+obj = Solution.new
+
+['example','test'].each do |name|
+  input_path = dir + "/#{name}_input"
+  output1_path = dir + "/#{name}1_output"
+  output2_path = dir + "/#{name}2_output"
+
+  puts "Read from: #{input_path}"
+  puts "Call start1 method."
+  puts "Try to write to:\n #{output1_path}"
+  input = File.readlines(input_path)
+  File.write(output1_path,obj.start1(input))
+  puts "Call start2 method."
+  puts output2_path
+  puts "Try to write to:\n #{output2_path}"
+  input = File.readlines(input_path)
+  File.write(output2_path,obj.start2(input))
+end
+

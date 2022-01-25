@@ -1,0 +1,71 @@
+#!/usr/bin/env ruby
+
+
+# usage: boom year day
+puts "print 'boom -h' for help."
+
+
+
+# 2021-12-01 Wendnesday 18:56
+# 2022-01-25 Tuesday 21:21
+# Creating files and folder for https://adventofcode.com/ game.
+# 1) Check that it is adventofcode folder in pwd.
+# 2) Save current day and year into the .dir_day and .dir_year folders. For test and run purposes.
+# 3) Check and create folders and files.
+# 4) Structure is that when run program for a day it supplies with two arguments input/output suffixes.
+
+if '-h' == ARGV[0]
+   puts "Usage: boom YEAR DAY"
+   puts "Example: boom 2021 01"
+  return
+end
+
+if !(/\d{4}/ === ARGV[0])
+  puts "#{ARGV[0]} - year is incorrect."
+  puts "Need to set year."
+  puts "Example: boom 2021 01"
+  return
+end
+if !(/\d{2}/ === ARGV[1])
+  puts "#{ARGV[1]} - day is incorrect."
+  puts "Need to set day."
+  puts "Example: boom 2021 01"
+  return
+end
+
+p Dir.pwd
+
+dir_year = ARGV[0]
+dir_day = ARGV[1]
+dir = dir_year + '/' + dir_day
+file_name = "#{dir_year}_#{dir_day}"
+file_md = file_name + ".md"
+file_rb = file_name + ".rb"
+file_path = dir + ?/ + file_name
+
+
+p "Trying to create #{dir} folder and #{file_md} #{file_rb}."
+
+
+# Exit from the boom if it is not an adventures of code file.
+if ! (/adventofcode$/ === Dir.pwd)
+  puts "It is not adventofcode Dir. Exit from the program."
+  return
+
+else
+  puts "Ok"
+end
+
+# Write code into the files about the year and the day.
+File.open(".dir_year",'w'){|file| file.write(dir_year)}
+File.open(".dir_day",'w'){|file| file.write(dir_day)}
+File.open(".file_path",'w'){|file| file.write(file_path)}
+File.open(".dir",'w'){|file| file.write(dir)}
+
+
+# Create dir and copy file.
+require 'fileutils'
+FileUtils.mkdir_p dir
+FileUtils.cp('_code_template.rb',"#{file_path}.rb")
+
+
