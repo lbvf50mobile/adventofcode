@@ -1,3 +1,7 @@
+# = = = = = = =
+# Accepted.
+# Thanks God!
+# = = = = = = =
 class Solution
   def start1(arr)
     @l = ""
@@ -28,6 +32,26 @@ class Solution
   end
   def start2(arr)
     @l = ""
+    @arr = arr
+    @points, @folds = [],[]
+    fill_points_and_folds
+    @width = @points.map(&:first).max + 1
+    @height = @points.map(&:last).max + 1
+    l "Height: #{@height}, Width: #{@width}."
+    @correct = check_correct
+    l "Input read correctly: #{@correct.inspect}."
+    @board = []
+    create_board
+    l "Board is created."
+    # draw_board
+    begin
+      @folds.each do |fold|
+        do_fold(fold)
+      end
+      draw_board
+    rescue => e
+      l e.message
+    end
     l_up "Second 2."
     return @l
   end
@@ -111,8 +135,8 @@ class Solution
   end
   def draw_board
     l "Board."
-    @board.each do |line|
-      l line.map{|x| x ? "#" : ?.}.join
+    @board[0...@height].each do |line|
+      l line[0..@width].map{|x| x ? "#" : ?.}.join
     end
   end
 end
