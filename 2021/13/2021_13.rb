@@ -12,8 +12,14 @@ class Solution
     @board = []
     create_board
     l "Board is created."
+    # draw_board
     begin
+      l "Fold: #{@folds.first}"
       do_fold(@folds.first)
+      number = get_number_of_points
+      l "Height: #{@height}, Width: #{@width}."
+      l "Number of points is: #{number}."
+      # draw_board
     rescue => e
       l e.message
     end
@@ -74,7 +80,8 @@ class Solution
     (double_stripe.first..double_stripe.last).each do |i|
       (0...@width).each do |j|
         delta = fold - i
-        @board[i][j] ||= @board[i+delta][j]
+        ii = fold + delta
+        @board[i][j] ||= @board[ii][j]
       end
     end
     @height = fold
@@ -87,10 +94,26 @@ class Solution
     (double_stripe.first..double_stripe.last).each do |j|
       (0...@height).each do |i|
         delta = fold - j
-        @board[i][j] ||= @board[i][j+delta]
+        jj = fold+delta
+        @board[i][j] ||= @board[i][jj]
       end
     end
     @width = fold
+  end
+  def get_number_of_points 
+    num = 0
+    (0...@height).each do |i|
+      (0...@width).each do |j|
+        num += 1 if @board[i][j]
+      end
+    end
+    num
+  end
+  def draw_board
+    l "Board."
+    @board.each do |line|
+      l line.map{|x| x ? "#" : ?.}.join
+    end
   end
 end
 

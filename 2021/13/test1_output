@@ -2,3 +2,6 @@ First 1.
 Height: 894, Width: 1311.
 Input read correctly: true.
 Board is created.
+Fold: ["x", 655]
+Height: 894, Width: 655.
+Number of points is: 775.
