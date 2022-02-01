@@ -19,6 +19,19 @@ class Solution
   end
   def start2(arr)
     @l = ""
+    @arr = arr
+    @polymer, @pair_insertions = "", []
+    read_input
+    l "Read input: done."
+    checked = check_input
+    l "Read correctly: #{checked.inspect}."
+    l "Polymer: #{@polymer}."
+    @pol = @polymer.chars.each_cons(2).each_with_object(Hash.new){|(a,b),o| o[a+b]||= 0 ; o[a+b] += 1;}
+    l "input: #{@pol.keys.inspect}."
+    @hash = @pair_insertions.each_with_object(Hash.new){|el,o| o[el.first] = el.last}
+    10.times{ start_process_hash }
+    min,max = @pol.values.minmax
+    l "#{max} - #{min} = #{max - min};"
     l_up "Second 2."
     return @l
   end
@@ -51,6 +64,17 @@ class Solution
       new_pol.push(@hash[@pol[i] + @pol[i+1]])
     end
     new_pol.push(@pol.last)
+    @pol = new_pol
+  end
+  def start_process_hash
+    new_pol = {}
+    @pol.to_a.each do |(key,number)|
+      a = key[0]; c = key[1]; b = @hash[key];
+      one = a + b
+      two = b + c
+      new_pol[one] ||= 0; new_pol[two] ||= 0;
+      new_pol[one] += number; new_pol[two] += number
+    end
     @pol = new_pol
   end
 end
